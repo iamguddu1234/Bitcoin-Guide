@@ -1,0 +1,99 @@
+package com.iam.bitcoin.Advance;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.content.Context;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
+
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.iam.bitcoin.Adapters.AdapterTwo;
+import com.iam.bitcoin.Model.Model;
+import com.iam.bitcoin.R;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class A17 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_a17);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Famous People in Bitcoin (Early Adopters and Influencers)");
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources()
+                .getColor(R.color.black)));
+
+        if (Build.VERSION.SDK_INT >= 21) {
+            Window window = this.getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.setStatusBarColor(this.getResources().getColor(R.color.black));
+        }
+
+
+        RecyclerView a12Rec = findViewById(R.id.a17rec);
+        a12Rec.setHasFixedSize(true);
+        a12Rec.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL, false));
+        List<Model> models = new ArrayList<>();
+        models.add(new Model(R.string.ah3,R.string.ah4));
+        models.add(new Model(R.string.ah5,R.string.ah6));
+        models.add(new Model(R.string.ah7,R.string.ah8));
+        models.add(new Model(R.string.ah9,R.string.ah10));
+        models.add(new Model(R.string.ah11,R.string.ah12));
+        models.add(new Model(R.string.ah13,R.string.ah14));
+        models.add(new Model(R.string.ah15,R.string.ah16));
+        models.add(new Model(R.string.ah17,R.string.ah18));
+        models.add(new Model(R.string.ah19,R.string.ah20));
+        models.add(new Model(R.string.ah21,R.string.ah22));
+        AdapterTwo adapterTwo = new AdapterTwo(models);
+        a12Rec.setAdapter(adapterTwo);
+
+
+
+        //Banner
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+        AdView mAdView = findViewById(R.id.adViewa17);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        Context context = this; // or use getContext() if inside a fragment
+
+        // Call the animateSlideRight method directly on the class
+        Animatoo.INSTANCE.animateSlideRight(context);
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Animatoo.INSTANCE.animateSlideRight(A17.this);
+
+    }
+}

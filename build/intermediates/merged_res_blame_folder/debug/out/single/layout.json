@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_splash.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/listdecorate.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/listdecorate.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b8.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b8.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i7.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i7.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a3.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a3.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i2.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i2.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_three.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_three.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b1.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b1.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/fragment_a_a__my__apps.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__my__apps.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a19.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a19.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b7.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b7.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_about.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i12.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i12.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a9.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a9.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_home.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i3.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i3.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i6.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i6.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_n_o_i.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_n_o_i.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/fragment_a_a__advance.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__advance.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/fragment_a_a__intermediate.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__intermediate.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b10.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b10.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_application_bitcoin.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_application_bitcoin.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i11.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i11.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/two_text.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/two_text.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a7.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a7.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i8.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i8.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a1.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a1.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b5.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b5.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a4.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a4.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a14.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a14.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b2.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b2.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a11.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a11.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/three_text.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/three_text.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b11.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b11.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_bitcoin_adv_disadv.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_bitcoin_adv_disadv.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a17.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a17.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_five.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_five.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a6.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a6.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i5.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i5.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i10.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i10.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_four.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_four.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a12.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a12.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_one.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_one.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a20.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a20.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a16.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a16.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b4.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b4.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b12.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b12.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i9.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i9.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a2.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a2.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_whoissana.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_whoissana.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a5.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a5.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b9.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b9.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_whatblock.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_whatblock.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a21.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a21.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a13.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a13.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a15.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a15.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b3.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b3.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_two.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_two.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a10.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a10.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a18.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a18.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_a8.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a8.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_b6.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b6.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_what_crypto.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_what_crypto.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_sell_bit.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_sell_bit.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/my_app.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/my_app.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/fragment_a_a__basic.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__basic.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i4.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i4.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-mergeDebugResources-39:/layout/activity_i1.xml",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i1.xml"
+    }
+]

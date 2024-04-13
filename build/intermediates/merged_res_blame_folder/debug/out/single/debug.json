@@ -1,0 +1,658 @@
+[
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_who.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/who.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_imgbackground_design.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/imgbackground_design.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b11.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b11.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a11.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a11.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_ratei.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/ratei.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_fragment_a_a__advance.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__advance.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-hdpi_main.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-hdpi/main.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a8.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a8.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_b_miniing.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/b_miniing.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_three.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_three.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i3.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i3.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_appl.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/appl.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.iam.bitcoin.app-pngs-35:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-anydpi-v26_main_round.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-anydpi-v26/main_round.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i11.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i11.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b6.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b6.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_his.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/his.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_crypt_bg.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/crypt_bg.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_stor.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/stor.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_background.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/background.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-anydpi-v26_main.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-anydpi-v26/main.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_navb.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/navb.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a7.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a7.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_icon_bg.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/icon_bg.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_list_bg.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/list_bg.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_chain.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/chain.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i10.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i10.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_mining.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/mining.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b4.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b4.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a1.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a1.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i4.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i4.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_abouti.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/abouti.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/font_candal.ttf.flat",
+        "source": "com.iam.bitcoin.app-main-42:/font/candal.ttf"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a18.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a18.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_question.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/question.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b7.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b7.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a6.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a6.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_bitcoin.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/bitcoin.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_bitcoin_adv_disadv.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_bitcoin_adv_disadv.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/font_roboto.ttf.flat",
+        "source": "com.iam.bitcoin.app-main-42:/font/roboto.ttf"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_actionbar_bg.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/actionbar_bg.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_noi.jpg.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/noi.jpg"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_about.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b3.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b3.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_main.jpg.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/main.jpg"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i5.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i5.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_about.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/about.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a17.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a17.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b12.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b12.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_whatblock.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_whatblock.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_main_foreground.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/main_foreground.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a12.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a12.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/xml_network_security_config.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_two_text.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/two_text.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_whois.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/whois.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_application.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/application.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a3.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a3.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_whoissana.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_whoissana.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_one.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_one.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a9.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a9.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_share.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/share.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_home.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i2.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i2.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_minin.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/minin.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xhdpi_main.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xhdpi/main.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_bit_future.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/bit_future.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_advantage_bit.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/advantage_bit.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i12.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i12.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_splash.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_four.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_four.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b9.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b9.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i7.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i7.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_what_crypto.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_what_crypto.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_sell_bit.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_sell_bit.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_button.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/button.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_buttondesign.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/buttondesign.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_three_text.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/three_text.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a14.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a14.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_advan.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/advan.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-mdpi_main.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-mdpi/main.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_fragment_a_a__basic.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__basic.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b1.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b1.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_fragment_a_a__my__apps.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__my__apps.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i8.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i8.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_blockc.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/blockc.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_two.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_two.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i1.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i1.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_currency.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/currency.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a15.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a15.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_factt.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/factt.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xhdpi_main_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xhdpi/main_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/font_asap_medium.ttf.flat",
+        "source": "com.iam.bitcoin.app-main-42:/font/asap_medium.ttf"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_fragment_a_a__intermediate.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/fragment_a_a__intermediate.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_block_bg.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/block_bg.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a21.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a21.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-hdpi_main_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-hdpi/main_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a4.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a4.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/anim_right.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/anim/right.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_my_app.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/my_app.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_hist.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/hist.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_mainimg.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/mainimg.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_n_o_i.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_n_o_i.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-mdpi_main_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-mdpi/main_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_fact.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/fact.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a16.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a16.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_mainpageback.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/mainpageback.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a2.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a2.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxxhdpi_main_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxxhdpi/main_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_futur.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/futur.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a20.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a20.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/anim_fade.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/anim/fade.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/font_roboto_bold.ttf.flat",
+        "source": "com.iam.bitcoin.app-main-42:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_iconm.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/iconm.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_backgroundnointernet.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/backgroundnointernet.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_rate.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/rate.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a19.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a19.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b10.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b10.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a5.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a5.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b8.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b8.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/font_roboto_medium.ttf.flat",
+        "source": "com.iam.bitcoin.app-main-42:/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_firstpageimage.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/firstpageimage.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i6.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i6.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_listdecorate.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/listdecorate.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_introdu.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/introdu.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_application_bitcoin.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_application_bitcoin.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_intro2.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/intro2.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a10.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a10.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_five.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_five.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_fact_bg.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/fact_bg.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b5.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b5.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxhdpi_main_round.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxhdpi/main_round.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_sell_bt.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/sell_bt.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_intro.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/intro.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_b2.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_b2.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_a13.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_a13.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/anim_left.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/anim/left.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxhdpi_main.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxhdpi/main.png"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/layout_activity_i9.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/layout/activity_i9.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/drawable_refresh.xml.flat",
+        "source": "com.iam.bitcoin.app-main-42:/drawable/refresh.xml"
+    },
+    {
+        "merged": "com.iam.bitcoin.app-merged_res-40:/mipmap-xxxhdpi_main.png.flat",
+        "source": "com.iam.bitcoin.app-main-42:/mipmap-xxxhdpi/main.png"
+    }
+]

@@ -1,0 +1,732 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iam.bitcoin"
+4    android:versionCode="7"
+5    android:versionName="7.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:8:22-76
+15
+16    <!-- Android package visibility setting -->
+17    <queries>
+17-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:32:5-48:15
+18
+19        <!-- For browser content -->
+20        <intent>
+20-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:35:9-41:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:36:13-65
+21-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:36:21-62
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:38:13-74
+23-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:38:23-71
+24
+25            <data android:scheme="https" />
+25-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:40:13-44
+25-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:40:19-41
+26        </intent>
+27        <!-- End of browser content -->
+28        <!-- For CustomTabsService -->
+29        <intent>
+29-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:44:9-46:18
+30            <action android:name="android.support.customtabs.action.CustomTabsService" />
+30-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:45:13-90
+30-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:45:21-87
+31        </intent>
+32        <!-- End of CustomTabsService -->
+33        <package android:name="com.facebook.katana" />
+33-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:12:9-55
+33-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:12:18-52
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/akshaybhasme/.gradle/caches/transforms-3/2515e9af9f35c9fa553cfef75d871adb/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+36-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/akshaybhasme/.gradle/caches/transforms-3/2515e9af9f35c9fa553cfef75d871adb/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
+37    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+37-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+37-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+40        android:name="com.iam.bitcoin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.iam.bitcoin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.9.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:10:5-184:19
+46        android:allowBackup="true"
+46-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:11:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.9.0] /Users/akshaybhasme/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+48        android:extractNativeLibs="false"
+49        android:icon="@drawable/bitcoin"
+49-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:12:9-41
+50        android:label="@string/app_name"
+50-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:13:9-41
+51        android:networkSecurityConfig="@xml/network_security_config"
+51-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:14:9-69
+52        android:roundIcon="@drawable/bitcoin"
+52-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:15:9-46
+53        android:supportsRtl="true"
+53-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:16:9-35
+54        android:theme="@style/Theme.Material3.DayNight" >
+54-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:17:9-56
+55        <activity
+55-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:18:9-20:40
+56            android:name="com.iam.bitcoin.Advance.A21"
+56-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:19:13-40
+57            android:exported="false" />
+57-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:20:13-37
+58        <activity
+58-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:21:9-23:40
+59            android:name="com.iam.bitcoin.Advance.A20"
+59-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:22:13-40
+60            android:exported="false" />
+60-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:23:13-37
+61        <activity
+61-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:24:9-26:40
+62            android:name="com.iam.bitcoin.Advance.A19"
+62-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:25:13-40
+63            android:exported="false" />
+63-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:26:13-37
+64        <activity
+64-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:27:9-29:40
+65            android:name="com.iam.bitcoin.Advance.A18"
+65-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:28:13-40
+66            android:exported="false" />
+66-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:29:13-37
+67        <activity
+67-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:30:9-32:40
+68            android:name="com.iam.bitcoin.Advance.A17"
+68-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:31:13-40
+69            android:exported="false" />
+69-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:32:13-37
+70        <activity
+70-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:33:9-35:40
+71            android:name="com.iam.bitcoin.Advance.A16"
+71-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:34:13-40
+72            android:exported="false" />
+72-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:35:13-37
+73        <activity
+73-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:36:9-38:40
+74            android:name="com.iam.bitcoin.Advance.A15"
+74-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:37:13-40
+75            android:exported="false" />
+75-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:38:13-37
+76        <activity
+76-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:39:9-41:40
+77            android:name="com.iam.bitcoin.Advance.A14"
+77-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:40:13-40
+78            android:exported="false" />
+78-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:41:13-37
+79        <activity
+79-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:42:9-44:40
+80            android:name="com.iam.bitcoin.Advance.A13"
+80-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:43:13-40
+81            android:exported="false" />
+81-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:44:13-37
+82        <activity
+82-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:45:9-47:40
+83            android:name="com.iam.bitcoin.MainActivity"
+83-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:46:13-41
+84            android:exported="false" />
+84-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:47:13-37
+85        <activity
+85-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:48:9-50:40
+86            android:name="com.iam.bitcoin.Intermediate.I12"
+86-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:49:13-45
+87            android:exported="false" />
+87-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:50:13-37
+88        <activity
+88-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:51:9-53:40
+89            android:name="com.iam.bitcoin.Intermediate.I11"
+89-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:52:13-45
+90            android:exported="false" />
+90-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:53:13-37
+91        <activity
+91-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:54:9-56:40
+92            android:name="com.iam.bitcoin.Intermediate.I10"
+92-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:55:13-45
+93            android:exported="false" />
+93-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:56:13-37
+94        <activity
+94-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:57:9-59:40
+95            android:name="com.iam.bitcoin.Intermediate.I9"
+95-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:58:13-44
+96            android:exported="false" />
+96-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:59:13-37
+97        <activity
+97-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:60:9-62:40
+98            android:name="com.iam.bitcoin.Intermediate.I8"
+98-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:61:13-44
+99            android:exported="false" />
+99-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:62:13-37
+100        <activity
+100-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:63:9-65:40
+101            android:name="com.iam.bitcoin.Intermediate.I7"
+101-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:64:13-44
+102            android:exported="false" />
+102-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:65:13-37
+103        <activity
+103-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:66:9-68:40
+104            android:name="com.iam.bitcoin.Intermediate.I6"
+104-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:67:13-44
+105            android:exported="false" />
+105-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:68:13-37
+106        <activity
+106-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:69:9-71:40
+107            android:name="com.iam.bitcoin.Intermediate.I5"
+107-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:70:13-44
+108            android:exported="false" />
+108-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:71:13-37
+109        <activity
+109-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:72:9-74:40
+110            android:name="com.iam.bitcoin.Intermediate.I4"
+110-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:73:13-44
+111            android:exported="false" />
+111-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:74:13-37
+112        <activity
+112-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:75:9-77:40
+113            android:name="com.iam.bitcoin.Intermediate.I3"
+113-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:76:13-44
+114            android:exported="false" />
+114-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:77:13-37
+115        <activity
+115-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:78:9-80:40
+116            android:name="com.iam.bitcoin.Intermediate.I2"
+116-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:79:13-44
+117            android:exported="false" />
+117-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:80:13-37
+118        <activity
+118-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:81:9-83:40
+119            android:name="com.iam.bitcoin.Intermediate.I1"
+119-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:82:13-44
+120            android:exported="false" />
+120-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:83:13-37
+121        <activity
+121-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:84:9-86:40
+122            android:name="com.iam.bitcoin.Basic.B12"
+122-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:85:13-38
+123            android:exported="false" />
+123-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:86:13-37
+124        <activity
+124-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:87:9-89:40
+125            android:name="com.iam.bitcoin.Basic.B11"
+125-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:88:13-38
+126            android:exported="false" />
+126-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:89:13-37
+127        <activity
+127-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:90:9-92:40
+128            android:name="com.iam.bitcoin.Basic.B10"
+128-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:91:13-38
+129            android:exported="false" />
+129-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:92:13-37
+130        <activity
+130-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:93:9-95:40
+131            android:name="com.iam.bitcoin.Basic.B9"
+131-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:94:13-37
+132            android:exported="false" />
+132-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:95:13-37
+133        <activity
+133-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:96:9-98:40
+134            android:name="com.iam.bitcoin.Basic.B8"
+134-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:97:13-37
+135            android:exported="false" />
+135-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:98:13-37
+136        <activity
+136-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:99:9-101:40
+137            android:name="com.iam.bitcoin.Basic.B7"
+137-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:100:13-37
+138            android:exported="false" />
+138-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:101:13-37
+139        <activity
+139-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:102:9-104:40
+140            android:name="com.iam.bitcoin.Basic.B6"
+140-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:103:13-37
+141            android:exported="false" />
+141-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:104:13-37
+142        <activity
+142-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:105:9-107:40
+143            android:name="com.iam.bitcoin.Basic.B5"
+143-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:106:13-37
+144            android:exported="false" />
+144-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:107:13-37
+145        <activity
+145-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:108:9-110:40
+146            android:name="com.iam.bitcoin.Basic.B4"
+146-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:109:13-37
+147            android:exported="false" />
+147-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:110:13-37
+148        <activity
+148-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:111:9-113:40
+149            android:name="com.iam.bitcoin.Basic.B3"
+149-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:112:13-37
+150            android:exported="false" />
+150-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:113:13-37
+151        <activity
+151-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:114:9-116:40
+152            android:name="com.iam.bitcoin.Basic.B2"
+152-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:115:13-37
+153            android:exported="false" />
+153-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:116:13-37
+154        <activity
+154-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:117:9-119:40
+155            android:name="com.iam.bitcoin.Basic.B1"
+155-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:118:13-37
+156            android:exported="false" />
+156-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:119:13-37
+157        <activity
+157-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:120:9-122:40
+158            android:name="com.iam.bitcoin.Advance.A12"
+158-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:121:13-40
+159            android:exported="false" />
+159-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:122:13-37
+160        <activity
+160-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:123:9-125:40
+161            android:name="com.iam.bitcoin.Advance.A11"
+161-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:124:13-40
+162            android:exported="false" />
+162-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:125:13-37
+163        <activity
+163-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:126:9-128:40
+164            android:name="com.iam.bitcoin.Advance.A10"
+164-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:127:13-40
+165            android:exported="false" />
+165-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:128:13-37
+166        <activity
+166-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:129:9-131:40
+167            android:name="com.iam.bitcoin.Advance.A9"
+167-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:130:13-39
+168            android:exported="false" />
+168-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:131:13-37
+169        <activity
+169-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:132:9-134:40
+170            android:name="com.iam.bitcoin.Advance.A8"
+170-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:133:13-39
+171            android:exported="false" />
+171-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:134:13-37
+172        <activity
+172-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:135:9-137:40
+173            android:name="com.iam.bitcoin.Advance.A7"
+173-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:136:13-39
+174            android:exported="false" />
+174-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:137:13-37
+175        <activity
+175-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:138:9-140:40
+176            android:name="com.iam.bitcoin.Advance.A6"
+176-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:139:13-39
+177            android:exported="false" />
+177-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:140:13-37
+178        <activity
+178-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:141:9-143:40
+179            android:name="com.iam.bitcoin.Advance.A5"
+179-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:142:13-39
+180            android:exported="false" />
+180-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:143:13-37
+181        <activity
+181-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:144:9-146:40
+182            android:name="com.iam.bitcoin.Advance.A4"
+182-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:145:13-39
+183            android:exported="false" />
+183-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:146:13-37
+184        <activity
+184-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:147:9-149:40
+185            android:name="com.iam.bitcoin.Advance.A3"
+185-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:148:13-39
+186            android:exported="false" />
+186-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:149:13-37
+187        <activity
+187-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:150:9-152:40
+188            android:name="com.iam.bitcoin.Advance.A2"
+188-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:151:13-39
+189            android:exported="false" />
+189-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:152:13-37
+190        <activity
+190-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:153:9-155:40
+191            android:name="com.iam.bitcoin.Advance.A1"
+191-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:154:13-39
+192            android:exported="false" />
+192-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:155:13-37
+193
+194        <meta-data
+194-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:157:9-159:70
+195            android:name="com.google.android.gms.ads.APPLICATION_ID"
+195-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:158:13-69
+196            android:value="ca-app-pub-5541243853026577~2081749223" />
+196-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:159:13-67
+197
+198        <activity android:name="com.iam.bitcoin.aboutA" />
+198-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:161:9-44
+198-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:161:19-41
+199        <activity android:name="com.iam.bitcoin.sellBit" />
+199-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:162:9-45
+199-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:162:19-42
+200        <activity android:name="com.iam.bitcoin.BitcoinAdvDisadv" />
+200-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:163:9-54
+200-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:163:19-51
+201        <activity android:name="com.iam.bitcoin.ApplicationBitcoin" />
+201-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:164:9-56
+201-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:164:19-53
+202        <activity android:name="com.iam.bitcoin.Whatblock" />
+202-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:165:9-47
+202-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:165:19-44
+203        <activity android:name="com.iam.bitcoin.WhatCrypto" />
+203-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:166:9-48
+203-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:166:19-45
+204        <activity android:name="com.iam.bitcoin.Whoissana" />
+204-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:167:9-47
+204-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:167:19-44
+205        <activity android:name="com.iam.bitcoin.Five" />
+205-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:168:9-42
+205-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:168:19-39
+206        <activity android:name="com.iam.bitcoin.Four" />
+206-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:169:9-42
+206-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:169:19-39
+207        <activity android:name="com.iam.bitcoin.Three" />
+207-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:170:9-43
+207-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:170:19-40
+208        <activity android:name="com.iam.bitcoin.Two" />
+208-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:171:9-41
+208-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:171:19-38
+209        <activity android:name="com.iam.bitcoin.One" />
+209-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:172:9-41
+209-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:172:19-38
+210        <activity android:name="com.iam.bitcoin.NOI" />
+210-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:173:9-41
+210-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:173:19-38
+211        <activity android:name="com.iam.bitcoin.Splash" />
+211-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:174:9-44
+211-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:174:19-41
+212        <activity
+212-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:175:9-183:20
+213            android:name="com.iam.bitcoin.Home"
+213-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:176:13-33
+214            android:exported="true" >
+214-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:177:13-36
+215            <intent-filter>
+215-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:178:13-182:29
+216                <action android:name="android.intent.action.MAIN" />
+216-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:179:17-69
+216-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:179:25-66
+217
+218                <category android:name="android.intent.category.LAUNCHER" />
+218-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:181:17-77
+218-->/Users/akshaybhasme/Downloads/Latest/Bitcoin/app/src/main/AndroidManifest.xml:181:27-74
+219            </intent-filter>
+220        </activity>
+221        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+222        <activity
+222-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:53:9-58:43
+223            android:name="com.google.android.gms.ads.AdActivity"
+223-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:54:13-65
+224            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+224-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:55:13-122
+225            android:exported="false"
+225-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:56:13-37
+226            android:theme="@android:style/Theme.Translucent" />
+226-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:57:13-61
+227
+228        <provider
+228-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:60:9-65:43
+229            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+229-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:61:13-76
+230            android:authorities="com.iam.bitcoin.mobileadsinitprovider"
+230-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:62:13-73
+231            android:exported="false"
+231-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:63:13-37
+232            android:initOrder="100" />
+232-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:64:13-36
+233
+234        <service
+234-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:67:9-71:43
+235            android:name="com.google.android.gms.ads.AdService"
+235-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:68:13-64
+236            android:enabled="true"
+236-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:69:13-35
+237            android:exported="false" />
+237-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:70:13-37
+238
+239        <activity
+239-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:73:9-77:43
+240            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+240-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:74:13-82
+241            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+241-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:75:13-122
+242            android:exported="false" />
+242-->[com.google.android.gms:play-services-ads-lite:22.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/b402db26fcd40d34e5907b80ee479b6c/transformed/jetified-play-services-ads-lite-22.2.0/AndroidManifest.xml:76:13-37
+243        <activity
+243-->[com.google.android.gms:play-services-base:18.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4562bf175193e6cd5a758612ee40f348/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+244            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+244-->[com.google.android.gms:play-services-base:18.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4562bf175193e6cd5a758612ee40f348/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+245            android:exported="false"
+245-->[com.google.android.gms:play-services-base:18.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4562bf175193e6cd5a758612ee40f348/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+246            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+246-->[com.google.android.gms:play-services-base:18.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/4562bf175193e6cd5a758612ee40f348/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+247        <activity
+247-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:20:9-24:75
+248            android:name="com.facebook.ads.AudienceNetworkActivity"
+248-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:21:13-68
+249            android:configChanges="keyboardHidden|orientation|screenSize"
+249-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:22:13-74
+250            android:exported="false"
+250-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:23:13-37
+251            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+251-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:24:13-72
+252
+253        <provider
+253-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:26:9-29:40
+254            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+254-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:27:13-75
+255            android:authorities="com.iam.bitcoin.AudienceNetworkContentProvider"
+255-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:28:13-82
+256            android:exported="false" />
+256-->[com.facebook.android:audience-network-sdk:6.14.0] /Users/akshaybhasme/.gradle/caches/transforms-3/187febb6e78d728bfc52208e29747103/transformed/jetified-audience-network-sdk-6.14.0/AndroidManifest.xml:29:13-37
+257
+258        <meta-data
+258-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7a83119d3ef2b2e42616f735b358043f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+259            android:name="com.google.android.gms.version"
+259-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7a83119d3ef2b2e42616f735b358043f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+260            android:value="@integer/google_play_services_version" />
+260-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akshaybhasme/.gradle/caches/transforms-3/7a83119d3ef2b2e42616f735b358043f/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+261
+262        <provider
+262-->[androidx.emoji2:emoji2:1.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8b06aa6e9a77db041038b7731b098d8a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+263            android:name="androidx.startup.InitializationProvider"
+263-->[androidx.emoji2:emoji2:1.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8b06aa6e9a77db041038b7731b098d8a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+264            android:authorities="com.iam.bitcoin.androidx-startup"
+264-->[androidx.emoji2:emoji2:1.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8b06aa6e9a77db041038b7731b098d8a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+265            android:exported="false" >
+265-->[androidx.emoji2:emoji2:1.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8b06aa6e9a77db041038b7731b098d8a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+266            <meta-data
+266-->[androidx.emoji2:emoji2:1.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8b06aa6e9a77db041038b7731b098d8a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+267                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+267-->[androidx.emoji2:emoji2:1.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8b06aa6e9a77db041038b7731b098d8a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+268                android:value="androidx.startup" />
+268-->[androidx.emoji2:emoji2:1.2.0] /Users/akshaybhasme/.gradle/caches/transforms-3/8b06aa6e9a77db041038b7731b098d8a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+269            <meta-data
+269-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+270                android:name="androidx.work.WorkManagerInitializer"
+270-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+271                android:value="androidx.startup" />
+271-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+272            <meta-data
+272-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akshaybhasme/.gradle/caches/transforms-3/f9b3545c24b113cebf3bb06cd1d41c02/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+273                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+273-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akshaybhasme/.gradle/caches/transforms-3/f9b3545c24b113cebf3bb06cd1d41c02/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+274                android:value="androidx.startup" />
+274-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akshaybhasme/.gradle/caches/transforms-3/f9b3545c24b113cebf3bb06cd1d41c02/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+275        </provider>
+276
+277        <service
+277-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+278            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+278-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+279            android:directBootAware="false"
+279-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+280            android:enabled="@bool/enable_system_alarm_service_default"
+280-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+281            android:exported="false" />
+281-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+282        <service
+282-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+283            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+283-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+284            android:directBootAware="false"
+284-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+285            android:enabled="@bool/enable_system_job_service_default"
+285-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+286            android:exported="true"
+286-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+287            android:permission="android.permission.BIND_JOB_SERVICE" />
+287-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+288        <service
+288-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+289            android:name="androidx.work.impl.foreground.SystemForegroundService"
+289-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+290            android:directBootAware="false"
+290-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+291            android:enabled="@bool/enable_system_foreground_service_default"
+291-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+292            android:exported="false" />
+292-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+293
+294        <receiver
+294-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+295            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+295-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+296            android:directBootAware="false"
+296-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+297            android:enabled="true"
+297-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+298            android:exported="false" />
+298-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+299        <receiver
+299-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+300            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+300-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+301            android:directBootAware="false"
+301-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+302            android:enabled="false"
+302-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+303            android:exported="false" >
+303-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+304            <intent-filter>
+304-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+305                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+305-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+305-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+306                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+306-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+306-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+307            </intent-filter>
+308        </receiver>
+309        <receiver
+309-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+310            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+310-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+311            android:directBootAware="false"
+311-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+312            android:enabled="false"
+312-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+313            android:exported="false" >
+313-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+314            <intent-filter>
+314-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+315                <action android:name="android.intent.action.BATTERY_OKAY" />
+315-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+315-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+316                <action android:name="android.intent.action.BATTERY_LOW" />
+316-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+316-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+317            </intent-filter>
+318        </receiver>
+319        <receiver
+319-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+320            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+320-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+322            android:enabled="false"
+322-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+323            android:exported="false" >
+323-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+324            <intent-filter>
+324-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+325                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+325-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+325-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+326                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+326-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+326-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+327            </intent-filter>
+328        </receiver>
+329        <receiver
+329-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+330            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+330-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+332            android:enabled="false"
+332-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+333            android:exported="false" >
+333-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+334            <intent-filter>
+334-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+335                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+335-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+335-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+336            </intent-filter>
+337        </receiver>
+338        <receiver
+338-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+339            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+339-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+340            android:directBootAware="false"
+340-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+341            android:enabled="false"
+341-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+342            android:exported="false" >
+342-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+343            <intent-filter>
+343-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+344                <action android:name="android.intent.action.BOOT_COMPLETED" />
+344-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+344-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+345                <action android:name="android.intent.action.TIME_SET" />
+345-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+345-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+346                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+346-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+346-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+347            </intent-filter>
+348        </receiver>
+349        <receiver
+349-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+350            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+350-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+351            android:directBootAware="false"
+351-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+352            android:enabled="@bool/enable_system_alarm_service_default"
+352-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+353            android:exported="false" >
+353-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+354            <intent-filter>
+354-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+355                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+355-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+355-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+356            </intent-filter>
+357        </receiver>
+358        <receiver
+358-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+359            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+359-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+360            android:directBootAware="false"
+360-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+361            android:enabled="true"
+361-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+362            android:exported="true"
+362-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+363            android:permission="android.permission.DUMP" >
+363-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+364            <intent-filter>
+364-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+365                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+365-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+365-->[androidx.work:work-runtime:2.7.0] /Users/akshaybhasme/.gradle/caches/transforms-3/c36de814e5315a96937d8d9f12d4ce33/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+366            </intent-filter>
+367        </receiver>
+368
+369        <service
+369-->[androidx.room:room-runtime:2.2.5] /Users/akshaybhasme/.gradle/caches/transforms-3/8c6331080a0b424713d3c3a04bb2a9d0/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+370            android:name="androidx.room.MultiInstanceInvalidationService"
+370-->[androidx.room:room-runtime:2.2.5] /Users/akshaybhasme/.gradle/caches/transforms-3/8c6331080a0b424713d3c3a04bb2a9d0/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+371            android:directBootAware="true"
+371-->[androidx.room:room-runtime:2.2.5] /Users/akshaybhasme/.gradle/caches/transforms-3/8c6331080a0b424713d3c3a04bb2a9d0/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+372            android:exported="false" />
+372-->[androidx.room:room-runtime:2.2.5] /Users/akshaybhasme/.gradle/caches/transforms-3/8c6331080a0b424713d3c3a04bb2a9d0/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+373    </application>
+374
+375</manifest>
