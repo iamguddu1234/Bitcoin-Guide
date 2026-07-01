@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Medal base -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M12,4c3.31,0 6,2.69 6,6s-2.69,6 -6,6s-6,-2.69 -6,-6S8.69,4 12,4z"/>
+
+    <!-- Medal border -->
+    <path
+        android:strokeColor="#C2185B"
+        android:strokeWidth="1"
+        android:pathData="M12,4c3.31,0 6,2.69 6,6s-2.69,6 -6,6s-6,-2.69 -6,-6S8.69,4 12,4z"/>
+
+    <!-- Number 4 -->
+    <path
+        android:fillColor="#AD1457"
+        android:pathData="M13,7v3h1v1h-1v2h-2v-2H9v-1l2,-3H13z M11,8.5L10.5,10H11V8.5z"/>
+
+    <!-- Ribbon -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M9,16l3,4l3,-4v4l-3,2l-3,-2V16z"/>
+</vector>

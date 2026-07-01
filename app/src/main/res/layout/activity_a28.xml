@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    tools:context=".Update.A7">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardElevation="0dp"
+                app:strokeColor="#ECECF2"
+                app:strokeWidth="0.9dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!-- Level chip -->
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:text="Basic level"
+                        android:textColor="#1A56DB"
+                        android:textSize="@dimen/_10ssp"
+                        app:chipBackgroundColor="#E8F0FE"
+                        app:chipIcon="@drawable/ic_layers"
+                        app:chipIconTint="#1A56DB"
+                        app:chipMinHeight="@dimen/_28sdp"
+                        app:chipStrokeColor="#C3D3FB"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="@android:color/transparent" />
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="0.8dp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginHorizontal="@dimen/_12sdp"
+                        android:background="#E5E7EB" />
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <!-- Read time -->
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:src="@drawable/ic_clock"
+                            app:tint="#6B7280" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="8 min read"
+                            android:textColor="#6B7280"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="0.8dp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginHorizontal="@dimen/_12sdp"
+                        android:background="#E5E7EB" />
+
+                    <!-- Difficulty chip -->
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:text="Beginner"
+                        android:textColor="#92400E"
+                        android:textSize="@dimen/_10ssp"
+                        app:chipBackgroundColor="#FEF3C7"
+                        app:chipIcon="@drawable/ic_star"
+                        app:chipIconTint="#92400E"
+                        app:chipMinHeight="@dimen/_28sdp"
+                        app:chipStrokeColor="#FDE68A"
+                        app:chipStrokeWidth="0.5dp"
+                        app:rippleColor="@android:color/transparent" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_8sdp"
+                app:strokeColor="#000"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:orientation="vertical">
+
+                    <com.github.chrisbanes.photoview.PhotoView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/bitcoinwallpaper" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun1"
+                            android:textColor="@color/titletextColor"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun2"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun3"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun4"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun5"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun6"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun7"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun8"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun9"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun10"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun11"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun12"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun13"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun14"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun15"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun16"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun17"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun18"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun19"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun20"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun21"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun22"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun23"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun24"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun25"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun26"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun27"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun28"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun29"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun30"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun31"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun32"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun33"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun34"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun35"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun36"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun37"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun38"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun39"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun40"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun41"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun42"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun43"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun44"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun45"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun46"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun47"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun48"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun49"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun50"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun51"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun52"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun53"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun54"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun55"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_60sdp"
+                app:cardBackgroundColor="@color/card"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/_16sdp"
+                app:strokeColor="@color/stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_6sdp"
+                            android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
+                            app:cardBackgroundColor="@color/black"
+                            app:cardCornerRadius="@dimen/_1sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:lineHeight="@dimen/_20sdp"
+                            android:text="@string/gun56"
+                            android:textColor="@color/new_title"
+                            android:textSize="@dimen/_13ssp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="@dimen/_10sdp"
+                        android:background="@color/new_border" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:includeFontPadding="false"
+                        android:lineHeight="@dimen/_20sdp"
+                        android:text="@string/gun57"
+                        android:textColor="@color/titletextColor"
+                        android:textSize="@dimen/_12ssp" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <FrameLayout
+        android:id="@+id/ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewZ7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="@string/banner_id_admob" />
+
+    </FrameLayout>
+</RelativeLayout>

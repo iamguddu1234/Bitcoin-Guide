@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Track -->
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="2.8"
+            android:thicknessRatio="9"
+            android:useLevel="false">
+            <solid android:color="#F0EFEA" />
+        </shape>
+    </item>
+
+    <!-- Progress arc -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape
+                android:shape="ring"
+                android:innerRadiusRatio="2.8"
+                android:thicknessRatio="9"
+                android:useLevel="true">
+                <solid android:color="@color/brand_orange" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

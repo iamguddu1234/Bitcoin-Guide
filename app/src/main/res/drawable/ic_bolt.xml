@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/ic_bolt.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M13,2L4.09,12.71C3.69,13.19 3.93,13.93 4.54,14.07L9.5,15.18L8.07,21.32C7.91,21.99 8.7,22.5 9.21,22.04L20.18,12.05C20.71,11.58 20.43,10.71 19.72,10.63L14.78,10.04L15.95,2.85C16.06,2.18 15.27,1.74 14.79,2.23L13,2Z" />
+
+</vector>

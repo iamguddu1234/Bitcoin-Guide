@@ -1,0 +1,186 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FinalPythonExample" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+
+<!--        <item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="GlowButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/glowing_button_bg</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="DialogAnimations">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+    <style name="premium" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/bg_cta_black</item>
+        <item name="backgroundColor">#16181D</item>
+    </style>
+
+    <style name="cancel" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/dialogue_bg</item>
+        <item name="backgroundColor">@android:color/transparent</item>
+    </style>
+
+
+
+
+        <!-- Option card (MaterialCardView, flat bordered look) -->
+        <style name="OptionCard">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginBottom">12dp</item>
+            <item name="android:clickable">true</item>
+            <item name="android:focusable">true</item>
+            <item name="cardBackgroundColor">@color/surface</item>
+            <item name="cardCornerRadius">16dp</item>
+            <item name="cardElevation">0dp</item>
+            <item name="strokeColor">@color/border_color</item>
+            <item name="strokeWidth">1.5dp</item>
+            <item name="rippleColor">@color/badge_orange_bg</item>
+        </style>
+
+        <style name="OptionInner">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">horizontal</item>
+            <item name="android:gravity">center_vertical</item>
+            <item name="android:padding">16dp</item>
+        </style>
+
+        <style name="OptionLetter">
+            <item name="android:layout_width">32dp</item>
+            <item name="android:layout_height">32dp</item>
+            <item name="android:layout_marginEnd">14dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:background">@drawable/bg_option_letter</item>
+            <item name="android:textColor">@color/text_secondary</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+        <style name="OptionText">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_weight">1</item>
+            <item name="android:textColor">@color/text_primary</item>
+            <item name="android:textSize">15sp</item>
+        </style>
+
+        <style name="OptionIcon">
+            <item name="android:layout_width">22dp</item>
+            <item name="android:layout_height">22dp</item>
+            <item name="android:layout_marginStart">12dp</item>
+            <item name="android:visibility">gone</item>
+        </style>
+
+        <!-- Result stat cards -->
+        <style name="StatCard">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_weight">1</item>
+            <item name="cardBackgroundColor">@color/surface</item>
+            <item name="cardCornerRadius">16dp</item>
+            <item name="cardElevation">0dp</item>
+        </style>
+
+        <style name="StatInner">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">vertical</item>
+            <item name="android:gravity">center</item>
+            <item name="android:paddingVertical">16dp</item>
+            <item name="android:paddingHorizontal">8dp</item>
+        </style>
+
+        <style name="StatIcon">
+            <item name="android:layout_width">22dp</item>
+            <item name="android:layout_height">22dp</item>
+            <item name="android:layout_marginBottom">6dp</item>
+        </style>
+
+        <style name="StatValue">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">@color/text_primary</item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+        <style name="StatLabel">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginTop">2dp</item>
+            <item name="android:textColor">@color/text_secondary</item>
+            <item name="android:textSize">12sp</item>
+        </style>
+
+    <!-- About page rows -->
+    <style name="AboutRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingHorizontal">18dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="AboutRowText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AboutRowChevron">
+        <item name="android:layout_width">17dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:src">@drawable/ic_chevron_right</item>
+        <item name="android:tint">@color/text_tertiary</item>
+    </style>
+
+    <style name="AboutDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:background">@color/border_color</item>
+    </style>
+
+    </resources>

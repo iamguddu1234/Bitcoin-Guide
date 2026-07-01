@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_4sdp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Banner with Gradient Overlay -->
+
+
+        <!-- Content Area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <!-- Icon + App Info -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- App Icon with Shadow -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    app:cardElevation="@dimen/_3sdp"
+                    app:strokeColor="#F3F4F6"
+                    app:strokeWidth="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_2sdp">
+
+                    <ImageView
+                        android:id="@+id/imgIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:background="#F0FDF4"
+                        android:src="@drawable/iconm"
+                        />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- App Details -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvAppName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold"
+                        android:text="Kali Linux Master"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvDeveloper"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:textColor="#6366F1"
+                        android:textSize="@dimen/_9ssp"
+                        android:text="Learn. Hack. Defend" />
+
+                </LinearLayout>
+
+                <!-- Install Button (Small) -->
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    app:cardBackgroundColor="#2E8EFB"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    app:cardElevation="@dimen/_1sdp"
+                    app:strokeWidth="0dp"
+                    app:contentPadding="@dimen/_4sdp">
+
+                    <TextView
+                        android:id="@+id/btnInstall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Install"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="@dimen/_10ssp"
+                        android:background="#2E8EFB"
+                        android:fontFamily="@font/roboto_bold"
+                        />
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_stats_container"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_6sdp">
+
+                <!-- Downloads -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvDownloads"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_10ssp"
+                        android:textStyle="bold"
+                        android:text="500M+" />
+
+                    <TextView
+                        android:id="@+id/tvDownloadsTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:text="Downloads"
+                        android:textColor="#9CA3AF"
+                        android:textSize="@dimen/_9ssp" />
+
+                </LinearLayout>
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="#E5E7EB" />
+
+                <!-- Rating -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tvRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"
+                            android:text="4.8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_2sdp"
+                            android:text="★"
+                            android:textColor="#FBBF24"
+                            android:textSize="@dimen/_9ssp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvRatingTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:text="Rating"
+                        android:textColor="#9CA3AF"
+                        android:textSize="@dimen/_9ssp" />
+
+                </LinearLayout>
+
+                <!-- Divider -->
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:background="#E5E7EB" />
+
+                <!-- Size -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_10ssp"
+                        android:textStyle="bold"
+                        android:text="45 MB" />
+
+                    <TextView
+                        android:id="@+id/tvSizeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:text="Size"
+                        android:textColor="#9CA3AF"
+                        android:textSize="@dimen/_9ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Description -->
+            <!-- Description Points -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPoint1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Cybersecurity Tools &amp; Ethical Hacking Mastery"
+                    android:textColor="#4B5563"
+                    android:textSize="@dimen/_9ssp" />
+
+                <TextView
+                    android:id="@+id/tvPoint2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="• Kali Linux &amp; Pen Testing Skill Development"
+                    android:textColor="#4B5563"
+                    android:textSize="@dimen/_9ssp" />
+
+                <TextView
+                    android:id="@+id/tvPoint3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="• Forensics, Malware Analysis &amp; Quiz-Based Learning"
+                    android:textColor="#4B5563"
+                    android:textSize="@dimen/_9ssp" />
+
+                <TextView
+                    android:id="@+id/tvPoint4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="• Premium, Fast, Ad-Free with Multilingual Support"
+                    android:textColor="#4B5563"
+                    android:textSize="@dimen/_9ssp" />
+
+            </LinearLayout>
+
+
+
+            <!-- Tags -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTag1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_tag"
+                    android:paddingHorizontal="@dimen/_8sdp"
+                    android:paddingVertical="@dimen/_4sdp"
+                    android:text="Ethical Hacking"
+                    android:textColor="#6366F1"
+                    android:textSize="@dimen/_9ssp" />
+
+                <TextView
+                    android:id="@+id/tvTag2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/bg_tag"
+                    android:paddingHorizontal="@dimen/_8sdp"
+                    android:paddingVertical="@dimen/_4sdp"
+                    android:text="Pro Tools"
+                    android:textColor="#6366F1"
+                    android:textSize="@dimen/_9ssp" />
+
+                <TextView
+                    android:id="@+id/tvTag3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/bg_tag"
+                    android:paddingHorizontal="@dimen/_8sdp"
+                    android:paddingVertical="@dimen/_4sdp"
+                    android:text="Cybersecurity"
+                    android:textColor="#6366F1"
+                    android:textSize="@dimen/_9ssp" />
+
+                <TextView
+                    android:id="@+id/tvTag4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/bg_tag2"
+                    android:paddingHorizontal="@dimen/_12sdp"
+                    android:paddingVertical="@dimen/_4sdp"
+                    android:text="Free"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_9ssp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

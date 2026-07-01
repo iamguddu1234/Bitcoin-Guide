@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Medal Base -->
+    <path
+        android:fillColor="#CD7F32"
+        android:pathData="M60,10 a50,50 0 1,1 0,100 a50,50 0 1,1 0,-100"
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="2"/>
+
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M60,20 a40,40 0 1,1 0,80 a40,40 0 1,1 0,-80"/>
+
+    <!-- Ribbon Top -->
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M45,25 L50,15 L70,15 L75,25 L70,35 L50,35 Z"/>
+
+    <!-- Ribbon Bottom -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M50,35 L60,45 L70,35 L75,45 L60,60 L45,45 Z"/>
+
+    <!-- Texture Effects -->
+    <path
+        android:fillColor="#80421E0E"
+        android:pathData="M40,40 Q50,30 60,40 Q70,50 60,60 Q50,70 40,60 Q30,50 40,40"/>
+    <path
+        android:fillColor="#60614507"
+        android:pathData="M70,50 Q80,40 90,50 Q80,60 70,50"/>
+</vector>

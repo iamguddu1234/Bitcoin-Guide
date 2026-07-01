@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <!-- Shadow -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M16,6c-6.63,0 -12,5.37 -12,12s5.37,12 12,12s12,-5.37 12,-12S22.63,6 16,6z"/>
+    <!-- Top Key -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M20,2H12v3h8V2z"/>
+    <!-- Main Body -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M16,5c-6.63,0 -12,5.37 -12,12s5.37,12 12,12s12,-5.37 12,-12S22.63,5 16,5z"/>
+    <!-- Inner Face -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M16,8c-5.52,0 -10,4.48 -10,10s4.48,10 10,10s10,-4.48 10,-10S21.52,8 16,8z"/>
+    <!-- Hour Markers -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M16,10v2 M24,17h2 M16,24v2 M8,17h2"
+        android:strokeWidth="2"
+        android:strokeColor="#FF9800"/>
+    <!-- Clock Hands -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M16,12v5l4,2"
+        android:strokeWidth="3"
+        android:strokeColor="#D84315"
+        android:strokeLineCap="round"/>
+    <!-- Center -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M16,17m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Winding Mechanism -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M25.37,10.52l1.89,-1.89c-0.57,-0.68 -1.2,-1.32 -1.89,-1.89l-1.89,1.89"/>
+</vector>

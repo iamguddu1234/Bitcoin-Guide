@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Medal Base (Gold Circle) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,10 a50,50 0 1,1 0,100 a50,50 0 1,1 0,-100"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"/>
+
+    <!-- Outer Shine -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M60,15 a45,45 0 1,1 0,90 a45,45 0 1,1 0,-90"/>
+
+    <!-- Star (Perfect Symbol) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,30 L66,45 L82,45 L70,55 L76,70 L60,60 L44,70 L50,55 L38,45 L54,45 Z"/>
+
+    <!-- Diamond Details -->
+    <path
+        android:fillColor="#C0FFFFFF"
+        android:pathData="M60,40 L65,50 L60,60 L55,50 Z"/>
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M50,50 L60,40 L70,50 L60,60 Z"/>
+
+    <!-- Shine Effects -->
+    <path
+        android:fillColor="#A0FFFFFF"
+        android:pathData="M45,25 L50,20 L55,25 L50,30 Z"/>
+    <path
+        android:fillColor="#A0FFFFFF"
+        android:pathData="M75,25 L80,20 L85,25 L80,30 Z"/>
+    <path
+        android:fillColor="#A0FFFFFF"
+        android:pathData="M60,15 L65,10 L70,15 L65,20 Z"/>
+</vector>

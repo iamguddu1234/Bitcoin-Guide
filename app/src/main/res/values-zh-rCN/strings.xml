@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">比特币指南</string>
+    <string name="banner_id_admob">ca-app-pub-5541243853026577/6182484872</string>
+
+    <string name="b_fact1">1. 神秘创始人\n\n2009年，化名中本聪的个人或团体推出了比特币。2010年底，他（或他们）从互联网消失，至今音讯全无。其真实身份成谜，甚至生死未卜。人们仅通过电子邮件和论坛与其交流。\n他的比特币钱包持有约98万枚比特币，使其成为全球最富有的人之一。</string>
+    <string name="b_fact2">2. 聪（Satoshi）\n\n为致敬比特币创始人，最小比特币单位被命名为"聪"。1聪约合0.00005美元（2019年4月11日数据），价值极低。1亿聪才能组成1个比特币。按当前波动汇率，约15,800聪可兑换1美元。</string>
+    <string name="b_fact3">3. 比特币丢失\n\n丢失比特币地址（私钥）不仅意味着身份标识丢失，更会导致钱包内所有比特币无法找回。研究表明至少60%的比特币地址已成"幽灵地址"，大量用户永久失去了他们的比特币。</string>
+    <string name="b_fact4">4. 自由共和国\n\n2015年4月，克罗地亚与塞尔维亚交界处诞生了微型国家"自由共和国"。其创始人维特·耶德利奇卡宣布比特币为官方货币，认为区块链技术能为电子、金融和实体资产提供安全透明的记录方式。</string>
+    <string name="b_fact5">5. 算力消耗\n\n比特币挖矿成本高昂，需投入大量资金、时间和电力。专用矿机处理数据越快，区块就能更快加入区块链，矿工也能更快获得比特币奖励。</string>
+    <string name="b_fact6">6. 电力消耗\n\n爱尔兰全国年耗电量约5000千瓦时，而全球比特币矿场总耗电量达60万亿瓦时（6×10¹⁰千瓦时），远超爱尔兰这个欧洲第二大人口国家的用电量。</string>
+    <string name="b_fact7">7. 比特币禁令\n\n虽然加拿大、美国等国已接受比特币，但玻利维亚、冰岛、孟加拉国和厄瓜多尔等国完全禁止使用。印度、泰国、伊朗等国虽未明令禁止，但警告居民谨慎使用加密货币，且不承认其法定货币地位。</string>
+    <string name="b_fact8">8. 数量上限\n\n比特币总量限定2100万枚。目前已有1700万枚流通，占总量的80%。但无需担心，由于矿工奖励每四年减半（当前每个区块奖励12.5枚比特币，2020年将减至6.25枚），预计到2140年才会全部挖完。</string>
+    <string name="b_fact9">9. 大小写之别\n\n"Bitcoin"（首字母大写）指存储交易信息的账本系统；"bitcoin"（首字母小写）指用于交易的加密货币本身。</string>
+    <string name="b_fact10">10. 超算之冠\n\n全球最快超算"Summit"运算速度为122.3千万亿次/秒，而整个比特币网络的算力约为8,070万千万亿次/秒。不过超算功能多样，比特币网络仅专注于区块链记账。</string>
+    <string name="b_fact11">11. 日文名释义\n\n中本聪（Satoshi Nakamoto）的日文含义：\n聪（Satoshi）：思维清晰、机智聪慧\n中（Naka）：内部或关系\n本（Moto）：根基</string>
+    <string name="b_fact12">12. 四大公司阴谋论\n\n有理论认为"中本聪"名称源自四家科技公司首字母组合：\n三星（SA）+东芝（TOSHI）+中道（NAKA）+摩托罗拉（MOTO）\n拼接后即为SATOSHI NAKAMOTO</string>
+    <string name="b_fact13">13. 史上最贵披萨\n\n2010年5月22日，程序员Laszlo Hanyecz用1万比特币购买两个披萨，成为首笔比特币实物交易。按现价计算，这堪称史上最贵外卖订单。</string>
+    <string name="b_fact14">14. 比特币披萨日\n\n5月22日被全球加密货币爱好者定为"比特币披萨日"，纪念这项划时代的交易。</string>
+    <string name="b_fact15">15. 算力集中隐忧\n\n虽然比特币标榜去中心化，但四大矿池（BTC.com、蚁池、ConnectBTC和BTC.TOP）控制着全网50%算力，形成潜在中心化风险。不过竞争者仍在持续加入，尚不能断言比特币已中心化。</string>
+    <string name="b_fact16">16. 奇葩交易品\n\n接受比特币支付的商品千奇百怪：山羊、袖珍加农炮、网络直播秀，甚至太空旅行。</string>
+    <string name="b_fact17">17. 群体共识机制\n\n比特币基于点对点网络运行，所有活动需通过矿工、核心开发者、投资者、商家等生态参与者集体协作验证，由共同利益驱动。</string>
+    <string name="b_fact18">18. 比特币ATM\n\n全球比特币ATM数量已超2000台，其中美国拥有量超过其他国家总和。</string>
+    <string name="b_fact19">19. 密钥系统\n\n每笔比特币交易需生成公钥和私钥，这两个由数字字母组成的大整数是完成交易的必要条件。</string>
+    <string name="b_fact20">20. 永久丢失\n\n约379万枚比特币（占总流通量23%）因密钥丢失或数字资产处置不当永远消失，按现价计算损失高达2.52亿美元。</string>
+    <string name="b_fact21">21. 个人最大损失\n\nJames Howell误扔存有私钥的旧硬盘，导致价值7500美元的比特币永久丢失。</string>
+    <string name="b_fact22">22. 中国矿霸\n\n加密货币挖矿指验证交易并写入区块链的过程。目前中国控制着全球75%的比特币挖矿算力。</string>
+    <string name="b_fact23">23. 总量限制\n\n比特币创始人设定了2100万枚的总量上限。目前流通量已超1600万枚，但新币仍在持续挖出。</string>
+    <string name="b_fact24">24. FBI的巨鳄钱包\n\nFBI关闭暗网"丝绸之路"后，收缴了该网站流通的比特币（约占全球总量1.5%），成为比特币最大持有实体之一。</string>
+    <string name="b_fact25">25. 不可逆交易\n\n与银行转账不同，比特币交易无法撤销。发送前务必反复确认收款地址。</string>
+    <string name="b_fact26">26. 算力怪兽\n\n比特币网络算力超204万Pflop/s，相当于500台超算算力总和的7000多倍。</string>
+    <string name="b_fact27">27. 太空比特币\n\n2016年比特币首次进入太空。Genesis Mining公司将比特币纸钱包和3D模型绑在气象气球上，在20-34公里高空成功完成交易。</string>
+    <string name="b_fact28">28. 匿名特性\n\n比特币地址由34位字母数字组成，无法直接识别收发者身份。这也是其成为非法交易首选工具的原因之一。</string>
+    <string name="b_fact29">29. 禁而不绝\n\n由于系统特性，比特币无法被彻底禁止。尽管玻利维亚、越南等国试图封杀，但监管才是现实选择。</string>
+    <string name="b_fact30">30. 剧烈波动\n\n比特币价格极不稳定，影响因素包括新闻事件、市场规模、财富不均、监管政策、流动性不足等。</string>
+    <string name="b_fact31">31. 挖矿原理\n\n比特币通过"工作量证明"机制挖矿产生。矿工通过算力竞赛验证交易，首个解出数学难题的节点获得比特币奖励。如今家庭挖矿的电力成本往往超过收益。</string>
+
+    <string name="bit_fu1">比特币作为新兴技术存在诸多不确定性：它会是昙花一现的泡沫吗？抑或成为未来主导货币？其安全性和发展前景仍充满未知。</string>
+    <string name="bit_ful2">目前比特币基本不受监管，但政府担忧税收流失和货币控制权问题。价格剧烈波动仍是重大隐患，尽管经历回调，但多数人预期其价值将继续攀升。</string>
+    <string name="bit_ful3">利好因素</string>
+    <string name="bit_ful4">推动比特币普及的关键要素：</string>
+    <string name="F_1">比特币总量有限</string>
+    <string name="F_2">认知度和接受度持续提升</string>
+    <string name="F_3">日均交易量不断增长</string>
+    <string name="F_4">高净值人群偏好无政府监管的财富存储方式</string>
+    <string name="F_5">加密货币价格高度波动，尤其受美国金融监管政策影响</string>
+    <string name="F_6">比特币未来展望：</string>
+    <string name="F_7">预计到2024年，94%的比特币将被释放</string>
+    <string name="F_8">Snapchat首位投资人Jeremy Liew预测2030年比特币将达50万美元</string>
+    <string name="F_9">去中心化、安全匿名的特性推动其指数级增长</string>
+    <string name="F_10">科技从业者和企业的广泛接纳预示着加密货币的光明前景</string>
+    <string name="F_11">但矿工收益将逐渐减少，加密货币尚处早期阶段，其最终形态仍有待观察</string>
+
+    <string name="b_mining">比特币通过"挖矿"产生。矿工使用专业设备验证交易并解决数学难题，目前每10分钟生成新区块奖励25枚比特币（约每21万个区块奖励减半）。</string>
+    <string name="Aib1">比特币挖矿本质是向公共账本（区块链）添加交易记录的过程</string>
+    <string name="Aib2">节点通过区块链验证交易真实性，防止"双花"问题</string>
+    <string name="Aib3">挖矿被刻意设计为资源密集型，采用哈希现金工作量证明机制</string>
+    <string name="Aib4">挖矿既维护系统安全共识，也是新币发行机制</string>
+    <string name="Aib5">这种设计同时实现货币分发和系统安全激励</string>
+    <string name="b_miningi1">工作量证明是通过大量计算生成的特定数据</string>
+    <string name="B_t1">生成证明是低概率随机过程，比特币采用哈希现金类型证明</string>
+    <string name="B_t2">矿工同时获得用户支付的交易费，未来手续费将成主要收入</string>
+    <string name="b_mining2">单机挖矿效率极低，普通电脑需数年才能产出比特币</string>
+    <string name="b_mining3">矿池通过整合用户算力，按贡献分配收益，适合个人参与者</string>
+    <string name="b_mining4">BitMinter是最早的矿池之一，自2011年已有45万用户。现需ASIC专业矿机（算力达TH/s级）进行挖矿</string>
+    <string name="B_3">2013年起ASIC矿机主导挖矿领域，家用矿机至少需1TH/s算力</string>
+    <string name="b_mining5">比特币挖矿是通过计算难题产生新币的过程</string>
+    <string name="b_mining6">挖矿是维护比特币交易账本的必要机制</string>
+    <string name="b_mining7">现代矿工已采用高度复杂的专业设备</string>
+
+    <string name="intro1">比特币是2009年问世的数字货币，采用区块链技术实现去中心化运作。作为首个区块链实际应用，它不受任何中央机构控制，通过点对点网络运行。</string>
+    <string name="intro2">区块链不仅是比特币的基础技术，还可应用于智能合约、金融服务、视频游戏、能源交易和供应链管理。神秘人物中本聪将其作为开源技术发布，比特币随之成为最受欢迎的加密货币，其次是以太坊。</string>
+    <string name="intro3">比特币(₿)是去中心化数字货币，无需中央银行或单一管理员，用户可通过点对点网络直接交易。所有交易经节点加密验证后记录在区块链公共账本中。2008年由化名中本聪的个人或团体发明，2009年作为开源软件发布。</string>
+    <string name="intro4">比特币通过挖矿奖励产生，可兑换其他货币、商品和服务，但价值波动剧烈。剑桥大学研究显示，2017年全球290-580万加密货币钱包用户中，多数使用比特币。用户参与动机包括：无政府主义理念、去中心化信仰、投资需求及交易匿名性。随着使用增加，各国政府正加强监管以征税、规范合法使用及防范洗钱等犯罪活动。</string>
+    <string name="intro5">比特币的争议包括：非法交易工具、挖矿耗能巨大（产生显著碳足迹）、价格波动剧烈及交易所被盗事件。经济学家多次警告其投机泡沫风险。尽管监管机构持续发布投资警示，比特币仍被广泛用作投资工具。</string>
+    <string name="intro6">区块链的不可篡改性</string>
+    <string name="intro7">支付安全与有效性</string>
+    <string name="intro8">系统运行规则</string>
+    <string name="intro9">比特币作为全球最重要的三式记账系统，其源代码完全公开可查。每笔交易通过发送方数字签名确保真实性，用户完全掌控资金流向，有效防止欺诈、退款和身份信息盗用。</string>
+    <string name="intro10">比特币接受机构示例：</string>
+    <string name="intro11"><b>特斯拉</b>\n\n2021年2月，埃隆·马斯克宣布投资15亿美元购买比特币，占公司194亿美元流动资产的8%。</string>
+    <string name="intro12"><b>微软</b>\n\n2014年起接受比特币支付Windows应用、游戏等内容，覆盖Xbox系列产品及Windows手机商店。</string>
+    <string name="intro13"><b>宝马（BMW）</b>\n\n尽管宝马集团从未在官方层面与比特币产生关联，但英国和加拿大的两家宝马经销商已接受比特币作为购车支付方式。</string>
+    <string name="intro14"><b>Square</b>\n\nSquare近期对比特币投资1.7亿美元，虽在榜单中金额较小但意义重大。其旗下支付应用Cash App现已支持比特币存储与投资功能。</string>
+    <string name="intro15"><b>摩根大通（JPMorgan）</b>\n\n摩根大通推出名为"加密货币敞口篮子"的比特币代理股票基金，成为首家涉足波动性加密货币市场的顶级投行。</string>
+    <string name="intro16"><b>高盛（Goldman Sachs）</b>\n\n高盛私人财富管理客户即将可投资比特币等数字货币，本月集团已聘请交易员Justin Schmidt组建比特币交易团队。</string>
+    <string name="intro17"><b>Expedia</b>\n\n该在线旅游平台与Coinbase合作接受比特币支付。</string>
+    <string name="intro18"><b>汉堡王（Burger King）</b>\n\n2020年汉堡王委内瑞拉宣布通过与Cryptobuyer合作，接受包括比特币在内的多种加密货币支付。</string>
+    <string name="intro19"><b>可口可乐</b>\n\n亚太区经销商可口可乐Amatil与数字资产平台Centrapay合作，将比特币纳入支付选项。</string>
+    <string name="intro20"><b>必胜客（Pizza Hut）</b>\n\n该餐饮品牌在委内瑞拉通过与Cryptobuyer合作接受比特币等加密货币支付。</string>
+    <string name="intro21"><b>PayPal</b>\n\n2020年10月宣布自2021年起美国用户可通过Cash账户直接买卖持有加密货币。</string>
+    <string name="intro22"><b>星巴克（Starbucks）</b>\n\n星巴克表示将通过Bakkt应用试点比特币支付，但尚未明确全面开放时间。</string>
+    <string name="intro23"><b>肯德基（KFC）</b>\n\n加拿大肯德基曾限时推出"比特币桶"，通过BitPay处理支付并支持配送到家。</string>
+    <string name="intro24"><b>OverStock</b>\n\n美国知名折扣电商平台2014年即通过Coinbase接入比特币支付。</string>
+    <string name="intro25"><b>赛百味（Subway）</b>\n\n部分门店曾接受比特币支付三明治，当前状态尚不明确。</string>
+    <string name="intro26"><b>Twitch</b>\n\n亚马逊旗下游戏直播平台曾于2019年3月暂停后又恢复比特币现金支付功能。</string>
+    <string name="intro27"><b>迈阿密海豚队</b>\n\n该橄榄球队允许球迷使用莱特币和比特币购买50/50慈善抽奖门票。</string>
+    <string name="intro28"><b>达拉斯独行侠队</b>\n\n通过BitPay接受比特币支付比赛门票及周边商品。</string>
+    <string name="intro29"><b>维珍银河</b>\n\n理查德·布兰森旗下公司支持用比特币支付太空旅行费用。</string>
+    <string name="intro30"><b>挪威航空</b>\n\n这家北欧最大廉航已开通加密货币机票支付系统。</string>
+    <string name="intro31"><b>ExpressVPN</b>\n\n知名VPN服务商支持比特币支付订阅费用。</string>
+    <string name="intro32"><b>本菲卡俱乐部</b>\n\n葡萄牙里斯本著名体育俱乐部接受比特币购买门票及周边。</string>
+    <string name="intro33"><b>Namecheap</b>\n\n2013年应技术用户需求成为首批支持比特币的域名注册商。</string>
+    <string name="intro34"><b>CheapAir</b>\n\n美国在线旅行社先后通过Coinbase和BTCPayServer接入比特币支付。</string>
+    <string name="intro35"><b>Gyft</b>\n\n支持比特币无手续费购买亚马逊/星巴克/iTunes等礼品卡。</string>
+    <string name="intro36"><b>新蛋（NewEgg）</b>\n\n早期支持比特币支付的电脑硬件电商平台。</string>
+    <string name="intro37"><b>互联网档案馆</b>\n\n这家非营利数字图书馆接受比特币捐赠，其Wayback Machine保存数千亿网页快照。</string>
+    <string name="intro38"><b>海盗湾</b>\n\n自2013年起接受比特币等加密货币捐赠的数字资源索引网站。</string>
+    <string name="intro39"><b>4Chan</b>\n\n匿名贴图网站支持比特币/比特币现金/以太坊/莱特币购买通行证。</string>
+    <string name="intro40"><b>Mega.nz</b>\n\nKim Dotcom创建的云存储服务支持比特币支付账户升级。</string>
+    <string name="intro41">全球超过15,000家企业接受比特币支付。</string>
+
+    <string name="his1">比特币是一种基于密码学的去中心化数字货币，其历史始于化名中本聪提出的点对点电子现金系统构想。自2009年诞生以来，比特币迅速发展成为线上线下重要支付手段，2010年代中期起获部分商家接纳。</string>
+    <string name="his2">在比特币出现前，David Chaum的ecash协议与Adam Back的哈希现金算法已为加密货币奠定技术基础。Wei Dai的b-money与Nick Szabo的比特金则首次提出分布式数字稀缺性概念。</string>
+    <string name="his3">Nick Szabo在比特金提案中设计了基于工作量证明的防通胀机制，但采用的拜占庭容错协议存在女巫攻击漏洞。</string>
+    <string name="his4">2008年8月比特币.org域名注册，10月31日中本聪向密码学邮件组发布白皮书。2009年1月3日，中本聪挖出创世区块（含50比特币奖励），比特币网络正式启动。</string>
+    <string name="his5">《泰晤士报》2009年1月3日头版标题：财政大臣面临第二轮银行救助</string>
+    <string name="his6">该备注既作为创世区块时间戳，亦是对部分准备金银行体系的讽刺。</string>
+    <string name="his7">首个开源比特币客户端于2009年1月9日在SourceForge发布。</string>
+    <string name="his8">程序员Hal Finney是最早的比特币支持者，他在客户端发布当日下载软件，并于1月12日收到中本聪转账的10比特币（区块170），完成史上首笔比特币交易。</string>
+    <string name="his9">据估算中本聪早期挖矿获得约100万比特币，消失前将开发权移交Gavin Andresen。</string>
+    <string name="his10">早期比特币交易价值由社区协商确定，著名案例是有人用1万比特币兑换两份棒约翰披萨。</string>
+
+    <string name="whoissa1">"中本聪"是2008年设计比特币协议并2009年启动网络的匿名开发者。其真实身份存在诸多猜测，包括Dai、Szabo、Finney等密码学专家，但均被否认。也有观点认为中本聪是欧洲金融界的计算机团队。</string>
+    <string name="whoissa2">《纽约客》调查指向Michael Clear和Vili Lehdonvirta，《快公司》则发现2008年8月15日Neal King等人的加密专利与比特币白皮书存在技术术语高度重合，但三位发明人均否认关联。</string>
+    <string name="whoissa3">2013年5月Ted Nelson猜测日本数学家望月新一可能是中本聪，同年以色列学者曾指认罗斯·乌布利希特，但随后撤回指控。</string>
+    <string name="whoissa4">中本聪自2010年中旬后不再参与比特币开发，2011年4月邮件表示"已转向其他项目"。</string>
+    <string name="whoissa5">2014年《新闻周刊》记者Leah McGrath Goodman声称加州居民Dorian S. Nakamoto是中本聪，但调查方法引发广泛批评。</string>
+    <string name="whoissa6">2020年纪录片指Adam Back为比特币创造者引发热议，真实身份至今未明。</string>
+
+    <string name="crypt1">加密货币是通过密码学保障安全的数字资产，基于区块链分布式账本技术实现去中心化运作，理论上不受政府干预。其核心特征包括匿名性、不可篡改性和总量可控性。</string>
+    <string name="crypt2">加密货币本质是运行在分布式计算机网络上的数字资产，这种去中心化结构使其不受政府管控。</string>
+    <string name="crypt3">"加密货币"名称源于保障网络安全的加密技术。</string>
+    <string name="crypt4">区块链作为确保交易数据完整性的组织方式，是多数加密货币的核心组件。</string>
+    <string name="crypt5">加密货币因非法使用、价格波动和系统漏洞受质疑，但也因便携、可分割、抗通胀和透明受赞誉。</string>
+    <string name="crypt6">加密货币系统通过虚拟"代币"实现安全在线支付，采用椭圆曲线加密、公私钥对和哈希函数等密码学技术。</string>
+    <string name="crypt7">比特币是首个区块链加密货币，目前仍是最主流币种。现今存在数千种功能各异的竞争币。</string>
+    <string name="crypt8">主流竞争币包括莱特币、以太坊、卡尔达诺等，部分为比特币分叉，部分为全新开发。</string>
+    <string name="crypt9">当前加密货币总市值约1.5万亿美元，比特币占比超60%。</string>
+    <string name="crypt10">加密货币支持点对点直接转账，无需银行等中介机构，通过工作量证明或权益证明等共识机制保障安全。</string>
+    <string name="crypt11">现代加密货币系统中，用户钱包地址即公钥，私钥用于交易签名。转账手续费极低，避免传统金融机构的高额电汇费用。</string>
+    <string name="crypt12">加密货币的半匿名特性使其常被用于洗钱等非法活动，但支持者认为隐私保护对异议人士至关重要。门罗币等隐私币更难追踪。</string>
+    <string name="crypt13">比特币因区块链分析协助破案反而不适合非法交易，达世币等隐私币匿名性更强。</string>
+
+    <string name="blch1">什么是区块链？</string>
+    <string name="blch2">区块链是记录加密交易的开放式分布式账本，类似全球共享的电子支票簿。交易按"区块"记录后，通过哈希值链接形成链式结构。</string>
+    <string name="blch3">Quidax交易所CEO Buchi Okoro比喻："就像记录每日支出的账本，每页纸如同区块，整本账簿便是区块链"。</string>
+    <string name="blch4">每个用户都保存完整的区块链副本，新交易会实时同步更新所有副本，确保数据一致准确。</string>
+    <string name="blch5">区块链发展史</string>
+    <string name="blch6">1991年Stuart Haber和W. Scott Stornetta首次提出用加密区块链为数字文档加盖时间戳，防止篡改。</string>
+    <string name="blch7">1992年加入默克尔树提升效率，可将多笔交易归入单个区块，该技术直至2004年专利到期都未获应用。</string>
+    <string name="blch8">区块链版本演进</string>
+    <string name="blch9">区块链技术从1.0到3.0的版本演进过程如下：</string>
+    <string name="blch10">区块链1.0：货币</string>
+    <string name="blch11">Hal Finney于2005年首次提出通过计算难题创造货币的概念，比特币实现分布式账本技术，开启"货币互联网"时代。</string>
+    <string name="blch12">区块链2.0：智能合约</string>
+    <string name="blch13">为解决比特币挖矿浪费和扩展性问题，以太坊等平台引入可编程智能合约，支持开发者构建去中心化应用，推动ICO融资热潮。</string>
+    <string name="blch14">区块链3.0：DApps</string>
+    <string name="blch15">去中心化应用使用分布式存储和通信，后端代码运行在P2P网络，前端可托管在Swarm等去中心化存储，通过API调用后端。</string>
+    <string name="blch16">为防欺诈，每笔交易需通过工作量证明或权益证明验证。</string>
+    <string name="blch17">工作量证明 vs 权益证明</string>
+    <string name="blch18">两种主流验证机制均通过奖励加密货币激励验证者，不同项目采用不同机制。</string>
+    <string name="blch19">工作量证明：验证者（矿工）竞争解决数学难题，首个验证成功区块交易者获奖励。</string>
+    <string name="blch20">矿工通过算力验证交易区块并上链，消耗大量电力资源。</string>
+    <string name="blch21">考虑电力和设备成本后，矿工收益常仅能持平。</string>
+    <string name="blch22">权益证明：验证权与质押代币数量正相关，类似银行抵押贷款机制。</string>
+    <string name="blch23">Osom Finance CEO Anton Altement指出："权益证明能效更高，可实现更快交易确认"。</string>
+    <string name="blch24">验证者成功验证区块可获交易费奖励，若验证错误交易将扣除质押金。</string>
+
+    <string name="ap1">1. COINBASE (免费)</string>
+    <string name="ap2">2. Kraken pro (免费)</string>
+    <string name="ap3">3. Gemini (免费)</string>
+    <string name="ap4">4. CryptoTrax-币种组合管理 (免费)</string>
+    <string name="ap5">5. Exodus (免费)</string>
+    <string name="ap6">6. Enjin钱包 (免费)</string>
+    <string name="ap7">7. Investing.com加密货币 (免费)</string>
+    <string name="ap8">8. BTC.com比特币钱包 (免费)</string>
+    <string name="ap9">9. Xapo钱包 (免费)</string>
+    <string name="ap10">10. Delta资产追踪 (免费)</string>
+
+    <string name="AdvB1">比特币优势</string>
+    <string name="AdvB2">比特币交易完全匿名，不同于银行可追踪交易流向，仅显示钱包地址间转账记录。</string>
+    <string name="AdvB3">支付自由无国界，全年无休即时到账，无金额限制。</string>
+    <string name="AdvB4">手续费极低，加急交易费用仍远低于传统金融机构。</string>
+    <string name="AdvB5">交易安全不可逆且不包含用户敏感信息，避免商家遭遇欺诈性拒付。</string>
+    <string name="AdvB6">确认交易10分钟内完成，零确认交易可即时处理（商家自担风险），兼具高速与低成本。</string>
+    <string name="AdvB7">去中心化特性使政府无法没收比特币，最多区域性禁止。</string>
+    <string name="AdvB8">支付无需泄露信用卡等敏感信息，通过公私钥数学函数签名验证，杜绝盗刷风险。</string>
+    <string name="AdvB9">总量恒定为2100万枚，通过挖矿逐步释放，从根本上杜绝通货膨胀。</string>
+    <string name="AdvB10">任何人皆可通过挖矿参与比特币生产，只需运行特定软件贡献算力。</string>
+
+    <string name="DisA1">比特币劣势</string>
+    <string name="DisA2">接受商家仍属少数，需扩大规模形成网络效应。</string>
+    <string name="DisA3">价格剧烈波动，投机属性强令保守投资者却步。</string>
+    <string name="DisA4">核心功能持续开发中，企业多数未投保，安全性待验证。</string>
+    <string name="DisA5">政府禁令可导致钱包服务冻结资产。</string>
+    <string name="DisA6">通缩特性可能引发囤币行为，若大比例比特币被囤积将导致流通短缺价格飙升。</string>
+    <string name="DisA7">钱包私钥丢失即永久损失资产，不似银行卡可挂失补办。</string>
+    <string name="DisA8">早期多用于暗网洗钱等非法活动。</string>
+    <string name="DisA9">技术门槛高导致诈骗频发，虚假投资平台层出不穷。</string>
+    <string name="DisA10">交易不可撤销，缺乏中介调解纠纷。</string>
+    <string name="DisA11">可能被更先进的加密货币替代。</string>
+    <string name="DisA12">黑客勒索软件首选支付方式。</string>
+    <string name="DisA13">盗版资源共享依赖比特币运营。</string>
+    <string name="DisA14">比特币优劣取决于社会应用方式。</string>
+
+    <string name="snr1">比特币收发指南</string>
+    <string name="snr2">通过Coinbase账户即可管理比特币收发</string>
+    <string name="snr3">接收比特币只需提供您的专属地址（"发送/接收"→"接收"），二维码格式便于手机操作</string>
+    <string name="snr4">发送比特币步骤：</string>
+    <string name="snr5">* 点击"发送/接收"按钮</string>
+    <string name="snr6">* 输入转账金额（从数字钱包扣除）</string>
+    <string name="snr7">* 输入收款人或钱包的比特币地址</string>
+    <string name="snr8">* 填写信息（作为付款备注）</string>
+    <string name="snr9">* 点击“继续”确认交易</string>
+
+    ===============================================================
+
+    <string name="wth1">提取比特币</string>
+    <string name="wth2">从首页点击顶部显示的资产余额。</string>
+    <string name="wth3">选择美元选项。若已出售加密货币，此处应显示非零金额。</string>
+    <string name="wth4">点击“提取”。</string>
+    <string name="wth5">选择“预览提现”。</string>
+    <string name="wth6">选择银行账户。转账需1-3个工作日。也可选择借记卡即时到账（需小额手续费）。</string>
+
+    <string name="f3">1.钱包：</string>
+    <string name="ha2">让我们把这个话题分成两部分：</string>
+    <string name="gun5">钱包有多种类型，每种都有独特的优势和权衡。主要分类如下：</string>
+    <string name="i9">全节点：</string>
+    <string name="i10">全节点存储区块链的完整副本，并独立验证和转发交易及区块。它们通过验证比特币协议的规则，在维护网络安全性和去中心化方面发挥着关键作用。</string>
+
+    <string name="i11">矿工节点：</string>
+    <string name="i12">矿工节点是专门用于竞争解决工作量证明难题并将新区块添加到区块链中的节点。矿工通过其努力获得新铸造的比特币和交易费用作为奖励。</string>
+
+    <string name="i13">轻量级节点：</string>
+    <string name="i14">轻量级节点（也称为SPV-简化支付验证节点）不存储区块链的完整副本，而是根据需要依赖全节点提供交易信息。它们降低了存储和带宽需求，但与全节点相比，牺牲了一定程度的安全性和去信任化特性。</string>
+    ===========================================================================
+
+    <string name="sell1">出售比特币</string>
+    <string name="sell2">点击首页蓝色双箭头圆形图标。</string>
+    <string name="sell3">选择“出售”。</string>
+    <string name="sell4">选择要出售的资产（以比特币为例）。</string>
+    <string name="sell5">输入出售金额，或点击页面左侧“全部”按钮清仓。</string>
+    <string name="sell6">核对页面信息，注意Coinbase手续费。</string>
+    <string name="sell7">点击“立即出售”。</string>
+
+    ===================================================================================
+
+    <string name="trans1">比特币交易如何运作？</string>
+    <string name="trans2">每个比特币账户包含公钥（类似比特币地址）和私钥。任何人知晓公钥即可向你发送比特币。消费比特币需用私钥验证身份。所有交易均公开于比特币网络，经矿工验证后确认有效。</string>
+    <string name="trans3">地址示例</string>
+    <string name="trans4">比特币地址如下所示：</string>
+    <string name="trans5">73nRKoXJAUqKYYbzw6Nrqh9gW2p26zerpZ</string>
+    <string name="trans6">可能存在约10^48种地址组合（2^160）。</string>
+    <string name="trans7">对应私钥示例：</string>
+    <string name="trans8">5HuEupY3DNF87UypjFtXDTm4BVuAwZtAgYf94sMALPyakgafVnU</string>
+    <string name="trans9">私钥长度为256位，可能存在约10^77种组合。</string>
+
+    =======================================================================
+
+    <string name="bybit1">如何购买比特币</string>
+    <string name="bybit2">Coinbase\'一站式平台\'，提供地址创建、比特币数字钱包及法币兑换服务。其直观的网站和移动应用支持随时收发比特币。整个购买流程仅需15分钟。</string>
+    <string name="bybit3">* 注册账户</string>
+    <string name="bybit4">填写简短表格创建Coinbase账户。</string>
+    <string name="bybit5">* 验证邮箱</string>
+    <string name="bybit6">前往收件箱点击验证链接（若未收到请检查垃圾邮件）。</string>
+    <string name="bybit7">* 绑定手机</string>
+    <string name="bybit8">通过短信两步验证保障账户安全，需同时输入密码和手机验证码。</string>
+    <string name="bybit9">* 身份认证</string>
+    <string name="bybit10">根据金融法规要求，需上传身份证件和地址证明照片进行实时验证。</string>
+    <string name="bybit11">* 添加支付方式</string>
+    <string name="bybit12">建议绑定借记卡即时购买（银行转账需数日）。完成验证后即可购买比特币。</string>
+
+    ===================================================================================
+    <string name="buye1">* 购买比特币</string>
+    <string name="buye2">点击顶部菜单"买卖"。</string>
+    <string name="buye3">确保选择"比特币"并已预载支付方式。</string>
+    <string name="buye4">输入购买金额（最低可买£5，£76以上享£7注册奖励）。</string>
+    <string name="buye5">点击"预览购买"查看兑换率和手续费详情。</string>
+    <string name="buye6">点击"立即购买"，比特币将实时存入钱包。</string>
+    <string name="buye7">* 查看数字钱包</string>
+    <string name="buye8">点击侧边栏"资产组合"。</string>
+    <string name="buye9">"比特币"栏将显示持有数量。</string>
+    <string name="hello_blank_fragment">空白片段</string>
+
+    ==============================================================================================================
+    <string name="a1">什么是比特币？</string>
+    <string name="a2">比特币是去中心化的数字货币（加密货币），2008年由化名中本聪的个人/团体发明，2009年作为开源软件发布。其基于点对点网络运行，无需银行或政府等中介机构。</string>
+    <string name="a3">核心特征：</string>
+    <string name="a4">1.去中心化：</string>
+    <string name="a5">全球节点网络共同维护，不受单一实体控制。</string>
+    <string name="a6">2.区块链技术：</string>
+    <string name="a7">交易记录于公开账本，矿工通过挖矿维护网络。</string>
+    <string name="a8">3.有限供应：</string>
+    <string name="a9">总量恒定2100万枚，通过挖矿奖励逐步释放，具有通缩属性。</string>
+    <string name="a10">4.安全性：</string>
+    <string name="a11">加密技术保障交易，矿工验证后记录于区块链防篡改。</string>
+    <string name="a12">5.匿名性：</string>
+    <string name="a13">交易公开透明，但用户通过加密地址标识身份。</string>
+    <string name="a14">6.全球流通：</string>
+    <string name="a15">支持7×24小时全球转账，仅需网络连接。</string>
+    <string name="a16">7.无许可参与：</string>
+    <string name="a17">任何人皆可自由加入网络进行交易。</string>
+    <string name="a18">比特币兼具货币与储值功能，可用于网购、跨境汇款、投资等。但价格波动、监管不确定性和可扩展性仍是其发展挑战。</string>
+
+    ================================================================================================================================================
+    <string name="b1">比特币解决的问题（传统金融体系缺陷）</string>
+    <string name="b2">比特币针对传统金融体系的改进：</string>
+    <string name="b3">1.中心化风险：</string>
+    <string name="b4">消除银行/政府等中介控制，避免审查与单点故障。</string>
+    <string name="b5">2.高成本低效率：</string>
+    <string name="b6">跨境转账更快更便宜，惠及无银行账户人群。</string>
+    <string name="b7">3.通胀与贬值：</string>
+    <string name="b8">2100万枚上限设计抵御法币通胀，保持购买力。</string>
+    <string name="b9">4.隐私安全：</string>
+    <string name="b10">伪匿名交易保护隐私，加密技术防止欺诈。</string>
+    <string name="b11">5.金融包容性：</string>
+    <string name="b12">互联网接入即可参与全球金融体系。</string>
+    <string name="b13">6.跨境支付：</string>
+    <string name="b14">低成本快速完成国际汇款。</string>
+    <string name="b15">尽管存在价格波动等挑战，比特币的创新理念持续推动金融变革。</string>
+
+    ================================================================================================================================================
+    <string name="c1">去中心化机制（无央行的运作原理）</string>
+    <string name="c2">比特币通过以下方式实现去中心化：</string>
+    <string name="c3">1.点对点网络：</string>
+    <string name="c4">节点直接通信，无中心服务器控制。</string>
+    <string name="c5">2.区块链技术：</string>
+    <string name="c6">分布式账本全网同步，保证透明冗余。</string>
+    <string name="c7">3.共识机制：</string>
+    <string name="c8">矿工通过工作量证明竞争记账权，防止单方操控。</string>
+    <string name="c9">4.激励体系：</string>
+    <string name="c10">新区块奖励与手续费驱动矿工维护网络。</string>
+    <string name="c11">5.开源治理：</string>
+    <string name="c12">开发者、矿工等共同参与协议升级决策。</string>
+    <string name="c13">6.抗审查：</string>
+    <string name="c14">交易不可篡改，免受机构干预。</string>
+    <string name="c15">7.自由创新：</string>
+    <string name="c16">无需许可即可基于协议开发应用。</string>
+    <string name="c17">去中心化赋予用户对资产的完全控制权，减少对中介依赖。</string>
+
+    ================================================================================================================================================
+    <string name="d1">区块链技术（公共账本系统）</string>
+    <string name="d2">区块链作为比特币底层技术，是去中心化不可篡改的公共账本：</string>
+    <string name="d3">1.分布式存储：</string>
+    <string name="d4">全网节点共同维护账本副本，无单点故障风险。</string>
+    <string name="d5">2.不可篡改：</string>
+    <string name="d6">哈希加密与共识机制确保交易记录永久保存。</string>
+    <string name="d7">3.交易透明：</string>
+    <string name="d8">所有交易公开可查，实现自主验证。</string>
+    <string name="d9">4.区块结构：</string>
+    <string name="d10">交易按时间戳打包成块，哈希链式相连防篡改。</string>
+    <string name="d11">5.共识算法：</string>
+    <string name="d12">工作量证明为主流机制，另有权益证明等改进方案。</string>
+    <string name="d13">6.智能合约：</string>
+    <string name="d13a">可编程合约自动执行，支撑去中心化应用开发。</string>
+    <string name="d14">该技术正重塑各行业数据存储与交换方式。</string>
+
+    ================================================================================================================================================
+    <string name="e1">工作量证明（挖矿与交易验证）</string>
+    <string name="e2">PoW共识机制运作流程：</string>
+    <string name="e3">1.挖矿竞赛：</string>
+    <string name="e4">矿工通过算力竞争解决数学难题，验证交易打包区块。</string>
+    <string name="e5">2.网络验证：</string>
+    <string name="e6">节点验证新区块有效性，多数确认后上链。</string>
+    <string name="e7">3.难度调节：</string>
+    <string name="e8">动态调整计算复杂度，维持10分钟出块节奏。</string>
+    <string name="e9">4.矿工激励：</string>
+    <string name="e10">区块奖励（每四年减半）与手续费构成收益。</string>
+    <string name="e11">5.安全防护：</string>
+    <string name="e12">高算力门槛防御双花攻击与51%攻击。</string>
+    <string name="e13">6.能源争议：</string>
+    <string name="e14">算力竞赛导致高耗能，但被视为必要安全成本。</string>
+    <string name="e15">PoW保障了比特币网络的安全与去中心化特性。</string>
+
+    ================================================================================================================================================
+    <string name="f">钱包与私钥（资产安全保障）</string>
+    <string name="f2">加密资产安全核心要素：</string>
+    <string name="f4">比特币钱包是存储、发送和接收比特币的软件应用/硬件设备/物理介质，主要类型包括：</string>
+    <string name="f5">软件钱包：</string>
+    <string name="f6">运行于电脑/手机/浏览器的应用程序，可细分为：</string>
+    <string name="f7">热钱包：</string>
+    <string name="f8">联网钱包便于日常交易，但存在黑客攻击风险</string>
+    <string name="f9">冷钱包：</string>
+    <string name="f10">离线存储方案（含硬件钱包和纸钱包），安全性更高</string>
+    <string name="f11">硬件钱包：</string>
+    <string name="f12">专用物理设备离线存储私钥，需物理接触才能交易，防黑客性能极佳</string>
+    <string name="f13">纸钱包：</string>
+    <string name="f14">印有公私钥的纸质文档，完全离线但需妥善保管防丢失</string>
+
+    <string name="f15">2.私钥机制：</string>
+    <string name="f16">私钥是随机生成的加密字符串，用于签署交易授权。与公钥配对生成唯一比特币地址。私钥必须严格保密，泄露即丧失资产控制权。</string>
+
+    <string name="f17">3.安全实践：</string>
+    <string name="f18">钱包备份：</string>
+    <string name="f19">定期备份防止设备故障导致资产丢失</string>
+    <string name="f20">强密码设置：</string>
+    <string name="f21">为钱包设置高强度唯一密码</string>
+    <string name="f22">双重验证：</string>
+    <string name="f23">启用2FA增加安全层</string>
+    <string name="f24">及时更新：</string>
+    <string name="f25">保持钱包软件和系统最新</string>
+    <string name="f26">多签钱包：</string>
+    <string name="f27">采用需多个私钥签署交易的多签方案</string>
+
+    <string name="f28">4.公钥与地址：</string>
+    <string name="f29">公钥由私钥衍生并生成比特币地址。地址可公开分享，私钥必须保密。</string>
+    <string name="f30">掌握钱包与私钥原理并遵循安全实践，可有效保障比特币资产安全。</string>
+
+    ================================================================================================================================================
+    <string name="g1">7. 交易与手续费（比特币收发机制）</string>
+    <string name="g2">比特币交易流程及手续费原理：</string>
+
+    <string name="g3">1.交易流程：</string>
+    <string name="g4">发送端：</string>
+    <string name="g5">钱包创建含收款地址、金额和私钥签名的数字消息，广播至网络</string>
+    <string name="g6">验证阶段：</string>
+    <string name="g7">节点验证发送方余额及交易合规性</string>
+    <string name="g8">确认阶段：</string>
+    <string name="g9">矿工将验证交易打包入区块，每新增一个区块增加一次确认，防止双花攻击</string>
+
+
+    <string name="g10">2.手续费机制：</string>
+    <string name="g11">作用：</string>
+    <string name="g12">激励矿工优先处理交易，补偿其算力资源消耗</string>
+    <string name="g13">决定因素：</string>
+    <string name="g14">交易数据大小和网络拥堵程度。高峰期手续费上涨</string>
+    <string name="g15">经济逻辑：</string>
+    <string name="g16">矿工优先打包高手续费交易以最大化收益</string>
+
+    <string name="g17">3.确认时间：</string>
+    <string name="g18">出块间隔：</string>
+    <string name="g19">平均10分钟出一个区块</string>
+    <string name="g20">未确认交易：</string>
+    <string name="g20a">低手续费交易可能长时间滞留或被清除</string>
+    <string name="g21">理解交易机制有助于合理设置手续费，平衡确认速度与成本</string>
+
+    ================================================================================================================================================
+    <string name="h1">8. 供需关系（比特币总量恒定原理）</string>
+    <string name="h2">2100万枚上限的设计逻辑与市场影响：</string>
+
+    <string name="h3">1.固定总量：</string>
+    <string name="h4">协议硬编码2100万枚上限，需全网共识才能修改</string>
+    <string name="h5">2.减半机制：</string>
+    <string name="h6">每21万个区块（约4年）矿工奖励减半，模仿黄金稀缺性</string>
+    <string name="h7">3.稀缺性价值：</string>
+    <string name="h8">需求增长配合供给减速形成价格上涨压力</string>
+    <string name="h9">4.数字黄金：</string>
+    <string name="h10">抗通胀特性使其成为储值工具</string>
+    <string name="h11">5.市场动态：</string>
+    <string name="h12">受投资者情绪、监管政策等多元因素影响</string>
+    <string name="h13">总量限制是比特币区别于法币的核心特征，支撑其价值存储属性</string>
+
+    ================================================================================================================================================
+    <string name="ha1">9. 安全与风险 | 10. 比特币vs竞争币</string>
+
+    <string name="ha3">### 9. 安全与风险</string>
+    <string name="ha4">1.加密安全：</string>
+    <string name="ha5">加密技术存在理论漏洞风险</string>
+    <string name="ha6">2.中心化交易所：</string>
+    <string name="ha7">热钱包存储易成黑客目标</string>
+    <string name="ha8">3.钓鱼攻击：</string>
+    <string name="ha9">伪造网站/诈骗手段窃取私钥</string>
+    <string name="ha10">4.钱包防护：</string>
+    <string name="ha11">硬件钱包+离线存储+2FA</string>
+    <string name="ha12">5.智能合约漏洞：</string>
+    <string name="ha13">代码缺陷可能导致资产损失</string>
+    <string name="ha14">6.监管风险：</string>
+    <string name="ha15">政策变动影响市场合法性</string>
+    <string name="ha16">7.市场波动：</string>
+    <string name="ha17">价格剧烈波动带来投资风险</string>
+    <string name="ha18">8.51%攻击：</string>
+    <string name="ha19">小币种易受算力垄断威胁</string>
+
+    <string name="ha20">### 10. 比特币vs竞争币</string>
+    <string name="ha21">1.先发优势：</string>
+    <string name="ha22">比特币具有最强品牌认知度</string>
+    <string name="ha23">2.市场主导：</string>
+    <string name="ha24">市值占比超40%但竞争币功能多元</string>
+    <string name="ha25">3.功能差异：</string>
+    <string name="ha26">竞争币拓展智能合约/隐私保护/DeFi等场景</string>
+    <string name="ha27">4.性能对比：</string>
+    <string name="ha28">部分竞争币交易更快费用更低</string>
+    <string name="ha29">5.开发生态：</string>
+    <string name="ha30">各有专注开发者社区</string>
+    <string name="ha31">6.风险程度：</string>
+    <string name="ha32">竞争币波动性及风险更高</string>
+    <string name="ha33">7.监管态势：</string>
+    <string name="ha34">不同币种面临差异监管</string>
+    <string name="ha35">比特币保持龙头地位，竞争币提供差异化创新，投资者需注意风险</string>
+
+    ================================================================================================================================================
+    <string name="i1">11. 比特币架构（区块/链/节点）</string>
+    <string name="i2">三大核心组件运作机制：</string>
+
+    <string name="i3">1.区块：</string>
+    <string name="i4">含时间戳/前区块哈希/交易列表等元数据，矿工通过PoW竞争生成</string>
+    <string name="i5">2.区块链：</string>
+    <string name="i6">区块哈希链式相连，篡改需重构全部后续区块</string>
+    <string name="i7">3.节点类型：</string>
+    <string name="i8">全节点（完整验证）、矿工节点（打包交易）、轻节点（依赖全节点）</string>
+    <string name="i15">去中心化架构实现无需中介的点对点交易</string>
+
+    ================================================================================================================================================
+    <string name="j1">12. 密码学原理（比特币安全基础）</string>
+    <string name="j2">保障比特币安全的数学体系：</string>
+
+    <string name="j3">1.公私钥加密：</string>
+    <string name="j4">非对称加密技术应用：</string>
+    <string name="j5">公钥：</string>
+    <string name="j6">生成收款地址，可公开分享</string>
+    <string name="j7">私钥：</string>
+    <string name="j8">生成数字签名，必须严格保密</string>
+    <string name="j9">2.数字签名：</string>
+    <string name="j10">私钥+交易信息生成防伪签名，验证所有权而不暴露私钥</string>
+    <string name="j11">3. 哈希函数：</string>
+    <string name="j12">比特币使用加密哈希函数（如SHA-256，即256位安全哈希算法）为数据生成唯一的固定长度表示。哈希函数接收输入（消息）并生成固定大小的输出（哈希值），该输出与输入唯一对应。哈希函数在比特币中广泛应用于以下场景：</string>
+
+    <string name="j13">交易哈希：</string>
+    <string name="j14">每笔交易经过哈希处理生成唯一的交易标识符（TXID），用于在区块链中引用交易。</string>
+
+    <string name="j15">区块哈希：</string>
+    <string name="j16">每个区块包含前一个区块头的哈希值，通过哈希值将区块链接成链。这种链式机制确保了区块链的完整性和不可篡改性。</string>
+
+    <string name="j17">4. 默克尔树：</string>
+    <string name="j18">默克尔树是一种数据结构，将区块中的交易组织成哈希的层次树结构。每个叶节点代表交易哈希，非叶节点代表其子节点哈希的聚合。默克尔树支持高效验证区块内交易的完整性，并促进网络参与者快速同步区块链。</string>
+
+    <string name="j19">5. 椭圆曲线密码学（ECC）：</string>
+    <string name="j20">比特币的公私钥对通过椭圆曲线密码学生成，这是一种基于有限域上椭圆曲线数学特性的技术。ECC以较小的密钥尺寸提供高安全性，适合区块链等资源受限的环境。</string>
+
+    <string name="j21">通过运用这些加密技术，比特币确保了交易的安全性、隐私性和完整性，解决了去中心化、无信任和抗审查等数字领域的挑战。</string>
+
+    <string name="k1">13. 哈希函数（保障数据完整性）</string>
+    <string name="k2">哈希函数在比特币等区块链网络中至关重要，确保数据的完整性和安全性。以下是哈希函数的原理及其作用：</string>
+    <string name="k3">1. 定义：</string>
+    <string name="k4">哈希函数是一种数学算法，将任意长度输入（消息）转换为固定长度的字符串（哈希值）。其设计为单向不可逆，且微小输入变化会导致哈希值显著不同。</string>
+    <string name="k5">2. 数据完整性：</string>
+    <string name="k6">哈希函数通过为数据生成唯一指纹（哈希值）来验证数据完整性。即使数据被修改一个比特，生成的哈希值也会完全不同。通过比较原始数据的哈希值与修改后数据的计算哈希值，用户可以快速检测任何篡改行为。</string>
+
+    <string name="k7">3. 区块链共识：</string>
+    <string name="k8">在比特币等区块链网络中，哈希函数用于创建安全且不可篡改的交易记录。每个区块包含前一个区块头的加密哈希值，形成由哈希值链接的区块链。这种链式机制确保任何修改区块的尝试都需要重新计算后续所有区块的哈希值，使得在未被发现的情况下篡改交易历史几乎不可能。</string>
+
+    <string name="k9">4. 高效数据检索：</string>
+    <string name="k10">哈希函数支持区块链网络中的高效数据检索和验证。默克尔树将交易组织为哈希值的层次结构，用户无需下载和验证整个区块链即可验证区块内交易的完整性。通过将交易哈希与区块头中存储的默克尔根哈希进行比较，用户可以快速确认交易是否包含在区块中。</string>
+
+    <string name="k11">5. 抗碰撞性：</string>
+    <string name="k12">哈希函数的理想特性是抗碰撞性，即计算上难以找到两个不同输入产生相同哈希值。抗碰撞哈希函数确保每份数据具有唯一哈希值，防止未经授权的方创建与合法数据具有相同哈希值的欺诈数据。</string>
+
+    <string name="k13">总之，哈希函数在确保比特币等区块链网络的数据完整性、安全性和不可篡改性方面发挥着关键作用。它们通过支持高效验证和共识机制，同时防止数据篡改和欺诈，为去中心化系统奠定了基础。</string>
+
+    ================================================================================================================================================
+
+    <string name="l1">14. 默克尔树（高效交易验证）</string>
+
+    <string name="l2">默克尔树是区块链技术（包括比特币）的基本组成部分，支持高效安全的交易验证。以下是默克尔树及其在交易验证中作用的解释：</string>
+
+    <string name="l3">1. 定义：</string>
+    <string name="l4">默克尔树（又称哈希树）是一种数据结构，将一组数据（如交易）组织为哈希值的层次树。默克尔树的结构包含节点，每个叶节点代表单个数据（如交易），每个非叶节点代表其子节点哈希值的组合。</string>
+
+    <string name="l5">2. 构建：</string>
+    <string name="l6">构建默克尔树时，交易被配对并哈希生成父节点。如果交易数量为奇数，最后一个交易与自身哈希生成重复父节点。该过程递归重复，直到生成树顶的单个哈希值（称为默克尔根哈希）。</string>
+
+    <string name="l7">3. 高效验证：</string>
+    <string name="l8">默克尔树支持高效验证区块内交易的完整性。用户无需下载和验证区块中的所有交易，只需检查默克尔树的一个子集（从区块头存储的默克尔根哈希开始）即可验证特定交易。</string>
+
+    <string name="l9">4. 默克尔证明：</string>
+    <string name="l10">为证明交易包含在区块中，用户需提供默克尔证明，即从交易叶节点到默克尔根哈希的路径。默克尔证明包含路径上的兄弟节点哈希值，允许任何人独立验证交易真实性，无需信任中心化机构。</string>
+
+    <string name="l11">5. 安全性与不可篡改性：</string>
+    <string name="l12">默克尔树通过确保任何交易修改都会导致其哈希值变化并向上传播，增强了区块链交易的安全性和不可篡改性。该特性使得攻击者难以在未被发现的情况下篡改交易。</string>
+
+    <string name="l13">6. 高效同步：</string>
+    <string name="l14">默克尔树促进了网络参与者间区块链的高效同步。通过提供交易数据的紧凑表示并支持快速验证交易完整性，默克尔树降低了带宽和存储需求，提高了可扩展性和网络性能。</string>
+
+    <string name="l15">总之，默克尔树通过支持高效安全的交易验证，增强信任并促进去中心化共识机制，在区块链网络设计中发挥着关键作用。它们是维护比特币等分布式账本系统数据完整性和不可篡改性的重要工具。</string>
+
+
+    ================================================================================================================================================
+
+    <string name="la1">15. 难度调整（维护网络安全）</string>
+
+    <string name="la2">难度调整是比特币网络中的关键机制，有助于维护网络安全并确保区块生成的稳定性。以下是难度调整的工作原理及其重要性的解释：</string>
+
+    <string name="la3">1. 什么是难度？</string>
+    <string name="la4">难度是指挖矿新区块所需解决数学难题（工作量证明）的复杂程度。难度定期调整，以确保平均每10分钟挖出一个新区块。</string>
+
+    <string name="la5">2. 为何调整难度？</string>
+    <string name="la6">比特币协议每2016个区块（约两周）根据网络总算力（哈希率）动态调整难度级别。难度调整的目的是在网络哈希率波动的情况下保持稳定的区块生成速率。</string>
+
+    <string name="la7">3. 难度调整如何工作？</string>
+    <string name="la8">难度调整算法根据预期出块时间（约10分钟）计算有效区块必须满足的目标哈希值。如果区块生成速度快于目标时间（表明网络哈希率增加），则难度增加；反之，如果区块生成速度慢于目标时间（表明哈希率降低），则难度降低。</string>
+
+    <string name="la9">4. 难度调整的影响：</string>
+
+    <string name="la10">网络安全：</string>
+    <string name="la11">难度调整通过增加恶意行为者通过51%攻击操纵区块链的难度，有助于维护比特币网络的安全性。哈希率的突然增加需要更多算力来压制网络，而哈希率降低则使诚实矿工更容易跟上。</string>
+
+    <string name="la12">稳定性与一致性：</string>
+    <string name="la13">通过调整难度级别，比特币旨在实现一致的区块生成速率，确保新区块以可预测的时间间隔添加到区块链中。这种稳定性对于维护网络的功能性和可用性至关重要。</string>
+
+    <string name="la14">经济激励：</string>
+    <string name="la15">难度调整也影响挖矿的经济性。矿工根据预期收益和成本分配计算资源进行挖矿。难度调整有助于平衡挖矿的成本和收益，确保竞争性和可持续的挖矿生态系统。</string>
+
+    <string name="la16">5. 对挖矿奖励的影响：</string>
+    <string name="la17">难度调整通过影响矿工间的竞争间接影响挖矿奖励。随着难度增加，矿工可能需要投资更强大的硬件或加入矿池以保持盈利。相反，难度降低可能吸引更多矿工加入网络，导致区块奖励的竞争加剧。</string>
+
+    <string name="la18">总之，难度调整是比特币网络中的关键机制，有助于维护网络安全、稳定性和矿工的经济激励。通过动态适应网络哈希率的变化，难度调整确保了比特币区块链的健壮性和弹性。</string>
+
+    ================================================================================================================================================
+
+    <string name="m1">16. 可扩展性挑战与解决方案（闪电网络）</string>
+
+    <string name="m2">可扩展性是比特币等区块链网络面临的重大挑战，因为它们必须在保持去中心化和安全性的同时处理越来越多的交易。比特币可扩展性挑战的 proposed 解决方案之一是闪电网络。以下是可扩展性挑战及闪电网络如何应对的概述：</string>
+
+    <string name="m3">1. 可扩展性挑战：</string>
+
+    <string name="m4">交易吞吐量：</string>
+    <string name="m5">比特币当前设计将交易吞吐量限制在约每秒7笔交易（tps）。随着采用率增长，该限制成为瓶颈，导致高需求时期的拥堵和更高交易费用。</string>
+
+    <string name="m6">确认时间：</string>
+    <string name="m7">比特币平均10分钟的区块时间可能导致交易确认时间缓慢，尤其是在高峰使用期间。用户可能遇到交易被包含在区块中的延迟。</string>
+
+    <string name="m8">交易费用：</string>
+    <string name="m9">比特币网络的拥堵可能导致交易费用增加，因为用户竞争让矿工优先处理其交易。高费用使得小额支付和低价值交易不切实际。</string>
+
+    <string name="m10">2. 闪电网络：</string>
+
+    <string name="m11">链下解决方案：</string>
+    <string name="m12">闪电网络是建立在比特币区块链之上的链下扩展解决方案。它通过在链下进行大多数交易，实现快速廉价的交易。</string>
+
+    <string name="m13">支付通道：</string>
+    <string name="m14">闪电网络通过支付通道运作，支付通道是双方进行多笔交易而无需立即广播到区块链的双边协议。交易仅在关闭支付通道时在链上结算。</string>
+
+    <string name="m15">即时支付：</string>
+    <string name="m16">通过在链下进行交易，闪电网络支持双方间的即时支付。交易可在毫秒内确认，提供类似于传统支付方式的无缝用户体验。</string>
+
+    <string name="m17">降低费用：</string>
+    <string name="m18">由于闪电网络上的大多数交易发生在链下，与链上交易相比，它们产生的费用极低。这使得小额支付和低价值交易在经济上可行，为比特币开辟了新的用例。</string>
+
+    <string name="m19">通道网络：</string>
+    <string name="m20">闪电网络形成互连的支付通道网络，允许用户与没有直接通道的对方进行交易。支付可以通过多个通道路由，类似于互联网上的数据路由。</string>
+
+    <string name="m21">3. 优势与采用：</string>
+
+    <string name="m22">提高可扩展性：</string>
+    <string name="m23">闪电网络通过减轻主区块链的负担并支持更快更便宜的交易，显著提高了比特币的可扩展性。</string>
+
+    <string name="m24">小额支付与用例：</string>
+    <string name="m25">闪电网络解锁了比特币的新用例，如小额支付、定期付款和即时交易，这些以前由于可扩展性限制和高费用而不切实际。</string>
+
+    <string name="m26">日益增长的采用：</string>
+    <string name="m27">自推出以来，闪电网络的采用率不断增长，节点、通道和交易容量不断增加。随着网络的成熟和发展，预计将进一步增强比特币的可扩展性和可用性。</string>
+
+    <string name="m28">总之，闪电网络通过链下支付通道支持快速、廉价和可扩展的交易，为比特币的可扩展性挑战提供了一个有前景的解决方案。随着采用率的增长和网络的持续发展，它有望为比特币作为全球数字货币和支付系统开启新的可能性。</string>
+
+
+    ================================================================================================================================================
+
+    <string name="n1">17. 智能合约（超越货币的潜在应用）</string>
+
+    <string name="n2">智能合约最初由以太坊引入，现已在各种区块链平台上实现，是协议条款直接写入代码的自执行合约。这些合约在满足预定条件时自动执行并强制执行协议条款。虽然最初与金融交易和去中心化应用（dApps）相关联，智能合约在货币之外的 various 行业具有潜在应用。以下是一些潜在应用：</string>
+
+    <string name="n3">1. 供应链管理：</string>
+    <string name="n4">智能合约可以通过自动化和优化跟踪货物、验证真实性和执行各方间协议等任务，简化供应链流程。例如，智能合约可以在货物交付时自动向供应商释放付款，或在发货延迟或差异时触发警报。</string>
+
+    <string name="n5">2. 房地产：</string>
+    <string name="n6">在房地产行业，智能合约可以促进房产交易、自动化租赁协议和管理房产所有权记录。智能合约可用于强制执行租赁协议条款、处理托管服务，并简化房产产权安全透明转让的流程。</string>
+
+    <string name="n7">3. 法律与治理：</string>
+    <string name="n8">智能合约可以自动化法律协议和治理流程，减少对中介的需求并增强透明度和信任。例如，智能合约可用于执行遗嘱、管理继承，并通过自动强制执行预定义规则和条件促进争议解决。</string>
+
+    <string name="n9">4. 知识产权与许可：</string>
+    <string name="n10">智能合约可以自动化知识产权权利、版税和许可协议的管理。艺术家、音乐家和内容创作者可以使用智能合约确保其作品的公平补偿，并根据使用或销售自动支付版税。</string>
+
+    <string name="n11">5. 医疗保健：</string>
+    <string name="n12">在医疗保健行业，智能合约可以改善数据管理、患者记录和保险理赔处理。智能合约可以安全管理对敏感患者信息的访问，自动化保险理赔处理，并确保符合HIPAA等监管要求。</string>
+
+    <string name="n13">6. 投票与选举：</string>
+    <string name="n14">智能合约可以增强投票和选举系统的透明度、安全性和完整性。通过利用区块链技术，智能合约可以实现防篡改的投票机制，消除欺诈或操纵的风险，并提供实时可验证的选举结果。</string>
+
+    <string name="n15">7. 物联网（IoT）：</string>
+    <string name="n16">智能合约可以促进物联网设备间的自动化交互，实现机器对机器的通信和交易。例如，智能合约可以自动化公用事业使用的支付、管理设备访问权限，并在无需人工干预的情况下强制执行物联网设备间的协议。</string>
+
+    <string name="n17">8. 去中心化自治组织（DAOs）：</string>
+    <string name="n18">智能合约可以为去中心化自治组织提供动力，这些组织是由代码治理并在区块链上执行的自治实体。DAO可以自动化决策过程、分配资源并透明自主地管理资金，无需集中控制或中介。</string>
+
+    <string name="n19">总之，智能合约有潜力通过自动化流程、降低成本、增强透明度和启用新的商业模式和应用，彻底改变 various 行业，超越传统的货币交易。然而，必须解决可扩展性、安全性和法律合规性等挑战，以充分发挥智能合约在实际应用中的潜力。</string>
+
+
+    ================================================================================================================================================
+
+    <string name="o1">18. 分叉与软分叉（比特币协议的升级与变更）</string>
+
+    <string name="o2">在包括比特币在内的区块链技术背景下，分叉指底层协议发生变更或升级的情况。主要有两种分叉类型：硬分叉和软分叉。以下是每种分叉的解释：</string>
+
+    <string name="o3">1. 硬分叉：</string>
+    <string name="o4">定义：</string>
+    <string name="o5">硬分叉发生在协议变更以不向后兼容的方式实施时，未升级到新规则的节点将不再与网络兼容。因此，区块链分裂为两条独立的链，一条遵循旧协议，一条遵循新协议。</string>
+    <string name="o6">实施：</string>
+    <string name="o7">硬分叉通常涉及区块链共识规则的变更，如更改区块大小限制、修改挖矿算法或引入新功能。</string>
+    <string name="o8">影响：</string>
+    <string name="o9">硬分叉后，实际上存在两个独立的网络和加密货币，每条链有自己的规则和共识机制。用户和矿工必须选择支持哪条链，导致社区和网络分裂。</string>
+
+    <string name="o10">2. 软分叉：</string>
+    <string name="o11">定义：</string>
+    <string name="o12">软分叉发生在协议变更以向后兼容的方式实施时，意味着未升级到新规则的节点仍可参与网络而不会中断。</string>
+    <string name="o13">实施：</string>
+    <string name="o14">软分叉通常涉及收紧协议规则，如减小区块大小限制或更改交易的验证规则。遵守新的更严格规则的节点仍可参与网络，而未升级的节点将继续像以前一样运行。</string>
+    <string name="o15">影响：</string>
+    <string name="o16">软分叉不会将区块链分裂为独立的链。相反，它们导致挖矿算力的暂时集中，因为未升级的矿工可能无意中挖出不符新规则的区块。然而，随着大多数矿工升级，网络会收敛于新规则，软分叉完全生效。</string>
+
+    <string name="o17">3. 示例：</string>
+    <string name="o18">硬分叉示例：</string>
+    <string name="o19">比特币历史上最著名的硬分叉发生在2017年8月，导致比特币现金（BCH）的创建。该分叉主要由比特币社区内关于区块大小限制的分歧驱动，比特币现金支持者主张更大的区块大小以容纳更多交易。</string>
+    <string name="o20">软分叉示例：</string>
+    <string name="o21">隔离见证（SegWit）是2017年8月在比特币协议中实施的软分叉示例。SegWit旨在通过将签名数据与交易数据隔离，有效减小交易大小来增加区块容量。未升级支持SegWit的节点仍可在网络上无问题运行。</string>
+
+    <string name="o22">总之，分叉是实施比特币协议变更或升级的机制。硬分叉导致两条独立链的创建，而软分叉导致网络暂时集中后收敛于新规则。两种分叉对网络治理、共识和社区凝聚力都有影响，其实施需要区块链生态系统内的仔细考虑和协调。</string>
+
+
+    ================================================================================================================================================
+    <string name="oa1">19. 全节点与轻量节点（运行自己的节点）</string>
+
+    <string name="oa2">运行节点是参与比特币等去中心化区块链网络的重要组成部分。主要有两种节点类型：全节点和轻量节点。以下是每种节点的说明：</string>
+
+    <string name="oa3">1.全节点：</string>
+
+    <string name="oa4">定义：</string>
+    <string name="oa4a">全节点是维护区块链完整副本并独立验证和执行比特币协议所有规则的计算机或设备。全节点下载并验证每笔交易和区块，确保网络的完整性和安全性。</string>
+
+    <string name="oa5">特性：</string>
+    <string name="oa6">全节点存储整个区块链，使其能够验证并向网络其他节点转发交易和区块。</string>
+    <string name="oa7">它们独立验证比特币协议的加密签名和共识规则，确保交易和区块符合网络规则。</string>
+    <string name="oa8">全节点通过作为冗余和验证点，为网络的去中心化和弹性做出贡献。</string>
+
+    <string name="oa9">要求：</string>
+    <string name="oa10">运行全节点需要大量计算资源（处理能力、存储和带宽），并可能涉及定期维护和更新。</string>
+    <string name="oa11">全节点通常下载并存储数GB至数TB的数据，具体取决于区块链的大小和存储需求。</string>
+
+    <string name="oa12">2.轻量节点（SPV节点）：</string>
+    <string name="oa13">定义：轻量节点，也称为简化支付验证（SPV）节点，是不存储区块链完整副本，而是依赖全节点在需要时提供交易信息的节点。</string>
+
+    <string name="oa14">特性：</string>
+    <string name="oa15">轻量节点仅下载区块头和与其相关的交易子集，而非整个区块链。它们信任全节点提供准确的交易数据，并通过简化验证方法验证交易。</string>
+    <string name="oa16">SPV节点适用于资源受限的设备，如手机或低功耗计算机，因为它们比全节点需要更少的存储和带宽。</string>
+
+    <string name="oa17">要求：</string>
+    <string name="oa18">轻量节点的资源需求低于全节点，但可能在安全性和去中心化方面有所牺牲。由于它们依赖全节点获取交易信息，验证过程中存在一定程度的信任。</string>
+
+    <string name="oa19">如何选择：</string>
+
+    <string name="oa20">全节点：</string>
+    <string name="oa21">运行全节点提供最高级别的安全性和去信任化，因为用户可以独立验证和执行比特币协议的所有规则。全节点有助于网络的去中心化和弹性，但需要更多资源和技术专长来操作。</string>
+    <string name="oa22">轻量节点：</string>
+    <string name="oa23">轻量节点更适合资源有限或优先考虑便利性和简单性的用户。虽然它们在安全性和去中心化方面不如全节点，但仍使用户能够与比特币网络交互并在一定程度上验证交易。</string>
+
+    <string name="oa24">总之，全节点和轻量节点在比特币网络中扮演着重要角色，在安全性、资源需求和去中心化之间提供了不同的权衡。用户在决定运行全节点还是轻量节点时，应考虑个人需求和偏好。</string>
+
+
+    ================================================================================================================================================
+
+    <string name="p1">20. 监管与合规（政府对加密货币的介入）</string>
+
+    <string name="p2">随着全球各国政府寻求建立法律框架来管理加密货币的使用和交易，监管与合规在加密货币领域日益重要。以下是政府对加密货币监管与合规介入的概述：</string>
+
+    <string name="p3">1.监管环境：</string>
+    <string name="p4">多样化方法：</string>
+    <string name="p5">不同国家对加密货币采取了多样化的监管方法，从全面禁止到拥抱并促进创新。一些国家实施了全面的监管框架，而其他国家则采取了更为谨慎或限制性的立场。</string>
+    <string name="p6">监管机构：</string>
+    <string name="p7">加密货币的监管通常由金融监管机构（如中央银行、金融服务管理局和证券委员会）负责。在某些情况下，会设立专门的监管机构或工作组来监督加密货币相关活动。</string>
+    <string name="p8">国际协调：</string>
+    <string name="p9">鉴于加密货币的无国界性质，监管机构正在努力协调监管并促进国际合作。金融行动特别工作组（FATF）等组织制定了打击加密货币领域洗钱和恐怖主义融资的全球标准。</string>
+
+    <string name="p10">2.关键监管考虑：</string>
+    <string name="p11">消费者保护：</string>
+    <string name="p12">监管机构旨在保护投资者和消费者免受加密货币市场中的欺诈、骗局和市场操纵。实施交易所许可要求、披露规则和投资者教育计划等措施以增强消费者保护。</string>
+    <string name="p13">市场诚信：</string>
+    <string name="p14">监管框架通过解决市场操纵、内幕交易和欺诈活动等问题，确保加密货币市场的诚信和透明度。可能会采用增强的监控和执法机制来检测和阻止不当行为。</string>
+    <string name="p15">反洗钱/了解客户（AML/KYC）合规：</string>
+    <string name="p16">反洗钱（AML）和了解客户（KYC）法规要求加密货币企业实施措施以防止洗钱、恐怖主义融资和其他非法活动。合规包括验证客户身份、监控交易并向监管机构报告可疑活动。</string>
+    <string name="p17">税收：</string>
+    <string name="p18">加密货币的税收因司法管辖区而异，一些国家将其视为需缴纳资本利得税的资产，而其他国家则将其归类为货币或商品。税务机构正日益审查加密货币交易并执行税收合规措施。</string>
+    <string name="p19">稳定币：</string>
+    <string name="p20">与法币或其他资产挂钩的稳定币的出现引发了关于货币政策、金融稳定性和潜在系统性风险的监管担忧。监管机构可能会施加限制或要求稳定币发行方遵守适用于传统金融机构的监管要求。</string>
+
+    <string name="p21">3.挑战与争议：</string>
+    <string name="p22">创新与监管：</string>
+    <string name="p23">关于在加密货币领域促进创新与通过监管保护投资者和金融稳定之间的平衡存在持续争议。过度监管可能抑制创新并迫使加密货币业务离岸，而监管不足可能使消费者面临风险并阻碍主流采用。</string>
+    <string name="p24">监管套利：</string>
+    <string name="p25">不同司法管辖区的监管方法和执行差异为全球加密货币企业和用户带来了挑战。监管套利（即企业迁至监管更有利的司法管辖区）是对监管不确定性或繁重要求的常见应对。</string>
+    <string name="p26">监管演变：</string>
+    <string name="p27">加密货币监管环境正在快速演变，监管机构正在适应技术进步和加密货币领域的新兴风险。监管机构在跟上加密货币和区块链技术的发展步伐的同时，还需平衡相互竞争的利益和目标。</string>
+
+    <string name="p28">总之，政府对加密货币监管与合规的介入反映了解决消费者保护、市场诚信、金融稳定以及AML/KYC合规相关问题的努力。监管环境充满活力且因司法管辖区而异，为寻求在不断变化的监管环境中导航的加密货币企业、投资者和用户带来了挑战和机遇。</string>
+
+
+    ================================================================================================================================================
+
+    <string name="pa1">21. 货币政策（比特币如何控制通胀）</string>
+
+    <string name="pa2">比特币的货币政策与传统法币有根本性不同，因为它基于去中心化和预定的供应计划运行。以下是比特币通过其独特的货币政策控制通胀的方式：</string>
+
+    <string name="pa3">1.固定供应：</string>
+    <string name="pa4">比特币的货币政策本质上是通缩的，因为它有上限且供应有限。比特币的总供应量被协议限定为2100万枚。这种固定供应与传统法币形成对比，后者受中央银行控制，并可能因新货币发行而面临通胀压力。</string>
+
+    <string name="pa5">2.减半事件：</string>
+    <string name="pa6">比特币的供应发行通过称为“减半”的过程随时间递减。大约每四年，新比特币的创建速率减半，从而降低通胀率并逐渐接近2100万枚比特币的最大供应量。</string>
+    <string name="pa7">减半事件被算法编码到比特币协议中，每21万个区块（约四年）发生一次。最近一次减半发生在2020年5月，将区块奖励从12.5枚比特币减少到6.25枚比特币。</string>
+
+    <string name="pa8">3.去中心化治理：</string>
+    <string name="pa9">比特币的货币政策由网络参与者间的去中心化共识治理，而非由政府或中央银行等中央机构控制。协议的变更（包括供应计划的调整）需要矿工、开发者、节点运营商和用户之间的共识。</string>
+    <string name="pa10">这种去中心化治理模式确保比特币货币政策的变更是透明、可预测且不受任何单一实体或团体操纵或干扰的。</string>
+
+    <string name="pa11">4.稀缺性与价值存储：</string>
+    <string name="pa12">比特币的固定供应和可预测的发行计划促成了其稀缺性和价值存储属性。比特币的稀缺性加上日益增长的需求和采用，可能导致其价格随时间上涨，因为更多个人和机构寻求获取有限的比特币供应。</string>
+    <string name="pa13">比特币支持者常将其比作数字黄金，强调其作为对冲通胀和法币贬值的潜力，尤其是在中央银行实施前所未有的货币刺激和量化宽松政策的环境下。</string>
+
+    <string name="pa14">5.经济影响：</string>
+    <string name="pa15">比特币的通缩货币政策可能产生多种经济影响，包括鼓励储蓄和投资、促进长期价值增长以及激励负责任的财政和货币政策。</string>
+    <string name="pa16">然而，批评者认为通缩货币可能抑制支出和经济活动，导致囤积和货币流通速度下降。此外，比特币的固定供应可能对应对经济冲击或衰退的货币政策实施和调整构成挑战。</string>
+
+    <string name="pa17">总之，比特币以固定供应和减半事件为特征的独特货币政策旨在控制通胀并促进稀缺性、价值存储和长期增值。虽然比特币的通缩性质具有某些优势，但也带来了关于其经济影响及作为交换媒介和记账单位适用性的挑战和争议。</string>
+
+    ================================================================================================================================================
+    <string name="q1">22. 价值存储（比特币能成为数字黄金吗？）</string>
+    <string name="q2">比特币常被称为“数字黄金”，因其与贵金属作为价值存储的相似性。以下是比特币能否充当数字黄金角色的探讨：</string>
+
+    <string name="q3">1.稀缺性：</string>
+    <string name="q4">与黄金类似，比特币具有有限且预定的供应量。比特币总供应量上限为2100万枚，使其天然稀缺。这种稀缺性通过协议的通缩货币政策和周期性减半事件实现，后者减少了新比特币的发行速率。</string>
+    <string name="q5">黄金和比特币的有限供应被视为它们作为价值存储的关键因素，因为稀缺性往往会推动需求和价格随时间上涨。</string>
+
+    <string name="q6">2.便携性与可分性：</string>
+    <string name="q7">比特币在便携性和可分性方面优于实物黄金。比特币可以轻松跨境和跨洲转移，实现无缝即时交易。此外，比特币高度可分，每枚比特币可分成1亿个更小的单位（称为“聪”），支持微交易和灵活使用。</string>
+    <string name="q8">虽然实物黄金也有一定可分性，但其笨重和运输成本可能限制其在日常交易或跨境支付中的实用性。</string>
+
+    <string name="q9">3.耐久性与不可篡改性：</string>
+    <string name="q10">黄金和比特币均展现出作为价值存储的耐久性和不可篡改性。黄金抗腐蚀和衰变，是长期可靠的财富存储手段。同样，比特币的区块链技术通过加密技术和去中心化共识确保交易和所有权记录的完整性和安全性。</string>
+    <string name="q11">虽然实物黄金可能面临盗窃、丢失或没收的风险，但比特币的数字特性和加密安全特性在抵御未授权访问方面具有优势。</string>
+
+    <string name="q12">4.市场认知与采用：</string>
+    <string name="q13">比特币作为“数字黄金”的叙事已在投资者、机构和公众中获得认可，促进了其作为价值存储资产的采用。比特币的去中心化和抗审查特性吸引了寻求替代价值存储和保护免受通胀压力的个人。</string>
+    <string name="q14">黄金凭借其作为价值存储和交换媒介的千年历史，在不同文化和文明中获得了广泛认可和接受。然而，比特币的吸引力在于其数字原生特性及提供现代替代传统价值存储的潜力。</string>
+
+    <string name="q15">5.波动性与风险：</string>
+    <string name="q16">黄金和比特币均受价格波动影响，波动因素包括市场情绪、宏观经济状况、监管发展和地缘政治事件等。虽然黄金历来被视为相对稳定的价值存储，但比特币较短的历史和不断变化的市场动态导致其波动性更高。</string>
+    <string name="q17">比特币的价格波动可能使风险厌恶型投资者或寻求资产稳定性的投资者望而却步，而黄金的悠久历史和较低波动性可能为部分投资者提供更大的信心和安心。</string>
+
+    <string name="q18">总之，虽然比特币与黄金作为价值存储具有某些共同特征（如稀缺性、便携性、耐久性和市场认知），但它也展现出作为数字资产的独特属性。比特币能否完全取代黄金作为价值存储仍存在争议，取决于市场采用、监管接受度和投资者偏好变化等因素。</string>
+
+    ================================================================================================================================================
+    <string name="r1">23. 交换媒介（比特币用于日常支付的挑战）</string>
+    <string name="r2">虽然比特币具有作为交换媒介的潜力，但目前存在几个阻碍其广泛用于日常支付的挑战：</string>
+
+    <string name="r3">1.波动性：</string>
+    <string name="r4">比特币价格高度波动，短期内可能出现显著波动。商家可能不愿接受比特币，因为价格波动风险可能导致交易后比特币价值下跌而遭受损失。</string>
+
+    <string name="r5">2.交易费用：</string>
+    <string name="r6">比特币交易费用因网络拥堵和交易优先级而异。在高需求时期，交易费用可能大幅上涨，使小额交易不经济。高费用削弱了比特币在日常支付（尤其是微支付）中的实用性。</string>
+
+    <string name="r7">3.交易速度：</string>
+    <string name="r8">比特币交易需要在区块链上确认，通常平均需要约10分钟。然而，在网络拥堵期间，确认时间可能显著延长，导致交易完成延迟。所需的确认时间可能不适合面对面或时间敏感的交易。</string>
+
+    <string name="r9">4.可扩展性：</string>
+    <string name="r10">比特币当前的交易处理能力有限，网络每秒只能处理有限数量的交易。因此，高需求时期常出现拥堵，导致延迟和费用增加。闪电网络等扩展解决方案旨在解决此问题，但广泛采用和实施仍在进行中。</string>
+
+    <string name="r11">5.监管不确定性：</string>
+    <string name="r12">围绕加密货币的监管不确定性给商家和消费者带来了挑战。对合规性、税收和法律风险的担忧可能阻碍企业接受比特币作为支付方式。此外，反洗钱（AML）和了解客户（KYC）合规的监管要求可能增加比特币交易的复杂性和成本。</string>
+
+    <string name="r13">6.用户体验：</string>
+    <string name="r14">比特币钱包和支付系统可能不如传统支付方式用户友好。用户必须安全管理私钥，操作复杂的钱包界面，并应对交易延迟或失败等技术问题。改善用户体验对推动日常使用至关重要。</string>
+
+    <string name="r15">7.商家采用：</string>
+    <string name="r16">尽管接受度在增长，比特币仍未广泛被商家接受用于日常支付。有限的商家采用限制了消费者使用比特币的机会，降低了其作为交换媒介的实用性。克服商家采用的障碍（如解决对波动性和交易处理的担忧）对比特币的主流接受至关重要。</string>
+
+    <string name="r17">8.网络拥堵：</string>
+    <string name="r18">高网络拥堵时期可能导致比特币交易延迟和费用增加。随着更多用户参与网络，拥堵可能更频繁，加剧可扩展性挑战。批量交易和优化费用算法等解决方案有助于缓解拥堵，但长期可扩展性仍是持续关注的问题。</string>
+
+    <string name="r19">总之，虽然比特币作为交换媒介具有潜力，但要实现广泛用于日常支付，必须解决波动性、高费用、可扩展性限制、监管不确定性和用户体验障碍等问题。</string>
+
+    ================================================================================================================================================
+    <string name="s1">24. 网络效应（比特币如何随用户增加而增值）</string>
+
+    <string name="sa2">网络效应在比特币的价值主张中起着关键作用，因为它们促进了其采用、流动性和作为去中心化数字货币的整体价值。以下是比特币如何通过网络效应随用户增加而增值：</string>
+
+    <string name="sa3">1.采用率提升：</string>
+    <string name="sa4">随着更多个人、企业和机构采用比特币，其网络效应增强，形成更大更活跃的用户群。采用率提升形成正向反馈循环，因为不断增长的用户和参与者网络强化了比特币作为数字货币的合法性、实用性和接受度。</string>
+    <string name="sa5">采用可能出于多种原因，包括投机、投资、对冲通胀、投资组合多样化以及对比特币底层技术和原则的兴趣。</string>
+
+    <string name="sa6">2.流动性与市场深度：</string>
+    <string name="sa7">采用率提升带来比特币市场流动性和深度的增加。流动性指资产在不显著影响价格的情况下买卖的容易程度。更高的流动性降低了交易成本和价差，使用户更容易进入和退出比特币市场。</string>
+    <string name="sa8">流动性吸引了更多参与者（包括交易者、投资者和投机者），进一步提高了市场效率和稳定性。深度和流动性市场促进价格发现，使比特币能够作为可行的交换媒介和价值存储。</string>
+
+    <string name="sa9">3.商家采用：</string>
+    <string name="sa10">随着更多商家和企业接受比特币作为支付方式，其作为交换媒介的实用性和接受度提升。商家采用扩展了比特币的用例和应用场景，使其更适用于日常交易、在线购物、汇款和国际支付。</string>
+    <string name="sa12">商家可能因较低的交易费用、减少的欺诈和退单风险、全球覆盖以及吸引对使用数字货币感兴趣的技术精通客户的潜力而接受比特币。</string>
+
+    <string name="sa13">4.基础设施发展：</string>
+    <string name="sa14">比特币的网络效应因支持性基础设施和服务的发展而增强，包括钱包、交易所、支付处理器、托管服务和监管框架。强大的基础设施提供商生态系统促进了比特币的入门、使用和整合到各种金融和经济系统中。</string>
+    <string name="sa15">基础设施发展还促进了可扩展性、隐私性、安全性和用户体验等领域的创新，解决了比特币采用和可用性的关键挑战和障碍。</string>
+
+    <string name="sa16">5.网络安全：</string>
+    <string name="sa17">比特币的安全性因更大、更去中心化的矿工和节点网络而增强。随着更多参与者贡献算力和资源保护网络，比特币更能抵抗攻击、审查和操纵。</string>
+    <string name="sa18">安全且有弹性的网络增强了比特币作为去中心化和抗审查的价值存储和交换媒介的信任和信心。</string>
+
+    <string name="sa19">总之，网络效应通过推动采用率、流动性、商家接受度、基础设施发展和网络安全，促进了比特币的价值主张。随着更多人使用比特币并参与其生态系统，其作为去中心化数字货币的实用性、弹性和整体价值持续增长，巩固了其作为领先加密货币和价值存储资产的地位。</string>
+
+    ================================================================================================================================================
+    <string name="t1">25. 奥地利经济学派（影响比特币的经济理论）</string>
+
+    <string name="t2">奥地利经济学派对比特币的意识形态和经济哲学产生了重大影响。以下是奥地利学派原则与比特币关键方面的契合点：</string>
+
+    <string name="t3">1.去中心化与个人主权：</string>
+    <string name="t4">奥地利学派强调经济和社会系统中的个人自由、财产权利和去中心化。比特币通过提供无需中介或中央机构的数字资产去中心化控制和所有权，与这些原则一致。</string>
+    <string name="t5">比特币赋予个人财富主权，支持抗审查交易、财务隐私和保护免受政府或金融机构的没收或操纵。</string>
+
+    <string name="t6">2.硬通货与健全货币：</string>
+    <string name="t7">奥地利经济学家主张基于健全货币原则的货币体系，其特征是有限供应、耐久性、可分性和可互换性。他们批评法币易受通胀、贬值和政府操纵的影响。</string>
+    <string name="t8">比特币体现了“数字黄金”的概念，作为一种稀缺且通缩的资产，上限为2100万枚。其固定供应计划和加密特性使其抗通胀和操纵，吸引了健全货币原则的支持者。</string>
+
+    <string name="t9">3.主观价值理论：</string>
+    <string name="t10">奥地利学派信奉主观价值理论，认为商品和服务的价值由个人的主观偏好和效用决定。比特币的价值源自其感知的有用性、稀缺性和网络效应，而非内在或政府规定的价值。</string>
+    <string name="t11">比特币的价值由市场需求、投机、采用和作为价值存储、交换媒介和记账单位的认可驱动。其价值不依赖于政府支持或法定货币地位，而是取决于个人和市场的自愿采用和接受。</string>
+
+    <string name="t12">4.自由市场与自发秩序：</string>
+    <string name="t13">奥地利经济学强调自由市场、自发秩序和自愿交换在高效资源配置中的重要性。比特币在一个去中心化的市场生态系统中运行，交易在没有中央控制或干预的情况下点对点进行。</string>
+    <string name="t14">比特币的去中心化特性使网络参与无需许可，不受政府审查、限制或监管。它支持加密货币生态系统内的创新、竞争和自我监管，反映了自由市场经济的原则。</string>
+
+    <string name="t15">5.对中央银行和部分准备金银行的批评：</string>
+    <string name="t16">奥地利经济学家批评中央银行和部分准备金银行扭曲利率、引发商业周期并通过通胀侵蚀购买力的作用。他们主张回归健全的银行实践和货币与国家的分离。</string>
+    <string name="t17">比特币作为传统银行系统的去中心化替代方案，提供了一个无需信任且透明的货币体系，免受中央银行操纵、量化宽松和通胀货币政策的影响。其固定供应和去中心化发行使其与部分准备金银行实践不兼容。</string>
+
+    <string name="t18">总之，比特币的思想根源受到奥地利经济学派的启发，该学派强调去中心化、个人主权、健全货币、自由市场和对中央银行的怀疑等原则。比特币与这些原则的一致性使其被寻求替代传统金融体系和法币的个人、企业和投资者所采用。</string>
+
+    ================================================================================================================================================
+    <string name="u1">26. 通缩货币与通胀货币（对价格的影响）</string>
+
+    <string name="u2">通缩货币和通胀货币代表了两种对立的货币体系，对经济行为和价格水平具有重大影响：</string>
+
+    <string name="u3">1.通缩货币：</string>
+
+    <string name="u4">定义：</string>
+    <string name="u5">通缩货币的特点是价格水平随时间下降，导致货币购买力上升。这种通缩趋势通常源于相对于经济产出和人口增长的固定或有限的货币供应。</string>
+
+    <string name="u6">对价格的影响：</string>
+
+    <string name="u7">商品与服务：</string>
+    <string name="u8">在通缩环境中，商品和服务的价格通常随时间下降。这可能鼓励消费者延迟支出，因为他们预期未来价格会更低，从而导致总需求和经济活动减少。</string>
+
+    <string name="u9">投资：</string>
+    <string name="u10">通缩可能激励个人储蓄和投资而非消费，因为货币价值随时间增加。然而，过度通缩也可能抑制投资和创业，因为企业面临收入和利润下降。</string>
+
+    <string name="u11">债务负担：</string>
+
+    <string name="u12">通缩会增加债务的实际价值，使借款人偿还贷款更加困难。随着物价下降，债务的名义价值保持不变或增加，导致实际利率上升，可能加剧债务违约和财务困境。</string>
+
+    <string name="u13">工资：</string>
+    <string name="u14">在通缩环境下，名义工资可能下降或停滞，因为雇主需要适应物价下降和需求减少。虽然经通胀调整后的实际工资可能增加，但如果工资降幅超过物价降幅，工人仍可能面临购买力下降。</string>
+
+    <string name="u15">2.通胀货币：</string>
+
+    <string name="u16">定义：</string>
+    <string name="u17">通胀货币的特点是物价水平随时间持续上涨，导致货币购买力下降。通胀可能由货币供应过度增长、扩张性货币政策或供应冲击等因素引起。</string>
+
+    <string name="u18">对价格的影响：</string>
+
+    <string name="u19">商品与服务：</string>
+    <string name="u20">通胀导致商品和服务价格上涨，降低货币购买力。消费者可能倾向于现在消费而非以后，因为货币价值会随时间下降。</string>
+
+    <string name="u21">投资：</string>
+    <string name="u22">通胀可能激励投资者将资金投入房地产、股票和大宗商品等资产，以对冲货币贬值。但通胀压力也可能扭曲投资决策和资产价格。</string>
+
+    <string name="u23">债务负担：</string>
+    <string name="u24">通胀会降低债务的实际价值，使借款人受益而损害贷款人利益。债务人可以用贬值的货币偿还贷款，实际上减轻了债务负担。这种现象被称为"通胀性债务侵蚀"，可能导致财富重新分配和道德风险。</string>
+
+    <string name="u25">工资：</string>
+    <string name="u26">通胀通常导致名义工资上涨，因为工人要求补偿生活成本上升。但实际工资增长可能跟不上通胀，导致工薪阶层购买力下降。</string>
+
+    <string name="u27">总之，通缩货币和通胀货币对价格、消费、投资、债务动态和工资水平有截然不同的影响。虽然适度通胀通常被认为有利于经济增长和稳定，但通缩和恶性通胀都可能给个人、企业和经济带来挑战和风险。中央银行和政策制定者旨在通过货币政策工具和干预措施保持价格稳定并管理通胀压力。</string>
+
+    ================================================================================================================================================
+    <string name="v1">27. 泡沫与崩盘（理解市场波动）</string>
+
+    <string name="v2">泡沫和崩盘是金融市场的常见现象，包括比特币等加密货币市场。以下是关于泡沫、崩盘和市场波动的概述：</string>
+
+    <string name="v3">1.泡沫：</string>
+
+    <string name="v4">定义：</string>
+    <string name="v5">当资产价格因投机性买入和投资者过度乐观而显著超过其内在价值时，就会形成泡沫。泡沫的特点是价格快速上涨、交易量增加以及对未来价格上涨的普遍乐观情绪。</string>
+    <string name="v6">成因：</string>
+    <string name="v7">泡沫可能由多种因素引起，包括投资者从众行为、非理性繁荣、过度杠杆、低利率、媒体炒作和资产基本面定价错误。泡沫也可能因正向反馈循环而加剧，即价格上涨吸引更多买家，进一步推高价格。</string>
+    <string name="v8">案例：</string>
+    <string name="v9">历史上的泡沫案例包括1990年代末的互联网泡沫、2008年金融危机前的房地产泡沫，以及17世纪的郁金香狂热等投机狂潮。</string>
+    <string name="v10">后果：</string>
+    <string name="v11">泡沫通常以价格急剧回调至基本面价值而告终。泡沫破裂可能导致重大财富损失、投资者亏损、金融不稳定和经济衰退。但泡沫也可能为精明的投资者提供通过做空或逆向投资策略获利的机会。</string>
+
+    <string name="v12">2.崩盘：</string>
+    <string name="v13">定义：</string>
+    <string name="v14">崩盘指资产价格突然大幅下跌，通常伴随恐慌性抛售、普遍恐惧和投资者亏损。崩盘可能发生在股票、债券、大宗商品和加密货币等各种金融市场。</string>
+    <string name="v15">成因：</string>
+    <string name="v16">崩盘可能由不利经济事件、地缘政治紧张局势、监管变化、央行行动、流动性危机或市场操纵等因素触发。在某些情况下，崩盘可能是基本面疲软和心理因素共同作用的结果，放大了市场波动。</string>
+    <string name="v17">案例：</string>
+    <string name="v18">著名的崩盘案例包括1929年股市崩盘、1987年黑色星期一、2008年全球金融危机和2010年闪电崩盘。</string>
+    <string name="v19">后果：</string>
+    <string name="v20">崩盘可能产生深远影响，包括投资者恐慌、保证金追缴、强制平仓、银行倒闭、企业破产以及对金融稳定的系统性风险。崩盘通常会导致市场波动加剧、投资者信心下降以及长期的经济不确定性和衰退。</string>
+
+    <string name="v21">3.市场波动：</string>
+    <string name="v22">定义：</string>
+    <string name="v23">市场波动指资产价格随时间变化的程度，反映了投资者情绪、供需动态以及影响市场的外部因素的变化。波动是金融市场的自然特征，可能表现为日内波动或长期趋势。</string>
+    <string name="v24">成因：</string>
+    <string name="v25">波动可能受经济数据发布、地缘政治事件、企业财报、央行决策和投资者风险偏好变化等因素影响。高频交易、算法交易和市场情绪指标也可能加剧波动。</string>
+    <string name="v26">影响：</string>
+    <string name="v27">虽然高波动为交易者和投资者提供了从价格变动中获利的机会，但也带来了亏损和不确定性风险。波动可能影响投资组合表现、风险管理策略和投资者心理，导致情绪波动和非理性决策。</string>
+
+    <string name="v28">总之，泡沫和崩盘是金融市场的周期性现象，其特征是投机过度、市场失衡和投资者情绪突变。了解泡沫、崩盘和市场波动的成因、后果和动态，对于投资者、政策制定者和市场参与者应对波动市场条件和管理投资风险至关重要。</string>
+
+    ================================================================================================================================================
+    <string name="w1">28. 挖矿经济学（盈利与环境影响）</string>
+
+    <string name="w2">比特币等加密货币的挖矿经济学涉及评估挖矿操作的盈利能力及其环境影响。以下是相关概述：</string>
+
+    <string name="w3">1.盈利能力：</string>
+
+    <string name="w4">挖矿过程：</string>
+    <string name="w5">加密货币挖矿涉及使用算力解决复杂数学难题、验证交易并将新区块添加到区块链。矿工竞争解决这些难题，第一个找到正确答案的矿工将获得新铸造的代币和交易费用作为奖励。</string>
+    <string name="w6">成本：</string>
+    <string name="w7">挖矿盈利能力取决于多个因素，包括电力成本、矿机硬件、冷却系统、维护和运营费用。矿工必须平衡这些成本与潜在收益，以确定挖矿是否有利可图。</string>
+    <string name="w8">奖励减半：</string>
+    <string name="w9">比特币和许多其他加密货币都有预定的发行计划，定期(如比特币约每四年)将区块奖励减半。奖励减半会降低新币发行速率，影响矿工收入和盈利能力。</string>
+    <string name="w10">矿池：</string>
+    <string name="w11">许多矿工加入矿池以合并算力，提高成功挖出区块的几率。矿池根据参与者的算力贡献分配奖励，减少挖矿奖励的波动性。</string>
+
+    <string name="w12">2.环境影响：</string>
+    <string name="w13">能源消耗：</string>
+    <string name="w14">加密货币挖矿需要大量电力来运行矿机和冷却系统。挖矿操作的能源消耗引发了环境担忧，特别是在电力生产严重依赖化石燃料的地区。</string>
+    <string name="w15">碳足迹：</string>
+    <string name="w16">加密货币挖矿的碳足迹取决于发电能源。使用煤炭等化石燃料的挖矿作业会导致温室气体排放和气候变化。但一些挖矿作业使用水电、太阳能或风能等可再生能源，以减轻环境影响。</string>
+    <string name="w17">减排措施：</string>
+    <string name="w18">一些矿业公司和项目正在探索减少加密货币挖矿环境影响的方法，包括投资可再生能源基础设施、利用可再生能源的过剩电力、优化矿机能效以及支持碳抵消项目。</string>
+
+    <string name="w19">3.监管考量：</string>
+    <string name="w20">监管环境：</string>
+    <string name="w21">监管机构日益关注加密货币挖矿操作，特别是在能源消耗和环境问题方面。一些司法管辖区已实施限制或激励措施，鼓励环保挖矿实践。</string>
+    <string name="w22">政策应对：</string>
+    <string name="w23">政策制定者可能针对加密货币挖矿操作实施法规或税收政策，以解决能源消耗、环境影响和可持续性问题。监管不确定性和合规成本可能影响矿工关于选址和运营的决策。</string>
+
+    <string name="w24">总之，加密货币生态系统中的挖矿经济学涉及评估盈利能力、考虑运营成本和收入来源，以及解决与能源消耗和碳排放相关的环境影响。平衡盈利能力与可持续性考量对于加密货币挖矿活动的长期可行性和社会接受度至关重要。</string>
+
+    ================================================================================================================================================
+    <string name="wa1">29. 金融包容性（为无银行账户者提供金融服务）</string>
+
+    <string name="wa2">金融包容性指银行和金融服务对服务不足和边缘化群体(包括无银行账户和银行服务不足人群)的可及性和可获得性。以下是金融包容性及其重要性的概述：</string>
+
+    <string name="wa3">1.定义：</string>
+    <string name="wa4">金融包容性旨在确保个人和社区能够获得基本金融服务，如储蓄账户、支付服务、信贷、保险和投资机会。它包括克服获取和使用金融服务的障碍，包括地理、经济、社会和监管限制。</string>
+
+    <string name="wa5">2.重要性：</string>
+    <string name="wa6">减贫：</string>
+    <string name="wa7">金融包容性是减少贫困和促进经济发展的关键工具。获得金融服务使个人能够储蓄、积累资产、获得创业信贷以及在财务困难时期平滑消费。</string>
+    <string name="wa8">社会经济赋权：</string>
+    <string name="wa9">金融包容性通过提供参与正规金融体系、管理财务风险以及投资教育、医疗和生计的机会，赋予边缘群体(包括妇女、青年、农村社区和非正规工人)权力。</string>
+    <string name="wa10">刺激经济增长：</string>
+    <string name="wa11">通过扩大信贷和资本获取，金融包容性促进创业、创新和投资，推动经济增长和就业创造。它提高生产力，促进金融稳定，推动包容性经济发展。</string>
+    <string name="wa12">韧性与福利：</string>
+    <string name="wa13">获得金融服务使个人和家庭能够更好地应对意外支出、紧急情况和收入冲击。金融包容性通过为弱势群体提供金融工具和安全网，增强韧性、社会福利和减贫。</string>
+    <string name="wa14">社会公平与包容：</string>
+    <string name="wa15">金融包容性通过减少金融资源和机会获取方面的差距促进社会公平和包容。它有助于缩小贫富差距、城乡差距以及正规与非正规部门之间的差距，促进更包容和可持续的社会。</string>
+
+    <string name="wa16">3.挑战与障碍：</string>
+    <string name="wa17">获取渠道不足：</string>
+    <string name="wa18">许多人，特别是农村和服务不足地区的人，缺乏实体银行网点、ATM和正规金融机构的渠道。基础设施有限、地理隔离和金融知识不足导致金融获取和使用水平低下。</string>
+    <string name="wa19">可负担性：</string>
+    <string name="wa20">高昂的交易成本、费用和最低余额要求可能阻碍低收入人群使用正规金融服务。针对服务不足人群需求和偏好量身定制的金融产品和服务对提高可负担性和使用率至关重要。</string>
+    <string name="wa21">监管与政策限制：</string>
+    <string name="wa22">限制性许可要求、身份验证程序和反洗钱法规等监管障碍可能限制金融包容性努力。简化法规、推广数字身份解决方案和鼓励创新可以促进更广泛的金融服务获取。</string>
+    <string name="wa23">社会文化因素：</string>
+    <string name="wa24">社会文化规范、态度和偏好可能影响个人使用正规金融服务的意愿。建立信任、加强金融教育和解决文化障碍对促进金融包容性和采用至关重要。</string>
+
+    <string name="wa25">4.技术与创新的作用：</string>
+    <string name="wa26">数字金融服务：</string>
+    <string name="wa27">技术创新，特别是移动和数字金融服务，在扩大金融包容性方面发挥着关键作用。移动货币平台、数字钱包和金融科技解决方案使个人能够方便且经济地获取金融服务，绕过传统银行基础设施。</string>
+    <string name="wa28">区块链与加密货币：</string>
+    <string name="wa29">区块链技术和加密货币有潜力通过为无银行账户人群提供安全、透明和低成本的金融服务来增强金融包容性。数字货币可以促进点对点交易、汇款、小额贷款和全球金融市场接入，赋予被排除在传统银行体系之外的个人权力。</string>
+
+    <string name="wa30">总之，金融包容性对于促进经济发展、社会公平和减贫至关重要。解决获取渠道、可负担性、监管和文化接受度方面的障碍对于扩大对服务不足人群的金融服务和促进包容性可持续经济增长至关重要。技术创新，包括数字金融服务和区块链解决方案，为推进全球金融包容性努力和赋权边缘社区提供了充满希望的机会。</string>
+
+    ================================================================================================================================================
+    <string name="x1">30. 货币的未来（比特币如何改变金融）</string>
+
+    <string name="x2">货币的未来充满令人兴奋的可能性，特别是随着比特币等加密货币的出现。以下是比特币可能改变金融的方式：</string>
+
+    <string name="x3">1.去中心化与去中介化：</string>
+    <string name="x4">比特币的去中心化特性实现了无需银行或支付处理器等中介的点对点交易。这种去中介化可以民主化金融服务获取、降低交易成本，并为服务不足人群消除准入障碍。</string>
+
+    <string name="x5">2.金融包容性：</string>
+    <string name="x6">比特币有潜力通过为无银行账户和银行服务不足人群提供金融服务来扩大金融包容性。银行基础设施有限地区的个人可以使用比特币存储价值、进行支付和获取信贷，绕过传统银行系统。</string>
+
+    <string name="x7">3.跨境支付：</string>
+    <string name="x8">比特币的无国界特性促进了快速、安全和低成本的跨境交易。个人和企业可以使用比特币进行国际支付，无需传统汇款服务或银行转账的延迟和高额费用。</string>
+
+    <string name="x9">4.汇款与微支付：</string>
+    <string name="x10">比特币实现了无摩擦汇款，让移民能够以比传统汇款渠道更低的费用和更快的结算时间向海外家人汇款。此外，比特币的可分割性使其适合微支付和小额交易，为数字商务和内容货币化开辟了新用例。</string>
+
+    <string name="x11">5.资产多元化与价值存储：</string>
+    <string name="x12">比特币的有限供应和通缩货币政策使其成为对冲通胀和货币贬值的工具。作为一种数字价值存储手段，比特币为投资组合多元化、风险管理和长期财富保值提供了另类资产类别，特别是在经济不确定时期。</string>
+
+    <string name="x13">6.智能合约与可编程货币：</string>
+    <string name="x14">比特币的底层区块链技术通过比特币闪电网络和Layer-2解决方案等平台支持智能合约和去中心化应用(dApp)的开发。可编程货币功能可能彻底改变金融工具、自动化合约协议，并实现去中心化金融(DeFi)应用，如借贷、借款和去中心化交易所。</string>
+
+    <string name="x15">7.韧性与金融主权：</string>
+    <string name="x16">比特币的抗审查特性和加密安全性让个人能更好地控制自己的金融资产和数据，减少对中央机构的依赖，降低被没收、审查或监控的风险。比特币通过允许个人成为自己的托管人并无许可地控制财富，提供了金融主权。</string>
+
+    <string name="x17">8.监管挑战与采用障碍：</string>
+    <string name="x18">尽管具有变革潜力，比特币面临监管挑战和采用障碍，包括对金融稳定、消费者保护、洗钱和税务合规的担忧。监管明确性、机构采用和主流接受对于实现比特币作为金融颠覆力量的全面潜力至关重要。</string>
+
+    <string name="x19">总之，比特币可能通过促进去中心化、金融包容性、跨境支付、资产多元化、可编程货币和个人主权来彻底改变金融。虽然挑战依然存在，但比特币的颠覆性创新有潜力重塑货币的未来并重新定义全球金融格局。</string>
+
+    ================================================================================================================================================
+    <string name="y1">31. 隐私与匿名性（混币服务与交易追踪）</string>
+
+    <string name="y2">隐私和匿名性在加密货币领域是重要考量，尤其是比特币这种交易记录在公共账本上的系统。以下是关于混币服务等隐私增强技术及交易追踪的概述：</string>
+
+    <string name="y3">1.比特币的隐私问题：</string>
+    <string name="y4">比特币交易是伪匿名的，意味着虽然交易记录在区块链上，但交易方的身份并不直接与其公钥地址关联。然而，交易细节和钱包地址在公共账本上可见，可能被识别和分析。</string>
+    <string name="y5">尽管比特币具有伪匿名性，但通过区块链分析技术可以分析交易历史和模式，可能损害用户隐私和匿名性。链分析公司和监控工具旨在追踪比特币交易以识别非法活动并将钱包地址与现实身份关联。</string>
+
+    <string name="y6">2.混币服务(CoinJoin)：</string>
+    <string name="y7">混币服务(又称CoinJoin)通过将多笔交易合并为单笔交易来增强隐私，模糊资金源头和去向。在CoinJoin交易中，多个用户协作混合他们的输入和输出，使追踪单个交易变得困难。</string>
+    <string name="y8">混币服务打破交易图谱并引入合理否认性，使区块链分析师难以识别资金的真实发送方和接收方。但混币服务需要信任服务提供商，并可能产生额外费用。</string>
+
+    <string name="y9">3.交易追踪与去匿名化：</string>
+    <string name="y10">区块链分析技术可用于追踪和分析比特币交易，揭示钱包地址之间的模式、关联和联系。通过分析交易流、聚类地址和应用启发式方法，区块链分析师可能对用户去匿名化并追踪非法活动。</string>
+    <string name="y12">地址重复使用、化名使用不当以及中心化交易所的KYC/AML要求可能损害隐私并促进交易追踪。最佳实践如每笔交易使用新地址、使用隐私增强钱包以及避免不必要的数据泄露有助于增强隐私和匿名性。</string>
+
+    <string name="y13">4.隐私增强技术：</string>
+    <string name="y14">除混币服务外，各种隐私增强技术和协议旨在改善加密货币的隐私和匿名性。例如零知识证明(ZKP)、环签名、隐身地址、机密交易以及门罗币(XMR)和Zcash等隐私币。</string>
+    <string name="y15">隐私币采用先进的加密技术来混淆交易细节、保护发送方和接收方身份并确保交易机密性。这些以隐私为核心的加密货币默认优先考虑隐私，相比比特币等透明区块链提供更强的可互换性和匿名性。</string>
+
+    <string name="y16">5.监管与合规考量：</string>
+    <string name="y17">隐私增强技术和混币服务可能因涉嫌助长洗钱、恐怖主义融资和其他非法活动而面临监管审查。KYC/AML法规和报告义务等合规要求可能限制隐私服务的采用和运营。</string>
+    <string name="y18">平衡隐私与合规对加密货币用户、服务提供商和监管机构都是挑战。隐私保护技术的监管框架和行业标准正在发展中，反映了在金融交易中解决隐私问题同时保持透明度和问责制的需求。</string>
+
+    <string name="y19">总之，隐私和匿名性是加密货币生态系统中的重要考量，尤其是比特币的伪匿名特性。混币服务、交易追踪和隐私增强技术在增强用户隐私和降低交易分析及监控风险方面发挥着关键作用。然而，平衡隐私与合规仍然是一个复杂的挑战，需要利益相关方协作以实现公平透明的金融体系。</string>
+
+    ================================================================================================================================================
+    <string name="z1">32. 量子计算威胁（潜在未来挑战）</string>
+    <string name="z2">量子计算对传统密码系统和安全协议(包括比特币等加密货币使用的协议)构成潜在威胁。以下是量子计算威胁及潜在未来挑战的概述：</string>
+
+    <string name="z3">1.Shor算法：</string>
+    <string name="z4">Shor算法是数学家Peter Shor于1994年提出的量子算法，可高效分解大整数并解决离散对数问题。这些数学问题是许多密码方案的基础，包括数字签名和加密中使用的RSA和ECC。</string>
+    <string name="z5">利用Shor算法的量子计算机理论上可以破解广泛部署的加密算法，使传统加密方法容易受到解密攻击。因此，受这些算法保护的敏感数据可能面临未经授权访问的风险。</string>
+
+    <string name="z6">2.Grover算法：</string>
+    <string name="z7">Grover算法由Lov Grover于1996年提出，是一种可以加速非结构化数据库搜索或执行暴力破解的量子算法，比经典算法快平方级。该算法减少了对称加密方案所需的有效密钥长度。</string>
+    <string name="z8">虽然Grover算法不直接破解加密方案，但通过将密钥长度减半来降低对称加密算法的有效安全强度。例如，对经典攻击提供256位安全性的对称密钥，在使用Grover算法的量子攻击下仅提供128位安全性。</string>
+
+    <string name="z9">3.密码学漏洞：</string>
+    <string name="z10">量子计算威胁广泛使用的密码原语和协议的安全，包括RSA、ECC、Diffie-Hellman和对称加密算法。这些方案依赖的数学问题对经典计算机很难，但易受量子攻击。</string>
+    <string name="z11">随着量子计算机变得更强大，向抗量子密码算法过渡的时间框架变得至关重要。未能及时迁移到抗量子方案可能使敏感数据和通信渠道暴露给具有量子能力的对手。</string>
+
+    <string name="z12">4.抗量子密码学：</string>
+    <string name="z13">抗量子或后量子密码学(PQC)指能抵抗量子攻击的密码算法和协议。这些方案设计用于抵御经典和量子计算机的攻击，确保在量子威胁存在下的长期安全。</string>
+    <string name="z14">美国国家标准与技术研究院(NIST)等组织正在进行研究和标准化工作，以开发和标准化抗量子密码算法。抗量子算法包括基于格的密码学、基于哈希的签名、多变量多项式密码学和基于编码的密码学。</string>
+
+    <string name="z15">5.过渡挑战：</string>
+    <string name="z16">过渡到抗量子密码学面临重大挑战，包括算法选择、互操作性、性能考量、向后兼容性以及在现有系统和基础设施中的部署。</string>
+    <string name="z17">组织和行业必须规划和实施迁移战略，采用抗量子算法、更新密码库和协议，并确保与遗留系统的兼容性。此外，监管框架和行业标准可能需要发展以适应向抗量子密码学的过渡。</string>
+
+    <string name="z18">总之，量子计算对传统密码系统和安全协议构成重大挑战，可能危及敏感信息的机密性、完整性和真实性。应对这些威胁需要主动采取措施，包括研究抗量子密码学、标准化工作以及向抗量子密码算法过渡的战略规划。未能缓解量子计算威胁可能对数字时代的网络安全和信息隐私产生深远影响。</string>
+
+    ================================================================================================================================================
+    <string name="za1">33. 安全最佳实践（保护自己免受黑客攻击）</string>
+
+    <string name="za2">在数字时代，保护自己免受黑客攻击和维护网络安全至关重要。以下是一些安全最佳实践，帮助个人保护在线账户、个人信息和数字资产：</string>
+
+    <string name="za3">1.强密码与唯一密码：</string>
+    <string name="za4">为每个在线账户使用复杂且唯一的密码。避免使用"password"或"123456"等易猜密码。相反，创建包含字母、数字和特殊字符组合的强密码。</string>
+    <string name="za5">考虑使用密码管理器生成和安全存储不同账户的密码。密码管理器通过加密和保护登录凭证简化密码管理并提高安全性。</string>
+
+    <string name="za6">2.多因素认证(MFA)：</string>
+    <string name="za7">尽可能启用多因素认证(MFA)为账户增加额外安全层。MFA除密码外还需第二种验证形式，如发送到手机的验证码或生物识别扫描。</string>
+    <string name="za8">使用Google Authenticator或Authy等认证器应用生成一次性密码(OTP)，而非仅依赖可能受SIM卡交换攻击的短信认证。</string>
+
+    <string name="za9">3.定期软件更新与补丁：</string>
+    <string name="za10">保持操作系统、软件应用和杀毒程序更新至最新的安全补丁。定期安装更新和安全补丁以修复漏洞并防范已知攻击。</string>
+    <string name="za11">尽可能启用自动更新，确保无需手动干预即可及时安装安全补丁和软件更新。</string>
+
+    <string name="za12">4.安全网络连接：</string>
+    <string name="za13">浏览网页、访问在线账户或传输敏感信息时使用HTTPS等安全加密连接。避免连接不安全的公共Wi-Fi网络，这些网络可能易受拦截和窃听。</string>
+    <string name="za14">考虑使用虚拟专用网络(VPN)加密互联网流量并增强隐私和安全性，特别是在访问公共Wi-Fi网络或敏感信息时。</string>
+
+    <string name="za15">5.钓鱼防范与邮件安全：</string>
+    <string name="za16">警惕试图诱骗您透露敏感信息、点击恶意链接或下载恶意软件的钓鱼邮件、短信和社会工程攻击。验证发件人真实性，避免点击可疑链接或附件。</string>
+    <string name="za17">收到意外或未经请求的通信时保持怀疑和警惕，特别是那些要求提供个人信息、登录凭证或金融交易的通信。</string>
+
+    <string name="za18">6.数据加密与备份：</string>
+    <string name="za19">对设备和云存储中的敏感数据进行加密，防止在设备被盗或安全漏洞时被未授权访问。使用操作系统和应用程序内置的加密工具和功能。</string>
+    <string name="za20">定期将数据备份到安全的离线存储设备或云备份服务。备份可降低因硬件故障、勒索软件攻击或其他意外事件导致数据丢失的风险。</string>
+
+    <string name="za21">7.社交媒体与隐私设置：</string>
+    <string name="za22">审查并调整社交媒体平台和在线账户的隐私设置，控制谁可以看到你的帖子、个人资料信息和联系方式。限制公开分享的个人信息量以降低身份盗用和隐私泄露风险。</string>
+    <string name="za23">谨慎在社交媒体上分享敏感信息、旅行计划或个人详情，这些信息可能被恶意行为者利用进行社会工程攻击或针对性钓鱼尝试。</string>
+
+    <string name="za24">8.安全意识与教育：</string>
+    <string name="za25">通过可靠来源、网络安全博客和教育资源了解常见网络安全威胁、趋势和最佳实践。投资网络安全培训和意识提升计划，增强防范网络威胁的知识和技能。</string>
+    <string name="za26">教育自己和家人关于网络安全风险和安全的在线实践，包括如何识别钓鱼尝试、避免恶意软件感染以及保护个人设备和账户安全。</string>
+
+    <string name="za27">遵循这些安全最佳实践，个人可以增强网络安全防护，降低遭受黑客攻击、数据泄露、身份盗用和其他网络威胁的风险。定期审查和更新安全措施，以适应不断变化的威胁环境，有效保护数字资产和隐私。</string>
+
+    ================================================================================================================================================
+    <string name="aa1">34. 比特币的税务影响（申报资本利得与损失）</string>
+
+    <string name="aa2">比特币交易的税务影响（包括申报资本利得和损失）取决于您所在司法管辖区的税收法规。以下是适用于许多国家（包括美国）的通用指南：</string>
+
+    <string name="aa3">1.比特币的分类：</string>
+    <string name="aa4">在大多数司法管辖区（包括美国），税务当局将比特币和其他加密货币视为财产而非货币。这意味着涉及比特币的交易需遵守与买卖股票或房地产等其他财产类似的资本利得税规则。</string>
+
+    <string name="aa5">2.资本利得与损失：</string>
+    <string name="aa6">当您以不同于买入价的价格出售或处置比特币时，会产生资本利得或损失。如果售价高于买入价，则实现资本利得；如果售价低于买入价，则实现资本损失。</string>
+    <string name="aa7">资本利得可分为短期（持有比特币一年或更短时间）或长期（持有超过一年）。在许多司法管辖区，长期资本利得的税率低于短期利得。</string>
+    <string name="aa8">资本利得和损失必须在税表中申报，并对任何已实现利得缴纳税款。如果年度净资本损失，可能可用以抵消其他资本利得或从应税收入中扣除部分损失（受某些限制）。</string>
+
+    <string name="aa9">3.申报要求：</string>
+    <string name="aa10">在美国，纳税人需在IRS表格8949和个人所得税申报表（表格1040）的附表D上报告比特币交易的资本利得和损失。每笔交易需单独报告，包括获取日期、出售日期、出售所得和成本基础。</string>
+    <string name="aa11">纳税人应保留比特币交易的详细记录，包括买卖日期、数量、价格和相关费用。这些信息对于准确申报税表中的资本利得和损失以及回应税务当局的询问是必要的。</string>
+
+    <string name="aa12">4.挖矿与收入的税务处理：</string>
+    <string name="aa13">比特币挖矿收入通常视为普通收入，按纳税人适用税率缴纳所得税。如果矿工符合某些标准（如作为业务或主要收入来源进行挖矿），可能还需缴纳自雇税。</string>
+    <string name="aa14">以比特币接收的商品或服务付款也需缴纳所得税，且必须将收到比特币的公允市场价值报告为应税收入。接受比特币支付的企业应保留这些交易的记录用于税务申报。</string>
+
+    <string name="aa15">5.税务合规与法律建议：</string>
+    <string name="aa16">必须确保遵守所在司法管辖区对比特币交易的税收法律法规。纳税人应咨询熟悉加密货币税务的合格税务专业人士或法律顾问，了解税务义务、优化税务策略并最小化税务负担。</string>
+    <string name="aa17">未报告比特币交易并对已实现利得缴纳税款可能导致罚款、罚金和潜在法律后果。纳税人应主动履行税务义务并保留准确记录以遵守税收法律法规。</string>
+
+    <string name="aa18">总之，比特币交易的税务影响（包括申报资本利得和损失）需要仔细考虑并遵守适用的税收法律法规。纳税人应保留比特币交易的准确记录，必要时寻求专业税务建议，并确保在税表中及时准确地申报应税收入和资本利得。</string>
+
+    ================================================================================================================================================
+    <string name="ab1">35. 矿池（整合资源以提高挖矿效率）</string>
+
+    <string name="ab2">矿池在加密货币生态系统中发挥着关键作用，使个体矿工能够合并其计算资源并提高成功挖出区块的几率。以下是矿池及其运作方式的概述：</string>
+
+    <string name="ab3">1.定义：</string>
+    <string name="ab4">矿池是个体矿工的集合，他们汇集计算能力和资源以协作挖矿加密货币区块。通过共同努力，矿工合并其哈希算力，增加解决复杂加密难题并获得区块奖励的概率。</string>
+
+    <string name="ab5">2.资源整合：</string>
+    <string name="ab6">在矿池中，参与矿工将其计算资源（哈希率）贡献给集体挖矿工作。每位矿工的贡献与其哈希算力成比例，以每秒哈希数(H/s)或其他哈希率单位衡量。</string>
+    <string name="ab7">矿池运营商管理矿池基础设施，包括矿机服务器、软件和连接。矿工使用挖矿软件或配置用于挖特定加密货币的专用挖矿硬件(ASIC)连接到矿池的挖矿服务器。</string>
+
+    <string name="ab8">3.区块奖励与分配：</string>
+    <string name="ab9">当矿池成功挖出区块时，区块奖励（包括新铸造的代币和交易费用）根据参与者的哈希算力贡献分配。矿工获得的奖励与其对矿池总算力的贡献成比例。</string>
+    <string name="ab10">矿池运营商可能扣除小额费用（通常是区块奖励的百分比）用于管理矿池和支付运营费用。剩余奖励根据预定的奖励分配方案分配给参与矿工。</string>
+
+    <string name="ab11">4.奖励系统：</string>
+    <string name="ab12">矿池使用不同的奖励分配系统在参与者之间分配区块奖励。常见的奖励系统包括：</string>
+    <string name="ab13">按份额支付(PPS)：</string>
+    <string name="ab14">矿工为提交给矿池的每份有效工作获得固定支付，无论矿池是否成功挖出区块。</string>
+    <string name="ab15">按比例分配(PROP)：</string>
+    <string name="ab16">矿工获得与其贡献哈希算力成比例的区块奖励部分。奖励基于每位矿工提交的有效份额数量分配。</string>
+    <string name="ab17">支付门槛：</string>
+    <string name="ab18">矿池可能设置最低支付门槛，要求矿工累积一定数量的奖励后才能收到钱包地址的支付。</string>
+
+    <string name="ab19">5.矿池的优势：</string>
+    <string name="ab20">提高挖出区块的概率：</string>
+    <string name="ab21">通过资源整合，矿工比单独挖矿更有机会定期挖出区块并获得奖励。</string>
+    <string name="ab22">更稳定的收入流：</string>
+    <string name="ab23">矿池通过随时间更均匀地分配奖励，为矿工提供更可预测和稳定的收入流，减少收入波动。</string>
+    <string name="ab24">获取挖矿基础设施：</string>
+    <string name="ab25">矿池提供挖矿基础设施、软件和专业知识的访问，使新手矿工无需大量前期投资或技术专长即可参与加密货币挖矿。</string>
+
+    <string name="ab26">6.挑战与考量：</string>
+    <string name="ab27">中心化担忧：</string>
+    <string name="ab28">算力集中在少数大型矿池引发了对中心化和潜在网络安全与去中心化风险的担忧。</string>
+    <string name="ab29">矿池费用：</string>
+    <string name="ab30">选择矿池时应考虑费用结构、支付政策和声誉。高费用或不可靠的支付机制可能侵蚀潜在收益。</string>
+    <string name="ab31">网络稳定性：</string>
+    <string name="ab32">矿池必须保持可靠的网络连接、基础设施和安全措施，以确保挖矿操作不间断并最大限度减少停机时间。</string>
+
+    <string name="ab33">总之，矿池使个体矿工能够协作并整合资源以提高加密货币挖矿效率。通过汇集哈希算力，矿工增加了获得区块奖励的机会并实现更稳定的收入流。然而，矿工应仔细评估矿池选项，在选择加入矿池时考虑费用、奖励分配机制和网络稳定性等因素。</string>
+
+    ================================================================================================================================================
+    <string name="ac1">36. 云挖矿（租赁算力）</string>
+
+    <string name="ac2">云挖矿（又称云哈希）允许个人从远程数据中心租赁挖矿硬件和计算能力参与加密货币挖矿，而无需拥有或管理实体挖矿设备。以下是云挖矿的运作方式及潜在投资者的考量：</string>
+
+    <string name="ac3">1.云挖矿的运作：</string>
+    <string name="ac4">云挖矿提供商运营配备专用硬件（如ASIC）的大规模挖矿设施，专门用于挖比特币或以太坊等特定加密货币。</string>
+    <string name="ac5">对云挖矿感兴趣的个人可从云挖矿公司购买挖矿合约或订阅服务。这些合约规定了挖矿服务的期限、提供的哈希率（计算能力）以及要挖的加密货币。</string>
+    <string name="ac6">购买后，云挖矿合约将矿池的部分哈希率分配给投资者，投资者按其贡献的哈希算力比例获得挖出的加密货币份额。</string>
+    <string name="ac7">云挖矿服务通常收取硬件维护、电力和运营成本费用。这些费用从投资者分配哈希算力产生的挖矿奖励中扣除。</string>
+
+    <string name="ac8">2.云挖矿的优势：</string>
+    <string name="ac9">可及性：</string>
+    <string name="ac10">云挖矿为个人提供了无需技术专长、硬件采购或维护即可参与加密货币挖矿的便捷方式。</string>
+    <string name="ac11">成本效益：</string>
+    <string name="ac12">云挖矿省去了购买和操作挖矿硬件（如ASIC、冷却系统和电力）的前期成本。投资者可以最少的资本投入开始挖矿。</string>
+    <string name="ac13">多样化：</string>
+    <string name="ac14">云挖矿允许投资者通过同时挖多种加密货币或在矿池和算法间切换，实现加密货币持有的多样化。</string>
+
+    <string name="ac15">3.考量与风险：</string>
+    <string name="ac16">盈利能力：</string>
+    <string name="ac17">云挖矿的盈利能力取决于多种因素，包括加密货币价格、挖矿难度、网络哈希率和挖矿合约条款（如期限、费用）。投资者应进行彻底研究和分析，评估云挖矿投资的潜在回报和风险。</string>
+    <string name="ac18">骗局与庞氏骗局：</string>
+    <string name="ac19">云挖矿行业存在承诺不切实际回报或虚假宣传挖矿能力的骗局和欺诈计划。投资者应谨慎并在投资任何云挖矿服务前进行尽职调查。寻找信誉良好、透明且有用户好评的公司。</string>
+    <string name="ac20">合约条款与条件：</string>
+    <string name="ac21">购买云挖矿合约前，仔细审查条款和条件，包括合约期限、费用、支付机制和终止条款。某些合约可能有隐藏费用、维护成本或不利的支付结构，影响盈利能力。</string>
+    <string name="ac22">市场波动：</string>
+    <string name="ac23">加密货币市场高度波动，价格可能快速波动。云挖矿投资面临市场波动风险，加密货币价格变化可能影响挖矿盈利能力和投资回报。</string>
+    <string name="ac24">监管与法律风险：</string>
+    <string name="ac25">云挖矿操作可能受监管监督、税务影响和司法管辖区法律风险的约束。投资者应考虑所在国管辖加密货币挖矿活动的监管环境和合规要求。</string>
+
+    <string name="ac26">总之，云挖矿为个人提供了无需拥有或管理实体硬件即可参与加密货币挖矿的便捷和可及方式。然而，投资者应仔细评估云挖矿机会，考虑相关风险和成本，并在投资任何云挖矿服务前进行彻底的尽职调查。</string>
+
+    ================================================================================================================================================
+    <string name="ad1">37. 衍生品与期货市场（交易比特币合约）</string>
+    <string name="ad2">衍生品和期货市场在加密货币生态系统中发挥着重要作用，为投资者和交易者提供了管理风险、投机价格变动和对冲波动性的额外工具。以下是交易比特币衍生品和期货合约的概述：</string>
+
+    <string name="ad3">1.衍生品的定义：</string>
+    <string name="ad4">衍生品是价值来源于标的资产（可以是股票、大宗商品、货币或比特币等加密货币）的金融工具。衍生品让投资者无需直接拥有标的资产即可获得其价格变动的风险敞口。</string>
+
+    <string name="ad5">2.比特币期货合约：</string>
+    <string name="ad6">比特币期货合约是代表在指定未来日期（到期日）以预定价格（期货价格）买卖比特币协议的衍生工具。期货合约使投资者能够对比特币未来价格进行投机，并从价格上涨和下跌中获利。</string>
+    <string name="ad7">比特币期货在芝加哥商品交易所(CME)和洲际交易所(ICE)期货美国等受监管的期货交易所交易。这些交易所提供以法币（如美元）结算而非实物交割比特币的现金结算比特币期货合约。</string>
+
+    <string name="ad8">3.交易机制：</string>
+    <string name="ad9">比特币期货合约在期货交易所交易，买卖双方签订在未来日期买卖比特币的合约。期货合约具有标准化规格，包括合约规模、到期日、最小变动价位和保证金要求。</string>
+    <string name="ad10">期货交易所通过匹配买卖双方并提供集中的价格发现和流动性市场促进交易。市场参与者可根据市场展望和交易策略对比特币期货合约建立多头（买入）或空头（卖出）头寸。</string>
+
+    <string name="ad11">4.保证金交易与杠杆：</string>
+    <string name="ad12">期货交易通常涉及保证金交易，交易者可以用较少资本控制较大头寸。保证金交易允许投资者通过从交易所借款增加交易能力来杠杆化头寸。</string>
+    <string name="ad13">虽然杠杆放大了潜在利润，但也加剧了亏损，交易者应注意与杠杆交易相关的风险。交易所实施保证金要求和强平门槛以管理风险并防止过度杠杆。</string>
+
+    <string name="ad14">5.对冲与风险管理：</string>
+    <string name="ad15">比特币期货合约为面临比特币价格波动的投资者和企业提供了有价值的风险管理工具。对冲者可以使用期货合约通过锁定比特币持仓的未来价格或在期货市场建立相反头寸来抵消价格风险，从而降低价格风险。</string>
+    <string name="ad16">机构投资者、矿工和加密货币交易所可能使用比特币期货进行对冲，防范不利价格变动并稳定现金流。</string>
+
+    <string name="ad17">6.市场影响与价格发现：</string>
+    <string name="ad18">比特币期货市场对比特币价格动态和市场情绪有重大影响。期货交易量和未平仓合约为投资者情绪、交易活动和标的现货市场潜在价格变动提供了宝贵洞察。</string>
+    <string name="ad19">比特币现货和期货市场间的套利机会有助于保持价格趋同和市场有效运作。市场参与者从事套利策略以利用价差并维持现货和期货价格间的均衡。</string>
+
+    <string name="ad20">7.监管考量：</string>
+    <string name="ad21">比特币期货交易受金融当局和期货交易所的监管监督。监管机构实施规则和法规以确保公平有序的市场，防止市场操纵并保护投资者利益。</string>
+    <string name="ad22">监管批准和合规对期货交易所和衍生品产品合法运营并保持投资者信任至关重要。交易所必须遵守监管要求，进行监督和监控，并执行交易规则和合规标准。</string>
+
+    <string name="ad23">总之，比特币衍生品和期货市场为投资者和交易者提供了管理风险、投机价格变动和对冲加密货币市场波动性的宝贵工具。期货交易提供了流动性、价格发现和风险管理机制，促进了比特币生态系统的成熟和机构化。然而，交易者应注意衍生品交易的相关风险，包括杠杆、市场波动性和监管考量，并在交易比特币期货合约时采用适当的风险管理策略。</string>
+
+    ================================================================================================================================================
+    <string name="ae1">38. 非同质化代币(NFT)与比特币</string>
+
+    <string name="ae2">非同质化代币(NFT)和比特币在加密货币领域都很突出，但它们用途不同且具有独特特征。以下是NFT及其与比特币关系的概述：</string>
+
+    <string name="ae3">1.NFT的定义：</string>
+    <string name="ae4">非同质化代币(NFT)是代表特定物品或内容（如艺术品、收藏品、音乐、视频、虚拟房地产和数字商品）所有权或真实性的独特数字资产。与比特币等可互换的加密货币不同，每个NFT都是独特的，不可复制或替换。</string>
+
+    <string name="ae5">2.NFT的特性：</string>
+
+    <string name="ae6">唯一性：</string>
+    <string name="ae7">每个NFT都有唯一标识符和元数据，使其与众不同且可验证。</string>
+    <string name="ae8">不可分割性：</string>
+    <string name="ae9">NFT不能像加密货币那样分割或细分为更小单位。每个NFT代表一个完整、不可分割的资产。</string>
+    <string name="ae10">所有权与真实性：</string>
+    <string name="ae11">NFT存储在区块链网络上，提供所有权和来源的不可变记录。NFT的所有权通过加密技术保障，可在钱包地址间转移。</string>
+
+    <string name="ae12">3.用例与应用：</string>
+    <string name="ae13">艺术与收藏品：</string>
+    <string name="ae14">NFT在艺术界大受欢迎，使数字艺术家能够将其作品代币化为独特的数字收藏品出售。OpenSea、Rarible和Foundation等平台促进了数字艺术NFT的创建、交易和所有权。</string>
+    <string name="ae15">游戏与虚拟世界：</string>
+    <string name="ae16">NFT用于在线游戏、虚拟现实(VR)和去中心化虚拟世界，代表游戏内资产、角色、皮肤和虚拟房地产。玩家可在游戏生态系统中买卖交易NFT。</string>
+    <string name="ae17">音乐与娱乐：</string>
+    <string name="ae18">音乐人、名人和内容创作者利用NFT将音乐专辑、视频和独家体验等数字内容代币化。Audius和Catalog等NFT市场使艺术家能够通过代币化将其创意作品货币化。</string>
+
+    <string name="ae19">4.与比特币的关系：</string>
+    <string name="ae20">虽然NFT与比特币一样基于区块链技术，但它们的用途和特征不同。比特币是可互换的数字货币，设计用于点对点交易和价值存储，而NFT代表具有独立所有权和真实性的独特数字资产。</string>
+    <string name="ae21">比特币的区块链（比特币网络）主要支持比特币加密货币的交易和存储。相比之下，NFT构建在以太坊、Flow、币安智能链等多种区块链平台上，每种平台都有独特特性和功能。</string>
+    <string name="ae22">尽管存在差异，比特币和NFT都是更广泛加密货币生态系统的组成部分，推动了区块链技术在不同行业和用例中的创新和采用。</string>
+
+    <string name="ae23">5.市场动态与趋势：</string>
+    <string name="ae24">NFT因艺术家、创作者、投资者和收藏家的兴趣增加而经历了爆炸性增长和市场活跃度。高调NFT销售、名人代言和主流媒体报道将NFT推向了聚光灯下。</string>
+    <string name="ae25">NFT市场涵盖数字艺术、收藏品、虚拟房地产和元宇宙资产等多样化资产。市场、拍卖和去中心化平台促进了NFT的创建、交易和所有权，吸引了来自不同领域的参与者。</string>
+    <string name="ae26">尽管围绕NFT的热情高涨，但市场面临可扩展性、互操作性、可持续性和监管审查等挑战。持续创新、标准化努力和生态系统发展对NFT市场的长期增长和可持续性至关重要。</string>
+
+    <string name="ae27">总之，非同质化代币(NFT)是代表特定物品或内容所有权或真实性的独特数字资产。虽然NFT与比特币一样基于区块链技术，但它们的用途、特性、用例和市场动态不同。NFT已成为加密货币领域的突出趋势，推动了跨行业和应用的创新、创造力和价值创造。</string>
+
+    ================================================================================================================================================
+    <string name="af1">39. 去中心化金融(DeFi)与比特币</string>
+
+    <string name="af2">去中心化金融(DeFi)代表了加密货币生态系统中快速增长的领域，专注于创建在去中心化网络上运行、无需中介的金融服务和应用程序。虽然比特币是加密货币领域的基石，但由于其设计和用例，直接参与DeFi有限。以下是DeFi及其与比特币关系的概述：</string>
+
+    <string name="af3">1.DeFi的定义：</string>
+    <string name="af4">去中心化金融(DeFi)指建立在区块链网络（主要是以太坊）上的广泛金融服务和应用程序类别，旨在以去中心化和无需许可的方式重建传统金融系统。DeFi协议使用户能够访问借贷、交易、资产管理和其他金融服务，而无需依赖银行或经纪商等中介。</string>
+
+    <string name="af5">2.DeFi的关键特性：</string>
+
+    <string name="af6">去中心化：</string>
+    <string name="af7">DeFi应用程序在去中心化区块链网络上运行，利用智能合约和协议自动化金融交易和流程，无需中心化控制。</string>
+    <string name="af8">无需许可访问：</string>
+    <string name="af9">DeFi平台对任何有互联网连接和兼容钱包的人开放，允许用户与金融服务互动，无需中介批准或许可。</string>
+    <string name="af10">互操作性：</string>
+    <string name="af11">DeFi协议和资产具有互操作性，意味着用户可以无缝转移并与不同区块链网络上的各种DeFi应用程序、协议和资产互动。</string>
+    <string name="af12">透明度：</string>
+    <string name="af13">DeFi在公开透明的区块链网络上运行，提供对交易数据、智能合约代码和协议治理决策的实时访问。</string>
+
+    <string name="af14">3.DeFi应用与用例：</string>
+    <string name="af15">借贷：</string>
+    <string name="af16">Compound、Aave和MakerDAO等DeFi平台使用户能够通过智能合约借出或借入数字资产，赚取存款利息或获得以加密资产抵押的贷款。</string>
+    <string name="af17">去中心化交易所(DEX)：</string>
+    <string name="af18">Uniswap、SushiSwap和Curve等DeFi DEX促进无需中介的点对点加密货币交易，使用自动做市算法和流动性池。</string>
+    <string name="af19">收益耕作与流动性挖矿：</string>
+    <string name="af20">DeFi协议激励用户向去中心化流动性池提供流动性以换取奖励，通常以治理代币或交易费形式。</string>
+    <string name="af21">合成资产：</string>
+    <string name="af21a">Synthetix等DeFi平台支持创建和交易跟踪现实世界资产、大宗商品、股票和货币价值的合成资产。</string>
+
+    <string name="af22">4.比特币在DeFi中的角色：</string>
+    <string name="af23">虽然比特币开创了区块链技术并是最知名的加密货币，但其主要用例是作为去中心化数字货币和价值存储。比特币区块链针对安全性、去中心化和抗审查性进行了优化，但其脚本语言和交易能力与以太坊等其他智能合约平台相比相对有限。</string>
+    <string name="af24">比特币的设计本身不支持DeFi中常见的复杂智能合约或去中心化应用程序。然而，一些项目正在探索桥接比特币和DeFi的方法，例如以太坊网络上的包装比特币(WBTC)代币，允许用户在DeFi生态系统中获取比特币流动性。</string>
+
+    <string name="af25">5.挑战与考量：</string>
+    <string name="af26">尽管DeFi增长和创新迅速，但该领域面临可扩展性、安全性、合规性、用户体验和采用障碍等挑战。以太坊的可扩展性问题和高昂gas费促使探索替代区块链平台和二层解决方案以提高DeFi可扩展性和可用性。</string>
+    <string name="af27">监管不确定性和合规要求给DeFi项目带来风险和挑战，特别是在了解客户(KYC)和反洗钱(AML)法规、投资者保护和法律合规方面。</string>
+    <string name="af28">智能合约漏洞、代码利用和安全漏洞已导致DeFi用户和协议重大损失。审计、安全最佳实践和保险解决方案对于降低风险和提高DeFi平台及资产安全性至关重要。</string>
+
+    <string name="af29">总之，去中心化金融(DeFi)代表了加密货币领域的革命性运动，提供在去中心化区块链网络上运行、无需中介的创新金融服务和应用程序。虽然比特币的主要重点仍是去中心化数字货币和价值存储，但由于其设计和交易能力，在DeFi中的角色有限。然而，持续的发展和计划旨在桥接比特币和DeFi，实现两个生态系统间的互操作性和协同效应。</string>
+
+    ================================================================================================================================================
+    <string name="ag1">40. 比特币的哲学（核心理念与价值观）</string>
+
+    <string name="ag2">比特币的哲学包含一系列支撑其创建、发展和采用的基本理念、原则和价值观。其核心体现了去中心化、金融主权、抗审查和个人赋权的愿景。以下是比特币哲学的一些关键方面：</string>
+
+    <string name="ag3">1.去中心化：</string>
+    <string name="ag4">比特币建立在去中心化原则基础上，旨在创建无需中央权威、中介或第三方控制的点对点电子现金系统。去中心化确保没有任何单一实体对网络拥有垄断权力，增强了安全性、韧性和抗审查性。</string>
+    <string name="ag5">通过去中心化控制和决策，比特币实现了无需许可的参与、创新和治理，培育了更具包容性和公平性的金融体系。</string>
+
+    <string name="ag6">2.金融主权：</string>
+    <string name="ag7">比特币倡导金融主权理念，赋予个人对其资金和金融交易的完全控制和所有权。有了比特币，用户可以成为自己的银行，管理自己的财富、隐私和安全，而无需依赖传统金融机构或中介。</string>
+    <string name="ag8">金融主权使个人能够自由交易、安全存储价值，并保护自己免受政府或金融机构实施的审查、没收、通胀和任意限制。</string>
+
+    <string name="ag9">3.抗审查性：</string>
+    <string name="ag10">比特币设计为抗审查，意味着交易不能被中央权威或第三方审查、逆转或阻止。抗审查性保护个人言论自由、结社自由和经济活动的权利，确保金融交易不可变且抗审查。</string>
+    <string name="ag11">在专制政权地区，抗审查性为面临金融压制、监控或政治迫害的个人提供了生命线，使他们能够绕过审查并在无惧审查或监控的情况下获取金融服务。</string>
+
+    <string name="ag12">4.透明度与可审计性：</string>
+    <string name="ag13">比特币在透明且可审计的公共账本（区块链）上运行，所有交易都以可验证和不可变的方式记录。区块链的透明度增强了信任、问责制和可审计性，使任何人都能验证交易历史、供应发行和网络完整性。</string>
+    <string name="ag14">透明的金融体系促进了问责制、诚信和公平，降低了欺诈、腐败和操纵的风险。比特币的透明度在用户和利益相关者间建立了信任，强化了其作为可靠和值得信赖金融体系的可信度。</string>
+
+    <string name="ag15">5.有限供应与稳健货币原则：</string>
+    <string name="ag16">比特币的货币政策以固定和有限的供应为特征，最多仅能挖出2100万枚比特币。这种稀缺性模型基于与黄金等贵金属类似的稳健货币原则，旨在保持购买力并防止通胀侵蚀。</string>
+    <string name="ag17">比特币的有限供应和可预测的发行计划促进了长期价值保存、货币稳定性和抗贬值性。通过保持稀缺性和去中心化，比特币寻求建立自己作为全球数字储备资产和易受通胀操纵的法币替代品。</string>
+
+    <string name="ag18">6.个人赋权与自主权：</string>
+    <string name="ag19">比特币赋予个人更大的财务自主权、自主权以及对财富和隐私的控制。通过比特币，个人可以以假名进行交易、保护财务隐私并抵抗监控和审查，维护经济自由和自决的权利。</string>
+    <string name="ag20">比特币培育了个人责任、自力更生和韧性的文化，鼓励用户掌握自己的财务命运，倡导自由、隐私和去中心化的原则。</string>
+
+    <string name="ag21">总之，比特币的哲学反映了去中心化、金融主权、抗审查性和个人赋权的愿景。比特币体现了透明度、可审计性、有限供应和稳健货币的原则，旨在为数字时代创建更具包容性、公平性和韧性的金融体系。通过坚持这些核心价值观，比特币寻求挑战现状，民主化金融，并赋予个人对其财务生活更大的控制和自由。</string>
+
+    ================================================================================================================================================
+
+    <string name="ah1">41. 比特币名人（早期采用者与影响者）</string>
+
+    <string name="ah2">比特币吸引了多元化的早期采用者、影响者和知名人士，他们在比特币的发展、采用和推广中发挥了重要作用。以下是比特币领域的一些著名人物：</string>
+    <string name="ah3">1.中本聪：</string>
+    <string name="ah4">比特币的匿名创始人中本聪在2008年发布了比特币白皮书，并于2009年发布了首个比特币软件。中本聪的真实身份至今未知，但其贡献为整个加密货币生态系统奠定了基础。</string>
+
+    <string name="ah5">2.哈尔·芬尼：</string>
+    <string name="ah6">哈尔·芬尼是计算机科学家和密码学先驱，他在2009年1月收到了中本聪发送的第一笔比特币交易。芬尼是早期比特币贡献者、倡导者和开发者，以其在密码系统和PGP加密软件方面的工作而闻名。</string>
+
+    <string name="ah7">3.尼克·萨博：</string>
+    <string name="ah8">尼克·萨博是计算机科学家、法律学者和密码学家，他在1998年提出了"比特金"概念，这是比特币的前身之一。萨博在数字货币、智能合约和去中心化系统方面的工作影响了比特币和区块链技术的发展。</string>
+
+    <string name="ah9">4.加文·安德烈森：</string>
+    <string name="ah10">加文·安德烈森是软件开发者，也是比特币项目最早的贡献者之一。2010年被中本聪任命为比特币客户端软件的首席开发者，在比特币早期发展和社区推广中发挥了关键作用。</string>
+
+    <string name="ah11">5.罗杰·维尔：</string>
+    <string name="ah12">罗杰·维尔被称为"比特币耶稣"，是早期比特币投资者、企业家和倡导者。维尔是最早投资比特币初创公司的人之一，通过其公司MemoryDealers.com在推动比特币采用和创业精神方面发挥了重要作用。</string>
+
+    <string name="ah13">6.埃里克·沃希斯：</string>
+    <string name="ah14">埃里克·沃希斯是连续创业者和比特币倡导者，以2014年创立流行的加密货币交易平台ShapeShift而闻名。沃希斯一直是比特币和去中心化金融(DeFi)的积极支持者，倡导金融自由和个人主权。</string>
+
+    <string name="ah15">7.安德烈亚斯·安东诺普洛斯：</string>
+    <string name="ah16">安德烈亚斯·安东诺普洛斯是畅销书作家、演讲者和教育家，以对比特币和区块链技术的专业知识而闻名。他撰写了多本关于比特币的书籍，包括《精通比特币》，是去中心化系统、开源开发和金融包容性的著名倡导者。</string>
+
+    <string name="ah17">8.查理·史瑞姆：</string>
+    <string name="ah18">查理·史瑞姆是比特币先驱、企业家和早期采用者，共同创立了首批也是最大的比特币交易平台之一BitInstant。史瑞姆对比特币采用和推广的贡献帮助普及了加密货币并促进了行业创新。</string>
+
+    <string name="ah19">9.文克莱沃斯兄弟（卡梅伦和泰勒·文克莱沃斯）：</string>
+    <string name="ah20">卡梅伦和泰勒·文克莱沃斯是企业家、投资者和早期比特币采用者，因参与Facebook早期开发及随后涉足加密货币领域而闻名。文克莱沃斯兄弟共同创立了加密货币交易所和托管机构Gemini，并一直积极推动比特币的采用和监管。</string>
+
+    <string name="ah21">10.埃隆·马斯克：</string>
+    <string name="ah22">特斯拉和SpaceX首席执行官埃隆·马斯克对比特币和加密货币表现出兴趣。尽管他对比特币的看法褒贬不一且有时存在争议，但马斯克的推文和公开声明影响了市场情绪，并引发了关于比特币环境影响和采用的讨论。</string>
+
+    <string name="ah23">这些人物在塑造比特币和加密货币的叙事、发展和采用方面发挥了关键作用，促进了整个生态系统的成长和演变。</string>
+
+    ================================================================================================================================================
+    <string name="ai1">42. 比特币的实际应用场景（超越投机）</string>
+
+    <string name="ai2">虽然比特币常与投资和投机联系在一起，但其用途远不止金融市场。以下是比特币的几个实际应用场景：</string>
+
+    <string name="ai3">1.跨境汇款：</string>
+    <string name="ai4">比特币实现低成本跨境汇款支付，使个人无需依赖传统汇款服务即可进行国际转账。相比传统汇款方式，比特币交易速度更快、费用更低，特别适合银行服务有限的地区。</string>
+
+    <string name="ai5">2.电子商务：</string>
+    <string name="ai6">部分电商商家接受比特币作为商品和服务支付方式。比特币支付具有交易费低、退单风险小和全球可访问等优势。通过整合比特币支付，商家可以触达新客户并扩大市场范围。</string>
+
+    <string name="ai7">3.微支付：</string>
+    <string name="ai8">比特币支持微支付，使用户能够为数字内容、在线服务和按次付费访问进行小额交易。比特币驱动的微支付可支持创新商业模式，如付费墙、内容货币化以及游戏和数字媒体中的微交易。</string>
+
+    <string name="ai9">4.慈善捐赠：</string>
+    <string name="ai10">比特币捐赠为个人和组织提供高效透明的全球慈善和人道主义事业支持方式。比特币区块链技术使捐赠者能够追踪和验证捐款，确保透明度、问责制和资金有效分配。</string>
+
+    <string name="ai11">5.跨境贸易：</string>
+    <string name="ai12">比特币通过实现买卖双方安全高效的跨国支付促进国际贸易。比特币的无国界特性和去中心化架构减少了跨境交易相关的摩擦、成本和结算时间，促进全球商业和经济一体化。</string>
+
+    <string name="ai13">6.金融包容：</string>
+    <string name="ai14">比特币通过为没有传统银行账户或基础设施的个人提供金融服务促进金融包容。任何有互联网连接的人都可以轻松访问和使用比特币钱包，使服务不足人群能够参与全球经济、安全储蓄、投资和交易。</string>
+
+    <string name="ai15">7.对冲法币波动：</string>
+    <string name="ai16">在法币不稳定或易通胀地区，比特币可作为对冲货币贬值和经济不确定性的工具。个人和企业可以使用比特币存储价值、保持购买力，防范通胀或货币危机导致的财富缩水。</string>
+
+    <string name="ai17">8.隐私与财务自由：</string>
+    <string name="ai18">比特币提供增强隐私功能，使个人能够控制财务隐私和自主权。使用比特币，用户无需透露个人身份信息或依赖中介即可进行匿名交易。比特币这种隐私保护特性促进财务自由，防范监控和审查。</string>
+
+    <string name="ai19">9.储蓄与投资：</string>
+    <string name="ai20">比特币作为数字价值存储和长期投资资产，使个人能够对冲通胀并分散投资组合。比特币的有限供应、稀缺性和通缩货币政策使其对寻求资本增值替代资产的储蓄者和投资者具有吸引力。</string>
+
+    <string name="ai21">10.不可篡改记录保存：</string>
+    <string name="ai22">比特币区块链提供安全不可篡改的记录保存系统，以防篡改和透明的方式存储交易数据。这一特性在金融之外也有应用，包括时间戳、公证、供应链管理以及数字资产和文件的认证。</string>
+
+    <string name="ai23">这些实际应用场景展示了比特币超越投机和投资的多样性和潜力。随着比特币不断成熟和被采用，其作为全球数字货币和去中心化金融基础设施的效用可能会扩大，推动全球经济的创新和变革。</string>
+
+    ================================================================================================================================================
+    <string name="aii1">43. 比特币挖矿的环境影响（可持续解决方案）</string>
+
+    <string name="aii2">比特币挖矿对环境的影响因其能源密集型特性而备受关注和讨论。比特币挖矿消耗大量电力，主要用于解决复杂数学难题和通过加密计算验证区块链交易。以下是旨在减轻比特币挖矿环境影响的一些可持续解决方案和倡议：</string>
+
+    <string name="aii3">1.转向可再生能源：</string>
+    <string name="aii4">减少比特币挖矿环境影响的最有效策略之一是转向太阳能、风能、水电和地热等可再生能源。通过使用清洁能源，比特币矿工可以最小化碳足迹和环境足迹，同时促进全球向可持续能源系统过渡。</string>
+
+    <string name="aii5">2.提高能效：</string>
+    <string name="aii6">比特币挖矿硬件制造商不断创新和开发更节能的挖矿设备。新一代ASIC矿机旨在以更低功耗实现更高算力，提高比特币挖矿操作的能效。</string>
+
+    <string name="aii7">3.余热回收：</string>
+    <string name="aii8">余热回收技术可以捕获和再利用比特币挖矿操作产生的多余热量，用于建筑物供暖、温室或其他工业流程。通过利用余热，矿工可以提高能效并降低总能耗，促进可持续资源利用。</string>
+
+    <string name="aii9">4.电网整合与需求响应：</string>
+    <string name="aii10">比特币矿工可与当地电网和公用事业公司合作实施需求响应计划，根据电网状况和可再生能源可用性调整挖矿活动。通过动态管理用电，矿工可以减少高峰需求期对电网的压力，并优化能源使用以实现最大效率。</string>
+
+    <string name="aii11">5.碳抵消与减排：</string>
+    <string name="aii12">一些比特币挖矿公司和组织正在探索碳抵消策略以减轻其运营的环境影响。这可能涉及投资重新造林项目、可再生能源信用或碳捕获和储存计划，以抵消比特币挖矿活动相关的碳排放。</string>
+
+    <string name="aii13">6.社区参与与教育：</string>
+    <string name="aii14">与当地社区和利益相关者接触，提高对比特币挖矿环境影响和可持续实践重要性的认识，可以培养对可持续倡议和协作解决方案的支持。教育和外展工作可以赋能矿工和社区实施环保实践，最大限度减少对环境的负面影响。</string>
+
+    <string name="aii15">7.法规合规与问责：</string>
+    <string name="aii16">政府和监管机构可以通过实施鼓励使用可再生能源、提高能效和减少温室气体排放的政策、激励措施和法规，在促进可持续比特币挖矿实践中发挥作用。通过培育有利于可持续性的监管环境，政策制定者可以激励负责任的行为，并要求矿工对其环境影响负责。</string>
+
+    <string name="aii17">8.行业协作与标准制定：</string>
+    <string name="aii18">比特币挖矿行业内建立可持续标准、最佳实践和认证计划的协作努力可以促进环境绩效的透明度、问责制和持续改进。通过分享知识、资源和专业知识，利益相关者可以共同应对可持续性挑战，推动整个行业的积极变革。</string>
+
+    <string name="aii19">总之，解决比特币挖矿对环境的影响需要结合技术创新、政策干预、行业协作和利益相关者参与的多方面方法。通过实施可持续解决方案和采用负责任实践，比特币挖矿行业可以最大限度地减少环境足迹，为更可持续的未来做出贡献。</string>
+
+    ================================================================================================================================================
+    <string name="aj1">44. 监管的未来（政府可能如何对待加密货币）</string>
+
+    <string name="aj2">包括比特币在内的加密货币监管未来可能受技术进步、市场发展、地缘政治动态和监管趋势等多种因素影响。虽然加密货币的监管环境仍在发展且因司法管辖区而异，但以下是政府可能采取的一些监管方法：</string>
+
+    <string name="aj3">1.基于风险的监管：</string>
+    <string name="aj4">政府可能采用基于风险的方法监管加密货币，评估与加密资产相关的潜在风险，如洗钱、恐怖主义融资、消费者保护、市场稳定性和逃税。监管框架可以量身定制以应对特定风险，同时促进创新和市场发展。</string>
+
+    <string name="aj5">2.许可与注册：</string>
+    <string name="aj6">政府可能对加密货币企业和服务提供商（包括交易所、钱包提供商、托管机构和支付处理商）引入许可和注册要求。通过对加密公司许可，监管机构可以确保遵守反洗钱(AML)、了解客户(KYC)和反恐融资(CTF)法规，增强消费者保护和金融诚信。</string>
+
+    <string name="aj7">3.反洗钱(AML)和了解客户(KYC)合规：</string>
+    <string name="aj8">可能会实施强化的AML和KYC法规以降低与加密货币相关的金融犯罪和非法活动风险。监管机构可能要求加密企业实施强有力的AML/KYC程序，进行客户尽职调查，监控可疑活动交易并向当局报告可疑交易。</string>
+
+    <string name="aj9">4.市场监督与监管：</string>
+    <string name="aj10">政府可能加强对加密货币市场的监督和监管，以发现和防止市场操纵、欺诈和滥用行为。监管机构可能要求加密交易所实施监控系统、披露交易数据并遵守公平交易实践，以确保市场完整性和投资者保护。</string>
+
+    <string name="aj11">5.税收与报告要求：</string>
+    <string name="aj12">政府可能对加密货币交易、资本利得和加密活动所得收入实施税收和报告要求。税务当局可能制定指南和报告机制，要求纳税人申报并缴纳加密货币持有、交易和利润的税款。</string>
+
+    <string name="aj13">6.稳定币监管：</string>
+    <string name="aj14">鉴于稳定币日益流行，政府可能针对稳定币发行商和运营商出台专门法规。监管框架可以解决与货币稳定性、储备支持、透明度和稳定币发行使用相关的系统性风险问题。</string>
+
+    <string name="aj15">7.央行数字货币(CBDC)：</string>
+    <string name="aj16">一些政府可能探索发行央行数字货币(CBDC)作为数字法币形式。CBDC可能与加密货币共存或竞争，具体取决于每个司法管辖区的监管方法和政策目标。</string>
+
+    <string name="aj17">8.国际合作与标准：</string>
+    <string name="aj18">鉴于加密货币的全球性，政府可能参与国际合作与协调，制定加密监管的共同标准、最佳实践和监管框架。监管机构、标准制定机构和国际组织间的协作有助于应对跨境监管挑战并促进监管协调。</string>
+
+    <string name="aj19">9.创新沙盒与监管沙盒：</string>
+    <string name="aj20">监管机构可能建立创新沙盒或监管沙盒，以促进加密领域的实验和创新，同时管理风险并确保合规。沙盒为初创企业和金融科技公司提供受监管监督的受控环境，以测试新产品、服务和商业模式。</string>
+
+    <string name="aj21">10.教育与消费者意识：</string>
+    <string name="aj22">政府可能投资公众教育和消费者意识计划，教育公众了解加密货币相关的风险和机遇。通过提升金融素养和意识，监管机构可以赋能消费者做出明智决策，保护自己免受加密市场潜在风险和欺诈。</string>
+
+    <string name="aj23">总之，加密货币监管的未来可能需要在促进创新、保障金融稳定以及保护投资者和消费者之间取得平衡。监管方法可能因司法管辖区的法律和制度框架、经济优先事项和地缘政治考量而异。随着加密行业的持续发展，监管框架将不断调整以应对数字资产生态系统中新出现的挑战和机遇。</string>
+
+    ================================================================================================================================================
+    <string name="ak1">45. 比特币的伦理考量（环境与社会影响）</string>
+
+    <string name="ak2">比特币的兴起及其对环境和社会的影响引发了一些值得关注和反思的伦理考量。以下是围绕比特币的一些关键伦理考量，特别是关于其环境和社会影响：</string>
+
+    <string name="ak3">1.环境影响：</string>
+    <string name="ak4">能源消耗：</string>
+    <string name="ak5">比特币挖矿消耗大量电力，主要是由于验证交易和通过加密计算保护网络所需的能源密集型过程。比特币挖矿相关的能源消耗引发了对其环境足迹的担忧，特别是在碳排放和对气候变化的贡献方面。</string>
+
+    <string name="ak6">碳足迹：</string>
+    <string name="ak7">比特币挖矿的碳足迹引发了关于其能源消耗可持续性的争论，尤其是当大多数挖矿作业依赖化石燃料能源时。批评者认为比特币的环境影响破坏了应对气候变化和向可再生能源过渡的努力。</string>
+
+    <string name="ak8">电子废物：</string>
+    <string name="ak9">挖矿硬件的快速更新和持续升级设备的需求导致了电子废物(e-waste)的产生。废弃矿机和电子元件的处置带来了包括污染和资源枯竭在内的环境风险。</string>
+
+    <string name="ak10">2.社会影响：</string>
+    <string name="ak11">金融包容：</string>
+    <string name="ak12">比特币有潜力通过为无银行账户和服务不足人群提供金融服务促进金融包容。然而，进入壁垒、技术复杂性和加密货币的波动性可能阻碍广泛采用，并加剧现有的金融不平等。</string>
+    <string name="ak13">财富不平等：</string>
+    <string name="ak14">早期采用者、矿工和大额比特币持有者间财富和权力的集中引发了关于加密货币生态系统内财富不平等的担忧。财富和影响力的不平等分配可能加剧现有的社会差距，损害经济公平和社会正义原则。</string>
+    <string name="ak15">监管担忧：</string>
+    <string name="ak16">加密货币市场的监管不确定性和缺乏监督给消费者保护、投资者权利和市场诚信带来了挑战。缺乏明确的监管框架和问责机制可能使用户面临欺诈、骗局和金融风险，特别是在监管不足或未监管的司法管辖区。</string>
+
+    <string name="ak17">3.伦理决策：</string>
+
+    <string name="ak18">透明度与问责：</string>
+    <string name="ak19">伦理考量要求在比特币及相关技术的设计、开发和治理中保持透明和问责。包括开发者、矿工、交易所和用户在内的利益相关者有责任坚持伦理标准，并在行动和决策中促进透明度。</string>
+
+    <string name="ak20">可持续性：</string>
+    <string name="ak21">比特币背景下的伦理决策涉及平衡创新和财务赋权的益处与减轻环境影响和促进可持续性的需求。利益相关者应探索解决方案以最小化比特币的碳足迹，如转向可再生能源和实施节能挖矿实践。</string>
+
+    <string name="ak22">社会责任：</string>
+    <string name="ak23">比特币利益相关者有责任考虑其行动和决策的更广泛社会影响，包括对弱势群体、经济稳定和环境可持续性的影响。通过优先考虑社会责任，利益相关者可以为所有人创造一个更公平、包容和可持续的未来做出贡献。</string>
+
+    <string name="ak24">总之，比特币的伦理考量包括其环境影响、社会影响和伦理决策过程。解决这些考量需要利益相关者共同努力、协作和持续对话，以确保比特币及相关技术符合伦理原则，促进社会福利，并最大限度减少对环境和社会的危害。</string>
+
+    ================================================================================================================================================
+    <string name="aun">比特币减半事件</string>
+
+    <string name="aun1">什么是比特币减半？</string>
+    <string name="aun2">比特币减半是大约每四年发生一次的事件。它将矿工添加新区块到区块链所获得的奖励减半。这一过程控制比特币的供应，并持续到所有2100万枚比特币被挖出为止。</string>
+
+    <string name="aun3">为何会发生减半</string>
+    <string name="aun4">减半事件被写入比特币代码以限制总供应量并防止通胀。它确保新比特币以递减的速度被创造，使其随时间推移变得更加稀缺。</string>
+
+    <string name="aun5">过去的减半事件及其影响</string>
+
+    <string name="aun6">1. 第一次减半（2012年）：</string>
+    <string name="aun7">区块奖励从50比特币减少至25比特币。</string>
+    <string name="aun8">次年价格大幅上涨。</string>
+
+    <string name="aun9">2. 第二次减半（2016年）：</string>
+    <string name="aun10">奖励从25比特币降至12.5比特币。</string>
+    <string name="aun11">随后比特币价格迎来显著增长。</string>
+
+    <string name="aun12">3. 第三次减半（2020年）：</string>
+    <string name="aun13">奖励从12.5比特币减至6.25比特币。</string>
+    <string name="aun14">推动比特币在2021年达到69,000美元的历史高点。</string>
+
+    <string name="aun15">4. 第四次减半（2024年）：</string>
+    <string name="aun16">最新减半将奖励降至3.125比特币。</string>
+    <string name="aun17">对价格的长期影响仍有待观察。</string>
+
+    <string name="aun18">减半为何重要</string>
+    <string name="aun19">供应减少：新增比特币数量下降。</string>
+    <string name="aun20">稀缺性增强：有限供应使比特币更具价值。</string>
+    <string name="aun21">影响价格：历史上减半后常伴随价格大幅上涨。</string>
+    <string name="aun22">影响矿工：若价格未上涨，矿工将更依赖交易手续费。</string>
+
+    <string name="aun23">未来展望</string>
+    <string name="aun24">下一次减半预计在2028年，区块奖励将降至1.5625比特币。随着奖励持续减少，比特币的稀缺性可能推动需求增长和价格进一步上涨。</string>
+
+    <!-- 闪电网络部分 -->
+    <string name="bun1">闪电网络实践</string>
+    <string name="bun2">现实应用案例与当前使用场景</string>
+
+    <string name="bun3">什么是闪电网络？</string>
+    <string name="bun4">闪电网络是构建在比特币之上的第二层解决方案，支持用户以极低费用即时收发比特币。它通过创建私人支付通道网络实现链下交易，最终在比特币主链结算。</string>
+
+    <string name="bun5">核心价值</string>
+    <string name="bun6">更快交易：支付仅需数秒而非分钟级确认</string>
+    <string name="bun7">更低费用：尤其适合小额高频支付（如购买咖啡）</string>
+    <string name="bun8">扩展性：避免区块链拥堵，支持更多用户</string>
+
+    <string name="bun9">实际应用案例</string>
+
+    <string name="bun10">1. Strike应用</string>
+    <string name="bun11">这款移动应用通过闪电网络实现个人转账、跨境汇款及商业支付。</string>
+
+    <string name="bun12">2. Bitrefill平台</string>
+    <string name="bun13">支持用户使用闪电网络比特币购买礼品卡、手机充值等服务，覆盖多国快速支付。</string>
+
+    <string name="bun14">3. Breez钱包</string>
+    <string name="bun15">非托管钱包创新应用，支持闪电支付与播客价值互联（"价值对价"模式）。</string>
+
+    <string name="bun16">4. 萨尔瓦多</string>
+    <string name="bun17">2021年该国将比特币列为法币，麦当劳、星巴克等本地商户均采用闪电网络即时结算。</string>
+
+    <string name="bun18">5. 比特币海滩计划</string>
+    <string name="bun19">萨尔瓦多El Zonte地区项目，日常消费（杂货/学费/薪资）均通过闪电网络完成，无需银行介入。</string>
+
+    <string name="bun20">主流闪电网络应用</string>
+    <string name="bun21">Muun钱包 – 整合链上与闪电支付的简洁钱包</string>
+    <string name="bun22">Wallet of Satoshi – 新手友好型闪电钱包</string>
+    <string name="bun23">Phoenix钱包 – 自带节点的易用钱包</string>
+    <string name="bun24">BlueWallet – 提供比特币与闪电网络的安全交互界面</string>
+
+    <string name="bun25">结语</string>
+    <string name="bun26">闪电网络正使比特币成为实用支付工具，从咖啡消费到流媒体微支付，它让比特币交易更快速、廉价且高效。</string>
+
+    <!-- 发展中国家比特币应用 -->
+    <string name="cun1">比特币与发展中国家</string>
+    <string name="cun2">挑战性经济体的采用案例研究</string>
+
+    <string name="cun3">比特币对发展中国家的意义</string>
+    <string name="cun4">这些国家普遍面临以下挑战：</string>
+    <string name="cun5">本币剧烈波动（通胀导致）</string>
+    <string name="cun6">银行服务缺失</string>
+    <string name="cun7">高昂汇款手续费</string>
+    <string name="cun8">政府对储蓄或资本流动的限制</string>
+    <string name="cun9">比特币提供无国界、去中心化的替代金融系统，只需智能手机和网络即可接入。</string>
+
+    <string name="cun10">真实案例研究</string>
+
+    <string name="cun11">1. 委内瑞拉</string>
+    <string name="cun12">恶性通胀导致玻利瓦尔贬值，民众通过Binance等平台或LocalBitcoins进行P2P交易，用比特币和稳定币储蓄消费。</string>
+
+    <string name="cun13">2. 尼日利亚</string>
+    <string name="cun14">非洲比特币采用率最高的国家，年轻人用其接收自由职业报酬、跨境汇款并规避货币管制，尽管政府打压，P2P交易依然活跃。</string>
+
+    <string name="cun15">3. 萨尔瓦多</string>
+    <string name="cun16">202年首个比特币法币化国家，公民通过Chivo等政府钱包进行日常支付，使无银行账户者获得数字金融服务。</string>
+
+    <string name="cun17">4. 肯尼亚</string>
+    <string name="cun18">民众通过M-Pesa等移动支付系统使用比特币进行跨境汇款，规避传统转账服务的高额手续费。</string>
+
+    <string name="cun19">5. 乌克兰</string>
+    <string name="cun20">2022年冲突期间，比特币成为接收全球捐赠的高效工具，在银行系统承压时实现无需许可的国际转账。</string>
+
+    <string name="cun21">实际助益</string>
+    <string name="cun22">金融包容：无需银行即可储蓄转账</string>
+    <string name="cun23">财富保护：对抗恶性通胀的储值手段</string>
+    <string name="cun24">降低汇款成本：减少中间商剥削</string>
+    <string name="cun25">抗审查：政府难以阻断交易</string>
+
+    <string name="cun26">结论</string>
+    <string name="cun27">比特币不仅是投资工具，对发展中国家而言更是金融自由与稳定的生命线。随着采用率提升，越来越多人正获得无国界的全球货币使用权。</string>
+
+    <!-- 比特币Layer2解决方案 -->
+    <string name="dun1">Layer2解决方案（超越闪电网络）</string>
+    <string name="dun2">提升比特币的速度、扩展性与功能</string>
+
+    <string name="dun3">什么是Layer2解决方案？</string>
+    <string name="dun4">Layer2是在比特币主链（Layer1）之上构建的技术，通过不改变核心协议来提升性能，使比特币更快、更便宜、更灵活。</string>
+
+    <string name="dun5">Layer2的重要性</string>
+    <string name="dun6">比特币主链虽安全但存在速度与容量限制，Layer2在保持主链安全性的同时支持更多交易、更低费用及新功能。</string>
+
+    <string name="dun7">主流Layer2技术（除闪电网络外）</string>
+
+    <string name="dun8">1. Liquid网络</string>
+    <string name="dun9">由Blockstream开发</string>
+    <string name="dun10">支持快速交易与隐私交易的比特币侧链</string>
+    <string name="dun11">被交易所和金融机构用于快速结算</string>
+    <string name="dun12">支持稳定币和证券化代币发行</string>
+
+    <string name="dun13">2. RSK（Rootstock）</string>
+    <string name="dun14">比特币智能合约平台</string>
+    <string name="dun15">为比特币带来以太坊式功能</string>
+    <string name="dun16">支持以比特币为基础货币的dApp开发</string>
+    <string name="dun17">适用于DeFi项目</string>
+
+    <string name="dun18">3. Fedimint</string>
+    <string name="dun19">基于联盟托管和Chaumian电子现金的隐私方案</string>
+    <string name="dun20">允许社区集体管理比特币，无需完全信任单一实体</string>
+    <string name="dun21">特别适合金融机构信任度低的地区</string>
+
+    <string name="dun22">4. Stacks（原Blockstack）</string>
+    <string name="dun23">支持比特币上构建智能合约、NFT和应用的协议层</string>
+    <string name="dun24">采用与比特币挂钩的"转移证明"（PoX）共识机制</string>
+    <string name="dun25">在比特币安全基础上实现Web3功能</string>
+
+    <string name="dun26">Layer2的优势</string>
+    <string name="dun27">扩展性：更高每秒交易量</string>
+    <string name="dun28">低费用：适合微支付和频繁转账</string>
+    <string name="dun29">隐私增强：部分方案支持保密交易</string>
+    <string name="dun30">智能合约：实现货币之外的多样化应用</string>
+    <string name="dun31">全球普惠：提升比特币日常生活适用性</string>
+
+    <string name="dun32">结论</string>
+    <string name="dun33">Layer2解决方案正在扩展比特币的边界——从快速支付到智能合约乃至去中心化金融。随着技术发展，比特币将变得更强大、更普适。</string>
+
+    <!-- 比特币与人工智能 -->
+    <string name="eun1">比特币与人工智能</string>
+    <string name="eun2">探索未来协同效应</string>
+
+    <string name="eun3">概述</string>
+    <string name="eun4">人工智能（AI）与比特币是两大颠覆性技术，二者的结合将深刻改变数字货币的使用、安全和管理方式。虽然领域不同，AI能增强比特币生态的多个维度。</string>
+
+    <string name="eun5">AI对比特币的助益</string>
+
+    <string name="eun6">1. 安全与欺诈检测</string>
+    <string name="eun7">AI可分析海量区块链数据识别异常模式，预防：</string>
+    <string name="eun8">欺诈交易</string>
+    <string name="eun9">双花攻击</string>
+    <string name="eun10">可疑钱包行为 从而提升用户安全与平台可信度</string>
+
+    <string name="eun11">2. 自动化交易</string>
+    <string name="eun12">AI驱动机器人能基于实时数据快速决策：</string>
+    <string name="eun14">追踪市场趋势</string>
+    <string name="eun15">预测价格变动</string>
+    <string name="eun16">即时执行买卖指令 使加密交易更智能高效</string>
+
+    <string name="eun17">3. 市场分析与洞察</string>
+    <string name="eun18">AI工具可研究社交媒体、新闻和链上活动以：</string>
+    <string name="eun19">预测市场情绪</string>
+    <string name="eun20">识别投资者行为模式</string>
+    <string name="eun21">优化投资组合策略</string>
+
+    <string name="eun22">4. 交易优化</string>
+    <string name="eun23">AI可通过以下方式优化比特币交易：</string>
+    <string name="eun24">选择手续费最低的最佳时机</string>
+    <string name="eun25">避开网络拥堵时段</string>
+    <string name="eun26">智能路由支付（尤其在闪电网络中）</string>
+
+    <string name="eun27">5. 反洗钱（AML）合规</string>
+    <string name="eun28">AI系统可协助交易所和企业保持合规：</string>
+    <string name="eun29">监控用户活动</string>
+    <string name="eun30">标记可疑行为</string>
+    <string name="eun31">支持KYC（了解你的客户）验证</string>
+
+    <string name="eun32">未来可能性</string>
+    <string name="eun33">智能AI钱包：学习用户习惯并安全管理资产</string>
+    <string name="eun34">AI比特币助手：辅助决策与自动转账</string>
+    <string name="eun35">AI+DeFi工具：结合智能金融与比特币底层系统</string>
+
+    <string name="eun36">结论</string>
+    <string name="eun37">AI与比特币的结合将打造更安全、高效、智能的金融体系。随着两项技术的发展，它们的协同应用可能重塑人类与货币、交易及数字资产的交互方式。</string>
+
+    <!-- 比特币白皮书解读 -->
+    <string name="fun1">如何阅读比特币白皮书</string>
+    <string name="fun2">中本聪论文入门指南</string>
+
+    <string name="fun3">什么是白皮书？</string>
+    <string name="fun4">白皮书是阐述新技术的详细文档。比特币白皮书由中本聪于2008年撰写，揭示了去中心化数字货币的核心构想。</string>
+    <string name="fun5">标题为《比特币：一种点对点的电子现金系统》</string>
+
+    <string name="fun6">为何要阅读？</string>
+    <string name="fun7">即使非技术人员也能从中：</string>
+    <string name="fun8">理解比特币运作原理</string>
+    <string name="fun9">建立对系统的信任</string>
+    <string name="fun10">了解其解决的问题（如双花）</string>
+    <string name="fun11">认识价格之外的价值</string>
+
+    <string name="fun12">核心章节简析</string>
+
+    <string name="fun13">1. 引言</string>
+    <string name="fun14">指出现有在线支付依赖银行等第三方机构的弊端，提出点对点解决方案</string>
+
+    <string name="fun15">2. 交易</string>
+    <string name="fun16">描述如何通过数字签名验证实现无需银行的转账</string>
+
+    <string name="fun17">3. 时间戳服务器</string>
+    <string name="fun18">比特币使用区块链公开账本记录交易时间</string>
+
+    <string name="fun19">4. 工作量证明</string>
+    <string name="fun20">通过矿工竞争解题（挖矿）保障网络安全</string>
+
+    <string name="fun21">5. 网络</string>
+    <string name="fun22">阐述节点如何达成区块链共识</string>
+
+    <string name="fun23">6. 激励</string>
+    <string name="fun24">矿工通过区块奖励获得比特币，维护网络安全性</string>
+
+    <string name="fun25">7. 回收存储空间</string>
+    <string name="fun26">通过压缩旧交易数据保持系统轻量化</string>
+
+    <string name="fun27">8. 简化支付验证（SPV）</string>
+    <string name="fun28">轻客户端无需下载完整区块链即可验证交易</string>
+
+    <string name="fun29">9. 价值组合与分割</string>
+    <string name="fun30">交易支持多输入输出，实现数字货币的拆分合并</string>
+
+    <string name="fun31">10. 隐私</string>
+    <string name="fun32">通过地址变更提供优于传统银行的隐私保护</string>
+
+    <string name="fun33">11. 结论</string>
+    <string name="fun34">比特币用密码学证明替代信任机制，重塑在线支付体系</string>
+
+    <string name="fun35">初学者阅读建议</string>
+    <string name="fun36">首次阅读无需完全理解所有细节</string>
+    <string name="fun37">重点关注核心理念而非数学公式</string>
+    <string name="fun38">善用图解资料辅助理解</string>
+    <string name="fun39">每日精读一个章节</string>
+
+    <string name="fun40">结语</string>
+    <string name="fun41">比特币白皮书揭示了其创造初衷、运作机制与历史意义。这份文档不仅是互联网史上的里程碑，更是数字自由的宣言。</string>
+
+    <!-- 比特币钱包对比 -->
+    <string name="gun1">比特币钱包对比</string>
+    <string name="gun2">热钱包 vs. 冷钱包 vs. 硬件钱包</string>
+
+    <string name="gun3">什么是比特币钱包？</string>
+    <string name="gun4">比特币钱包是存储私钥的工具（私钥用于控制区块链上的资产），而非直接存储比特币。主要分为三类：</string>
+    <string name="gun6">1. 热钱包</string>
+    <string name="gun7">2. 冷钱包</string>
+    <string name="gun8">3. 硬件钱包</string>
+
+    <string name="gun9">1. 热钱包</string>
+    <string name="gun10">适用场景：日常高频交易</string>
+    <string name="gun11">定义：联网的软件钱包（移动端/桌面端/网页版）</string>
+
+    <string name="gun12">优势：</string>
+    <string name="gun13">操作便捷：快速发起交易</string>
+    <string name="gun14">适合频繁使用：交易/支付场景</string>
+    <string name="gun15">零成本：多数可免费使用</string>
+
+    <string name="gun16">劣势：</string>
+    <string name="gun17">网络安全风险：易受黑客攻击</string>
+    <string name="gun18">非长期存储首选：设备丢失可能导致资产损失</string>
+
+    <string name="gun19">代表产品：</string>
+    <string name="gun20">Exodus（桌面/移动端）</string>
+    <string name="gun21">Electrum（桌面/移动端）</string>
+    <string name="gun22">Trust Wallet（移动端）</string>
+    <string name="gun23">Coinbase Wallet（移动端/浏览器）</string>
+
+    <string name="gun24">2. 冷钱包</string>
+    <string name="gun25">适用场景：长期资产存储</string>
+    <string name="gun26">定义：完全离线的存储方式</string>
+
+    <string name="gun27">优势：</string>
+    <string name="gun28">极高安全性：隔绝网络攻击</string>
+    <string name="gun29">保值首选：适合"囤币"策略</string>
+
+
+    <string name="gun30">劣势：</string>
+    <string name="gun31">操作繁琐：需手动联网交易</string>
+    <string name="gun32">备份至关重要：助记词丢失即永久失资产</string>
+
+    <string name="gun33">代表形式：</string>
+    <string name="gun34">纸钱包（纸质私钥）</string>
+    <string name="gun35">物理隔离电脑</string>
+    <string name="gun36">脑钱包（记忆助记词）</string>
+
+    <string name="gun37">3. 硬件钱包</string>
+    <string name="gun38">适用场景：大额资产存储</string>
+    <string name="gun39">定义：专用于离线存储私钥的物理设备</string>
+
+    <string name="gun40">优势：</string>
+    <string name="gun41">军工级安全：交易时短暂联网</string>
+    <string name="gun42">操作友好：可视化界面</string>
+    <string name="gun43">灾难恢复：支持助记词找回</string>
+
+    <string name="gun44">劣势：</string>
+    <string name="gun45">购置成本：约50-150美元</string>
+    <string name="gun46">物理风险：设备损坏需时间恢复</string>
+
+    <string name="gun47">代表产品：</string>
+    <string name="gun48">Ledger Nano S/X</string>
+    <string name="gun49">Trezor Model One/T</string>
+    <string name="gun50">Coldcard</string>
+    <string name="gun51">KeepKey</string>
+
+    <string name="gun52">选择建议</string>
+    <string name="gun53">新手日常使用 → 热钱包</string>
+    <string name="gun54">长期持有 → 冷钱包</string>
+    <string name="gun55">大额资产 → 硬件钱包</string>
+
+    <string name="gun56">终极建议</string>
+    <string name="gun57">根据使用频率与安全需求选择：热钱包便捷但风险较高，硬件钱包安全但需成本投入。</string>
+
+    <!-- 比特币与暗网 -->
+    <string name="hun1">比特币与暗网</string>
+    <string name="hun2">破除迷思，正视现实</string>
+
+    <string name="hun3">什么是暗网？</string>
+    <string name="hun4">暗网是传统搜索引擎无法索引的网络层，虽常与非法活动关联，但也存在注重隐私的合法社区。</string>
+
+    <string name="hun5">比特币在暗网的应用</string>
+    <string name="hun6">比特币的伪匿名特性使其成为暗网交易媒介，用户可通过混币器等技术增强隐私。</string>
+
+    <string name="hun7">主要用途包括：</string>
+    <string name="hun8">非法商品交易：毒品/武器/仿制品</string>
+    <string name="hun9">非法服务雇佣：黑客/诈骗</string>
+    <string name="hun10">隐私捐助：敏感地区政治组织筹款</string>
+
+    <string name="hun11">常见误解</string>
+
+    <string name="hun12">迷思1：比特币完全匿名</string>
+    <string name="hun13">事实：区块链分析可追踪交易，门罗币等隐私币更隐蔽</string>
+
+    <string name="hun14">迷思2：比特币是暗网唯一支付方式</string>
+    <string name="hun15">事实：门罗币、Zcash等隐私币使用率正在提升</string>
+
+    <string name="hun16">迷思3：比特币仅用于犯罪且无法追踪</string>
+    <string name="hun17">事实：执法部门已建立追踪技术，合法商业应用同样广泛</string>
+
+    <string name="hun18">暗网使用风险</string>
+    <string name="hun19">1. 法律风险：购买非法商品可能面临刑事指控</string>
+    <string name="hun20">2. 诈骗风险：暗网市场充斥虚假商品与服务</string>
+    <string name="hun21">3. 安全风险：可能遭遇黑客攻击与钓鱼陷阱</string>
+    <string name="hun22">4. 无保障：交易纠纷无申诉渠道</string>
+
+    <string name="hun23">执法案例</string>
+    <string name="hun24">丝绸之路等暗网市场被FBI通过区块链分析捣毁</string>
+
+    <string name="hun26">本质认知</string>
+    <string name="hun27">比特币作为工具本身无善恶，其价值取决于使用场景。除暗网外，跨境汇款、投资等合法应用同样重要。</string>
+
+    <!-- 比特币投资心理学 -->
+    <string name="iun1">比特币投资心理学</string>
+    <string name="iun2">FOMO、HODL与恐惧：解读市场行为</string>
+
+    <string name="iun3">引言</string>
+    <string name="iun4">比特币投资不仅关乎市场分析，更涉及人类心理。情绪化决策常导致非理性行为，主要表现包括：</string>
+
+    <string name="iun6">1. FOMO（错失恐惧症）</string>
+    <string name="iun7">定义：因价格暴涨产生的急切追涨心理</string>
+
+    <string name="iun8">市场影响：</string>
+    <string name="iun9">推动价格非理性上涨</string>
+    <string name="iun10">导致市场高估与后续暴跌</string>
+
+    <string name="iun11">应对策略：</string>
+    <string name="iun12">坚持既定投资计划</string>
+    <string name="iun13">加强市场认知教育</string>
+    <string name="iun14">只用闲钱投资</string>
+
+    <string name="iun15">2. HODL（长期持有）</string>
+    <string name="iun16">起源：2013年论坛拼写错误演变成投资哲学</string>
+
+    <string name="iun17">持有动机：</string>
+    <string name="iun18">对比特币颠覆性潜力的信仰</string>
+    <string name="iun19">恐惧踏空重大行情</string>
+
+    <string name="iun20">市场影响：</string>
+    <string name="iun21">降低流动性加剧波动</string>
+    <string name="iun22">长期支撑价格稳定</string>
+
+    <string name="iun23">理性持有建议：</string>
+    <string name="iun24">明确持有周期与退出策略</string>
+    <string name="iun25">保持投资组合多样性</string>
+
+    <string name="iun26">3. 恐惧性抛售</string>
+    <string name="iun27">定义：市场暴跌时非理性割肉行为</string>
+
+    <string name="iun28">心理根源：</string>
+    <string name="iun29">损失厌恶效应</string>
+    <string name="iun30">负面新闻放大恐慌</string>
+
+    <string name="iun31">市场影响：</string>
+    <string name="iun32">引发连锁抛售导致暴跌</string>
+    <string name="iun33">加剧波动：比特币本就以价格剧烈波动著称，恐慌性抛售进一步放大了这一特性</string>
+
+    <string name="iun34">克服恐惧策略：</string>
+    <string name="iun35">保持理性认知：区分市场正常回调与根本性危机</string>
+    <string name="iun36">着眼长期价值：若认可比特币底层逻辑，应忽略短期波动</string>
+    <string name="iun37">接纳波动本质：将价格起伏视为市场常态而非恐慌诱因</string>
+
+    <string name="iun38">投资者行为与市场周期</string>
+    <string name="iun39">比特币市场呈现典型的"繁荣-萧条"周期律</string>
+    <string name="iun40">牛市阶段：FOMO与贪婪情绪主导价格上涨</string>
+    <string name="iun41">熊市阶段：恐惧心理引发踩踏式抛售</string>
+    <string name="iun42">理解周期规律有助于避免情绪化操作</string>
+
+    <string name="iun43">理性投资四原则</string>
+
+    <string name="iun44">1. 设定合理预期</string>
+    <string name="iun45">承认波动是比特币的固有属性，避免盲目追涨杀跌，建立符合实际的价值判断体系</string>
+
+    <string name="iun46">2. 制定投资计划</string>
+    <string name="iun47">明确以下要素：</string>
+    <string name="iun48">配置比例</string>
+    <string name="iun49">买卖触发点</string>
+    <string name="iun50">止盈止损策略</string>
+
+    <string name="iun51">3. 风险管理</string>
+    <string name="iun52">只用闲钱投资，保持资产多元化，必要时设置自动止损线</string>
+
+    <string name="iun53">4. 保持定力</string>
+    <string name="iun54">市场剧烈波动时坚守投资纪律，避免临时决策</string>
+
+    <string name="iun55">结语</string>
+    <string name="iun56">理解FOMO、HODL与恐惧等投资心理，是成为成熟比特币投资者的必修课。保持耐心、持续学习、恪守纪律，方能在波动中把握机遇。</string>
+
+    <!-- 比特币流行文化 -->
+    <string name="jun1">比特币流行文化志</string>
+    <string name="jun2">影视·模因·大众媒介</string>
+
+    <string name="jun3">引言</string>
+    <string name="jun4">比特币已超越数字货币范畴，成为反映时代精神的文化符号。从好莱坞电影到网络模因，从音乐创作到主流媒体报道，比特币正在重塑当代文化景观。</string>
+
+    <string name="jun5">1. 影视作品中的比特币</string>
+    <string name="jun6">好莱坞将比特币视为技术反叛与金融颠覆的象征，其神秘特质为影视创作提供了丰富素材</string>
+
+    <string name="jun7">经典作品：</string>
+    <string name="jun8">《华尔街之狼》（2013）乔丹·贝尔福特讨论比特币潜力的片段，展现其对非传统投资的敏锐嗅觉</string>
+    <string name="jun9">《比特币的崛起》（2016纪录片）通过行业先驱访谈，揭示比特币的社会影响</string>
+    <string name="jun10">《加密货币》（2019）以比特币为线索的犯罪惊悚片，展现区块链的暗面应用</string>
+    <string name="jun11">《创业公司》（2016-2018美剧）讲述地下加密货币帝国与科技创新的伦理边界</string>
+
+    <string name="jun12">影视化呈现动因</string>
+    <string name="jun13">颠覆象征：比特币天然契合反体制叙事</string>
+    <string name="jun14">戏剧张力：中本聪之谜与价格波动提供天然剧情冲突</string>
+
+    <string name="jun15">2. 网络模因文化</string>
+    <string name="jun16">比特币社区用幽默图像解构市场波动，形成独特的数字次文化</string>
+
+    <string name="jun17">经典模因：</string>
+    <string name="jun18">HODL：源自拼写错误的"持币"宣言，成为穿越牛熊的精神图腾</string>
+    <string name="jun19">To the Moon：火箭升空图案表达价格暴涨的社区共识</string>
+    <string name="jun20">激光眼：推特用户用特效照片宣誓对比特币的信仰</string>
+    <string name="jun21">比特币VS山寨币："加密之王"与挑战者的戏谑对比</string>
+
+    <string name="jun22">社交平台生态</string>
+    <string name="jun23">Reddit的r/Bitcoin板块和推特KOL构成模因传播主阵地，兼具信息传递与娱乐功能</string>
+
+    <string name="jun25">3. 音乐领域的渗透</string>
+    <string name="jun26">音乐人通过比特币表达对技术乌托邦的想象</string>
+
+    <string name="jun27">代表性作品：</string>
+    <string name="jun28">YT Cracker《比特币大亨》：用嘻哈节奏演绎加密淘金热</string>
+    <string name="jun29">Punks On a Mission《比特币之歌》：寓教于乐的加密货币启蒙歌</string>
+
+    <string name="jun30">商业应用尝试</string>
+    <string name="jun31">The Chainsmokers等艺人接受比特币支付演出票务，探索新型粉丝经济模式</string>
+
+    <string name="jun33">4. 主流媒体叙事演变</string>
+    <string name="jun34">从边缘话题到头条常客的蜕变</string>
+
+    <string name="jun35">媒体报道焦点：</string>
+    <string name="jun36">价格里程碑：历史新高与闪崩事件</string>
+    <string name="jun37">监管动态：全球政策博弈</string>
+    <string name="jun38">企业 adoption：特斯拉等巨头接纳的象征意义</string>
+
+    <string name="jun39">文化意义总论</string>
+    <string name="jun40">比特币的文化渗透印证了其社会影响力。当数字货币成为影视题材、网络梗图、音乐创作元素时，标志着区块链技术已真正进入大众意识层面。这种文化融合将持续塑造比特币的公众认知。</string>
+
+    <string name="SupportTItle">支持我们</string>
+    <string name="jun24">像 r/Bitcoin 和 r/CryptoCurrency 这样的子版块充满了表情包、讨论和激烈的辩论。Twitter影响者和加密货币领域的知名人士为表情包文化做出了贡献，经常发布关于比特币波动性或加密世界重大事件的幽默观点。</string>
+
+    <string name="jun32">2021年，The Chainsmokers举办了一场音乐会，观众可以用比特币支付，展示了加密货币如何融入现场活动。</string>
+
+    <string name="hun25">例如，暗网最著名的交易平台之一"丝绸之路"被FBI查封，其创始人被捕。调查人员通过区块链分析技术追踪了交易记录。</string>
+
+    <string name="hun28">了解比特币在暗网上相关的迷思与事实之间的区别，有助于用户做出明智决策，确保在使用比特币时保持安全。</string>
+
+    <string name="iun5">让我们探讨这些情绪如何影响比特币投资，以及您如何做出更理性的决策。</string>
+
+
+
+    <string-array name="quiz_questions">
+
+        <item>比特币是什么？|一种实体硬币|一种去中心化的数字货币|一种银行账户|股票市场指数|一种去中心化的数字货币</item>
+        <item>谁创造了比特币？|埃隆·马斯克|中本聪|Vitalik Buterin|美国政府|中本聪</item>
+        <item>比特币何时诞生？|2010年|2008年|2015年|2000年|2008年</item>
+        <item>比特币白皮书名称是？|《数字黄金》|《比特币：一种点对点的电子现金系统》|《货币的未来》|《加密革命》|《比特币：一种点对点的电子现金系统》</item>
+        <item>比特币的基础技术是？|云计算|区块链|量子计算|人工智能|区块链</item>
+        <item>比特币最小单位是？|聪|Wei|Gwei|Finney|聪</item>
+        <item>1比特币等于多少聪？|100|1,000|100,000|100,000,000|100,000,000</item>
+        <item>比特币的代号是？|BCH|XBT|BTC|BIT|BTC</item>
+        <item>以下哪个不是比特币改进提案？|BIP-32|BIP-39|BIP-420|BIP-141|BIP-420</item>
+        <item>比特币首次现实交易是？|购买披萨|购买汽车|房屋首付|黄金交易|购买披萨</item>
+        <item>首次现实交易用了多少比特币？|10,000 BTC|1,000 BTC|100 BTC|1 BTC|10,000 BTC</item>
+        <item>比特币创世区块是？|第一个被挖出的区块|一种钱包类型|挖矿算法|交易类型|第一个被挖出的区块</item>
+        <item>创世区块中编码的信息是？|"Hello World"|"泰晤士报 2009年1月3日 财政大臣即将对银行实施第二轮救助"|"比特币是未来"|无信息|"泰晤士报 2009年1月3日 财政大臣即将对银行实施第二轮救助"</item>
+        <item>比特币节点是什么？|挖矿计算机|任何运行比特币软件的电脑|钱包地址|交易所服务器|任何运行比特币软件的电脑</item>
+        <item>比特币的共识机制是？|权益证明(PoS)|工作量证明(PoW)|委托权益证明(DPoS)|权威证明(PoA)|工作量证明(PoW)</item>
+        <item>当前比特币区块大小限制？|1MB|2MB|4MB|8MB|4MB</item>
+        <item>比特币出块目标时间？|1分钟|10分钟|1小时|2.5分钟|10分钟</item>
+        <item>当前比特币区块奖励？|6.25 BTC|12.5 BTC|25 BTC|50 BTC|6.25 BTC</item>
+        <item>下一次比特币减半预计何时？|2024年|2025年|2026年|2028年|2024年</item>
+        <item>减半后的区块奖励是多少？|3.125 BTC|6.25 BTC|12.5 BTC|25 BTC|3.125 BTC</item>
+        <item>比特币挖矿是什么？|印刷纸币|通过计算验证交易|在交易所购买比特币|黑客攻击|通过计算验证交易</item>
+        <item>"区块奖励"是什么？|矿工的交易手续费|给矿工新生成的比特币|退税|持币奖励|给矿工新生成的比特币</item>
+        <item>比特币每4年区块奖励会？|翻倍|消失|减半|变为负数|减半</item>
+        <item>平均挖出一个比特币区块需要多久？|1分钟|10分钟|1小时|24小时|10分钟</item>
+        <item>比特币中的"哈希"是什么？|一种钱包|挖矿使用的加密函数|交易费|比特币地址|挖矿使用的加密函数</item>
+        <item>挖矿难度是什么？|购买比特币的难度|解决加密难题的难度|矿机成本|矿工数量|解决加密难题的难度</item>
+        <item>挖矿难度多久调整一次？|每个区块|每2016个区块|每月|永不调整|每2016个区块</item>
+        <item>矿池是什么？|矿工的游泳池|矿工联合资源的组织|一种钱包|交易所|矿工联合资源的组织</item>
+        <item>ASIC矿机是什么？|用普通电脑挖矿|用专业硬件挖矿|用手机挖矿|云挖矿|用专业硬件挖矿</item>
+        <item>当前比特币算力单位是？|次哈希/秒|千次哈希/秒|万亿次哈希/秒|百亿亿次哈希/秒|百亿亿次哈希/秒</item>
+        <item>挖矿中的"随机数"是什么？|一种钱包|矿工为解块而更改的数字|交易ID|矿池|矿工为解块而更改的数字</item>
+        <item>"联合挖矿"是什么？|同时挖多种代币|合并矿池|云挖矿|单独挖矿|同时挖多种代币</item>
+        <item>"孤块"是什么？|有效但不在主链的区块|损坏的区块|伪造的区块|空区块|有效但不在主链的区块</item>
+        <item>"区块高度"是什么？|区块链中的区块数量|区块大小|挖矿难度|交易数量|区块链中的区块数量</item>
+        <item>"Coinbase交易"是什么？|区块中生成新币的首笔交易|交易所转账|钱包间交易|闪电网络交易|区块中生成新币的首笔交易</item>
+        <item>"矿工可提取价值"是什么？|区块奖励利润|通过交易排序获得的利润|钱包余额|交易所费用|通过交易排序获得的利润</item>
+        <item>"Stratum协议"是什么？|挖矿通信协议|钱包协议|交易所协议|闪电网络协议|挖矿通信协议</item>
+        <item>"算力"是什么？|挖矿速度|钱包余额|交易量|区块大小|挖矿速度</item>
+        <item>已挖出多少比例的比特币？|约50%|约75%|约90%|约99%|约90%</item>
+        <item>最后一个比特币何时挖完？|约2040年|约2140年|约2240年|永不|约2140年</item>
+        <item>比特币钱包是什么？|存储硬币的物理设备|管理私钥的软件|银行账户|矿机|管理私钥的软件</item>
+        <item>私钥是什么？|访问钱包的密码|公开地址|挖矿工具|身份证|访问钱包的密码</item>
+        <item>"助记词"是什么？|挖矿算法|12-24个用于恢复钱包的单词|比特币交易ID|公开地址|12-24个用于恢复钱包的单词</item>
+        <item>以下哪种不是比特币钱包？|硬件钱包|纸钱包|云钱包|挖矿钱包|挖矿钱包</item>
+        <item>"冷钱包"是什么？|联网的钱包|离线存储的钱包|被黑的钱包|零余额钱包|离线存储的钱包</item>
+        <item>"热钱包"是什么？|断网的钱包|联网的钱包|实体钱包|挖矿钱包|联网的钱包</item>
+        <item>"多重签名钱包"是什么？|多币种钱包|需多个签名的钱包|多地址钱包|挖矿钱包|需多个签名的钱包</item>
+        <item>"HD钱包"是什么？|硬件钱包|分层确定性钱包|高清钱包|热钱包|分层确定性钱包</item>
+        <item>BIP-39是什么？|挖矿协议|助记词标准|区块扩容|交易类型|助记词标准</item>
+        <item>BIP-32是什么？|挖矿算法|HD钱包标准|闪电网络升级|隐私协议|HD钱包标准</item>
+
+        <item>"只读钱包"是什么？|可以发送交易|只能查看余额|挖矿钱包|硬件钱包|只能查看余额</item>
+        <item>"脑钱包"是什么？|存储在记忆中的钱包|硬件钱包|纸钱包|交易所钱包|存储在记忆中的钱包</item>
+        <item>"虚荣地址"是什么？|自定义地址（如以1Love开头）|随机地址|交易所地址|挖矿地址|自定义地址（如以1Love开头）</item>
+        <item>"地址复用"是什么？|多次使用同一地址|使用多个地址|钱包恢复|挖矿过程|多次使用同一地址</item>
+        <item>"币控制"是什么？|管理挖矿奖励|选择特定UTXO进行交易|钱包加密|交易所交易|选择特定UTXO进行交易</item>
+        <item>"PSBT"是什么？|部分签名的比特币交易|私有安全比特币转账|公共结算区块链代币|权益证明比特币代币|部分签名的比特币交易</item>
+        <item>"CoinJoin"是什么？|矿池|合并交易的隐私技术|钱包类型|交易所功能|合并交易的隐私技术</item>
+        <item>"PayNym"是什么？|注重隐私的钱包|挖矿软件|交易所代币|闪电网络节点|注重隐私的钱包</item>
+        <item>"Whirlpool"是什么？|矿池|CoinJoin实现|钱包品牌|交易所服务|CoinJoin实现</item>
+        <item>"Wasabi钱包"是什么？|硬件钱包|注重隐私的钱包|交易所钱包|挖矿钱包|注重隐私的钱包</item>
+        <item>比特币交易是什么？|银行转账|区块链上的价值转移记录|挖矿操作|创建钱包|区块链上的价值转移记录</item>
+        <item>"UTXO"是什么？|未花费交易输出|用户交易操作|通用代币交换要约|未验证交易订单|未花费交易输出</item>
+        <item>"交易费"是什么？|支付给交易所的费用|支付给矿工的费用|比特币税|钱包维护费|支付给矿工的费用</item>
+        <item>什么决定交易费？|钱包余额|网络拥堵和交易大小|挖矿难度|区块奖励|网络拥堵和交易大小</item>
+        <item>"费用替换(RBF)"是什么？|用更高费用替换未确认交易|更改钱包地址|挖矿技术|钱包恢复|用更高费用替换未确认交易</item>
+        <item>"子为父付费(CPFP)"是什么？|孩子为父母购买比特币|子交易为父交易支付费用|继承功能|家庭钱包|子交易为父交易支付费用</item>
+        <item>"隔离见证(SegWit)"是什么？|隔离见证协议升级|挖矿算法|钱包类型|交易所功能|隔离见证协议升级</item>
+        <item>隔离见证解决了什么问题？|交易延展性|挖矿中心化|钱包安全|交易所黑客攻击|交易延展性</item>
+        <item>"Taproot"是什么？|隐私/可扩展性升级|矿池|钱包品牌|交易所代币|隐私/可扩展性升级</item>
+        <item>"Schnorr签名"是什么？|实现Taproot的签名方案|挖矿算法|钱包恢复短语|交易所API|实现Taproot的签名方案</item>
+        <item>"闪电网络"是什么？|二层扩容方案|挖矿协议|钱包类型|交易所网络|二层扩容方案</item>
+        <item>"支付通道"是什么？|双向交易通道|矿池通道|交易所存款通道|钱包备份通道|双向交易通道</item>
+        <item>"原子交换"是什么？|跨链代币交换|挖矿奖励交换|钱包地址变更|交易所交易|跨链代币交换</item>
+        <item>"时间锁"是什么？|交易时间限制|挖矿时间限制|钱包过期|交易所交易时间|交易时间限制</item>
+        <item>"多重签名交易"是什么？|需要多个签名|单签名交易|矿池交易|交易所提现|需要多个签名</item>
+        <item>"粉尘交易"是什么？|极小金额交易|挖矿交易|交易所存款|钱包备份|极小金额交易</item>
+        <item>"币选择"是什么？|选择要花费的UTXO|选择矿池|选择交易所|创建钱包|选择要花费的UTXO</item>
+        <item>"交易批处理"是什么？|合并多笔交易|挖矿技术|钱包恢复|交易所功能|合并多笔交易</item>
+        <item>"虚拟字节(vByte)"是什么？|虚拟字节(重量单位)|挖矿单位|钱包大小|交易所代币|虚拟字节(重量单位)</item>
+        <item>"RBF"是什么？|费用替换|真实比特币基金|递归二进制格式|随机区块费用|费用替换</item>
+        <item>比特币的最大供应量是多少？|2100万|1亿|10亿|无限|2100万</item>
+        <item>"法币"是什么？|政府发行的货币(如美元)|加密货币|黄金|公司代金券|政府发行的货币(如美元)</item>
+        <item>"HODL"是什么？|加密俚语中"持有"的拼写错误|挖矿技术|钱包类型|骗局|加密俚语中"持有"的拼写错误</item>
+        <item>比特币中的"FOMO"是什么？|害怕挖矿障碍|害怕错过机会|货币输出费用|快速在线挖矿操作|害怕错过机会</item>
+        <item>比特币术语中的"鲸鱼"是什么？|大额持有者/投资者|矿工类型|硬件钱包|骗子|大额持有者/投资者</item>
+        <item>"市值"是什么？|流通供应量×价格|挖矿设备价值|钱包余额总和|交易所交易量|流通供应量×价格</item>
+        <item>"流通供应量"是什么？|已挖出且可用的币|总可能存在的币|永久丢失的币|交易所余额|已挖出且可用的币</item>
+        <item>"存量-流量模型"是什么？|基于稀缺性的价格预测模型|挖矿难度模型|钱包安全模型|交易所交易量模型|基于稀缺性的价格预测模型</item>
+        <item>"PlanB"是谁？|比特币创造者|S2F模型背后的匿名分析师|矿池|交易所|S2F模型背后的匿名分析师</item>
+        <item>"比特币超比特币化"是什么？|比特币成为全球主要货币|恶性通货膨胀|挖矿热潮|交易所增长|比特币成为全球主要货币</item>
+        <item>"NVT比率"是什么？|网络价值与交易量比率|挖矿效率比率|钱包安全指标|交易所流动性比率|网络价值与交易量比率</item>
+        <item>"MVRV比率"是什么？|市场价值与实现价值比率|挖矿奖励价值|钱包恢复价值|交易所交易量比率|市场价值与实现价值比率</item>
+        <item>"实现市值"是什么？|各币最后移动价格的总和|市值|挖矿奖励|交易所交易量|各币最后移动价格的总和</item>
+        <item>"币天销毁"是什么？|币龄×交易金额|挖矿难度|钱包年龄|交易所交易天数|币龄×交易金额</item>
+        <item>"抗ASIC"是什么？|使CPU/GPU也能挖矿|阻止ASIC生产|钱包安全|交易所监管|使CPU/GPU也能挖矿</item>
+        <item>"难度彩带"是什么？|挖矿盈利能力指标|钱包安全功能|交易所交易图表|闪电网络指标|挖矿盈利能力指标</item>
+        <item>"哈希彩带"是什么？|挖矿健康指标|钱包备份|交易所交易对|区块链大小|挖矿健康指标</item>
+        <item>"威科夫方法"是什么？|交易分析框架|挖矿技术|钱包恢复|交易所API|交易分析框架</item>
+        <item>"ETF"是什么？|交易所交易基金|电子交易费用|以太坊转账表格|加密交易文件|交易所交易基金</item>
+        <item>"GBTC"是什么？|灰度比特币信托|全球比特币交易币|政府比特币税法|创世区块交易币|灰度比特币信托</item>
+    </string-array>
+
+
+
+    <string name="bsc1">简介</string>
+    <string name="bsc2">历史</string>
+    <string name="bsc3">中本聪是谁？</string>
+    <string name="bsc4">什么是加密货币？</string>
+    <string name="bsc5">什么是区块链？</string>
+    <string name="bsc6">比特币挖矿</string>
+    <string name="bsc7">比特币-购买、出售、发送、接收</string>
+    <string name="bsc8">优缺点</string>
+    <string name="bsc9">比特币应用</string>
+    <string name="bsc10">比特币的未来</string>
+    <string name="bsc11">比特币冷知识</string>
+    <string name="interm1">比特币减半事件</string>
+    <string name="interm2">闪电网络实战</string>
+    <string name="interm3">比特币与发展中国家</string>
+    <string name="interm4">Layer 2解决方案</string>
+    <string name="interm5">比特币与人工智能</string>
+    <string name="interm6">什么是比特币？</string>
+    <string name="interm7">比特币解决的问题</string>
+    <string name="interm8">去中心化解析</string>
+    <string name="interm9">区块链技术</string>
+    <string name="interm10">工作量证明</string>
+    <string name="interm11">钱包与私钥</string>
+    <string name="interm12">交易与手续费</string>
+    <string name="interm13">供需关系</string>
+    <string name="interm14">安全与风险</string>
+    <string name="interm15">比特币 vs 山寨币</string>
+    <string name="interm16">比特币架构</string>
+    <string name="interm17">密码学</string>
+    <string name="interm18">哈希函数</string>
+    <string name="interm19">默克尔树</string>
+    <string name="interm20">难度调整</string>
+    <string name="interm21">可扩展性挑战与解决方案</string>
+    <string name="interm22">智能合约</string>
+    <string name="interm23">分叉与软分叉</string>
+    <string name="interm24">全节点 vs 轻节点</string>
+    <string name="interm25">监管与合规</string>
+    <string name="adve1">比特币白皮书</string>
+    <string name="adve2">比特币钱包对比</string>
+    <string name="adve3">比特币与暗网</string>
+    <string name="adve4">比特币投资心理学</string>
+    <string name="adve5">流行文化中的比特币</string>
+    <string name="adve6">货币政策</string>
+    <string name="adve7">价值存储</string>
+    <string name="adve8">交易媒介</string>
+    <string name="adve9">网络效应</string>
+    <string name="adve10">奥地利经济学派</string>
+    <string name="adve11">通缩货币 vs 通胀货币</string>
+    <string name="adve12">泡沫与崩盘</string>
+    <string name="adve13">挖矿经济学</string>
+    <string name="adve14">金融包容性</string>
+    <string name="adve15">货币的未来</string>
+    <string name="adve16">隐私与匿名</string>
+    <string name="adve17">量子计算威胁</string>
+    <string name="adve18">安全最佳实践</string>
+    <string name="adve19">比特币税务影响</string>
+    <string name="adve20">矿池</string>
+    <string name="adve21">云挖矿</string>
+    <string name="adve22">衍生品与期货市场</string>
+    <string name="adve23">NFT与比特币</string>
+    <string name="adve24">去中心化金融与比特币</string>
+    <string name="adve25">比特币哲学</string>
+    <string name="adve26">比特币名人</string>
+    <string name="adve27">比特币实际用例</string>
+    <string name="adve28">比特币挖矿环境影响</string>
+    <string name="adve29">监管的未来</string>
+    <string name="adve30">比特币伦理考量</string>
+
+    <string name="next_question">下一题</string>
+    <string name="congratulations">恭喜！</string>
+    <string name="excellent_performance">表现优异！</string>
+    <string name="your_score">您的得分</string>
+    <string name="quiz_statistics">测验统计</string>
+    <string name="correct_answers">正确回答</string>
+    <string name="wrong_answers">错误回答</string>
+    <string name="time_taken">用时</string>
+    <string name="previous_best">历史最佳</string>
+    <string name="improved_by_2_points">↗ 提升2分！</string>
+    <string name="play_again">再玩一次</string>
+    <string name="back_to_home">返回首页</string>
+    <string name="refund_help">退款帮助</string>
+    <string name="support_us">支持我们</string>
+    <string name="change_language">更改语言</string>
+    <string name="quiz_game">问答游戏</string>
+    <string name="basic">基础</string>
+    <string name="intermediate">中级</string>
+    <string name="advance">高级</string>
+    <string name="my_apps">我的应用</string>
+    <string name="about_title">关于</string>
+
+
+    <string name="introduction">简介</string>
+    <string name="what_is_bitcoin">什么是比特币？</string>
+    <string name="what_is_cryptocurrency">什么是加密货币？</string>
+    <string name="understanding_cryptocurrencies">理解加密货币</string>
+    <string name="types_of_cryptocurrency">加密货币类型</string>
+    <string name="advantages_of_cryptocurrency">加密货币的优势</string>
+    <string name="disadvantages_of_cryptocurrency">加密货币的劣势</string>
+    <string name="proof_of_work">工作量证明(PoW)</string>
+    <string name="bitcoin_mining">比特币挖矿</string>
+    <string name="there_are_two_main_types_of_mining_solo_and_pool">挖矿主要有两种类型：独立挖矿和矿池挖矿</string>
+    <string name="solo_mining">独立挖矿</string>
+    <string name="pool_mining">矿池挖矿</string>
+    <string name="bitminter">BitMinter</string>
+    <string name="anonymous_and_private">匿名和隐私</string>
+    <string name="payment_freedom">支付自由</string>
+    <string name="low_and_minimal_fees">低额手续费</string>
+    <string name="fewer_risks_for_merchants">商家风险更低</string>
+    <string name="it_s_fast">快速交易</string>
+    <string name="central_governments_can_t_take_it_away">政府无法没收</string>
+    <string name="people_can_t_steal_your_payment_information_from_merchants">支付信息不会被商家泄露</string>
+    <string name="non_inflationary">抗通胀</string>
+    <string name="you_can_create_your_own_money">可以创建自己的货币</string>
+    <string name="degree_of_acceptance">接受程度</string>
+    <string name="volatility">波动性</string>
+    <string name="ongoing_development">持续发展</string>
+    <string name="possible_government_interference">可能的政府干预</string>
+    <string name="deflationary">通缩性</string>
+    <string name="lack_of_recourse">缺乏追索权</string>
+    <string name="money_laundering_black_market">洗钱/黑市</string>
+    <string name="scams_and_frauds">诈骗</string>
+    <string name="no_refund">不可退款</string>
+    <string name="future_cryptocurrencies">未来加密货币</string>
+    <string name="cyber_hacking">网络黑客</string>
+    <string name="priacy">隐私</string>
+    <string name="conclusion">结论</string>
+    <string name="top_10_bitcoin_and_crypto_investing_sites">十大比特币和加密货币投资网站</string>
+    <string name="top_10_bitcoin_android_and_ios_application">十大比特币应用(Android和iOS)</string>
+
+</resources>
