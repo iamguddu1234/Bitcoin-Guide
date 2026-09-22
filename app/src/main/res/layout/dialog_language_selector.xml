@@ -13,7 +13,7 @@
         android:layout_height="@dimen/_40sdp"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/_10sdp"
-        app:cardBackgroundColor="#F7931A"
+        app:cardBackgroundColor="@color/brand_primary"
         app:cardCornerRadius="@dimen/_100sdp"
         app:cardElevation="0dp"
         app:strokeWidth="0dp">
@@ -36,7 +36,7 @@
         android:gravity="center"
         android:includeFontPadding="false"
         android:text="Select language"
-        android:textColor="#111111"
+        android:textColor="@color/text_primary"
         android:textSize="@dimen/_14ssp" />
 
     <TextView
@@ -47,24 +47,24 @@
         android:fontFamily="@font/roboto"
         android:gravity="center"
         android:text="Choose your prefered Language"
-        android:textColor="#8A8A85"
+        android:textColor="@color/text_hint"
         android:textSize="@dimen/_10ssp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/_18sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
         android:orientation="vertical">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
             android:layout_marginTop="@dimen/_10sdp"
-            app:cardBackgroundColor="#F7F6F3"
+            app:cardBackgroundColor="@color/surface_neutral"
             app:cardCornerRadius="@dimen/_10sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#F7F6F3"
+            app:strokeColor="@color/surface_neutral"
             app:strokeWidth="0.6dp">
 
             <LinearLayout
@@ -80,7 +80,7 @@
                     android:layout_height="@dimen/_12sdp"
                     android:layout_marginHorizontal="@dimen/_8sdp"
                     android:src="@drawable/search"
-                    app:tint="#999999" />
+                    app:tint="@color/text_muted" />
 
 
                 <EditText
@@ -91,8 +91,8 @@
                     android:drawablePadding="8dp"
                     android:hint="Search language"
                     android:singleLine="true"
-                    android:textColor="#000"
-                    android:textColorHint="#999999"
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/text_muted"
                     android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
@@ -108,7 +108,7 @@
             android:fontFamily="@font/roboto_bold"
             android:padding="@dimen/_10sdp"
             android:text="No language found"
-            android:textColor="#FF5252"
+            android:textColor="@color/red_alert_text"
             android:textSize="@dimen/_16ssp"
             android:visibility="gone" />
 
@@ -117,11 +117,11 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
             android:layout_marginTop="@dimen/_10sdp"
-            app:cardBackgroundColor="#FFF3E0"
+            app:cardBackgroundColor="@color/orange_bg_soft"
             app:cardCornerRadius="@dimen/_10sdp"
             app:cardElevation="0dp"
             app:rippleColor="@color/colorPrimaryDark"
-            app:strokeColor="#FFD9A0"
+            app:strokeColor="@color/orange_stroke"
             app:strokeWidth="1dp">
 
             <LinearLayout
@@ -162,7 +162,7 @@
                         android:layout_marginHorizontal="@dimen/_10sdp"
                         android:fontFamily="@font/roboto_medium"
                         android:text="English"
-                        android:textColor="#111111"
+                        android:textColor="@color/text_primary"
                         android:textSize="@dimen/_10ssp" />
 
 
@@ -173,7 +173,7 @@
                     android:layout_height="@dimen/_14sdp"
                     android:layout_gravity="center"
                     android:layout_marginHorizontal="@dimen/_10sdp"
-                    app:cardBackgroundColor="#FCE3C0"
+                    app:cardBackgroundColor="@color/orange_badge_bg"
                     app:cardCornerRadius="@dimen/_4sdp"
                     app:cardElevation="0dp"
                     app:strokeWidth="0dp">
@@ -186,7 +186,7 @@
                         android:gravity="center"
                         android:paddingHorizontal="@dimen/_8sdp"
                         android:text="Default"
-                        android:textColor="#C2660D"
+                        android:textColor="@color/brand_text_strong"
                         android:textSize="@dimen/_8ssp" />
 
                 </com.google.android.material.card.MaterialCardView>
@@ -207,7 +207,7 @@
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
                         android:src="@drawable/next"
-                        app:tint="#BBBBBB" />
+                        app:tint="@color/icon_muted" />
                 </com.google.android.material.card.MaterialCardView>
 
             </LinearLayout>
@@ -221,7 +221,7 @@
             android:layout_marginVertical="@dimen/_10sdp"
             android:fontFamily="@font/roboto_bold"
             android:text="All Language"
-            android:textColor="#111111"
+            android:textColor="@color/text_primary"
             android:textSize="@dimen/_10ssp" />
 
     </LinearLayout>
@@ -229,7 +229,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="@dimen/_18sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
         android:paddingBottom="@dimen/_10sdp"
         android:scrollbarStyle="outsideOverlay">
 
@@ -244,11 +244,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_35sdp"
                 android:tag="Arabic"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -288,7 +288,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Arabic"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -310,7 +310,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -323,11 +323,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Bengali"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -357,7 +357,6 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/bangladesh" />
                         </com.google.android.material.card.MaterialCardView>
@@ -368,7 +367,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Bengali"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -390,7 +389,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -403,11 +402,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Chinese"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -447,7 +446,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Chinese (Simplified)"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -469,7 +468,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -482,11 +481,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Filipino"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -526,7 +525,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Filipino"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -548,7 +547,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -561,11 +560,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="French"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -605,7 +604,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="French"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -627,7 +626,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -640,11 +639,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="German"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -684,7 +683,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="German"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -706,7 +705,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -719,11 +718,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Hindi"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -763,7 +762,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Hindi"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -785,7 +784,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -798,11 +797,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Indonesian"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -842,7 +841,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Indonesian"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -864,7 +863,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -877,11 +876,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Italian"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -909,7 +908,6 @@
                             app:strokeWidth="0dp">
 
                             <ImageView
-
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
@@ -922,7 +920,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Italian"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -944,7 +942,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -957,11 +955,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Japanese"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1001,7 +999,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Japanese"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1023,7 +1021,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1036,11 +1034,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Korean"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1080,7 +1078,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Korean"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1102,7 +1100,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1115,11 +1113,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Portuguese"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1159,7 +1157,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Portuguese (Brazil)"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1181,7 +1179,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1194,11 +1192,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Russian"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1238,7 +1236,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Russian"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1260,7 +1258,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1273,11 +1271,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Spanish"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1317,7 +1315,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Spanish"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1339,7 +1337,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1352,11 +1350,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Tamil"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1396,7 +1394,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Tamil (தமிழ்)"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1418,7 +1416,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1431,11 +1429,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Telugu"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1475,7 +1473,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Telugu (తెలుగు)"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1497,7 +1495,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1507,14 +1505,14 @@
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/lang_thai"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp" android:visibility="gone"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Thai"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1554,7 +1552,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Thai"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1576,7 +1574,7 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
@@ -1589,11 +1587,11 @@
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_6sdp"
                 android:tag="Turkish"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1633,7 +1631,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Turkish"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1655,12 +1653,90 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/lang_urdu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:tag="Urdu"
+                app:cardBackgroundColor="@color/surface_white"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="0dp"
+                app:rippleColor="@color/colorPrimaryDark"
+                app:strokeColor="@color/stroke_neutral"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_8sdp"
+                        android:layout_weight="1"
+                        android:gravity="center|start"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="@dimen/_2sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/urdu" />
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Urdu"
+                            android:textColor="@color/text_primary"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_8sdp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="0dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="0dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/next"
+                            app:tint="@color/icon_muted" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/lang_vietnamese"
@@ -1669,11 +1745,11 @@
                 android:layout_marginTop="@dimen/_6sdp"
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:tag="Vietnamese"
-                app:cardBackgroundColor="@color/white"
+                app:cardBackgroundColor="@color/surface_white"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
                 app:rippleColor="@color/colorPrimaryDark"
-                app:strokeColor="#EEECE8"
+                app:strokeColor="@color/stroke_neutral"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1713,7 +1789,7 @@
                             android:layout_marginHorizontal="@dimen/_10sdp"
                             android:fontFamily="@font/roboto"
                             android:text="Vietnamese"
-                            android:textColor="#111111"
+                            android:textColor="@color/text_primary"
                             android:textSize="@dimen/_10ssp" />
 
 
@@ -1735,20 +1811,15 @@
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/next"
-                            app:tint="#BBBBBB" />
+                            app:tint="@color/icon_muted" />
                     </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
 
-
         </LinearLayout>
 
     </ScrollView>
 
 </LinearLayout>
-
-
-
-

@@ -2561,5 +2561,305 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">أفضل 10 مواقع للاستثمار في البيتكوين والعملات المشفرة</string>
     <string name="top_10_bitcoin_android_and_ios_application">أفضل 10 تطبيقات بيتكوين للأندرويد والآيفون</string>
 
+    <string name="thank_you_note">شكرًا لدعمك واستخدامك تطبيقنا! 💙</string>
+    <string name="no_language_found">لم يتم العثور على لغة</string>
+    <string name="search_language">البحث عن لغة</string>
+    <string name="choose_your_prefered_language">اختر لغتك المفضلة</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="all_language">جميع اللغات</string>
+    <string name="result">النتيجة</string>
+    <string name="correct">صحيح</string>
+    <string name="new_best">أفضل نتيجة جديدة!</string>
+    <string name="same_as_best">نفس أفضل نتيجة لك</string>
+    <string name="below_best">أقل من أفضل نتيجة لك</string>
+    <string name="performance_outstanding">أداء متميز!</string>
+    <string name="performance_keep_practicing">واصل التدريب!</string>
+    <string name="finish_quiz">إنهاء الاختبار</string>
+
+    <string name="topics_label">المواضيع</string>
+    <string name="course_label">الدورات</string>
+    <string name="hours_label">الساعات</string>
+    <string name="modules_label">الوحدات</string>
+
+    <string name="my_apps_subtitle">استكشف تطبيقاتنا الأخرى</string>
+    <string name="all">الكل</string>
+    <string name="learn_line">تعلم</string>
+
+    <string name="rate">قيّم</string>
+    <string name="share">مشاركة</string>
+    <string name="about">حول</string>
+    <string name="dark_mode">الوضع الداكن</string>
+
+    <string name="module_1_title">الوحدة 1</string>
+    <string name="module_2_title">الوحدة 2</string>
+    <string name="module_3_title">الوحدة 3</string>
+    <string name="module_4_title">الوحدة 4</string>
+    <string name="module_5_title">الوحدة 5</string>
+    <string name="module_6_title">الوحدة 6</string>
+    <string name="module_7_title">الوحدة 7</string>
+    <string name="module_8_title">الوحدة 8</string>
+    <string name="module_9_title">الوحدة 9</string>
+    <string name="module_10_title">الوحدة 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">كالي لينكس ماستر</string>
+    <string name="app_kali_tagline">تعلم. اختراق. دفاع</string>
+    <string name="app_kali_bullet1">أدوات الأمن السيبراني وإتقان الاختراق الأخلاقي</string>
+    <string name="app_kali_bullet2">كالي لينكس وتطوير مهارات اختبار الاختراق</string>
+    <string name="app_kali_bullet3">الأدلة الجنائية، تحليل البرمجيات الخبيثة والتعلم عبر الاختبارات</string>
+    <string name="app_kali_bullet4">مميز، سريع، خالٍ من الإعلانات ويدعم لغات متعددة</string>
+    <string name="app_kali_tag1">الاختراق الأخلاقي</string>
+    <string name="app_kali_tag2">أدوات احترافية</string>
+    <string name="app_kali_tag3">الأمن السيبراني</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">صائد مكافآت الأخطاء</string>
+    <string name="app_bugbounty_tagline">اعثر على الأخطاء. اكسب المكافآت</string>
+    <string name="app_bugbounty_bullet1">أكثر من 100 موضوع واقعي لمكافآت الأخطاء ومختبرات الثغرات</string>
+    <string name="app_bugbounty_bullet2">أدلة اختبار أمان الويب وواجهات البرمجة والجوال والسحابة</string>
+    <string name="app_bugbounty_bullet3">شروحات استغلال مباشرة، ألعاب اختبارية وتحديات تدريبية</string>
+    <string name="app_bugbounty_bullet4">دعم لغات متعددة، وصول دون اتصال وميزات احترافية مميزة</string>
+    <string name="app_bugbounty_tag1">مكافآت الأخطاء</string>
+    <string name="app_bugbounty_tag2">الاختراق</string>
+    <string name="app_bugbounty_tag3">اختبار الاختراق</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">دوركس - اختراق</string>
+    <string name="app_dorks_tagline">إتقان دوركس جوجل وOSINT</string>
+    <string name="app_dorks_bullet1">أكثر من 1000 دورك من جوجل للاستخبارات مفتوحة المصدر والبحث الأمني الأخلاقي</string>
+    <string name="app_dorks_bullet2">استعلامات المواقع والملفات وتسجيل الدخول والكاميرات وكشف البيانات</string>
+    <string name="app_dorks_bullet3">ألعاب اختبارية، مهام تدريبية وسيناريوهات بحث حقيقية</string>
+    <string name="app_dorks_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_dorks_tag1">دوركس جوجل</string>
+    <string name="app_dorks_tag2">استطلاع</string>
+    <string name="app_dorks_tag3">الأمن السيبراني</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">دليل الويب المظلم</string>
+    <string name="app_darkweb_tagline">إتقان معرفة الويب المظلم</string>
+    <string name="app_darkweb_bullet1">أكثر من 100 موضوع في الويب المظلم والخصوصية من المبتدئ إلى المتقدم</string>
+    <string name="app_darkweb_bullet2">أساسيات تور، الخصوصية على الإنترنت، المخاطر والوعي القانوني</string>
+    <string name="app_darkweb_bullet3">ألعاب اختبارية، دروس تفاعلية وأفضل ممارسات السلامة</string>
+    <string name="app_darkweb_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_darkweb_tag1">تور</string>
+    <string name="app_darkweb_tag2">الويب العميق</string>
+    <string name="app_darkweb_tag3">تصفح مجهول</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">شرح واير شارك</string>
+    <string name="app_wireshark_tagline">حلل حركة مرور الشبكة كالمحترفين</string>
+    <string name="app_wireshark_bullet1">أكثر من 150 موضوعًا في واير شارك من المبتدئ إلى المتقدم</string>
+    <string name="app_wireshark_bullet2">التقاط الحزم، الفلاتر، تحليل البروتوكولات ومختبرات TCP/IP</string>
+    <string name="app_wireshark_bullet3">ألعاب اختبارية، تدريب عملي وسيناريوهات حركة مرور حقيقية</string>
+    <string name="app_wireshark_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_wireshark_tag1">تحليل الشبكة</string>
+    <string name="app_wireshark_tag2">التنصت</string>
+    <string name="app_wireshark_tag3">الأدلة الجنائية</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">إتقان ميتاسبلويت</string>
+    <string name="app_metasploit_tagline">استغل. اختبر. أمّن الأنظمة</string>
+    <string name="app_metasploit_bullet1">أكثر من 150 موضوعًا في ميتاسبلويت من المبتدئ إلى المتقدم</string>
+    <string name="app_metasploit_bullet2">الحمولات، الاستغلالات، ما بعد الاستغلال والأتمتة</string>
+    <string name="app_metasploit_bullet3">ألعاب اختبارية، مختبرات تفاعلية وسيناريوهات هجوم حقيقية</string>
+    <string name="app_metasploit_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_metasploit_tag1">اختبار الاختراق</string>
+    <string name="app_metasploit_tag2">استغلال</string>
+    <string name="app_metasploit_tag3">ثغرة</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">تعلم لينكس</string>
+    <string name="app_learnlinux_tagline">إتقان لينكس من الأساسيات إلى الاحتراف</string>
+    <string name="app_learnlinux_bullet1">أكثر من 100 موضوع في لينكس من المبتدئ إلى المتقدم + أكثر من 1000 أمر ومهمة تدريبية</string>
+    <string name="app_learnlinux_bullet2">أوامر لينكس، برمجة السكربتات وإدارة الأنظمة</string>
+    <string name="app_learnlinux_bullet3">مشاريع، ألعاب اختبارية، مختبرات طرفية وحالات استخدام حقيقية</string>
+    <string name="app_learnlinux_bullet4">دعم لغات متعددة، وصول دون اتصال وميزات مميزة</string>
+    <string name="app_learnlinux_tag1">نظام لينكس</string>
+    <string name="app_learnlinux_tag2">برمجة السكربتات</string>
+    <string name="app_learnlinux_tag3">الأوامر</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">أوامر Nmap</string>
+    <string name="app_nmap_tagline">إتقان فحص الشبكات باستخدام Nmap</string>
+    <string name="app_nmap_bullet1">أكثر من 100 أمر Nmap لفحص الشبكات الحقيقية</string>
+    <string name="app_nmap_bullet2">أكثر من 100 موضوع مغطى: الاستطلاع، التعداد وكشف الثغرات</string>
+    <string name="app_nmap_bullet3">أنواع الفحص، سكربتات NSE، كشف نظام التشغيل وتجاوز الجدار الناري</string>
+    <string name="app_nmap_bullet4">دعم لغات متعددة، ألعاب اختبارية وميزات احترافية مميزة</string>
+    <string name="app_nmap_tag1">الاختراق</string>
+    <string name="app_nmap_tag2">فحص الشبكة</string>
+    <string name="app_nmap_tag3">أدوات</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">دليل أدوات جمع المعلومات</string>
+    <string name="app_infogathering_tagline">إتقان OSINT والاستطلاع كالمحترفين</string>
+    <string name="app_infogathering_bullet1">أهم أدوات الاستطلاع وOSINT مع شروحات مفصلة</string>
+    <string name="app_infogathering_bullet2">Nmap وWhois وDNSenum وtheHarvester وأدلة قائمة على الأوامر</string>
+    <string name="app_infogathering_bullet3">طرق أخرى لجمع المعلومات: OSINT، البصمة الرقمية والتعداد</string>
+    <string name="app_infogathering_bullet4">دعم لغات متعددة، ألعاب اختبارية وميزات احترافية مميزة</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">أدوات الاستطلاع</string>
+    <string name="app_infogathering_tag3">البصمة الرقمية</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">دليل بيرب سويت</string>
+    <string name="app_burpsuite_tagline">إتقان اختبار أمان تطبيقات الويب</string>
+    <string name="app_burpsuite_bullet1">أكثر من 100 موضوع في بيرب سويت ومختبرات اختبار أمان الويب</string>
+    <string name="app_burpsuite_bullet2">دليل البروكسي، ريبيتر، إنترودر، الماسح والإضافات</string>
+    <string name="app_burpsuite_bullet3">شروحات هجوم مباشرة، ألعاب اختبارية ومهام تدريبية</string>
+    <string name="app_burpsuite_bullet4">دعم لغات متعددة، وصول دون اتصال وميزات احترافية مميزة</string>
+    <string name="app_burpsuite_tag1">أمن الويب</string>
+    <string name="app_burpsuite_tag2">خطأ</string>
+    <string name="app_burpsuite_tag3">بحث الثغرات</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">برامج جافا للتدريب</string>
+    <string name="app_java_tagline">تعلم وأتقن برمجة جافا</string>
+    <string name="app_java_bullet1">أكثر من 100 موضوع في جافا مع أكثر من 1000 برنامج تدريبي</string>
+    <string name="app_java_bullet2">الحلقات، المصفوفات، البرمجة الكائنية، النصوص، المجموعات ومعالجة الملفات</string>
+    <string name="app_java_bullet3">ألعاب اختبارية، تمارين تفاعلية وتحديات برمجية</string>
+    <string name="app_java_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_java_tag1">برمجة جافا</string>
+    <string name="app_java_tag2">بناء المنطق</string>
+    <string name="app_java_tag3">تعلم جافا</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">برامج بايثون للتدريب</string>
+    <string name="app_python_tagline">إتقان بايثون بالبرمجة العملية</string>
+    <string name="app_python_bullet1">أكثر من 100 موضوع في بايثون مع أكثر من 1000 برنامج تدريبي</string>
+    <string name="app_python_bullet2">الأساسيات، الحلقات، الدوال، البرمجة الكائنية، معالجة الملفات والمكتبات</string>
+    <string name="app_python_bullet3">ألعاب اختبارية، تحديات برمجية وتمارين بناء المنطق</string>
+    <string name="app_python_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_python_tag1">تعلم بايثون</string>
+    <string name="app_python_tag2">البرمجة</string>
+    <string name="app_python_tag3">تطبيقات بايثون</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">تعلم HTML وCSS وJS وPHP</string>
+    <string name="app_webdev_tagline">ابنِ المواقع. برمج بشكل أسرع</string>
+    <string name="app_webdev_bullet1">أكثر من 100 موضوع في تطوير الويب + أكثر من 1000 برنامج تدريبي برمجي</string>
+    <string name="app_webdev_bullet2">تعلم HTML وCSS وجافاسكريبت وPHP بأمثلة مباشرة</string>
+    <string name="app_webdev_bullet3">مشاريع، تمارين برمجية، ألعاب اختبارية ومهام تدريبية</string>
+    <string name="app_webdev_bullet4">دعم لغات متعددة، وصول دون اتصال وميزات مميزة</string>
+    <string name="app_webdev_tag1">تطوير الويب</string>
+    <string name="app_webdev_tag2">بناء المواقع</string>
+    <string name="app_webdev_tag3">التطوير الشامل</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">برمجة سويفت</string>
+    <string name="app_swift_tagline">ابنِ تطبيقات iOS باستخدام سويفت</string>
+    <string name="app_swift_bullet1">أكثر من 100 موضوع في سويفت من المبتدئ إلى المتقدم + أكثر من 1000 برنامج تدريبي</string>
+    <string name="app_swift_bullet2">تعلم سويفت وUIKit وSwiftUI بأمثلة حقيقية لتطبيقات iOS</string>
+    <string name="app_swift_bullet3">مشاريع، تمارين برمجية، ألعاب اختبارية والتحضير للمقابلات</string>
+    <string name="app_swift_bullet4">دعم لغات متعددة، وصول دون اتصال وميزات مميزة</string>
+    <string name="app_swift_tag1">تعلم سويفت</string>
+    <string name="app_swift_tag2">تطبيقات iOS</string>
+    <string name="app_swift_tag3">برامج سويفت</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">برامج كوتلن للتدريب</string>
+    <string name="app_kotlin_tagline">إتقان كوتلن بالبرمجة العملية</string>
+    <string name="app_kotlin_bullet1">أكثر من 100 موضوع في كوتلن مع أكثر من 1000 برنامج تدريبي</string>
+    <string name="app_kotlin_bullet2">الأساسيات، البرمجة الكائنية، الكوروتينات، المجموعات وكود جاهز للأندرويد</string>
+    <string name="app_kotlin_bullet3">ألعاب اختبارية، تحديات برمجية وتمارين بناء المنطق</string>
+    <string name="app_kotlin_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_kotlin_tag1">برمجة كوتلن</string>
+    <string name="app_kotlin_tag2">كوتلن للأندرويد</string>
+    <string name="app_kotlin_tag3">تعلم كوتلن</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">تعلم تصميم واجهات تطبيقات أندرويد</string>
+    <string name="app_androidui_tagline">صمم واجهات أندرويد جميلة</string>
+    <string name="app_androidui_bullet1">أكثر من 100 موضوع في UI/UX للأندرويد + أكثر من 1000 مهمة تدريبية تصميمية</string>
+    <string name="app_androidui_bullet2">تخطيطات XML، Material Design وواجهات Jetpack Compose</string>
+    <string name="app_androidui_bullet3">مشاريع واجهة مباشرة، ألعاب اختبارية وتمارين عملية</string>
+    <string name="app_androidui_bullet4">دعم لغات متعددة، وصول دون اتصال وميزات مميزة</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">تصميم التطبيقات</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">تعلم تطوير تطبيقات أندرويد</string>
+    <string name="app_androiddev_tagline">ابنِ تطبيقات أندرويد حقيقية خطوة بخطوة</string>
+    <string name="app_androiddev_bullet1">أكثر من 150 موضوعًا في تطوير أندرويد من المبتدئ إلى المتقدم</string>
+    <string name="app_androiddev_bullet2">أدلة جافا وكوتلن وXML وJetpack واستوديو أندرويد</string>
+    <string name="app_androiddev_bullet3">مشاريع تطبيقات حقيقية، أمثلة كود وأفضل الممارسات</string>
+    <string name="app_androiddev_bullet4">تعلم دون اتصال بواجهة نظيفة وبسيطة</string>
+    <string name="app_androiddev_tag1">تعلم أندرويد</string>
+    <string name="app_androiddev_tag2">تطبيقات الجوال</string>
+    <string name="app_androiddev_tag3">جافا للأندرويد</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">شرح آرتش لينكس</string>
+    <string name="app_archlinux_tagline">ثبّت وأتقن آرتش لينكس خطوة بخطوة</string>
+    <string name="app_archlinux_bullet1">أكثر من 150 موضوعًا في آرتش لينكس من المبتدئ إلى المتقدم</string>
+    <string name="app_archlinux_bullet2">التثبيت، pacman، systemd، الشبكات وإعداد سطح المكتب</string>
+    <string name="app_archlinux_bullet3">مختبرات عملية، تدريب على الأوامر وحالات استخدام حقيقية</string>
+    <string name="app_archlinux_bullet4">دعم لغات متعددة، ألعاب اختبارية وميزات احترافية مميزة</string>
+    <string name="app_archlinux_tag1">دليل لينكس</string>
+    <string name="app_archlinux_tag2">إدارة الأنظمة</string>
+    <string name="app_archlinux_tag3">الأوامر</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">بيتكوين - من الأساسي إلى المتقدم</string>
+    <string name="app_bitcoin_tagline">تعلم العملات الرقمية والبلوكتشين بذكاء</string>
+    <string name="app_bitcoin_bullet1">أكثر من 100 موضوع في البيتكوين والبلوكتشين من المبتدئ إلى المتقدم</string>
+    <string name="app_bitcoin_bullet2">أساسيات العملات الرقمية، المحافظ، التعدين، التداول والأمان</string>
+    <string name="app_bitcoin_bullet3">ألعاب اختبارية، دروس تفاعلية وتحديات تدريبية</string>
+    <string name="app_bitcoin_bullet4">دعم لغات متعددة وميزات احترافية مميزة متاحة</string>
+    <string name="app_bitcoin_tag1">تعلم العملات الرقمية</string>
+    <string name="app_bitcoin_tag2">البلوكتشين</string>
+    <string name="app_bitcoin_tag3">العملة الرقمية</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">اختصارات لوحة المفاتيح</string>
+    <string name="app_shortcuts_tagline">اعمل بشكل أسرع باختصارات لوحة المفاتيح</string>
+    <string name="app_shortcuts_bullet1">أكثر من 50 اختصار تطبيق مستخدم يوميًا للعمل السريع</string>
+    <string name="app_shortcuts_bullet2">اختصارات ويندوز، MS Word، إكسل، كروم والنظام</string>
+    <string name="app_shortcuts_bullet3">تعلم سهل، وضع تدريبي ونصائح لتعزيز الذاكرة</string>
+    <string name="app_shortcuts_bullet4">وصول دون اتصال، بلا إعلانات وواجهة نظيفة بسيطة</string>
+    <string name="app_shortcuts_tag1">اختصارات لوحة المفاتيح</string>
+    <string name="app_shortcuts_tag2">العمل الذكي</string>
+    <string name="app_shortcuts_tag3">نصائح لوحة المفاتيح</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">أسئلة مقابلات تقنية المعلومات</string>
+    <string name="app_itinterview_tagline">اجتز مقابلات البرمجة والتقنية</string>
+    <string name="app_itinterview_bullet1">أكثر من 100 موضوع وسؤال مقابلة للغات البرمجة</string>
+    <string name="app_itinterview_bullet2">أدلة مقابلات جافا وبايثون وC وC++ وPHP وJS وSQL</string>
+    <string name="app_itinterview_bullet3">التحضير لمقابلات الموارد البشرية والتقنية والبرمجية</string>
+    <string name="app_itinterview_bullet4">وصول دون اتصال بواجهة نظيفة وبسيطة</string>
+    <string name="app_itinterview_tag1">التحضير للمقابلات وأسئلة وأجوبة</string>
+    <string name="app_itinterview_tag2">التحضير للوظيفة</string>
+    <string name="app_itinterview_tag3">وظائف تقنية</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">تعلم التحدث بالإنجليزية يوميًا</string>
+    <string name="app_englishspeak_tagline">تحدث الإنجليزية بثقة كل يوم</string>
+    <string name="app_englishspeak_bullet1">أكثر من 100 موضوع في المحادثة الإنجليزية + أكثر من 1000 جملة تدريبية يومية</string>
+    <string name="app_englishspeak_bullet2">القواعد، المفردات، النطق ومهارات المحادثة</string>
+    <string name="app_englishspeak_bullet3">تمارين تحدث، ألعاب اختبارية وحوارات من الحياة الواقعية</string>
+    <string name="app_englishspeak_bullet4">دعم لغات متعددة، وصول دون اتصال وميزات مميزة</string>
+    <string name="app_englishspeak_tag1">الإنجليزية المحكية</string>
+    <string name="app_englishspeak_tag2">التدريب اليومي</string>
+    <string name="app_englishspeak_tag3">الطلاقة</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">قصة إنجليزية قصيرة</string>
+    <string name="app_englishstory_tagline">قصص إنجليزية ممتعة للأطفال</string>
+    <string name="app_englishstory_bullet1">أكثر من 500 قصة إنجليزية قصيرة للأطفال مع دروس أخلاقية</string>
+    <string name="app_englishstory_bullet2">كلمات سهلة، جمل بسيطة وسرد قصص ملون</string>
+    <string name="app_englishstory_bullet3">تدريب القراءة، تعزيز المفردات وتعلم ممتع</string>
+    <string name="app_englishstory_bullet4">آمن للأطفال: بلا إعلانات، بلا اشتراكات مدفوعة وقراءة دون اتصال</string>
+    <string name="app_englishstory_tag1">قصص الأطفال</string>
+    <string name="app_englishstory_tag2">تعلم الإنجليزية</string>
+    <string name="app_englishstory_tag3">كتاب القصص</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">التنزيلات</string>
+    <string name="label_rating">التقييم</string>
+    <string name="label_size">الحجم</string>
+    <string name="label_install">تثبيت</string>
+    <string name="label_free">مجاني</string>
+
 
 </resources>

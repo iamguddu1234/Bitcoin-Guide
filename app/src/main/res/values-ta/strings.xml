@@ -2417,4 +2417,303 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">பிட்காயின் மற்றும் கிரிப்டோ முதலீட்டு தளங்கள் முதல் 10</string>
     <string name="top_10_bitcoin_android_and_ios_application">பிட்காயின் ஆண்ட்ராய்டு மற்றும் iOS பயன்பாடுகள் முதல் 10</string>
 
+    <string name="thank_you_note">எங்கள் ஆப்பை ஆதரித்து பயன்படுத்தியதற்கு நன்றி! 💙</string>
+    <string name="no_language_found">மொழி எதுவும் கிடைக்கவில்லை</string>
+    <string name="search_language">மொழியைத் தேடு</string>
+    <string name="choose_your_prefered_language">உங்களுக்கு விருப்பமான மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="select_language">மொழியைத் தேர்ந்தெடு</string>
+    <string name="all_language">அனைத்து மொழிகள்</string>
+    <string name="result">முடிவு</string>
+    <string name="correct">சரி</string>
+    <string name="new_best">புதிய சிறந்த சாதனை!</string>
+    <string name="same_as_best">உங்கள் சிறந்ததைப் போலவே</string>
+    <string name="below_best">உங்கள் சிறந்ததை விட குறைவு</string>
+    <string name="performance_outstanding">அற்புதம்!</string>
+    <string name="performance_keep_practicing">பயிற்சியைத் தொடருங்கள்!</string>
+    <string name="finish_quiz">வினாடி வினாவை முடிக்கவும்</string>
+
+    <string name="topics_label">தலைப்புகள்</string>
+    <string name="course_label">பாடநெறிகள்</string>
+    <string name="hours_label">மணி நேரங்கள்</string>
+    <string name="modules_label">பிரிவுகள்</string>
+
+    <string name="my_apps_subtitle">எங்கள் பிற ஆப்களை ஆராயுங்கள்</string>
+    <string name="all">அனைத்தும்</string>
+    <string name="learn_line">கற்றுக்கொள்</string>
+
+    <string name="rate">மதிப்பிடு</string>
+    <string name="share">பகிர்</string>
+    <string name="about">பற்றி</string>
+    <string name="dark_mode">இருண்ட பயன்முறை</string>
+
+    <string name="module_1_title">பிரிவு 1</string>
+    <string name="module_2_title">பிரிவு 2</string>
+    <string name="module_3_title">பிரிவு 3</string>
+    <string name="module_4_title">பிரிவு 4</string>
+    <string name="module_5_title">பிரிவு 5</string>
+    <string name="module_6_title">பிரிவு 6</string>
+    <string name="module_7_title">பிரிவு 7</string>
+    <string name="module_8_title">பிரிவு 8</string>
+    <string name="module_9_title">பிரிவு 9</string>
+    <string name="module_10_title">பிரிவு 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux மாஸ்டர்</string>
+    <string name="app_kali_tagline">கற்று. ஹேக். பாதுகா</string>
+    <string name="app_kali_bullet1">சைபர் பாதுகாப்பு கருவிகள் மற்றும் நெறிமுறை ஹேக்கிங் தேர்ச்சி</string>
+    <string name="app_kali_bullet2">Kali Linux மற்றும் ஊடுருவல் சோதனை திறன் மேம்பாடு</string>
+    <string name="app_kali_bullet3">தடயவியல், மால்வேர் பகுப்பாய்வு மற்றும் வினாடி வினா அடிப்படையிலான கற்றல்</string>
+    <string name="app_kali_bullet4">பிரீமியம், வேகமான, விளம்பரமில்லாத, பல மொழி ஆதரவுடன்</string>
+    <string name="app_kali_tag1">நெறிமுறை ஹேக்கிங்</string>
+    <string name="app_kali_tag2">புரோ கருவிகள்</string>
+    <string name="app_kali_tag3">சைபர் பாதுகாப்பு</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">பக் பவுண்டி ஹண்டர்</string>
+    <string name="app_bugbounty_tagline">பிழைகளைக் கண்டறியுங்கள். வெகுமதி பெறுங்கள்</string>
+    <string name="app_bugbounty_bullet1">100+ உண்மையான பக் பவுண்டி தலைப்புகள் மற்றும் பாதிப்பு ஆய்வகங்கள்</string>
+    <string name="app_bugbounty_bullet2">வலை, API, மொபைல் மற்றும் கிளவுட் பாதுகாப்பு சோதனை வழிகாட்டிகள்</string>
+    <string name="app_bugbounty_bullet3">நேரடி சுரண்டல் விளக்கங்கள், வினாடி வினா விளையாட்டுகள் மற்றும் பயிற்சி சவால்கள்</string>
+    <string name="app_bugbounty_bullet4">பல மொழி, ஆஃப்லைன் அணுகல் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_bugbounty_tag1">பக் பவுண்டி</string>
+    <string name="app_bugbounty_tag2">ஹேக்கிங்</string>
+    <string name="app_bugbounty_tag3">பென்டெஸ்டிங்</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Google Dorks மற்றும் OSINT தேர்ச்சி</string>
+    <string name="app_dorks_bullet1">OSINT மற்றும் நெறிமுறை பாதுகாப்பு ஆராய்ச்சிக்கான 1000+ Google Dorks</string>
+    <string name="app_dorks_bullet2">இணையதளம், கோப்பு, உள்நுழைவு, கேமரா மற்றும் தரவு வெளிப்பாடு வினவல்கள்</string>
+    <string name="app_dorks_bullet3">வினாடி வினா விளையாட்டுகள், பயிற்சி பணிகள் மற்றும் உண்மையான தேடல் சூழல்கள்</string>
+    <string name="app_dorks_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">உளவு</string>
+    <string name="app_dorks_tag3">சைபர் பாதுகாப்பு</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">டார்க் வெப் வழிகாட்டி</string>
+    <string name="app_darkweb_tagline">டார்க் வெப் அறிவில் தேர்ச்சி</string>
+    <string name="app_darkweb_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 100+ டார்க் வெப் மற்றும் தனியுரிமை தலைப்புகள்</string>
+    <string name="app_darkweb_bullet2">Tor அடிப்படைகள், ஆன்லைன் தனியுரிமை, ஆபத்துகள் மற்றும் சட்ட விழிப்புணர்வு</string>
+    <string name="app_darkweb_bullet3">வினாடி வினா விளையாட்டுகள், ஊடாடும் பாடங்கள் மற்றும் சிறந்த பாதுகாப்பு நடைமுறைகள்</string>
+    <string name="app_darkweb_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">அநாமதேய உலாவல்</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Wireshark பயிற்சி</string>
+    <string name="app_wireshark_tagline">ஒரு நிபுணரைப் போல நெட்வொர்க் போக்குவரத்தை பகுப்பாய்வு செய்யுங்கள்</string>
+    <string name="app_wireshark_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 150+ Wireshark தலைப்புகள்</string>
+    <string name="app_wireshark_bullet2">பாக்கெட் பிடிப்பு, வடிப்பான்கள், நெறிமுறை பகுப்பாய்வு மற்றும் TCP/IP ஆய்வகங்கள்</string>
+    <string name="app_wireshark_bullet3">வினாடி வினா விளையாட்டுகள், நேரடி பயிற்சி மற்றும் உண்மையான போக்குவரத்து சூழல்கள்</string>
+    <string name="app_wireshark_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_wireshark_tag1">நெட்வொர்க் பகுப்பாய்வு</string>
+    <string name="app_wireshark_tag2">ஸ்னிஃபிங்</string>
+    <string name="app_wireshark_tag3">தடயவியல்</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Metasploit தேர்ச்சி</string>
+    <string name="app_metasploit_tagline">சுரண்டு. சோதி. கணினிகளை பாதுகாக்கவும்</string>
+    <string name="app_metasploit_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 150+ Metasploit தலைப்புகள்</string>
+    <string name="app_metasploit_bullet2">பேலோடுகள், சுரண்டல்கள், பிந்தைய-சுரண்டல் மற்றும் தானியங்குமயமாக்கல்</string>
+    <string name="app_metasploit_bullet3">வினாடி வினா விளையாட்டுகள், ஊடாடும் ஆய்வகங்கள் மற்றும் உண்மையான தாக்குதல் சூழல்கள்</string>
+    <string name="app_metasploit_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_metasploit_tag1">ஊடுருவல் சோதனை</string>
+    <string name="app_metasploit_tag2">சுரண்டல்</string>
+    <string name="app_metasploit_tag3">பாதிப்பு</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Linux கற்றுக்கொள்</string>
+    <string name="app_learnlinux_tagline">அடிப்படை முதல் புரோ நிலை வரை Linux தேர்ச்சி</string>
+    <string name="app_learnlinux_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 100+ Linux தலைப்புகள் + 1000+ கட்டளைகள் மற்றும் பயிற்சி பணிகள்</string>
+    <string name="app_learnlinux_bullet2">Linux கட்டளைகள், ஷெல் ஸ்கிரிப்டிங் மற்றும் கணினி நிர்வாகம்</string>
+    <string name="app_learnlinux_bullet3">திட்டங்கள், வினாடி வினா விளையாட்டுகள், டெர்மினல் ஆய்வகங்கள் மற்றும் உண்மையான பயன்பாட்டு நிகழ்வுகள்</string>
+    <string name="app_learnlinux_bullet4">பல மொழி ஆதரவு, ஆஃப்லைன் அணுகல் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_learnlinux_tag1">Linux OS</string>
+    <string name="app_learnlinux_tag2">ஷெல் ஸ்கிரிப்டிங்</string>
+    <string name="app_learnlinux_tag3">கட்டளைகள்</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Nmap கட்டளைகள்</string>
+    <string name="app_nmap_tagline">Nmap மூலம் நெட்வொர்க் ஸ்கேனிங் தேர்ச்சி</string>
+    <string name="app_nmap_bullet1">உண்மையான நெட்வொர்க் ஸ்கேனிங்கிற்கான 100+ Nmap கட்டளைகள்</string>
+    <string name="app_nmap_bullet2">100+ தலைப்புகள் உள்ளடக்கியது: உளவு, கணக்கிடல் மற்றும் பாதிப்பு கண்டறிதல்</string>
+    <string name="app_nmap_bullet3">ஸ்கேன் வகைகள், NSE ஸ்கிரிப்ட்கள், OS கண்டறிதல் மற்றும் ஃபயர்வால் தவிர்ப்பு</string>
+    <string name="app_nmap_bullet4">பல மொழி ஆதரவு, வினாடி வினா விளையாட்டுகள் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_nmap_tag1">ஹேக்கிங்</string>
+    <string name="app_nmap_tag2">நெட்வொர்க் ஸ்கேனிங்</string>
+    <string name="app_nmap_tag3">கருவிகள்</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">தகவல் சேகரிப்பு கருவிகள் வழிகாட்டி</string>
+    <string name="app_infogathering_tagline">ஒரு நிபுணரைப் போல OSINT மற்றும் உளவு தேர்ச்சி</string>
+    <string name="app_infogathering_bullet1">விரிவான பயிற்சிகளுடன் மிக முக்கியமான உளவு மற்றும் OSINT கருவிகள்</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester மற்றும் கட்டளை அடிப்படையிலான வழிகாட்டிகள்</string>
+    <string name="app_infogathering_bullet3">தகவல் சேகரிக்கும் பிற வழிகள்: OSINT, ஃபுட்பிரிண்டிங் மற்றும் கணக்கிடல்</string>
+    <string name="app_infogathering_bullet4">பல மொழி ஆதரவு, வினாடி வினா விளையாட்டுகள் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">உளவு கருவிகள்</string>
+    <string name="app_infogathering_tag3">ஃபுட்பிரிண்டிங்</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Burp Suite வழிகாட்டி</string>
+    <string name="app_burpsuite_tagline">வலை பயன்பாட்டு பாதுகாப்பு சோதனை தேர்ச்சி</string>
+    <string name="app_burpsuite_bullet1">100+ Burp Suite தலைப்புகள் மற்றும் வலை பாதுகாப்பு சோதனை ஆய்வகங்கள்</string>
+    <string name="app_burpsuite_bullet2">Proxy, Repeater, Intruder, Scanner மற்றும் நீட்டிப்புகள் வழிகாட்டி</string>
+    <string name="app_burpsuite_bullet3">நேரடி தாக்குதல் விளக்கங்கள், வினாடி வினா விளையாட்டுகள் மற்றும் பயிற்சி பணிகள்</string>
+    <string name="app_burpsuite_bullet4">பல மொழி ஆதரவு, ஆஃப்லைன் அணுகல் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_burpsuite_tag1">வலை பாதுகாப்பு</string>
+    <string name="app_burpsuite_tag2">பிழை</string>
+    <string name="app_burpsuite_tag3">பாதிப்பு ஆராய்ச்சி</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">பயிற்சிக்கான Java நிரல்கள்</string>
+    <string name="app_java_tagline">Java நிரலாக்கத்தைக் கற்று தேர்ச்சி பெறுங்கள்</string>
+    <string name="app_java_bullet1">1000+ பயிற்சி நிரல்களுடன் 100+ Java தலைப்புகள்</string>
+    <string name="app_java_bullet2">சுழற்சிகள், அணிகள், OOP, சரங்கள், தொகுப்புகள் மற்றும் கோப்பு கையாளுதல்</string>
+    <string name="app_java_bullet3">வினாடி வினா விளையாட்டுகள், ஊடாடும் பயிற்சிகள் மற்றும் நிரலாக்க சவால்கள்</string>
+    <string name="app_java_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_java_tag1">Java நிரலாக்கம்</string>
+    <string name="app_java_tag2">தர்க்க கட்டமைப்பு</string>
+    <string name="app_java_tag3">Java கற்றுக்கொள்</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">பயிற்சிக்கான Python நிரல்கள்</string>
+    <string name="app_python_tagline">நேரடி நிரலாக்கத்துடன் Python தேர்ச்சி</string>
+    <string name="app_python_bullet1">1000+ பயிற்சி நிரல்களுடன் 100+ Python தலைப்புகள்</string>
+    <string name="app_python_bullet2">அடிப்படைகள், சுழற்சிகள், செயல்பாடுகள், OOP, கோப்பு கையாளுதல் மற்றும் நூலகங்கள்</string>
+    <string name="app_python_bullet3">வினாடி வினா விளையாட்டுகள், நிரலாக்க சவால்கள் மற்றும் தர்க்க கட்டமைப்பு பயிற்சிகள்</string>
+    <string name="app_python_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_python_tag1">Python கற்றுக்கொள்</string>
+    <string name="app_python_tag2">நிரலாக்கம்</string>
+    <string name="app_python_tag3">Python ஆப்கள்</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">HTML, CSS, JS, PHP கற்றுக்கொள்</string>
+    <string name="app_webdev_tagline">இணையதளங்களை உருவாக்குங்கள். வேகமாக குறியீடு எழுதுங்கள்</string>
+    <string name="app_webdev_bullet1">1000+ நிரலாக்க பயிற்சி நிரல்களுடன் 100+ வலை மேம்பாட்டு தலைப்புகள்</string>
+    <string name="app_webdev_bullet2">நேரடி உதாரணங்களுடன் HTML, CSS, JavaScript மற்றும் PHP கற்றுக்கொள்ளுங்கள்</string>
+    <string name="app_webdev_bullet3">திட்டங்கள், நிரலாக்க பயிற்சிகள், வினாடி வினா விளையாட்டுகள் மற்றும் பயிற்சி பணிகள்</string>
+    <string name="app_webdev_bullet4">பல மொழி ஆதரவு, ஆஃப்லைன் அணுகல் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_webdev_tag1">வலை மேம்பாடு</string>
+    <string name="app_webdev_tag2">இணையதளங்கள் உருவாக்கு</string>
+    <string name="app_webdev_tag3">முழு ஸ்டேக்</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Swift நிரலாக்கம்</string>
+    <string name="app_swift_tagline">Swift உடன் iOS ஆப்களை உருவாக்குங்கள்</string>
+    <string name="app_swift_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 100+ Swift தலைப்புகள் + 1000+ பயிற்சி நிரல்கள்</string>
+    <string name="app_swift_bullet2">உண்மையான iOS ஆப் உதாரணங்களுடன் Swift, UIKit மற்றும் SwiftUI கற்றுக்கொள்ளுங்கள்</string>
+    <string name="app_swift_bullet3">திட்டங்கள், நிரலாக்க பயிற்சிகள், வினாடி வினா விளையாட்டுகள் மற்றும் நேர்காணல் தயாரிப்பு</string>
+    <string name="app_swift_bullet4">பல மொழி ஆதரவு, ஆஃப்லைன் அணுகல் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_swift_tag1">Swift கற்றுக்கொள்</string>
+    <string name="app_swift_tag2">iOS ஆப்கள்</string>
+    <string name="app_swift_tag3">Swift நிரல்கள்</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">பயிற்சிக்கான Kotlin நிரல்கள்</string>
+    <string name="app_kotlin_tagline">நேரடி நிரலாக்கத்துடன் Kotlin தேர்ச்சி</string>
+    <string name="app_kotlin_bullet1">1000+ பயிற்சி நிரல்களுடன் 100+ Kotlin தலைப்புகள்</string>
+    <string name="app_kotlin_bullet2">அடிப்படைகள், OOP, coroutines, தொகுப்புகள் மற்றும் Android-தயாராக குறியீடு</string>
+    <string name="app_kotlin_bullet3">வினாடி வினா விளையாட்டுகள், நிரலாக்க சவால்கள் மற்றும் தர்க்க கட்டமைப்பு பயிற்சிகள்</string>
+    <string name="app_kotlin_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_kotlin_tag1">Kotlin நிரலாக்கம்</string>
+    <string name="app_kotlin_tag2">Android Kotlin</string>
+    <string name="app_kotlin_tag3">Kotlin கற்றுக்கொள்</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Android ஆப் UI வடிவமைப்பு கற்றுக்கொள்</string>
+    <string name="app_androidui_tagline">அழகான Android இடைமுகங்களை வடிவமைக்கவும்</string>
+    <string name="app_androidui_bullet1">1000+ வடிவமைப்பு பயிற்சி பணிகளுடன் 100+ Android UI/UX தலைப்புகள்</string>
+    <string name="app_androidui_bullet2">XML தளவமைப்புகள், Material Design மற்றும் Jetpack Compose UI</string>
+    <string name="app_androidui_bullet3">நேரடி UI திட்டங்கள், வினாடி வினா விளையாட்டுகள் மற்றும் நேரடி பயிற்சிகள்</string>
+    <string name="app_androidui_bullet4">பல மொழி ஆதரவு, ஆஃப்லைன் அணுகல் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">ஆப் வடிவமைப்பு</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Android ஆப் மேம்பாடு கற்றுக்கொள்</string>
+    <string name="app_androiddev_tagline">படிப்படியாக உண்மையான Android ஆப்களை உருவாக்குங்கள்</string>
+    <string name="app_androiddev_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 150+ Android மேம்பாட்டு தலைப்புகள்</string>
+    <string name="app_androiddev_bullet2">Java, Kotlin, XML, Jetpack மற்றும் Android Studio வழிகாட்டிகள்</string>
+    <string name="app_androiddev_bullet3">உண்மையான ஆப் திட்டங்கள், குறியீடு உதாரணங்கள் மற்றும் சிறந்த நடைமுறைகள்</string>
+    <string name="app_androiddev_bullet4">தூய்மையான மற்றும் எளிய இடைமுகத்துடன் ஆஃப்லைன் கற்றல்</string>
+    <string name="app_androiddev_tag1">Android கற்றுக்கொள்</string>
+    <string name="app_androiddev_tag2">மொபைல் ஆப்கள்</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Arch Linux பயிற்சி</string>
+    <string name="app_archlinux_tagline">படிப்படியாக Arch Linux ஐ நிறுவி தேர்ச்சி பெறுங்கள்</string>
+    <string name="app_archlinux_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 150+ Arch Linux தலைப்புகள்</string>
+    <string name="app_archlinux_bullet2">நிறுவல், pacman, systemd, நெட்வொர்க்கிங் மற்றும் டெஸ்க்டாப் அமைப்பு</string>
+    <string name="app_archlinux_bullet3">நேரடி ஆய்வகங்கள், கட்டளை பயிற்சி மற்றும் உண்மையான பயன்பாட்டு நிகழ்வுகள்</string>
+    <string name="app_archlinux_bullet4">பல மொழி ஆதரவு, வினாடி வினா விளையாட்டுகள் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_archlinux_tag1">Linux வழிகாட்டி</string>
+    <string name="app_archlinux_tag2">கணினி நிர்வாகம்</string>
+    <string name="app_archlinux_tag3">கட்டளைகள்</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - அடிப்படை முதல் மேம்பட்ட நிலை</string>
+    <string name="app_bitcoin_tagline">கிரிப்டோ மற்றும் பிளாக்செயினை புத்திசாலித்தனமாக கற்றுக்கொள்ளுங்கள்</string>
+    <string name="app_bitcoin_bullet1">ஆரம்பம் முதல் மேம்பட்ட நிலை வரை 100+ Bitcoin மற்றும் பிளாக்செயின் தலைப்புகள்</string>
+    <string name="app_bitcoin_bullet2">கிரிப்டோ அடிப்படைகள், வாலட்கள், மைனிங், வர்த்தகம் மற்றும் பாதுகாப்பு</string>
+    <string name="app_bitcoin_bullet3">வினாடி வினா விளையாட்டுகள், ஊடாடும் பாடங்கள் மற்றும் பயிற்சி சவால்கள்</string>
+    <string name="app_bitcoin_bullet4">பல மொழி ஆதரவு மற்றும் பிரீமியம் அம்சங்கள் கிடைக்கின்றன</string>
+    <string name="app_bitcoin_tag1">கிரிப்டோ கற்றுக்கொள்</string>
+    <string name="app_bitcoin_tag2">பிளாக்செயின்</string>
+    <string name="app_bitcoin_tag3">டிஜிட்டல் நாணயம்</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">கணினி குறுக்குவழி விசைகள்</string>
+    <string name="app_shortcuts_tagline">விசைப்பலகை குறுக்குவழிகளுடன் வேகமாக வேலை செய்யுங்கள்</string>
+    <string name="app_shortcuts_bullet1">வேகமான வேலைக்கு அதிகம் பயன்படுத்தப்படும் 50+ ஆப் குறுக்குவழி விசைகள்</string>
+    <string name="app_shortcuts_bullet2">Windows, MS Word, Excel, Chrome மற்றும் கணினி குறுக்குவழிகள்</string>
+    <string name="app_shortcuts_bullet3">எளிதான கற்றல், பயிற்சி பயன்முறை மற்றும் நினைவாற்றல் மேம்பாட்டு உதவிக்குறிப்புகள்</string>
+    <string name="app_shortcuts_bullet4">ஆஃப்லைன் அணுகல், விளம்பரமில்லாத மற்றும் தூய்மையான எளிய இடைமுகம்</string>
+    <string name="app_shortcuts_tag1">குறுக்குவழி விசைகள்</string>
+    <string name="app_shortcuts_tag2">ஸ்மார்ட் வேலை</string>
+    <string name="app_shortcuts_tag3">விசைப்பலகை உதவிக்குறிப்புகள்</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">IT நேர்காணல் கேள்விகள்</string>
+    <string name="app_itinterview_tagline">நிரலாக்கம் மற்றும் தொழில்நுட்ப நேர்காணல்களை வெல்லுங்கள்</string>
+    <string name="app_itinterview_bullet1">நிரலாக்க மொழி நேர்காணல் தலைப்புகள் மற்றும் கேள்விகள் 100+</string>
+    <string name="app_itinterview_bullet2">Java, Python, C, C++, PHP, JS மற்றும் SQL நேர்காணல் வழிகாட்டிகள்</string>
+    <string name="app_itinterview_bullet3">HR, தொழில்நுட்ப மற்றும் நிரலாக்க நேர்காணல் தயாரிப்பு</string>
+    <string name="app_itinterview_bullet4">தூய்மையான எளிய இடைமுகத்துடன் ஆஃப்லைன் அணுகல்</string>
+    <string name="app_itinterview_tag1">நேர்காணல் தயாரிப்பு கேள்வி பதில்</string>
+    <string name="app_itinterview_tag2">வேலை தயாரிப்பு</string>
+    <string name="app_itinterview_tag3">தொழில்நுட்ப வேலைகள்</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">பயிற்சி - தினசரி ஆங்கிலம் பேசுதல்</string>
+    <string name="app_englishspeak_tagline">ஒவ்வொரு நாளும் நம்பிக்கையுடன் ஆங்கிலம் பேசுங்கள்</string>
+    <string name="app_englishspeak_bullet1">1000+ தினசரி பயிற்சி வாக்கியங்களுடன் 100+ பேசும் ஆங்கில தலைப்புகள்</string>
+    <string name="app_englishspeak_bullet2">இலக்கணம், சொல்லகராதி, உச்சரிப்பு மற்றும் உரையாடல் திறன்கள்</string>
+    <string name="app_englishspeak_bullet3">பேசும் பயிற்சிகள், வினாடி வினா விளையாட்டுகள் மற்றும் நிஜ வாழ்க்கை உரையாடல்கள்</string>
+    <string name="app_englishspeak_bullet4">பல மொழி ஆதரவு, ஆஃப்லைன் அணுகல் மற்றும் பிரீமியம் அம்சங்கள்</string>
+    <string name="app_englishspeak_tag1">பேசும் ஆங்கிலம்</string>
+    <string name="app_englishspeak_tag2">தினசரி பயிற்சி</string>
+    <string name="app_englishspeak_tag3">சரளத்தன்மை</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">சிறு ஆங்கிலக் கதை</string>
+    <string name="app_englishstory_tagline">குழந்தைகளுக்கான வேடிக்கையான ஆங்கிலக் கதைகள்</string>
+    <string name="app_englishstory_bullet1">தார்மீக பாடங்களுடன் குழந்தைகளுக்கான 500+ சிறு ஆங்கிலக் கதைகள்</string>
+    <string name="app_englishstory_bullet2">எளிய சொற்கள், எளிய வாக்கியங்கள் மற்றும் வண்ணமயமான கதை சொல்லல்</string>
+    <string name="app_englishstory_bullet3">வாசிப்பு பயிற்சி, சொல்லகராதி மேம்பாடு மற்றும் வேடிக்கையான கற்றல்</string>
+    <string name="app_englishstory_bullet4">குழந்தைகளுக்கு பாதுகாப்பானது: விளம்பரமில்லாத, பிரீமியமில்லாத மற்றும் ஆஃப்லைன் வாசிப்பு</string>
+    <string name="app_englishstory_tag1">குழந்தை கதைகள்</string>
+    <string name="app_englishstory_tag2">ஆங்கிலம் கற்றுக்கொள்</string>
+    <string name="app_englishstory_tag3">கதை புத்தகம்</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">பதிவிறக்கங்கள்</string>
+    <string name="label_rating">மதிப்பீடு</string>
+    <string name="label_size">அளவு</string>
+    <string name="label_install">நிறுவு</string>
+    <string name="label_free">இலவசம்</string>
 </resources>

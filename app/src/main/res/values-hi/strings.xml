@@ -2523,4 +2523,303 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">बिटकॉइन और क्रिप्टो निवेश के शीर्ष 10 साइट्स</string>
     <string name="top_10_bitcoin_android_and_ios_application">बिटकॉइन के शीर्ष 10 एंड्रॉइड और iOS ऐप्लिकेशन</string>
 
+    <string name="thank_you_note">हमारे ऐप का समर्थन करने और उपयोग करने के लिए धन्यवाद! 💙</string>
+    <string name="no_language_found">कोई भाषा नहीं मिली</string>
+    <string name="search_language">भाषा खोजें</string>
+    <string name="choose_your_prefered_language">अपनी पसंदीदा भाषा चुनें</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="all_language">सभी भाषाएं</string>
+    <string name="result">परिणाम</string>
+    <string name="correct">सही</string>
+    <string name="new_best">नया सर्वश्रेष्ठ!</string>
+    <string name="same_as_best">आपके सर्वश्रेष्ठ के समान</string>
+    <string name="below_best">आपके सर्वश्रेष्ठ से कम</string>
+    <string name="performance_outstanding">शानदार!</string>
+    <string name="performance_keep_practicing">अभ्यास जारी रखें!</string>
+    <string name="finish_quiz">क्विज़ समाप्त करें</string>
+
+    <string name="topics_label">विषय</string>
+    <string name="course_label">कोर्स</string>
+    <string name="hours_label">घंटे</string>
+    <string name="modules_label">मॉड्यूल</string>
+
+    <string name="my_apps_subtitle">हमारे अन्य ऐप्स देखें</string>
+    <string name="all">सभी</string>
+    <string name="learn_line">सीखें</string>
+
+    <string name="rate">रेट करें</string>
+    <string name="share">शेयर करें</string>
+    <string name="about">जानकारी</string>
+    <string name="dark_mode">डार्क मोड</string>
+
+    <string name="module_1_title">मॉड्यूल 1</string>
+    <string name="module_2_title">मॉड्यूल 2</string>
+    <string name="module_3_title">मॉड्यूल 3</string>
+    <string name="module_4_title">मॉड्यूल 4</string>
+    <string name="module_5_title">मॉड्यूल 5</string>
+    <string name="module_6_title">मॉड्यूल 6</string>
+    <string name="module_7_title">मॉड्यूल 7</string>
+    <string name="module_8_title">मॉड्यूल 8</string>
+    <string name="module_9_title">मॉड्यूल 9</string>
+    <string name="module_10_title">मॉड्यूल 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">काली लिनक्स मास्टर</string>
+    <string name="app_kali_tagline">सीखें। हैक करें। सुरक्षा करें</string>
+    <string name="app_kali_bullet1">साइबर सुरक्षा टूल्स और एथिकल हैकिंग में महारत</string>
+    <string name="app_kali_bullet2">काली लिनक्स और पेन टेस्टिंग स्किल डेवलपमेंट</string>
+    <string name="app_kali_bullet3">फोरेंसिक्स, मैलवेयर एनालिसिस और क्विज़-आधारित लर्निंग</string>
+    <string name="app_kali_bullet4">प्रीमियम, तेज़, विज्ञापन-मुक्त और बहुभाषी सपोर्ट के साथ</string>
+    <string name="app_kali_tag1">एथिकल हैकिंग</string>
+    <string name="app_kali_tag2">प्रो टूल्स</string>
+    <string name="app_kali_tag3">साइबर सुरक्षा</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">बग बाउंटी हंटर</string>
+    <string name="app_bugbounty_tagline">बग खोजें। इनाम पाएं</string>
+    <string name="app_bugbounty_bullet1">100+ वास्तविक बग बाउंटी विषय और वल्नरेबिलिटी लैब्स</string>
+    <string name="app_bugbounty_bullet2">वेब, API, मोबाइल और क्लाउड सिक्योरिटी टेस्टिंग गाइड</string>
+    <string name="app_bugbounty_bullet3">लाइव एक्सप्लॉइट वॉकथ्रू, क्विज़ गेम्स और प्रैक्टिस चैलेंज</string>
+    <string name="app_bugbounty_bullet4">बहुभाषी, ऑफलाइन एक्सेस और प्रीमियम प्रो फीचर्स</string>
+    <string name="app_bugbounty_tag1">बग बाउंटी</string>
+    <string name="app_bugbounty_tag2">हैकिंग</string>
+    <string name="app_bugbounty_tag3">पेनटेस्टिंग</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">डॉर्क्स - हैक</string>
+    <string name="app_dorks_tagline">गूगल डॉर्क्स और OSINT में महारत</string>
+    <string name="app_dorks_bullet1">OSINT और एथिकल सिक्योरिटी रिसर्च के लिए 1000+ गूगल डॉर्क्स</string>
+    <string name="app_dorks_bullet2">वेबसाइट, फाइल, लॉगिन, कैमरा और डेटा एक्सपोज़र क्वेरीज़</string>
+    <string name="app_dorks_bullet3">क्विज़ गेम्स, प्रैक्टिस टास्क और वास्तविक सर्च परिदृश्य</string>
+    <string name="app_dorks_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_dorks_tag1">गूगल डॉर्क्स</string>
+    <string name="app_dorks_tag2">रेकॉन</string>
+    <string name="app_dorks_tag3">साइबर सुरक्षा</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">डार्क वेब गाइड</string>
+    <string name="app_darkweb_tagline">डार्क वेब की जानकारी में महारत</string>
+    <string name="app_darkweb_bullet1">शुरुआती से एडवांस तक 100+ डार्क वेब और प्राइवेसी विषय</string>
+    <string name="app_darkweb_bullet2">टोर बेसिक्स, ऑनलाइन प्राइवेसी, जोखिम और कानूनी जागरूकता</string>
+    <string name="app_darkweb_bullet3">क्विज़ गेम्स, इंटरैक्टिव लेसन और सेफ्टी बेस्ट प्रैक्टिसेज़</string>
+    <string name="app_darkweb_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_darkweb_tag1">टोर</string>
+    <string name="app_darkweb_tag2">डीप वेब</string>
+    <string name="app_darkweb_tag3">एनोनिमस ब्राउज़िंग</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">वायरशार्क ट्यूटोरियल</string>
+    <string name="app_wireshark_tagline">प्रो की तरह नेटवर्क ट्रैफिक का विश्लेषण करें</string>
+    <string name="app_wireshark_bullet1">शुरुआती से एडवांस तक 150+ वायरशार्क विषय</string>
+    <string name="app_wireshark_bullet2">पैकेट कैप्चर, फिल्टर, प्रोटोकॉल एनालिसिस और TCP/IP लैब्स</string>
+    <string name="app_wireshark_bullet3">क्विज़ गेम्स, हैंड्स-ऑन प्रैक्टिस और वास्तविक ट्रैफिक परिदृश्य</string>
+    <string name="app_wireshark_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_wireshark_tag1">नेटवर्क एनालिसिस</string>
+    <string name="app_wireshark_tag2">स्निफिंग</string>
+    <string name="app_wireshark_tag3">फोरेंसिक्स</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">मेटास्प्लॉइट में महारत</string>
+    <string name="app_metasploit_tagline">एक्सप्लॉइट करें। टेस्ट करें। सिस्टम सुरक्षित करें</string>
+    <string name="app_metasploit_bullet1">शुरुआती से एडवांस तक 150+ मेटास्प्लॉइट विषय</string>
+    <string name="app_metasploit_bullet2">पेलोड्स, एक्सप्लॉइट्स, पोस्ट-एक्सप्लॉइटेशन और ऑटोमेशन</string>
+    <string name="app_metasploit_bullet3">क्विज़ गेम्स, इंटरैक्टिव लैब्स और वास्तविक अटैक परिदृश्य</string>
+    <string name="app_metasploit_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_metasploit_tag1">पेनेट्रेशन टेस्टिंग</string>
+    <string name="app_metasploit_tag2">एक्सप्लॉइट</string>
+    <string name="app_metasploit_tag3">वल्नरेबिलिटी</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">लिनक्स सीखें</string>
+    <string name="app_learnlinux_tagline">बेसिक्स से प्रो तक लिनक्स में महारत</string>
+    <string name="app_learnlinux_bullet1">शुरुआती से एडवांस तक 100+ लिनक्स विषय + 1000+ कमांड और प्रैक्टिस टास्क</string>
+    <string name="app_learnlinux_bullet2">लिनक्स कमांड, शेल स्क्रिप्टिंग और सिस्टम एडमिनिस्ट्रेशन</string>
+    <string name="app_learnlinux_bullet3">प्रोजेक्ट्स, क्विज़ गेम्स, टर्मिनल लैब्स और वास्तविक उपयोग-मामले</string>
+    <string name="app_learnlinux_bullet4">बहुभाषी सपोर्ट, ऑफलाइन एक्सेस और प्रीमियम फीचर्स</string>
+    <string name="app_learnlinux_tag1">लिनक्स OS</string>
+    <string name="app_learnlinux_tag2">शेल स्क्रिप्टिंग</string>
+    <string name="app_learnlinux_tag3">कमांड</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Nmap कमांड</string>
+    <string name="app_nmap_tagline">Nmap से नेटवर्क स्कैनिंग में महारत</string>
+    <string name="app_nmap_bullet1">वास्तविक नेटवर्क स्कैनिंग के लिए 100+ Nmap कमांड</string>
+    <string name="app_nmap_bullet2">100+ विषय शामिल: रेकॉन, एन्युमरेशन और वल्नरेबिलिटी डिटेक्शन</string>
+    <string name="app_nmap_bullet3">स्कैन टाइप्स, NSE स्क्रिप्ट्स, OS डिटेक्शन और फायरवॉल एवेज़न</string>
+    <string name="app_nmap_bullet4">बहुभाषी सपोर्ट, क्विज़ गेम्स और प्रीमियम प्रो फीचर्स</string>
+    <string name="app_nmap_tag1">हैकिंग</string>
+    <string name="app_nmap_tag2">नेटवर्क स्कैनिंग</string>
+    <string name="app_nmap_tag3">टूल्स</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">इंफॉर्मेशन गैदरिंग टूल्स गाइड</string>
+    <string name="app_infogathering_tagline">प्रो की तरह OSINT और रेकॉन में महारत</string>
+    <string name="app_infogathering_bullet1">विस्तृत ट्यूटोरियल के साथ सबसे महत्वपूर्ण रेकॉन और OSINT टूल्स</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester और कमांड-आधारित गाइड</string>
+    <string name="app_infogathering_bullet3">जानकारी जुटाने के अन्य तरीके: OSINT, फुटप्रिंटिंग और एन्युमरेशन</string>
+    <string name="app_infogathering_bullet4">बहुभाषी सपोर्ट, क्विज़ गेम्स और प्रीमियम प्रो फीचर्स</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">रेकॉन टूल्स</string>
+    <string name="app_infogathering_tag3">फुटप्रिंटिंग</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">बर्प सूट गाइड</string>
+    <string name="app_burpsuite_tagline">वेब ऐप सिक्योरिटी टेस्टिंग में महारत</string>
+    <string name="app_burpsuite_bullet1">100+ बर्प सूट विषय और वेब सिक्योरिटी टेस्टिंग लैब्स</string>
+    <string name="app_burpsuite_bullet2">प्रॉक्सी, रिपीटर, इंट्रूडर, स्कैनर और एक्सटेंशन गाइड</string>
+    <string name="app_burpsuite_bullet3">लाइव अटैक वॉकथ्रू, क्विज़ गेम्स और प्रैक्टिस टास्क</string>
+    <string name="app_burpsuite_bullet4">बहुभाषी सपोर्ट, ऑफलाइन एक्सेस और प्रीमियम प्रो फीचर्स</string>
+    <string name="app_burpsuite_tag1">वेब सिक्योरिटी</string>
+    <string name="app_burpsuite_tag2">बग</string>
+    <string name="app_burpsuite_tag3">वल्नरेबिलिटी रिसर्च</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">जावा प्रोग्राम्स प्रैक्टिस के लिए</string>
+    <string name="app_java_tagline">जावा कोडिंग सीखें और उसमें महारत हासिल करें</string>
+    <string name="app_java_bullet1">100+ जावा विषय के साथ 1000+ प्रैक्टिस प्रोग्राम</string>
+    <string name="app_java_bullet2">लूप्स, ऐरे, OOP, स्ट्रिंग्स, कलेक्शन्स और फाइल हैंडलिंग</string>
+    <string name="app_java_bullet3">क्विज़ गेम्स, इंटरैक्टिव एक्सरसाइज़ और कोडिंग चैलेंज</string>
+    <string name="app_java_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_java_tag1">जावा कोडिंग</string>
+    <string name="app_java_tag2">लॉजिक बिल्डिंग</string>
+    <string name="app_java_tag3">जावा सीखें</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">पायथन प्रोग्राम्स प्रैक्टिस के लिए</string>
+    <string name="app_python_tagline">हैंड्स-ऑन कोडिंग से पायथन में महारत</string>
+    <string name="app_python_bullet1">100+ पायथन विषय के साथ 1000+ प्रैक्टिस प्रोग्राम</string>
+    <string name="app_python_bullet2">बेसिक्स, लूप्स, फंक्शन्स, OOP, फाइल हैंडलिंग और लाइब्रेरी</string>
+    <string name="app_python_bullet3">क्विज़ गेम्स, कोडिंग चैलेंज और लॉजिक-बिल्डिंग एक्सरसाइज़</string>
+    <string name="app_python_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_python_tag1">पायथन सीखें</string>
+    <string name="app_python_tag2">प्रोग्रामिंग</string>
+    <string name="app_python_tag3">पायथन ऐप्स</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">HTML, CSS, JS, PHP सीखें</string>
+    <string name="app_webdev_tagline">वेबसाइट बनाएं। तेज़ी से कोड करें</string>
+    <string name="app_webdev_bullet1">100+ वेब डेवलपमेंट विषय + 1000+ कोडिंग प्रैक्टिस प्रोग्राम</string>
+    <string name="app_webdev_bullet2">लाइव उदाहरणों के साथ HTML, CSS, जावास्क्रिप्ट और PHP सीखें</string>
+    <string name="app_webdev_bullet3">प्रोजेक्ट्स, कोडिंग एक्सरसाइज़, क्विज़ गेम्स और प्रैक्टिस टास्क</string>
+    <string name="app_webdev_bullet4">बहुभाषी सपोर्ट, ऑफलाइन एक्सेस और प्रीमियम फीचर्स</string>
+    <string name="app_webdev_tag1">वेब डेव</string>
+    <string name="app_webdev_tag2">वेबसाइट बनाएं</string>
+    <string name="app_webdev_tag3">फुल स्टैक</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">स्विफ्ट प्रोग्रामिंग</string>
+    <string name="app_swift_tagline">स्विफ्ट से iOS ऐप्स बनाएं</string>
+    <string name="app_swift_bullet1">शुरुआती से एडवांस तक 100+ स्विफ्ट विषय + 1000+ प्रैक्टिस प्रोग्राम</string>
+    <string name="app_swift_bullet2">वास्तविक iOS ऐप उदाहरणों के साथ स्विफ्ट, UIKit और SwiftUI सीखें</string>
+    <string name="app_swift_bullet3">प्रोजेक्ट्स, कोडिंग एक्सरसाइज़, क्विज़ गेम्स और इंटरव्यू तैयारी</string>
+    <string name="app_swift_bullet4">बहुभाषी सपोर्ट, ऑफलाइन एक्सेस और प्रीमियम फीचर्स</string>
+    <string name="app_swift_tag1">स्विफ्ट सीखें</string>
+    <string name="app_swift_tag2">iOS ऐप्स</string>
+    <string name="app_swift_tag3">स्विफ्ट प्रोग्राम्स</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">कोटलिन प्रोग्राम्स प्रैक्टिस के लिए</string>
+    <string name="app_kotlin_tagline">हैंड्स-ऑन कोडिंग से कोटलिन में महारत</string>
+    <string name="app_kotlin_bullet1">100+ कोटलिन विषय के साथ 1000+ प्रैक्टिस प्रोग्राम</string>
+    <string name="app_kotlin_bullet2">बेसिक्स, OOP, कोरूटीन्स, कलेक्शन्स और एंड्रॉइड-रेडी कोड</string>
+    <string name="app_kotlin_bullet3">क्विज़ गेम्स, कोडिंग चैलेंज और लॉजिक-बिल्डिंग एक्सरसाइज़</string>
+    <string name="app_kotlin_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_kotlin_tag1">कोटलिन कोडिंग</string>
+    <string name="app_kotlin_tag2">एंड्रॉइड कोटलिन</string>
+    <string name="app_kotlin_tag3">कोटलिन सीखें</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">एंड्रॉइड ऐप UI डिज़ाइन सीखें</string>
+    <string name="app_androidui_tagline">खूबसूरत एंड्रॉइड इंटरफेस डिज़ाइन करें</string>
+    <string name="app_androidui_bullet1">100+ एंड्रॉइड UI/UX विषय + 1000+ डिज़ाइन प्रैक्टिस टास्क</string>
+    <string name="app_androidui_bullet2">XML लेआउट, मटेरियल डिज़ाइन और जेटपैक कंपोज़ UI</string>
+    <string name="app_androidui_bullet3">लाइव UI प्रोजेक्ट्स, क्विज़ गेम्स और हैंड्स-ऑन एक्सरसाइज़</string>
+    <string name="app_androidui_bullet4">बहुभाषी सपोर्ट, ऑफलाइन एक्सेस और प्रीमियम फीचर्स</string>
+    <string name="app_androidui_tag1">मटेरियल डिज़ाइन</string>
+    <string name="app_androidui_tag2">ऐप डिज़ाइन</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">एंड्रॉइड ऐप डेवलपमेंट सीखें</string>
+    <string name="app_androiddev_tagline">स्टेप बाय स्टेप असली एंड्रॉइड ऐप बनाएं</string>
+    <string name="app_androiddev_bullet1">शुरुआती से एडवांस तक 150+ एंड्रॉइड डेवलपमेंट विषय</string>
+    <string name="app_androiddev_bullet2">जावा, कोटलिन, XML, जेटपैक और एंड्रॉइड स्टूडियो गाइड</string>
+    <string name="app_androiddev_bullet3">वास्तविक ऐप प्रोजेक्ट्स, कोड उदाहरण और बेस्ट प्रैक्टिसेज़</string>
+    <string name="app_androiddev_bullet4">साफ और सरल इंटरफेस के साथ ऑफलाइन लर्निंग</string>
+    <string name="app_androiddev_tag1">एंड्रॉइड सीखें</string>
+    <string name="app_androiddev_tag2">मोबाइल ऐप्स</string>
+    <string name="app_androiddev_tag3">जावा एंड्रॉइड</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">आर्च लिनक्स ट्यूटोरियल</string>
+    <string name="app_archlinux_tagline">स्टेप बाय स्टेप आर्च लिनक्स इंस्टॉल और मास्टर करें</string>
+    <string name="app_archlinux_bullet1">शुरुआती से एडवांस तक 150+ आर्च लिनक्स विषय</string>
+    <string name="app_archlinux_bullet2">इंस्टॉलेशन, pacman, systemd, नेटवर्किंग और डेस्कटॉप सेटअप</string>
+    <string name="app_archlinux_bullet3">हैंड्स-ऑन लैब्स, कमांड प्रैक्टिस और वास्तविक उपयोग-मामले</string>
+    <string name="app_archlinux_bullet4">बहुभाषी सपोर्ट, क्विज़ गेम्स और प्रीमियम प्रो फीचर्स</string>
+    <string name="app_archlinux_tag1">लिनक्स गाइड</string>
+    <string name="app_archlinux_tag2">सिस्टम एडमिन</string>
+    <string name="app_archlinux_tag3">कमांड</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">बिटकॉइन - बेसिक से एडवांस तक</string>
+    <string name="app_bitcoin_tagline">क्रिप्टो और ब्लॉकचेन को समझदारी से सीखें</string>
+    <string name="app_bitcoin_bullet1">शुरुआती से एडवांस तक 100+ बिटकॉइन और ब्लॉकचेन विषय</string>
+    <string name="app_bitcoin_bullet2">क्रिप्टो बेसिक्स, वॉलेट, माइनिंग, ट्रेडिंग और सिक्योरिटी</string>
+    <string name="app_bitcoin_bullet3">क्विज़ गेम्स, इंटरैक्टिव लेसन और प्रैक्टिस चैलेंज</string>
+    <string name="app_bitcoin_bullet4">बहुभाषी सपोर्ट और प्रीमियम प्रो फीचर्स उपलब्ध</string>
+    <string name="app_bitcoin_tag1">क्रिप्टो सीखें</string>
+    <string name="app_bitcoin_tag2">ब्लॉकचेन</string>
+    <string name="app_bitcoin_tag3">डिजिटल करेंसी</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">कंप्यूटर शॉर्टकट कीज़</string>
+    <string name="app_shortcuts_tagline">कीबोर्ड शॉर्टकट से तेज़ी से काम करें</string>
+    <string name="app_shortcuts_bullet1">तेज़ काम के लिए 50+ सबसे ज़्यादा इस्तेमाल होने वाली ऐप शॉर्टकट कीज़</string>
+    <string name="app_shortcuts_bullet2">विंडोज़, MS वर्ड, एक्सेल, क्रोम और सिस्टम शॉर्टकट</string>
+    <string name="app_shortcuts_bullet3">आसान लर्निंग, प्रैक्टिस मोड और मेमोरी बूस्ट टिप्स</string>
+    <string name="app_shortcuts_bullet4">ऑफलाइन एक्सेस, बिना विज्ञापन और साफ-सरल इंटरफेस</string>
+    <string name="app_shortcuts_tag1">शॉर्टकट कीज़</string>
+    <string name="app_shortcuts_tag2">स्मार्ट वर्क</string>
+    <string name="app_shortcuts_tag3">कीबोर्ड टिप्स</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">IT इंटरव्यू क्वेश्चन</string>
+    <string name="app_itinterview_tagline">प्रोग्रामिंग और टेक इंटरव्यू क्रैक करें</string>
+    <string name="app_itinterview_bullet1">100+ प्रोग्रामिंग भाषा इंटरव्यू विषय और प्रश्न</string>
+    <string name="app_itinterview_bullet2">जावा, पायथन, C, C++, PHP, JS और SQL इंटरव्यू गाइड</string>
+    <string name="app_itinterview_bullet3">HR, टेक्निकल और कोडिंग इंटरव्यू की तैयारी</string>
+    <string name="app_itinterview_bullet4">साफ और सरल इंटरफेस के साथ ऑफलाइन एक्सेस</string>
+    <string name="app_itinterview_tag1">इंटरव्यू तैयारी Q&amp;A</string>
+    <string name="app_itinterview_tag2">जॉब प्रेप</string>
+    <string name="app_itinterview_tag3">टेक जॉब्स</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">ट्यूटोरियल - डेली इंग्लिश स्पीक</string>
+    <string name="app_englishspeak_tagline">हर दिन आत्मविश्वास से अंग्रेज़ी बोलें</string>
+    <string name="app_englishspeak_bullet1">100+ स्पोकन इंग्लिश विषय + 1000+ डेली प्रैक्टिस वाक्य</string>
+    <string name="app_englishspeak_bullet2">व्याकरण, शब्दावली, उच्चारण और बातचीत कौशल</string>
+    <string name="app_englishspeak_bullet3">स्पीकिंग एक्सरसाइज़, क्विज़ गेम्स और वास्तविक जीवन के संवाद</string>
+    <string name="app_englishspeak_bullet4">बहुभाषी सपोर्ट, ऑफलाइन एक्सेस और प्रीमियम फीचर्स</string>
+    <string name="app_englishspeak_tag1">स्पोकन इंग्लिश</string>
+    <string name="app_englishspeak_tag2">डेली प्रैक्टिस</string>
+    <string name="app_englishspeak_tag3">फ्लुएंसी</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">शॉर्ट इंग्लिश स्टोरी</string>
+    <string name="app_englishstory_tagline">बच्चों के लिए मज़ेदार अंग्रेज़ी कहानियां</string>
+    <string name="app_englishstory_bullet1">नैतिक शिक्षा के साथ बच्चों के लिए 500+ शॉर्ट इंग्लिश स्टोरीज़</string>
+    <string name="app_englishstory_bullet2">आसान शब्द, सरल वाक्य और रंगीन कहानी सुनाना</string>
+    <string name="app_englishstory_bullet3">रीडिंग प्रैक्टिस, शब्दावली बढ़ाना और मज़ेदार सीख</string>
+    <string name="app_englishstory_bullet4">बच्चों के लिए सुरक्षित: बिना विज्ञापन, बिना प्रीमियम और ऑफलाइन रीडिंग</string>
+    <string name="app_englishstory_tag1">किड्स स्टोरीज़</string>
+    <string name="app_englishstory_tag2">अंग्रेज़ी सीखें</string>
+    <string name="app_englishstory_tag3">स्टोरीबुक</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">डाउनलोड</string>
+    <string name="label_rating">रेटिंग</string>
+    <string name="label_size">साइज़</string>
+    <string name="label_install">इंस्टॉल करें</string>
+    <string name="label_free">मुफ़्त</string>
 </resources>

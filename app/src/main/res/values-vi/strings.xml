@@ -2505,4 +2505,304 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Top 10 trang đầu tư Bitcoin và tiền điện tử</string>
     <string name="top_10_bitcoin_android_and_ios_application">Top 10 ứng dụng Bitcoin cho Android và iOS</string>
 
+    <string name="thank_you_note">Cảm ơn bạn đã ủng hộ và sử dụng ứng dụng của chúng tôi! 💙</string>
+    <string name="no_language_found">Không tìm thấy ngôn ngữ nào</string>
+    <string name="search_language">Tìm kiếm ngôn ngữ</string>
+    <string name="choose_your_prefered_language">Chọn ngôn ngữ bạn muốn</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="all_language">Tất cả ngôn ngữ</string>
+    <string name="result">Kết quả</string>
+    <string name="correct">đúng</string>
+    <string name="new_best">Kỷ lục mới!</string>
+    <string name="same_as_best">Bằng với kết quả tốt nhất của bạn</string>
+    <string name="below_best">Thấp hơn kết quả tốt nhất của bạn</string>
+    <string name="performance_outstanding">Xuất sắc!</string>
+    <string name="performance_keep_practicing">Hãy tiếp tục luyện tập!</string>
+    <string name="finish_quiz">Hoàn thành bài kiểm tra</string>
+
+    <string name="topics_label">CHỦ ĐỀ</string>
+    <string name="course_label">KHÓA HỌC</string>
+    <string name="hours_label">GIỜ</string>
+    <string name="modules_label">Học phần</string>
+
+    <string name="my_apps_subtitle">Khám phá các ứng dụng khác của chúng tôi</string>
+    <string name="all">Tất cả</string>
+    <string name="learn_line">Học</string>
+
+    <string name="rate">Đánh giá</string>
+    <string name="share">Chia sẻ</string>
+    <string name="about">Giới thiệu</string>
+    <string name="dark_mode">Chế độ tối</string>
+
+    <string name="module_1_title">Học phần 1</string>
+    <string name="module_2_title">Học phần 2</string>
+    <string name="module_3_title">Học phần 3</string>
+    <string name="module_4_title">Học phần 4</string>
+    <string name="module_5_title">Học phần 5</string>
+    <string name="module_6_title">Học phần 6</string>
+    <string name="module_7_title">Học phần 7</string>
+    <string name="module_8_title">Học phần 8</string>
+    <string name="module_9_title">Học phần 9</string>
+    <string name="module_10_title">Học phần 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux Master</string>
+    <string name="app_kali_tagline">Học. Hack. Bảo vệ</string>
+    <string name="app_kali_bullet1">Công cụ an ninh mạng và thành thạo hacking đạo đức</string>
+    <string name="app_kali_bullet2">Kali Linux và phát triển kỹ năng kiểm thử xâm nhập</string>
+    <string name="app_kali_bullet3">Pháp y kỹ thuật số, phân tích mã độc, và học qua đố vui</string>
+    <string name="app_kali_bullet4">Cao cấp, nhanh, không quảng cáo, hỗ trợ đa ngôn ngữ</string>
+    <string name="app_kali_tag1">Hacking đạo đức</string>
+    <string name="app_kali_tag2">Công cụ chuyên nghiệp</string>
+    <string name="app_kali_tag3">An ninh mạng</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">Bug Bounty Hunter</string>
+    <string name="app_bugbounty_tagline">Tìm lỗi. Nhận thưởng</string>
+    <string name="app_bugbounty_bullet1">Hơn 100 chủ đề bug bounty thực tế và phòng thí nghiệm lỗ hổng</string>
+    <string name="app_bugbounty_bullet2">Hướng dẫn kiểm thử bảo mật Web, API, di động và đám mây</string>
+    <string name="app_bugbounty_bullet3">Giải thích khai thác trực tiếp, trò chơi đố vui, và thử thách thực hành</string>
+    <string name="app_bugbounty_bullet4">Đa ngôn ngữ, truy cập ngoại tuyến, và tính năng cao cấp</string>
+    <string name="app_bugbounty_tag1">Bug Bounty</string>
+    <string name="app_bugbounty_tag2">Hacking</string>
+    <string name="app_bugbounty_tag3">Pentest</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Thành thạo Google Dorks và OSINT</string>
+    <string name="app_dorks_bullet1">Hơn 1000 Google Dorks cho OSINT và nghiên cứu bảo mật đạo đức</string>
+    <string name="app_dorks_bullet2">Truy vấn trang web, tệp, đăng nhập, camera, và lộ dữ liệu</string>
+    <string name="app_dorks_bullet3">Trò chơi đố vui, bài tập thực hành, và tình huống tìm kiếm thực tế</string>
+    <string name="app_dorks_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">Trinh sát</string>
+    <string name="app_dorks_tag3">An ninh mạng</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">Hướng dẫn Dark Web</string>
+    <string name="app_darkweb_tagline">Thành thạo kiến thức về Dark Web</string>
+    <string name="app_darkweb_bullet1">Hơn 100 chủ đề về Dark Web và quyền riêng tư từ cơ bản đến nâng cao</string>
+    <string name="app_darkweb_bullet2">Kiến thức cơ bản về Tor, quyền riêng tư trực tuyến, rủi ro, và nhận thức pháp lý</string>
+    <string name="app_darkweb_bullet3">Trò chơi đố vui, bài học tương tác, và thực hành an toàn tốt nhất</string>
+    <string name="app_darkweb_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">Duyệt web ẩn danh</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Hướng dẫn Wireshark</string>
+    <string name="app_wireshark_tagline">Phân tích lưu lượng mạng như chuyên gia</string>
+    <string name="app_wireshark_bullet1">Hơn 150 chủ đề Wireshark từ cơ bản đến nâng cao</string>
+    <string name="app_wireshark_bullet2">Bắt gói tin, bộ lọc, phân tích giao thức, và phòng thí nghiệm TCP/IP</string>
+    <string name="app_wireshark_bullet3">Trò chơi đố vui, thực hành trực tiếp, và tình huống lưu lượng thực tế</string>
+    <string name="app_wireshark_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_wireshark_tag1">Phân tích mạng</string>
+    <string name="app_wireshark_tag2">Nghe lén</string>
+    <string name="app_wireshark_tag3">Pháp y kỹ thuật số</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Thành thạo Metasploit</string>
+    <string name="app_metasploit_tagline">Khai thác. Kiểm thử. Bảo vệ hệ thống</string>
+    <string name="app_metasploit_bullet1">Hơn 150 chủ đề Metasploit từ cơ bản đến nâng cao</string>
+    <string name="app_metasploit_bullet2">Payload, khai thác lỗ hổng, hậu khai thác, và tự động hóa</string>
+    <string name="app_metasploit_bullet3">Trò chơi đố vui, phòng thí nghiệm tương tác, và tình huống tấn công thực tế</string>
+    <string name="app_metasploit_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_metasploit_tag1">Kiểm thử xâm nhập</string>
+    <string name="app_metasploit_tag2">Khai thác lỗ hổng</string>
+    <string name="app_metasploit_tag3">Lỗ hổng</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Học Linux</string>
+    <string name="app_learnlinux_tagline">Thành thạo Linux từ cơ bản đến chuyên nghiệp</string>
+    <string name="app_learnlinux_bullet1">Hơn 100 chủ đề Linux từ cơ bản đến nâng cao + hơn 1000 lệnh và bài tập thực hành</string>
+    <string name="app_learnlinux_bullet2">Lệnh Linux, viết kịch bản shell, và quản trị hệ thống</string>
+    <string name="app_learnlinux_bullet3">Dự án, trò chơi đố vui, phòng thí nghiệm terminal, và trường hợp sử dụng thực tế</string>
+    <string name="app_learnlinux_bullet4">Hỗ trợ đa ngôn ngữ, truy cập ngoại tuyến, và tính năng cao cấp</string>
+    <string name="app_learnlinux_tag1">Hệ thống Linux</string>
+    <string name="app_learnlinux_tag2">Viết kịch bản shell</string>
+    <string name="app_learnlinux_tag3">Lệnh</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Lệnh Nmap</string>
+    <string name="app_nmap_tagline">Thành thạo quét mạng với Nmap</string>
+    <string name="app_nmap_bullet1">Hơn 100 lệnh Nmap cho việc quét mạng thực tế</string>
+    <string name="app_nmap_bullet2">Hơn 100 chủ đề được đề cập: trinh sát, liệt kê, và phát hiện lỗ hổng</string>
+    <string name="app_nmap_bullet3">Các loại quét, script NSE, phát hiện hệ điều hành, và né tránh tường lửa</string>
+    <string name="app_nmap_bullet4">Hỗ trợ đa ngôn ngữ, trò chơi đố vui, và tính năng cao cấp</string>
+    <string name="app_nmap_tag1">Hacking</string>
+    <string name="app_nmap_tag2">Quét mạng</string>
+    <string name="app_nmap_tag3">Công cụ</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">Hướng dẫn công cụ thu thập thông tin</string>
+    <string name="app_infogathering_tagline">Thành thạo OSINT và trinh sát như chuyên gia</string>
+    <string name="app_infogathering_bullet1">Các công cụ trinh sát và OSINT quan trọng nhất với hướng dẫn chi tiết</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester, và hướng dẫn dựa trên lệnh</string>
+    <string name="app_infogathering_bullet3">Cách khác để thu thập thông tin: OSINT, footprinting, và liệt kê</string>
+    <string name="app_infogathering_bullet4">Hỗ trợ đa ngôn ngữ, trò chơi đố vui, và tính năng cao cấp</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">Công cụ trinh sát</string>
+    <string name="app_infogathering_tag3">Footprinting</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Hướng dẫn Burp Suite</string>
+    <string name="app_burpsuite_tagline">Thành thạo kiểm thử bảo mật ứng dụng web</string>
+    <string name="app_burpsuite_bullet1">Hơn 100 chủ đề Burp Suite và phòng thí nghiệm kiểm thử bảo mật web</string>
+    <string name="app_burpsuite_bullet2">Hướng dẫn Proxy, Repeater, Intruder, Scanner, và tiện ích mở rộng</string>
+    <string name="app_burpsuite_bullet3">Giải thích tấn công trực tiếp, trò chơi đố vui, và bài tập thực hành</string>
+    <string name="app_burpsuite_bullet4">Hỗ trợ đa ngôn ngữ, truy cập ngoại tuyến, và tính năng cao cấp</string>
+    <string name="app_burpsuite_tag1">Bảo mật web</string>
+    <string name="app_burpsuite_tag2">Lỗi</string>
+    <string name="app_burpsuite_tag3">Nghiên cứu lỗ hổng</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Chương trình Java để thực hành</string>
+    <string name="app_java_tagline">Học và thành thạo lập trình Java</string>
+    <string name="app_java_bullet1">Hơn 100 chủ đề Java với hơn 1000 chương trình thực hành</string>
+    <string name="app_java_bullet2">Vòng lặp, mảng, OOP, chuỗi, tập hợp, và xử lý tệp</string>
+    <string name="app_java_bullet3">Trò chơi đố vui, bài tập tương tác, và thử thách lập trình</string>
+    <string name="app_java_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_java_tag1">Lập trình Java</string>
+    <string name="app_java_tag2">Xây dựng tư duy logic</string>
+    <string name="app_java_tag3">Học Java</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Chương trình Python để thực hành</string>
+    <string name="app_python_tagline">Thành thạo Python với lập trình thực hành</string>
+    <string name="app_python_bullet1">Hơn 100 chủ đề Python với hơn 1000 chương trình thực hành</string>
+    <string name="app_python_bullet2">Cơ bản, vòng lặp, hàm, OOP, xử lý tệp, và thư viện</string>
+    <string name="app_python_bullet3">Trò chơi đố vui, thử thách lập trình, và bài tập xây dựng tư duy logic</string>
+    <string name="app_python_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_python_tag1">Học Python</string>
+    <string name="app_python_tag2">Lập trình</string>
+    <string name="app_python_tag3">Ứng dụng Python</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">Học HTML, CSS, JS, PHP</string>
+    <string name="app_webdev_tagline">Xây dựng trang web. Lập trình nhanh hơn</string>
+    <string name="app_webdev_bullet1">Hơn 100 chủ đề phát triển web + hơn 1000 chương trình thực hành lập trình</string>
+    <string name="app_webdev_bullet2">Học HTML, CSS, JavaScript, và PHP với ví dụ trực tiếp</string>
+    <string name="app_webdev_bullet3">Dự án, bài tập lập trình, trò chơi đố vui, và bài tập thực hành</string>
+    <string name="app_webdev_bullet4">Hỗ trợ đa ngôn ngữ, truy cập ngoại tuyến, và tính năng cao cấp</string>
+    <string name="app_webdev_tag1">Phát triển web</string>
+    <string name="app_webdev_tag2">Xây dựng trang web</string>
+    <string name="app_webdev_tag3">Full Stack</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Lập trình Swift</string>
+    <string name="app_swift_tagline">Xây dựng ứng dụng iOS với Swift</string>
+    <string name="app_swift_bullet1">Hơn 100 chủ đề Swift từ cơ bản đến nâng cao + hơn 1000 chương trình thực hành</string>
+    <string name="app_swift_bullet2">Học Swift, UIKit, và SwiftUI với ví dụ ứng dụng iOS thực tế</string>
+    <string name="app_swift_bullet3">Dự án, bài tập lập trình, trò chơi đố vui, và chuẩn bị phỏng vấn</string>
+    <string name="app_swift_bullet4">Hỗ trợ đa ngôn ngữ, truy cập ngoại tuyến, và tính năng cao cấp</string>
+    <string name="app_swift_tag1">Học Swift</string>
+    <string name="app_swift_tag2">Ứng dụng iOS</string>
+    <string name="app_swift_tag3">Chương trình Swift</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Chương trình Kotlin để thực hành</string>
+    <string name="app_kotlin_tagline">Thành thạo Kotlin với lập trình thực hành</string>
+    <string name="app_kotlin_bullet1">Hơn 100 chủ đề Kotlin với hơn 1000 chương trình thực hành</string>
+    <string name="app_kotlin_bullet2">Cơ bản, OOP, coroutine, tập hợp, và mã sẵn sàng cho Android</string>
+    <string name="app_kotlin_bullet3">Trò chơi đố vui, thử thách lập trình, và bài tập xây dựng tư duy logic</string>
+    <string name="app_kotlin_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_kotlin_tag1">Lập trình Kotlin</string>
+    <string name="app_kotlin_tag2">Kotlin cho Android</string>
+    <string name="app_kotlin_tag3">Học Kotlin</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Học thiết kế UI ứng dụng Android</string>
+    <string name="app_androidui_tagline">Thiết kế giao diện Android đẹp mắt</string>
+    <string name="app_androidui_bullet1">Hơn 100 chủ đề UI/UX Android + hơn 1000 bài tập thiết kế thực hành</string>
+    <string name="app_androidui_bullet2">Bố cục XML, Material Design, và Jetpack Compose UI</string>
+    <string name="app_androidui_bullet3">Dự án UI trực tiếp, trò chơi đố vui, và bài tập thực hành</string>
+    <string name="app_androidui_bullet4">Hỗ trợ đa ngôn ngữ, truy cập ngoại tuyến, và tính năng cao cấp</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">Thiết kế ứng dụng</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Học phát triển ứng dụng Android</string>
+    <string name="app_androiddev_tagline">Xây dựng ứng dụng Android thực tế từng bước</string>
+    <string name="app_androiddev_bullet1">Hơn 150 chủ đề phát triển Android từ cơ bản đến nâng cao</string>
+    <string name="app_androiddev_bullet2">Hướng dẫn Java, Kotlin, XML, Jetpack, và Android Studio</string>
+    <string name="app_androiddev_bullet3">Dự án ứng dụng thực tế, ví dụ mã, và thực hành tốt nhất</string>
+    <string name="app_androiddev_bullet4">Học ngoại tuyến với giao diện gọn gàng và đơn giản</string>
+    <string name="app_androiddev_tag1">Học Android</string>
+    <string name="app_androiddev_tag2">Ứng dụng di động</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Hướng dẫn Arch Linux</string>
+    <string name="app_archlinux_tagline">Cài đặt và thành thạo Arch Linux từng bước</string>
+    <string name="app_archlinux_bullet1">Hơn 150 chủ đề Arch Linux từ cơ bản đến nâng cao</string>
+    <string name="app_archlinux_bullet2">Cài đặt, pacman, systemd, mạng, và thiết lập máy tính để bàn</string>
+    <string name="app_archlinux_bullet3">Phòng thí nghiệm thực hành, luyện tập lệnh, và trường hợp sử dụng thực tế</string>
+    <string name="app_archlinux_bullet4">Hỗ trợ đa ngôn ngữ, trò chơi đố vui, và tính năng cao cấp</string>
+    <string name="app_archlinux_tag1">Hướng dẫn Linux</string>
+    <string name="app_archlinux_tag2">Quản trị hệ thống</string>
+    <string name="app_archlinux_tag3">Lệnh</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - Từ cơ bản đến nâng cao</string>
+    <string name="app_bitcoin_tagline">Học tiền điện tử và blockchain một cách thông minh</string>
+    <string name="app_bitcoin_bullet1">Hơn 100 chủ đề Bitcoin và blockchain từ cơ bản đến nâng cao</string>
+    <string name="app_bitcoin_bullet2">Kiến thức cơ bản về tiền điện tử, ví, đào coin, giao dịch, và bảo mật</string>
+    <string name="app_bitcoin_bullet3">Trò chơi đố vui, bài học tương tác, và thử thách thực hành</string>
+    <string name="app_bitcoin_bullet4">Hỗ trợ đa ngôn ngữ và tính năng cao cấp có sẵn</string>
+    <string name="app_bitcoin_tag1">Học tiền điện tử</string>
+    <string name="app_bitcoin_tag2">Blockchain</string>
+    <string name="app_bitcoin_tag3">Tiền kỹ thuật số</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">Phím tắt máy tính</string>
+    <string name="app_shortcuts_tagline">Làm việc nhanh hơn với phím tắt bàn phím</string>
+    <string name="app_shortcuts_bullet1">Hơn 50 phím tắt ứng dụng được sử dụng nhiều nhất hàng ngày để làm việc nhanh</string>
+    <string name="app_shortcuts_bullet2">Phím tắt Windows, MS Word, Excel, Chrome, và hệ thống</string>
+    <string name="app_shortcuts_bullet3">Học dễ dàng, chế độ luyện tập, và mẹo tăng cường trí nhớ</string>
+    <string name="app_shortcuts_bullet4">Truy cập ngoại tuyến, không quảng cáo, và giao diện gọn gàng đơn giản</string>
+    <string name="app_shortcuts_tag1">Phím tắt</string>
+    <string name="app_shortcuts_tag2">Làm việc thông minh</string>
+    <string name="app_shortcuts_tag3">Mẹo bàn phím</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">Câu hỏi phỏng vấn IT</string>
+    <string name="app_itinterview_tagline">Chinh phục phỏng vấn lập trình và công nghệ</string>
+    <string name="app_itinterview_bullet1">Hơn 100 chủ đề và câu hỏi phỏng vấn ngôn ngữ lập trình</string>
+    <string name="app_itinterview_bullet2">Hướng dẫn phỏng vấn Java, Python, C, C++, PHP, JS, và SQL</string>
+    <string name="app_itinterview_bullet3">Chuẩn bị phỏng vấn nhân sự, kỹ thuật, và lập trình</string>
+    <string name="app_itinterview_bullet4">Truy cập ngoại tuyến với giao diện gọn gàng đơn giản</string>
+    <string name="app_itinterview_tag1">Chuẩn bị phỏng vấn Hỏi &amp; Đáp</string>
+    <string name="app_itinterview_tag2">Chuẩn bị việc làm</string>
+    <string name="app_itinterview_tag3">Việc làm công nghệ</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">Hướng dẫn - Nói tiếng Anh hàng ngày</string>
+    <string name="app_englishspeak_tagline">Nói tiếng Anh tự tin mỗi ngày</string>
+    <string name="app_englishspeak_bullet1">Hơn 100 chủ đề tiếng Anh giao tiếp + hơn 1000 câu luyện tập hàng ngày</string>
+    <string name="app_englishspeak_bullet2">Ngữ pháp, từ vựng, phát âm, và kỹ năng trò chuyện</string>
+    <string name="app_englishspeak_bullet3">Bài tập nói, trò chơi đố vui, và hội thoại đời thực</string>
+    <string name="app_englishspeak_bullet4">Hỗ trợ đa ngôn ngữ, truy cập ngoại tuyến, và tính năng cao cấp</string>
+    <string name="app_englishspeak_tag1">Tiếng Anh giao tiếp</string>
+    <string name="app_englishspeak_tag2">Luyện tập hàng ngày</string>
+    <string name="app_englishspeak_tag3">Sự lưu loát</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">Truyện tiếng Anh ngắn</string>
+    <string name="app_englishstory_tagline">Truyện tiếng Anh vui nhộn cho trẻ em</string>
+    <string name="app_englishstory_bullet1">Hơn 500 truyện tiếng Anh ngắn cho trẻ em kèm bài học đạo đức</string>
+    <string name="app_englishstory_bullet2">Từ ngữ dễ hiểu, câu đơn giản, và cách kể chuyện sinh động</string>
+    <string name="app_englishstory_bullet3">Luyện đọc, mở rộng từ vựng, và học tập vui vẻ</string>
+    <string name="app_englishstory_bullet4">An toàn cho trẻ em: không quảng cáo, không trả phí, và đọc ngoại tuyến</string>
+    <string name="app_englishstory_tag1">Truyện thiếu nhi</string>
+    <string name="app_englishstory_tag2">Học tiếng Anh</string>
+    <string name="app_englishstory_tag3">Sách truyện</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">Lượt tải</string>
+    <string name="label_rating">Đánh giá</string>
+    <string name="label_size">Kích thước</string>
+    <string name="label_install">Cài đặt</string>
+    <string name="label_free">Miễn phí</string>
+
 </resources>

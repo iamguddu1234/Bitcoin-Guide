@@ -2533,4 +2533,304 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Top 10 Bitcoin at Crypto Investing Sites</string>
     <string name="top_10_bitcoin_android_and_ios_application">Top 10 Bitcoin Android at iOS Application</string>
 
+    <string name="thank_you_note">Salamat sa pagsuporta at paggamit ng aming app! 💙</string>
+    <string name="no_language_found">Walang nahanap na wika</string>
+    <string name="search_language">Maghanap ng wika</string>
+    <string name="choose_your_prefered_language">Piliin ang gusto mong wika</string>
+    <string name="select_language">Pumili ng wika</string>
+    <string name="all_language">Lahat ng Wika</string>
+    <string name="result">Resulta</string>
+    <string name="correct">tama</string>
+    <string name="new_best">Bagong Rekord!</string>
+    <string name="same_as_best">Kapareho ng iyong pinakamahusay</string>
+    <string name="below_best">Mas mababa sa iyong pinakamahusay</string>
+    <string name="performance_outstanding">Napakahusay!</string>
+    <string name="performance_keep_practicing">Magpatuloy sa pagsasanay!</string>
+    <string name="finish_quiz">Tapusin ang Quiz</string>
+
+    <string name="topics_label">MGA PAKSA</string>
+    <string name="course_label">MGA KURSO</string>
+    <string name="hours_label">ORAS</string>
+    <string name="modules_label">Mga Module</string>
+
+    <string name="my_apps_subtitle">Tuklasin ang aming iba pang mga app</string>
+    <string name="all">Lahat</string>
+    <string name="learn_line">Matuto</string>
+
+    <string name="rate">I-rate</string>
+    <string name="share">Ibahagi</string>
+    <string name="about">Tungkol Dito</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <string name="module_1_title">Module 1</string>
+    <string name="module_2_title">Module 2</string>
+    <string name="module_3_title">Module 3</string>
+    <string name="module_4_title">Module 4</string>
+    <string name="module_5_title">Module 5</string>
+    <string name="module_6_title">Module 6</string>
+    <string name="module_7_title">Module 7</string>
+    <string name="module_8_title">Module 8</string>
+    <string name="module_9_title">Module 9</string>
+    <string name="module_10_title">Module 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux Master</string>
+    <string name="app_kali_tagline">Matuto. Mag-hack. Ipagtanggol</string>
+    <string name="app_kali_bullet1">Mga Cybersecurity Tool at Kahusayan sa Ethical Hacking</string>
+    <string name="app_kali_bullet2">Kali Linux at Pagpapaunlad ng Kasanayan sa Pen Testing</string>
+    <string name="app_kali_bullet3">Forensics, Malware Analysis, at Pag-aaral Gamit ang Quiz</string>
+    <string name="app_kali_bullet4">Premium, Mabilis, Walang Ad na may Suportang Maraming Wika</string>
+    <string name="app_kali_tag1">Ethical Hacking</string>
+    <string name="app_kali_tag2">Pro Tools</string>
+    <string name="app_kali_tag3">Cybersecurity</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">Bug Bounty Hunter</string>
+    <string name="app_bugbounty_tagline">Maghanap ng Bug. Kumita ng Reward</string>
+    <string name="app_bugbounty_bullet1">Mahigit 100 Totoong Paksa sa Bug Bounty at Vulnerability Lab</string>
+    <string name="app_bugbounty_bullet2">Mga Gabay sa Pagsusuri ng Seguridad ng Web, API, Mobile, at Cloud</string>
+    <string name="app_bugbounty_bullet3">Live na Paliwanag ng Exploit, Quiz Game, at Hamong Pagsasanay</string>
+    <string name="app_bugbounty_bullet4">Maraming Wika, Offline Access, at Premium na Feature</string>
+    <string name="app_bugbounty_tag1">Bug Bounty</string>
+    <string name="app_bugbounty_tag2">Hacking</string>
+    <string name="app_bugbounty_tag3">Pentesting</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Maging Eksperto sa Google Dorks at OSINT</string>
+    <string name="app_dorks_bullet1">Mahigit 1000 Google Dorks para sa OSINT at Ethical na Pananaliksik sa Seguridad</string>
+    <string name="app_dorks_bullet2">Mga Query sa Website, File, Login, Camera, at Data Exposure</string>
+    <string name="app_dorks_bullet3">Quiz Game, Praktikal na Gawain, at Tunay na Senaryo ng Paghahanap</string>
+    <string name="app_dorks_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">Recon</string>
+    <string name="app_dorks_tag3">Cybersecurity</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">Gabay sa Dark Web</string>
+    <string name="app_darkweb_tagline">Maging Eksperto sa Kaalaman sa Dark Web</string>
+    <string name="app_darkweb_bullet1">Mahigit 100 Paksa sa Dark Web at Privacy mula Baguhan hanggang Advanced</string>
+    <string name="app_darkweb_bullet2">Mga Batayan ng Tor, Online Privacy, Panganib, at Kamalayan sa Batas</string>
+    <string name="app_darkweb_bullet3">Quiz Game, Interactive na Aralin, at Pinakamahusay na Kasanayan sa Kaligtasan</string>
+    <string name="app_darkweb_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">Anonymous Browsing</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Tutorial sa Wireshark</string>
+    <string name="app_wireshark_tagline">Suriin ang Network Traffic Katulad ng Propesyonal</string>
+    <string name="app_wireshark_bullet1">Mahigit 150 Paksa sa Wireshark mula Baguhan hanggang Advanced</string>
+    <string name="app_wireshark_bullet2">Packet Capture, Filter, Pagsusuri ng Protocol, at TCP/IP Lab</string>
+    <string name="app_wireshark_bullet3">Quiz Game, Praktikal na Sanay, at Tunay na Senaryo ng Traffic</string>
+    <string name="app_wireshark_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_wireshark_tag1">Pagsusuri ng Network</string>
+    <string name="app_wireshark_tag2">Sniffing</string>
+    <string name="app_wireshark_tag3">Forensics</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Maging Eksperto sa Metasploit</string>
+    <string name="app_metasploit_tagline">Mag-exploit. Subukan. Protektahan ang mga Sistema</string>
+    <string name="app_metasploit_bullet1">Mahigit 150 Paksa sa Metasploit mula Baguhan hanggang Advanced</string>
+    <string name="app_metasploit_bullet2">Payload, Exploit, Post-Exploitation, at Automation</string>
+    <string name="app_metasploit_bullet3">Quiz Game, Interactive na Lab, at Tunay na Senaryo ng Atake</string>
+    <string name="app_metasploit_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_metasploit_tag1">Penetration Testing</string>
+    <string name="app_metasploit_tag2">Exploit</string>
+    <string name="app_metasploit_tag3">Vulnerability</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Matuto ng Linux</string>
+    <string name="app_learnlinux_tagline">Maging Eksperto sa Linux Mula Batayan hanggang Propesyonal</string>
+    <string name="app_learnlinux_bullet1">Mahigit 100 Paksa sa Linux mula Baguhan hanggang Advanced + Mahigit 1000 Command at Praktikal na Gawain</string>
+    <string name="app_learnlinux_bullet2">Mga Command sa Linux, Shell Scripting, at Pamamahala ng Sistema</string>
+    <string name="app_learnlinux_bullet3">Mga Proyekto, Quiz Game, Terminal Lab, at Tunay na Paggamit</string>
+    <string name="app_learnlinux_bullet4">Suporta sa Maraming Wika, Offline Access, at Premium na Feature</string>
+    <string name="app_learnlinux_tag1">Sistemang Linux</string>
+    <string name="app_learnlinux_tag2">Shell Scripting</string>
+    <string name="app_learnlinux_tag3">Mga Command</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Mga Command sa Nmap</string>
+    <string name="app_nmap_tagline">Maging Eksperto sa Network Scanning Gamit ang Nmap</string>
+    <string name="app_nmap_bullet1">Mahigit 100 Command sa Nmap para sa Tunay na Pag-scan ng Network</string>
+    <string name="app_nmap_bullet2">Saklaw ang Mahigit 100 Paksa: Recon, Enumeration, at Pagtukoy ng Vulnerability</string>
+    <string name="app_nmap_bullet3">Mga Uri ng Scan, NSE Script, Pagtukoy ng OS, at Pag-iwas sa Firewall</string>
+    <string name="app_nmap_bullet4">Suporta sa Maraming Wika, Quiz Game, at Premium na Feature</string>
+    <string name="app_nmap_tag1">Hacking</string>
+    <string name="app_nmap_tag2">Network Scanning</string>
+    <string name="app_nmap_tag3">Mga Tool</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">Gabay sa Mga Tool sa Paglikom ng Impormasyon</string>
+    <string name="app_infogathering_tagline">Maging Eksperto sa OSINT at Recon Katulad ng Propesyonal</string>
+    <string name="app_infogathering_bullet1">Ang Pinakamahalagang Recon at OSINT Tool na may Detalyadong Tutorial</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester, at Mga Gabay Batay sa Command</string>
+    <string name="app_infogathering_bullet3">Iba Pang Paraan ng Paglikom ng Impormasyon: OSINT, Footprinting, at Enumeration</string>
+    <string name="app_infogathering_bullet4">Suporta sa Maraming Wika, Quiz Game, at Premium na Feature</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">Mga Recon Tool</string>
+    <string name="app_infogathering_tag3">Footprinting</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Gabay sa Burp Suite</string>
+    <string name="app_burpsuite_tagline">Maging Eksperto sa Pagsusuri ng Seguridad ng Web App</string>
+    <string name="app_burpsuite_bullet1">Mahigit 100 Paksa sa Burp Suite at Web Security Testing Lab</string>
+    <string name="app_burpsuite_bullet2">Gabay sa Proxy, Repeater, Intruder, Scanner, at Extension</string>
+    <string name="app_burpsuite_bullet3">Live na Paliwanag ng Atake, Quiz Game, at Praktikal na Gawain</string>
+    <string name="app_burpsuite_bullet4">Suporta sa Maraming Wika, Offline Access, at Premium na Feature</string>
+    <string name="app_burpsuite_tag1">Web Security</string>
+    <string name="app_burpsuite_tag2">Bug</string>
+    <string name="app_burpsuite_tag3">Pananaliksik sa Vulnerability</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Mga Program sa Java Para sa Pagsasanay</string>
+    <string name="app_java_tagline">Matuto at Maging Eksperto sa Java Programming</string>
+    <string name="app_java_bullet1">Mahigit 100 Paksa sa Java na may Mahigit 1000 Program para Praktisin</string>
+    <string name="app_java_bullet2">Loop, Array, OOP, String, Collection, at Paghawak ng File</string>
+    <string name="app_java_bullet3">Quiz Game, Interactive na Ehersisyo, at Coding Challenge</string>
+    <string name="app_java_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_java_tag1">Java Programming</string>
+    <string name="app_java_tag2">Pagbuo ng Lohika</string>
+    <string name="app_java_tag3">Matuto ng Java</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Mga Program sa Python Para sa Pagsasanay</string>
+    <string name="app_python_tagline">Maging Eksperto sa Python Gamit ang Hands-On na Coding</string>
+    <string name="app_python_bullet1">Mahigit 100 Paksa sa Python na may Mahigit 1000 Program para Praktisin</string>
+    <string name="app_python_bullet2">Batayan, Loop, Function, OOP, Paghawak ng File, at Library</string>
+    <string name="app_python_bullet3">Quiz Game, Coding Challenge, at Ehersisyo sa Pagbuo ng Lohika</string>
+    <string name="app_python_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_python_tag1">Matuto ng Python</string>
+    <string name="app_python_tag2">Programming</string>
+    <string name="app_python_tag3">Mga Python App</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">Matuto ng HTML, CSS, JS, PHP</string>
+    <string name="app_webdev_tagline">Gumawa ng Website. Mag-code nang Mas Mabilis</string>
+    <string name="app_webdev_bullet1">Mahigit 100 Paksa sa Web Development + Mahigit 1000 Coding Program para Praktisin</string>
+    <string name="app_webdev_bullet2">Matuto ng HTML, CSS, JavaScript, at PHP na may Live na Halimbawa</string>
+    <string name="app_webdev_bullet3">Mga Proyekto, Coding Exercise, Quiz Game, at Praktikal na Gawain</string>
+    <string name="app_webdev_bullet4">Suporta sa Maraming Wika, Offline Access, at Premium na Feature</string>
+    <string name="app_webdev_tag1">Web Dev</string>
+    <string name="app_webdev_tag2">Gumawa ng Website</string>
+    <string name="app_webdev_tag3">Full Stack</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Swift Programming</string>
+    <string name="app_swift_tagline">Gumawa ng iOS App Gamit ang Swift</string>
+    <string name="app_swift_bullet1">Mahigit 100 Paksa sa Swift mula Baguhan hanggang Advanced + Mahigit 1000 Program para Praktisin</string>
+    <string name="app_swift_bullet2">Matuto ng Swift, UIKit, at SwiftUI Gamit ang Tunay na Halimbawa ng iOS App</string>
+    <string name="app_swift_bullet3">Mga Proyekto, Coding Exercise, Quiz Game, at Paghahanda sa Interview</string>
+    <string name="app_swift_bullet4">Suporta sa Maraming Wika, Offline Access, at Premium na Feature</string>
+    <string name="app_swift_tag1">Matuto ng Swift</string>
+    <string name="app_swift_tag2">Mga iOS App</string>
+    <string name="app_swift_tag3">Mga Swift Program</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Mga Program sa Kotlin Para sa Pagsasanay</string>
+    <string name="app_kotlin_tagline">Maging Eksperto sa Kotlin Gamit ang Hands-On na Coding</string>
+    <string name="app_kotlin_bullet1">Mahigit 100 Paksa sa Kotlin na may Mahigit 1000 Program para Praktisin</string>
+    <string name="app_kotlin_bullet2">Batayan, OOP, Coroutine, Collection, at Code na Handa na sa Android</string>
+    <string name="app_kotlin_bullet3">Quiz Game, Coding Challenge, at Ehersisyo sa Pagbuo ng Lohika</string>
+    <string name="app_kotlin_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_kotlin_tag1">Kotlin Programming</string>
+    <string name="app_kotlin_tag2">Android Kotlin</string>
+    <string name="app_kotlin_tag3">Matuto ng Kotlin</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Matuto ng Disenyo ng UI ng Android App</string>
+    <string name="app_androidui_tagline">Magdisenyo ng Magagandang Android Interface</string>
+    <string name="app_androidui_bullet1">Mahigit 100 Paksa sa Android UI/UX + Mahigit 1000 Gawain sa Disenyo para Praktisin</string>
+    <string name="app_androidui_bullet2">XML Layout, Material Design, at Jetpack Compose UI</string>
+    <string name="app_androidui_bullet3">Live na Proyekto sa UI, Quiz Game, at Hands-On na Ehersisyo</string>
+    <string name="app_androidui_bullet4">Suporta sa Maraming Wika, Offline Access, at Premium na Feature</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">Disenyo ng App</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Matuto ng Pagbuo ng Android App</string>
+    <string name="app_androiddev_tagline">Gumawa ng Tunay na Android App Nang Hakbang-Hakbang</string>
+    <string name="app_androiddev_bullet1">Mahigit 150 Paksa sa Pagbuo ng Android mula Baguhan hanggang Advanced</string>
+    <string name="app_androiddev_bullet2">Mga Gabay sa Java, Kotlin, XML, Jetpack, at Android Studio</string>
+    <string name="app_androiddev_bullet3">Tunay na Proyekto ng App, Halimbawa ng Code, at Pinakamahusay na Kasanayan</string>
+    <string name="app_androiddev_bullet4">Offline na Pag-aaral na may Malinis at Simpleng Interface</string>
+    <string name="app_androiddev_tag1">Matuto ng Android</string>
+    <string name="app_androiddev_tag2">Mga Mobile App</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Tutorial sa Arch Linux</string>
+    <string name="app_archlinux_tagline">I-install at Maging Eksperto sa Arch Linux Nang Hakbang-Hakbang</string>
+    <string name="app_archlinux_bullet1">Mahigit 150 Paksa sa Arch Linux mula Baguhan hanggang Advanced</string>
+    <string name="app_archlinux_bullet2">Pag-install, pacman, systemd, Networking, at Pag-setup ng Desktop</string>
+    <string name="app_archlinux_bullet3">Hands-On na Lab, Pagsasanay sa Command, at Tunay na Paggamit</string>
+    <string name="app_archlinux_bullet4">Suporta sa Maraming Wika, Quiz Game, at Premium na Feature</string>
+    <string name="app_archlinux_tag1">Gabay sa Linux</string>
+    <string name="app_archlinux_tag2">Pamamahala ng Sistema</string>
+    <string name="app_archlinux_tag3">Mga Command</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - Mula Batayan hanggang Advance</string>
+    <string name="app_bitcoin_tagline">Matuto ng Crypto at Blockchain Nang May Katalinuhan</string>
+    <string name="app_bitcoin_bullet1">Mahigit 100 Paksa sa Bitcoin at Blockchain mula Baguhan hanggang Advanced</string>
+    <string name="app_bitcoin_bullet2">Mga Batayan ng Crypto, Wallet, Mining, Trading, at Seguridad</string>
+    <string name="app_bitcoin_bullet3">Quiz Game, Interactive na Aralin, at Hamong Pagsasanay</string>
+    <string name="app_bitcoin_bullet4">Suporta sa Maraming Wika at Available na Premium na Feature</string>
+    <string name="app_bitcoin_tag1">Matuto ng Crypto</string>
+    <string name="app_bitcoin_tag2">Blockchain</string>
+    <string name="app_bitcoin_tag3">Digital na Pera</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">Mga Shortcut Key sa Computer</string>
+    <string name="app_shortcuts_tagline">Magtrabaho Nang Mas Mabilis Gamit ang Keyboard Shortcut</string>
+    <string name="app_shortcuts_bullet1">Mahigit 50 Pinakaginagamit na Shortcut Key ng App para sa Mabilis na Trabaho</string>
+    <string name="app_shortcuts_bullet2">Mga Shortcut sa Windows, MS Word, Excel, Chrome, at Sistema</string>
+    <string name="app_shortcuts_bullet3">Madaling Pag-aaral, Practice Mode, at Tip para sa Pagpapabuti ng Memorya</string>
+    <string name="app_shortcuts_bullet4">Offline Access, Walang Ad, at Malinis na Simpleng Interface</string>
+    <string name="app_shortcuts_tag1">Mga Shortcut Key</string>
+    <string name="app_shortcuts_tag2">Matalinong Pagtatrabaho</string>
+    <string name="app_shortcuts_tag3">Mga Tip sa Keyboard</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">Mga Tanong sa Interview sa IT</string>
+    <string name="app_itinterview_tagline">Maging Handa sa Interview sa Programming at Teknolohiya</string>
+    <string name="app_itinterview_bullet1">Mahigit 100 Paksa at Tanong sa Interview sa Programming Language</string>
+    <string name="app_itinterview_bullet2">Mga Gabay sa Interview sa Java, Python, C, C++, PHP, JS, at SQL</string>
+    <string name="app_itinterview_bullet3">Paghahanda para sa HR, Technical, at Coding na Interview</string>
+    <string name="app_itinterview_bullet4">Offline Access na may Malinis na Simpleng Interface</string>
+    <string name="app_itinterview_tag1">Paghahanda sa Interview na Q&amp;A</string>
+    <string name="app_itinterview_tag2">Paghahanda sa Trabaho</string>
+    <string name="app_itinterview_tag3">Mga Trabaho sa Tech</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">Tutorial - Araw-araw na Pagsasalita sa Ingles</string>
+    <string name="app_englishspeak_tagline">Magsalita ng Ingles Nang May Kumpiyansa Araw-araw</string>
+    <string name="app_englishspeak_bullet1">Mahigit 100 Paksa sa Pagsasalita ng Ingles + Mahigit 1000 Pangungusap para Araw-araw na Pagsasanay</string>
+    <string name="app_englishspeak_bullet2">Grammar, Bokabularyo, Pagbigkas, at Kasanayan sa Pakikipag-usap</string>
+    <string name="app_englishspeak_bullet3">Ehersisyo sa Pagsasalita, Quiz Game, at Tunay na Diyalogo sa Buhay</string>
+    <string name="app_englishspeak_bullet4">Suporta sa Maraming Wika, Offline Access, at Premium na Feature</string>
+    <string name="app_englishspeak_tag1">Pagsasalita ng Ingles</string>
+    <string name="app_englishspeak_tag2">Araw-araw na Pagsasanay</string>
+    <string name="app_englishspeak_tag3">Kasanayan sa Wika</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">Maikling Kwento sa Ingles</string>
+    <string name="app_englishstory_tagline">Masasayang Kwento sa Ingles Para sa mga Bata</string>
+    <string name="app_englishstory_bullet1">Mahigit 500 Maikling Kwento sa Ingles Para sa mga Bata na may Mga Aral sa Moralidad</string>
+    <string name="app_englishstory_bullet2">Madaling Salita, Simpleng Pangungusap, at Makulay na Pagkukwento</string>
+    <string name="app_englishstory_bullet3">Pagsasanay sa Pagbasa, Pagpapayaman ng Bokabularyo, at Masayang Pag-aaral</string>
+    <string name="app_englishstory_bullet4">Ligtas Para sa mga Bata: Walang Ad, Walang Premium, at Offline na Pagbabasa</string>
+    <string name="app_englishstory_tag1">Mga Kwento ng Bata</string>
+    <string name="app_englishstory_tag2">Matuto ng Ingles</string>
+    <string name="app_englishstory_tag3">Aklat ng Kwento</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">Downloads</string>
+    <string name="label_rating">Rating</string>
+    <string name="label_size">Sukat</string>
+    <string name="label_install">I-install</string>
+    <string name="label_free">Libre</string>
+
 </resources>

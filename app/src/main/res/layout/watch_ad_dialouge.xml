@@ -12,7 +12,7 @@
     android:clipChildren="true"
     android:clipToPadding="true">
 
-    <!-- ───────────── INDIGO TOP BANNER ───────────── -->
+    <!-- ───────────── TOP BANNER ───────────── -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,10 +33,10 @@
                 android:layout_width="@dimen/_50sdp"
                 android:layout_height="@dimen/_50sdp"
                 android:layout_gravity="center"
-                app:cardBackgroundColor="#00000000"
+                app:cardBackgroundColor="@android:color/transparent"
                 app:cardCornerRadius="@dimen/_25sdp"
                 app:cardElevation="0dp"
-                app:strokeColor="#4DFFFFFF"
+                app:strokeColor="@color/ring_stroke_translucent"
                 app:strokeWidth="2dp" />
 
             <!-- Inner filled circle -->
@@ -44,7 +44,7 @@
                 android:layout_width="@dimen/_48sdp"
                 android:layout_height="@dimen/_48sdp"
                 android:layout_gravity="center"
-                app:cardBackgroundColor="#FFF1E5"
+                app:cardBackgroundColor="@color/orange_bg"
                 app:cardCornerRadius="@dimen/_19sdp"
                 app:cardElevation="0dp"
                 app:strokeWidth="0dp">
@@ -54,7 +54,7 @@
                     android:layout_height="@dimen/_27sdp"
                     android:layout_gravity="center"
                     android:src="@drawable/ic_play"
-                    app:tint="#F7931A" />
+                    app:tint="@color/brand_primary" />
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -94,14 +94,14 @@
         android:paddingHorizontal="@dimen/_14sdp"
         >
 
-        <!-- Card 1: Unlock info (INDIGO) -->
+        <!-- Card 1: Unlock info (ORANGE) -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="#FFF1E5"
+            app:cardBackgroundColor="@color/orange_bg"
             app:cardCornerRadius="@dimen/_10sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#FFD9A0"
+            app:strokeColor="@color/orange_stroke"
             app:strokeWidth="1dp">
 
             <LinearLayout
@@ -117,7 +117,7 @@
                     android:layout_height="@dimen/_14sdp"
                     android:layout_marginEnd="@dimen/_7sdp"
                     android:src="@drawable/ic_infinity"
-                    app:tint="#F7931A" />
+                    app:tint="@color/brand_primary" />
 
                 <TextView
                     android:id="@+id/unlockText"
@@ -126,7 +126,7 @@
                     android:fontFamily="@font/roboto_bold"
                     android:includeFontPadding="false"
                     android:text="Unlocks up to 5 quizzes per day"
-                    android:textColor="#C2660D"
+                    android:textColor="@color/brand_text_strong"
                     android:textSize="@dimen/_10ssp" />
 
             </LinearLayout>
@@ -138,10 +138,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_6sdp"
-            app:cardBackgroundColor="#F0FDF4"
+            app:cardBackgroundColor="@color/green_bg"
             app:cardCornerRadius="@dimen/_10sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#BBF7D0"
+            app:strokeColor="@color/green_stroke"
             app:strokeWidth="1dp">
 
             <LinearLayout
@@ -157,7 +157,7 @@
                     android:layout_height="@dimen/_14sdp"
                     android:layout_marginEnd="@dimen/_7sdp"
                     android:src="@drawable/ic_clock"
-                    app:tint="#16A34A" />
+                    app:tint="@color/green_text" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
                     android:fontFamily="@font/roboto_bold"
                     android:includeFontPadding="false"
                     android:text="Takes about 15–30 seconds"
-                    android:textColor="#16A34A"
+                    android:textColor="@color/green_text"
                     android:textSize="@dimen/_10ssp" />
 
             </LinearLayout>
@@ -189,7 +189,7 @@
             android:includeFontPadding="false"
             android:letterSpacing="0.05"
             android:text="WHAT YOU GET"
-            android:textColor="#AAAAAA"
+            android:textColor="@color/text_faint"
             android:textSize="@dimen/_8ssp" />
 
         <LinearLayout
@@ -204,10 +204,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_4sdp"
                 android:layout_weight="1"
-                app:cardBackgroundColor="#FFF1E5"
+                app:cardBackgroundColor="@color/orange_bg"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
-                app:strokeColor="#FFD9A0"
+                app:strokeColor="@color/orange_stroke"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -222,7 +222,7 @@
                         android:layout_width="@dimen/_17sdp"
                         android:layout_height="@dimen/_17sdp"
                         android:src="@drawable/ic_bolt"
-                        app:tint="#F7931A" />
+                        app:tint="@color/brand_primary" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -232,7 +232,7 @@
                         android:gravity="center"
                         android:includeFontPadding="false"
                         android:text="Instant unlock"
-                        android:textColor="#333333"
+                        android:textColor="@color/text_perk_label"
                         android:textSize="@dimen/_8ssp" />
 
                 </LinearLayout>
@@ -245,10 +245,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_4sdp"
                 android:layout_weight="1"
-                app:cardBackgroundColor="#F0FDF4"
+                app:cardBackgroundColor="@color/green_bg"
                 app:cardCornerRadius="@dimen/_10sdp"
                 app:cardElevation="0dp"
-                app:strokeColor="#BBF7D0"
+                app:strokeColor="@color/green_stroke"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -263,7 +263,7 @@
                         android:layout_width="@dimen/_17sdp"
                         android:layout_height="@dimen/_17sdp"
                         android:src="@drawable/ic_coin"
-                        app:tint="#16A34A" />
+                        app:tint="@color/green_text" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -273,7 +273,7 @@
                         android:gravity="center"
                         android:includeFontPadding="false"
                         android:text="100% free"
-                        android:textColor="#333333"
+                        android:textColor="@color/text_perk_label"
                         android:textSize="@dimen/_8ssp" />
 
                 </LinearLayout>
@@ -298,7 +298,7 @@
             android:id="@+id/watchAdButton"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
-            app:cardBackgroundColor="#F7931A"
+            app:cardBackgroundColor="@color/brand_primary"
             app:cardCornerRadius="@dimen/_20sdp"
             app:cardElevation="0dp"
             app:strokeWidth="0dp">
@@ -340,7 +340,7 @@
             android:gravity="center"
             android:includeFontPadding="false"
             android:text="Not now"
-            android:textColor="#C0BEB8"
+            android:textColor="@color/text_disabled"
             android:textSize="@dimen/_10ssp" />
 
     </LinearLayout>

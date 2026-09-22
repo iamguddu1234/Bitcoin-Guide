@@ -13,8 +13,6 @@ import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.drawable.ColorDrawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
@@ -22,8 +20,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.BounceInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -63,29 +59,16 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         binding = ActivityQuizGameBinding.inflate(getLayoutInflater());
         setTitle(getString(R.string.quiz_game));
         setContentView(binding.getRoot());
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true); if (getSupportActionBar() != null) {
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setElevation(0f);
         }
 
-
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources()
-                .getColor(R.color.white)));
-
-
-        if (Build.VERSION.SDK_INT >= 21) {
-            Window window = this.getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.setStatusBarColor(this.getResources().getColor(R.color.white));
-        }
-
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(ContextCompat.getColor(QuizGame.this, R.color.white)); //setting bar color
-        }
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-
-
+        // Was: hardcoded R.color.white for action bar / status bar / nav bar,
+        // which ignored dark mode entirely. ThemeBars picks the correct
+        // theme-adaptive color and sets the right status-bar icon contrast.
+        com.iam.bitcoin.Game.ThemeBars.apply(this);
 
         // Initialize billing manager
         billingManager = new BillingManager(this, new BillingManager.BillingListener() {
@@ -100,19 +83,8 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
             }
         });
 
-
-
-
         // Load questions from JSON
         questionList = loadQuestionsFromStrings();
-//        if (questionList.isEmpty()) {
-//            Toast.makeText(this, "Error loading questions", Toast.LENGTH_SHORT).show();
-//            finish();
-//            return;
-//        }
-
-
-
 
         setupUI();
         loadQuestion();
@@ -139,9 +111,7 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         }
 
         Collections.shuffle(questions);
-        // Return only first 10 questions, or all if fewer than 10
         return questions.subList(0, Math.min(10, questions.size()));
-//        return questions;
     }
 
     private void setupUI() {
@@ -170,10 +140,8 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         isAnswered = true;
         stopTimer();
 
-        // Highlight selected option
         highlightSelectedOption(optionIndex);
 
-        // Check if answer is correct
         boolean isCorrect = isAnswerCorrect(optionIndex);
         if (isCorrect) {
             score++;
@@ -209,6 +177,7 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
 
     private void highlightSelectedOption(int optionIndex) {
         CardView selectedCard = getOptionCard(optionIndex);
+        // background_color already flips light/dark in colors.xml
         selectedCard.setCardBackgroundColor(ContextCompat.getColor(this, R.color.background_color));
     }
 
@@ -216,7 +185,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         String correctAnswer = questionList.get(currentQuestion).getAnswer();
         int correctIndex = getOptionIndex(correctAnswer);
 
-        // Show correct answer
         CardView correctCard = getOptionCard(correctIndex);
         ImageView correctIcon = getOptionIcon(correctIndex);
         correctCard.setCardBackgroundColor(ContextCompat.getColor(this, R.color.correct_green));
@@ -224,7 +192,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         correctIcon.setVisibility(View.VISIBLE);
         animateCorrectAnswer(correctCard);
 
-        // If wrong, show wrong selection
         if (!isCorrect && selectedOption != -1) {
             CardView wrongCard = getOptionCard(selectedOption);
             ImageView wrongIcon = getOptionIcon(selectedOption);
@@ -234,7 +201,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
             animateWrongAnswer(wrongCard);
         }
 
-        // Fade other options
         for (int i = 0; i < 4; i++) {
             if (i != correctIndex && i != selectedOption) {
                 ObjectAnimator fadeOut = ObjectAnimator.ofFloat(getOptionCard(i), "alpha", 1f, 0.6f);
@@ -368,7 +334,8 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
             pulse.setDuration(500);
             pulse.start();
         } else {
-            binding.timerText.setTextColor(ContextCompat.getColor(this, android.R.color.black));
+            // Was: android.R.color.black — invisible on a dark card in dark mode.
+            binding.timerText.setTextColor(ContextCompat.getColor(this, R.color.text_primary));
         }
     }
 
@@ -409,7 +376,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         questionAnim.setDuration(500);
         questionAnim.start();
 
-        // Animate options with stagger
         CardView[] optionCards = {binding.optionA, binding.optionB, binding.optionC, binding.optionD};
         for (int i = 0; i < optionCards.length; i++) {
             optionCards[i].setAlpha(0f);
@@ -439,7 +405,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         exitAnim.setDuration(300);
         exitAnim.start();
 
-        // Fade out options
         CardView[] optionCards = {binding.optionA, binding.optionB, binding.optionC, binding.optionD};
         for (int i = 0; i < optionCards.length; i++) {
             AnimatorSet optionExit = new AnimatorSet();
@@ -452,7 +417,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
             optionExit.start();
         }
 
-        // Load next question after animation
         new Handler().postDelayed(() -> {
             resetForNextQuestion();
             loadQuestion();
@@ -466,12 +430,14 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         isAnswered = false;
         timeLeftInMillis = TIME_LIMIT;
 
-        // Reset all options
         CardView[] optionCards = {binding.optionA, binding.optionB, binding.optionC, binding.optionD};
         ImageView[] optionIcons = {binding.optionAIcon, binding.optionBIcon, binding.optionCIcon, binding.optionDIcon};
 
         for (int i = 0; i < optionCards.length; i++) {
-            optionCards[i].setCardBackgroundColor(ContextCompat.getColor(this, android.R.color.white));
+            // Was: android.R.color.white — slammed cards back to solid white
+            // every question, regardless of theme. This was the main visible
+            // "dark mode not working" symptom.
+            optionCards[i].setCardBackgroundColor(ContextCompat.getColor(this, R.color.surface));
             optionCards[i].setAlpha(1f);
             optionCards[i].setTranslationY(0f);
             optionCards[i].setTranslationX(0f);
@@ -487,11 +453,9 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
     private void finishQuiz() {
         stopTimer();
 
-        // Save play time
         SharedPreferences prefs = getSharedPreferences("QuizPrefs", MODE_PRIVATE);
         prefs.edit().putLong("last_play_time", System.currentTimeMillis()).apply();
 
-        // Show results
         Intent intent = new Intent(this, ResultActivity.class);
         intent.putExtra("score", score);
         intent.putExtra("total", questionList.size());
@@ -506,18 +470,13 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         AlertDialog dialog = builder.create();
         dialog.show();
 
-        // Set click listeners for language buttons
         view.findViewById(R.id.lang_english).setOnClickListener(v -> handleLanguageSelection("en", dialog));
         view.findViewById(R.id.lang_hindi).setOnClickListener(v -> handleLanguageSelection("hi", dialog));
-//        view.findViewById(R.id.lang_bengali).setOnClickListener(v -> handleLanguageSelection("bn", dialog));
-//        view.findViewById(R.id.lang_russian).setOnClickListener(v -> handleLanguageSelection("ru", dialog));
-//        view.findViewById(R.id.lang_chinese).setOnClickListener(v -> handleLanguageSelection("zh-rCN", dialog));
     }
 
     private void handleLanguageSelection(String langCode, AlertDialog dialog) {
         dialog.dismiss();
 
-        // Special case for English (always allowed)
         if ("en".equals(langCode)) {
             changeLanguage(langCode);
             return;
@@ -549,7 +508,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
 
         upgradeButton.setOnClickListener(v -> {
             dialog.dismiss();
-            // Navigate back to MainActivity and trigger scroll to remove_ads button
             Intent intent = new Intent(QuizGame.this, Home.class);
             intent.putExtra("SCROLL_TO_PREMIUM", true);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
@@ -561,7 +519,6 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
     private void changeLanguage(String langCode) {
         LocaleHelper.setLocale(this, langCode);
 
-        // Restart activity to apply language changes
         Intent intent = getIntent();
         finish();
         startActivity(intent);
@@ -591,7 +548,7 @@ public class QuizGame extends AppCompatActivity implements PremiumStatusListener
         if (item.getItemId() == android.R.id.home) {
             finish();
         }
-        Context context = this; // or use getContext() if inside a fragment
+        Context context = this;
 
         return super.onOptionsItemSelected(item);
     }

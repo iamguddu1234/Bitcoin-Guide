@@ -2452,4 +2452,303 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Топ-10 Сайтов для Инвестиций в Биткоин и Криптовалюты</string>
     <string name="top_10_bitcoin_android_and_ios_application">Топ-10 Приложений Биткоин для Android и iOS</string>
 
+    <string name="thank_you_note">Спасибо, что поддерживаете и используете наше приложение! 💙</string>
+    <string name="no_language_found">Язык не найден</string>
+    <string name="search_language">Поиск языка</string>
+    <string name="choose_your_prefered_language">Выберите предпочитаемый язык</string>
+    <string name="select_language">Выбрать язык</string>
+    <string name="all_language">Все языки</string>
+    <string name="result">Результат</string>
+    <string name="correct">правильно</string>
+    <string name="new_best">Новый рекорд!</string>
+    <string name="same_as_best">Как ваш лучший результат</string>
+    <string name="below_best">Ниже вашего лучшего результата</string>
+    <string name="performance_outstanding">Отлично!</string>
+    <string name="performance_keep_practicing">Продолжайте практиковаться!</string>
+    <string name="finish_quiz">Завершить тест</string>
+
+    <string name="topics_label">ТЕМЫ</string>
+    <string name="course_label">КУРСЫ</string>
+    <string name="hours_label">ЧАСЫ</string>
+    <string name="modules_label">Модули</string>
+
+    <string name="my_apps_subtitle">Изучите наши другие приложения</string>
+    <string name="all">Все</string>
+    <string name="learn_line">Учиться</string>
+
+    <string name="rate">Оценить</string>
+    <string name="share">Поделиться</string>
+    <string name="about">О приложении</string>
+    <string name="dark_mode">Тёмная тема</string>
+
+    <string name="module_1_title">Модуль 1</string>
+    <string name="module_2_title">Модуль 2</string>
+    <string name="module_3_title">Модуль 3</string>
+    <string name="module_4_title">Модуль 4</string>
+    <string name="module_5_title">Модуль 5</string>
+    <string name="module_6_title">Модуль 6</string>
+    <string name="module_7_title">Модуль 7</string>
+    <string name="module_8_title">Модуль 8</string>
+    <string name="module_9_title">Модуль 9</string>
+    <string name="module_10_title">Модуль 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux Master</string>
+    <string name="app_kali_tagline">Учись. Взламывай. Защищай</string>
+    <string name="app_kali_bullet1">Инструменты кибербезопасности и мастерство этичного хакинга</string>
+    <string name="app_kali_bullet2">Kali Linux и развитие навыков тестирования на проникновение</string>
+    <string name="app_kali_bullet3">Криминалистика, анализ вредоносных программ и обучение через тесты</string>
+    <string name="app_kali_bullet4">Премиум, быстро, без рекламы, с многоязычной поддержкой</string>
+    <string name="app_kali_tag1">Этичный хакинг</string>
+    <string name="app_kali_tag2">Профессиональные инструменты</string>
+    <string name="app_kali_tag3">Кибербезопасность</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">Bug Bounty Hunter</string>
+    <string name="app_bugbounty_tagline">Находи баги. Получай награды</string>
+    <string name="app_bugbounty_bullet1">Более 100 реальных тем баг-баунти и лабораторий уязвимостей</string>
+    <string name="app_bugbounty_bullet2">Руководства по тестированию безопасности Web, API, мобильных и облачных систем</string>
+    <string name="app_bugbounty_bullet3">Разбор эксплойтов в прямом эфире, тесты-игры и практические задания</string>
+    <string name="app_bugbounty_bullet4">Многоязычность, офлайн-доступ и премиум-функции</string>
+    <string name="app_bugbounty_tag1">Bug Bounty</string>
+    <string name="app_bugbounty_tag2">Хакинг</string>
+    <string name="app_bugbounty_tag3">Пентестинг</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Освойте Google Dorks и OSINT</string>
+    <string name="app_dorks_bullet1">Более 1000 Google Dorks для OSINT и этичных исследований безопасности</string>
+    <string name="app_dorks_bullet2">Запросы по сайтам, файлам, логинам, камерам и утечкам данных</string>
+    <string name="app_dorks_bullet3">Тесты-игры, практические задания и реальные сценарии поиска</string>
+    <string name="app_dorks_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">Разведка</string>
+    <string name="app_dorks_tag3">Кибербезопасность</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">Гид по Даркнету</string>
+    <string name="app_darkweb_tagline">Освойте знания о Даркнете</string>
+    <string name="app_darkweb_bullet1">Более 100 тем о Даркнете и конфиденциальности от начального до продвинутого уровня</string>
+    <string name="app_darkweb_bullet2">Основы Tor, конфиденциальность в интернете, риски и правовая осведомлённость</string>
+    <string name="app_darkweb_bullet3">Тесты-игры, интерактивные уроки и лучшие практики безопасности</string>
+    <string name="app_darkweb_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">Анонимный браузинг</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Учебник по Wireshark</string>
+    <string name="app_wireshark_tagline">Анализируйте сетевой трафик как профессионал</string>
+    <string name="app_wireshark_bullet1">Более 150 тем Wireshark от начального до продвинутого уровня</string>
+    <string name="app_wireshark_bullet2">Захват пакетов, фильтры, анализ протоколов и лаборатории TCP/IP</string>
+    <string name="app_wireshark_bullet3">Тесты-игры, практические занятия и реальные сценарии трафика</string>
+    <string name="app_wireshark_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_wireshark_tag1">Анализ сети</string>
+    <string name="app_wireshark_tag2">Сниффинг</string>
+    <string name="app_wireshark_tag3">Криминалистика</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Освойте Metasploit</string>
+    <string name="app_metasploit_tagline">Эксплуатируй. Тестируй. Защищай системы</string>
+    <string name="app_metasploit_bullet1">Более 150 тем Metasploit от начального до продвинутого уровня</string>
+    <string name="app_metasploit_bullet2">Полезные нагрузки, эксплойты, пост-эксплуатация и автоматизация</string>
+    <string name="app_metasploit_bullet3">Тесты-игры, интерактивные лаборатории и реальные сценарии атак</string>
+    <string name="app_metasploit_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_metasploit_tag1">Тестирование на проникновение</string>
+    <string name="app_metasploit_tag2">Эксплойт</string>
+    <string name="app_metasploit_tag3">Уязвимость</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Изучите Linux</string>
+    <string name="app_learnlinux_tagline">Освойте Linux от основ до профессионального уровня</string>
+    <string name="app_learnlinux_bullet1">Более 100 тем Linux от начального до продвинутого уровня + более 1000 команд и практических заданий</string>
+    <string name="app_learnlinux_bullet2">Команды Linux, скрипты оболочки и системное администрирование</string>
+    <string name="app_learnlinux_bullet3">Проекты, тесты-игры, терминальные лаборатории и реальные примеры использования</string>
+    <string name="app_learnlinux_bullet4">Многоязычная поддержка, офлайн-доступ и премиум-функции</string>
+    <string name="app_learnlinux_tag1">Система Linux</string>
+    <string name="app_learnlinux_tag2">Скрипты оболочки</string>
+    <string name="app_learnlinux_tag3">Команды</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Команды Nmap</string>
+    <string name="app_nmap_tagline">Освойте сканирование сети с помощью Nmap</string>
+    <string name="app_nmap_bullet1">Более 100 команд Nmap для реального сканирования сети</string>
+    <string name="app_nmap_bullet2">Более 100 тем: разведка, перечисление и обнаружение уязвимостей</string>
+    <string name="app_nmap_bullet3">Типы сканирования, скрипты NSE, определение ОС и обход файрвола</string>
+    <string name="app_nmap_bullet4">Многоязычная поддержка, тесты-игры и премиум-функции</string>
+    <string name="app_nmap_tag1">Хакинг</string>
+    <string name="app_nmap_tag2">Сканирование сети</string>
+    <string name="app_nmap_tag3">Инструменты</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">Руководство по инструментам сбора информации</string>
+    <string name="app_infogathering_tagline">Освойте OSINT и разведку как профессионал</string>
+    <string name="app_infogathering_bullet1">Важнейшие инструменты разведки и OSINT с подробными руководствами</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester и руководства на основе команд</string>
+    <string name="app_infogathering_bullet3">Другие способы сбора информации: OSINT, футпринтинг и перечисление</string>
+    <string name="app_infogathering_bullet4">Многоязычная поддержка, тесты-игры и премиум-функции</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">Инструменты разведки</string>
+    <string name="app_infogathering_tag3">Футпринтинг</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Руководство по Burp Suite</string>
+    <string name="app_burpsuite_tagline">Освойте тестирование безопасности веб-приложений</string>
+    <string name="app_burpsuite_bullet1">Более 100 тем Burp Suite и лабораторий тестирования веб-безопасности</string>
+    <string name="app_burpsuite_bullet2">Руководство по Proxy, Repeater, Intruder, Scanner и расширениям</string>
+    <string name="app_burpsuite_bullet3">Разбор атак в прямом эфире, тесты-игры и практические задания</string>
+    <string name="app_burpsuite_bullet4">Многоязычная поддержка, офлайн-доступ и премиум-функции</string>
+    <string name="app_burpsuite_tag1">Веб-безопасность</string>
+    <string name="app_burpsuite_tag2">Баг</string>
+    <string name="app_burpsuite_tag3">Исследование уязвимостей</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Программы Java для практики</string>
+    <string name="app_java_tagline">Изучите и освойте программирование на Java</string>
+    <string name="app_java_bullet1">Более 100 тем Java с более чем 1000 практическими программами</string>
+    <string name="app_java_bullet2">Циклы, массивы, ООП, строки, коллекции и работа с файлами</string>
+    <string name="app_java_bullet3">Тесты-игры, интерактивные упражнения и задачи по программированию</string>
+    <string name="app_java_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_java_tag1">Программирование на Java</string>
+    <string name="app_java_tag2">Построение логики</string>
+    <string name="app_java_tag3">Изучите Java</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Программы Python для практики</string>
+    <string name="app_python_tagline">Освойте Python на практических примерах</string>
+    <string name="app_python_bullet1">Более 100 тем Python с более чем 1000 практическими программами</string>
+    <string name="app_python_bullet2">Основы, циклы, функции, ООП, работа с файлами и библиотеки</string>
+    <string name="app_python_bullet3">Тесты-игры, задачи по программированию и упражнения на логику</string>
+    <string name="app_python_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_python_tag1">Изучите Python</string>
+    <string name="app_python_tag2">Программирование</string>
+    <string name="app_python_tag3">Приложения Python</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">Изучите HTML, CSS, JS, PHP</string>
+    <string name="app_webdev_tagline">Создавайте сайты. Программируйте быстрее</string>
+    <string name="app_webdev_bullet1">Более 100 тем веб-разработки + более 1000 практических программ</string>
+    <string name="app_webdev_bullet2">Изучите HTML, CSS, JavaScript и PHP на живых примерах</string>
+    <string name="app_webdev_bullet3">Проекты, упражнения по программированию, тесты-игры и практические задания</string>
+    <string name="app_webdev_bullet4">Многоязычная поддержка, офлайн-доступ и премиум-функции</string>
+    <string name="app_webdev_tag1">Веб-разработка</string>
+    <string name="app_webdev_tag2">Создание сайтов</string>
+    <string name="app_webdev_tag3">Full Stack</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Программирование на Swift</string>
+    <string name="app_swift_tagline">Создавайте iOS-приложения на Swift</string>
+    <string name="app_swift_bullet1">Более 100 тем Swift от начального до продвинутого уровня + более 1000 практических программ</string>
+    <string name="app_swift_bullet2">Изучите Swift, UIKit и SwiftUI на реальных примерах iOS-приложений</string>
+    <string name="app_swift_bullet3">Проекты, упражнения по программированию, тесты-игры и подготовка к собеседованиям</string>
+    <string name="app_swift_bullet4">Многоязычная поддержка, офлайн-доступ и премиум-функции</string>
+    <string name="app_swift_tag1">Изучите Swift</string>
+    <string name="app_swift_tag2">iOS-приложения</string>
+    <string name="app_swift_tag3">Программы Swift</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Программы Kotlin для практики</string>
+    <string name="app_kotlin_tagline">Освойте Kotlin на практических примерах</string>
+    <string name="app_kotlin_bullet1">Более 100 тем Kotlin с более чем 1000 практическими программами</string>
+    <string name="app_kotlin_bullet2">Основы, ООП, корутины, коллекции и код, готовый для Android</string>
+    <string name="app_kotlin_bullet3">Тесты-игры, задачи по программированию и упражнения на логику</string>
+    <string name="app_kotlin_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_kotlin_tag1">Программирование на Kotlin</string>
+    <string name="app_kotlin_tag2">Kotlin для Android</string>
+    <string name="app_kotlin_tag3">Изучите Kotlin</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Изучите дизайн UI для Android-приложений</string>
+    <string name="app_androidui_tagline">Создавайте красивые интерфейсы Android</string>
+    <string name="app_androidui_bullet1">Более 100 тем UI/UX Android + более 1000 практических дизайн-заданий</string>
+    <string name="app_androidui_bullet2">XML-разметка, Material Design и UI Jetpack Compose</string>
+    <string name="app_androidui_bullet3">Живые UI-проекты, тесты-игры и практические упражнения</string>
+    <string name="app_androidui_bullet4">Многоязычная поддержка, офлайн-доступ и премиум-функции</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">Дизайн приложений</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Изучите разработку Android-приложений</string>
+    <string name="app_androiddev_tagline">Создавайте настоящие Android-приложения шаг за шагом</string>
+    <string name="app_androiddev_bullet1">Более 150 тем разработки Android от начального до продвинутого уровня</string>
+    <string name="app_androiddev_bullet2">Руководства по Java, Kotlin, XML, Jetpack и Android Studio</string>
+    <string name="app_androiddev_bullet3">Реальные проекты приложений, примеры кода и лучшие практики</string>
+    <string name="app_androiddev_bullet4">Офлайн-обучение с чистым и простым интерфейсом</string>
+    <string name="app_androiddev_tag1">Изучите Android</string>
+    <string name="app_androiddev_tag2">Мобильные приложения</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Учебник по Arch Linux</string>
+    <string name="app_archlinux_tagline">Установите и освойте Arch Linux шаг за шагом</string>
+    <string name="app_archlinux_bullet1">Более 150 тем Arch Linux от начального до продвинутого уровня</string>
+    <string name="app_archlinux_bullet2">Установка, pacman, systemd, сеть и настройка рабочего стола</string>
+    <string name="app_archlinux_bullet3">Практические лаборатории, упражнения с командами и реальные примеры использования</string>
+    <string name="app_archlinux_bullet4">Многоязычная поддержка, тесты-игры и премиум-функции</string>
+    <string name="app_archlinux_tag1">Гид по Linux</string>
+    <string name="app_archlinux_tag2">Системное администрирование</string>
+    <string name="app_archlinux_tag3">Команды</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - от основ до продвинутого уровня</string>
+    <string name="app_bitcoin_tagline">Изучите крипту и блокчейн грамотно</string>
+    <string name="app_bitcoin_bullet1">Более 100 тем Bitcoin и блокчейна от начального до продвинутого уровня</string>
+    <string name="app_bitcoin_bullet2">Основы криптовалют, кошельки, майнинг, торговля и безопасность</string>
+    <string name="app_bitcoin_bullet3">Тесты-игры, интерактивные уроки и практические задания</string>
+    <string name="app_bitcoin_bullet4">Многоязычная поддержка и доступные премиум-функции</string>
+    <string name="app_bitcoin_tag1">Изучите крипту</string>
+    <string name="app_bitcoin_tag2">Блокчейн</string>
+    <string name="app_bitcoin_tag3">Цифровая валюта</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">Горячие клавиши компьютера</string>
+    <string name="app_shortcuts_tagline">Работайте быстрее с помощью горячих клавиш</string>
+    <string name="app_shortcuts_bullet1">Более 50 самых используемых горячих клавиш приложений для быстрой работы</string>
+    <string name="app_shortcuts_bullet2">Горячие клавиши Windows, MS Word, Excel, Chrome и системы</string>
+    <string name="app_shortcuts_bullet3">Лёгкое обучение, режим практики и советы по улучшению памяти</string>
+    <string name="app_shortcuts_bullet4">Офлайн-доступ, без рекламы и чистый простой интерфейс</string>
+    <string name="app_shortcuts_tag1">Горячие клавиши</string>
+    <string name="app_shortcuts_tag2">Умная работа</string>
+    <string name="app_shortcuts_tag3">Советы по клавиатуре</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">Вопросы для IT-собеседований</string>
+    <string name="app_itinterview_tagline">Пройдите собеседования по программированию и технологиям</string>
+    <string name="app_itinterview_bullet1">Более 100 тем и вопросов собеседований по языкам программирования</string>
+    <string name="app_itinterview_bullet2">Руководства по собеседованиям на Java, Python, C, C++, PHP, JS и SQL</string>
+    <string name="app_itinterview_bullet3">Подготовка к HR, техническим и программным собеседованиям</string>
+    <string name="app_itinterview_bullet4">Офлайн-доступ с чистым простым интерфейсом</string>
+    <string name="app_itinterview_tag1">Подготовка к собеседованию: вопросы и ответы</string>
+    <string name="app_itinterview_tag2">Подготовка к работе</string>
+    <string name="app_itinterview_tag3">Технические вакансии</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">Учебник - ежедневная разговорная практика английского</string>
+    <string name="app_englishspeak_tagline">Говорите по-английски уверенно каждый день</string>
+    <string name="app_englishspeak_bullet1">Более 100 тем разговорного английского + более 1000 фраз для ежедневной практики</string>
+    <string name="app_englishspeak_bullet2">Грамматика, лексика, произношение и разговорные навыки</string>
+    <string name="app_englishspeak_bullet3">Упражнения на говорение, тесты-игры и реальные диалоги</string>
+    <string name="app_englishspeak_bullet4">Многоязычная поддержка, офлайн-доступ и премиум-функции</string>
+    <string name="app_englishspeak_tag1">Разговорный английский</string>
+    <string name="app_englishspeak_tag2">Ежедневная практика</string>
+    <string name="app_englishspeak_tag3">Беглость речи</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">Короткий рассказ на английском</string>
+    <string name="app_englishstory_tagline">Весёлые истории на английском для детей</string>
+    <string name="app_englishstory_bullet1">Более 500 коротких историй на английском для детей с моральными уроками</string>
+    <string name="app_englishstory_bullet2">Простые слова, простые предложения и красочные истории</string>
+    <string name="app_englishstory_bullet3">Практика чтения, расширение словарного запаса и весёлое обучение</string>
+    <string name="app_englishstory_bullet4">Безопасно для детей: без рекламы, без подписки и офлайн-чтение</string>
+    <string name="app_englishstory_tag1">Детские истории</string>
+    <string name="app_englishstory_tag2">Изучите английский</string>
+    <string name="app_englishstory_tag3">Книга рассказов</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">Загрузки</string>
+    <string name="label_rating">Рейтинг</string>
+    <string name="label_size">Размер</string>
+    <string name="label_install">Установить</string>
+    <string name="label_free">Бесплатно</string>
 </resources>

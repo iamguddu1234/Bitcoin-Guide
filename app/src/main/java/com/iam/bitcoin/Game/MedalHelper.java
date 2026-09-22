@@ -3,7 +3,6 @@ package com.iam.bitcoin.Game;
 
 import com.iam.bitcoin.R;
 
-
 public class MedalHelper {
 
     // Medal types

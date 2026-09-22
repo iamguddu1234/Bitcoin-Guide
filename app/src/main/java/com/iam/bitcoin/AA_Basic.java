@@ -267,7 +267,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
             }
         });
     }
-
     private void loadInterstitialAd() {
 
         // Check if fragment is attached first
@@ -309,7 +308,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
                     }
                 });
     }
-
     private void showInterstitialAd() {
 
         // Check fragment attachment first
@@ -363,10 +361,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
             loadInterstitialAd();
         }
     }
-
-
-
-
     // Updated handleLanguageSelection method
     private void handleLanguageSelection(String langCode, AlertDialog dialog) {
         dialog.dismiss();
@@ -386,8 +380,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
             showPremiumRequiredDialog();
         }
     }
-
-
     private void showPremiumRequiredDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = LayoutInflater.from(requireContext());
@@ -416,7 +408,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
             }, 500);
         });
     }
-
     private void changeLanguage(String langCode) {
         try {
             // Update app-wide locale
@@ -439,12 +430,10 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
             Log.e("LanguageChange", "Error changing language", e);
         }
     }
-
     @RequiresApi(api = Build.VERSION_CODES.M)
     private void onAttachBaseContext(Context context) {
         // This is a workaround for fragments
     }
-
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
@@ -455,7 +444,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
                     + " must implement PremiumStatusListener");
         }
     }
-
     @Override
     public void onDestroyView() {
 
@@ -477,9 +465,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
         }
         super.onDestroyView();
     }
-
-
-
     public void scrollToPremiumButton() {
         View view = getView();
         if (view != null) {
@@ -492,7 +477,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
             });
         }
     }
-
     @Override
     public void onResume() {
         super.onResume();
@@ -516,12 +500,10 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
 
 
     }
-
     @Override
     public boolean isPremium() {
         return billingManager != null && billingManager.isPremium();
     }
-
     private void initializeManagers() {
         try {
             if (getActivity() == null) return;
@@ -537,11 +519,6 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
             Log.e("QuizGame", "Initialization failed", e);
         }
     }
-
-
-
-
-
     @Override
     public void onDestroy() {
         if (billingManager != null) {

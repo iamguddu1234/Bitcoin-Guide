@@ -2474,4 +2474,303 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">10 Situs Investasi Bitcoin dan Crypto Terbaik</string>
     <string name="top_10_bitcoin_android_and_ios_application">10 Aplikasi Bitcoin Terbaik untuk Android dan iOS</string>
 
+    <string name="thank_you_note">Terima kasih telah mendukung dan menggunakan aplikasi kami! 💙</string>
+    <string name="no_language_found">Tidak ada bahasa ditemukan</string>
+    <string name="search_language">Cari bahasa</string>
+    <string name="choose_your_prefered_language">Pilih bahasa pilihan Anda</string>
+    <string name="select_language">Pilih bahasa</string>
+    <string name="all_language">Semua Bahasa</string>
+    <string name="result">Hasil</string>
+    <string name="correct">benar</string>
+    <string name="new_best">Rekor Baru!</string>
+    <string name="same_as_best">Sama dengan rekor terbaik Anda</string>
+    <string name="below_best">Di bawah rekor terbaik Anda</string>
+    <string name="performance_outstanding">Luar biasa!</string>
+    <string name="performance_keep_practicing">Terus berlatih!</string>
+    <string name="finish_quiz">Selesaikan Kuis</string>
+
+    <string name="topics_label">TOPIK</string>
+    <string name="course_label">KURSUS</string>
+    <string name="hours_label">JAM</string>
+    <string name="modules_label">Modul</string>
+
+    <string name="my_apps_subtitle">Jelajahi aplikasi kami lainnya</string>
+    <string name="all">Semua</string>
+    <string name="learn_line">Belajar</string>
+
+    <string name="rate">Beri Rating</string>
+    <string name="share">Bagikan</string>
+    <string name="about">Tentang</string>
+    <string name="dark_mode">Mode Gelap</string>
+
+    <string name="module_1_title">Modul 1</string>
+    <string name="module_2_title">Modul 2</string>
+    <string name="module_3_title">Modul 3</string>
+    <string name="module_4_title">Modul 4</string>
+    <string name="module_5_title">Modul 5</string>
+    <string name="module_6_title">Modul 6</string>
+    <string name="module_7_title">Modul 7</string>
+    <string name="module_8_title">Modul 8</string>
+    <string name="module_9_title">Modul 9</string>
+    <string name="module_10_title">Modul 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux Master</string>
+    <string name="app_kali_tagline">Belajar. Retas. Bertahan</string>
+    <string name="app_kali_bullet1">Alat Keamanan Siber &amp; Penguasaan Peretasan Etis</string>
+    <string name="app_kali_bullet2">Kali Linux &amp; Pengembangan Keterampilan Pen Testing</string>
+    <string name="app_kali_bullet3">Forensik, Analisis Malware &amp; Pembelajaran Berbasis Kuis</string>
+    <string name="app_kali_bullet4">Premium, Cepat, Bebas Iklan dengan Dukungan Multibahasa</string>
+    <string name="app_kali_tag1">Peretasan Etis</string>
+    <string name="app_kali_tag2">Alat Pro</string>
+    <string name="app_kali_tag3">Keamanan Siber</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">Bug Bounty Hunter</string>
+    <string name="app_bugbounty_tagline">Temukan Bug. Dapatkan Hadiah</string>
+    <string name="app_bugbounty_bullet1">100+ Topik Bug Bounty Nyata &amp; Lab Kerentanan</string>
+    <string name="app_bugbounty_bullet2">Panduan Pengujian Keamanan Web, API, Mobile &amp; Cloud</string>
+    <string name="app_bugbounty_bullet3">Panduan Eksploit Langsung, Permainan Kuis &amp; Tantangan Latihan</string>
+    <string name="app_bugbounty_bullet4">Multibahasa, Akses Offline &amp; Fitur Pro Premium</string>
+    <string name="app_bugbounty_tag1">Bug Bounty</string>
+    <string name="app_bugbounty_tag2">Peretasan</string>
+    <string name="app_bugbounty_tag3">Pentesting</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Kuasai Google Dorks &amp; OSINT</string>
+    <string name="app_dorks_bullet1">1000+ Google Dorks untuk OSINT &amp; Riset Keamanan Etis</string>
+    <string name="app_dorks_bullet2">Kueri Situs Web, File, Login, Kamera &amp; Paparan Data</string>
+    <string name="app_dorks_bullet3">Permainan Kuis, Tugas Latihan &amp; Skenario Pencarian Nyata</string>
+    <string name="app_dorks_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">Recon</string>
+    <string name="app_dorks_tag3">Keamanan Siber</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">Panduan Dark Web</string>
+    <string name="app_darkweb_tagline">Kuasai Pengetahuan Dark Web</string>
+    <string name="app_darkweb_bullet1">100+ Topik Dark Web &amp; Privasi dari Pemula hingga Lanjutan</string>
+    <string name="app_darkweb_bullet2">Dasar-Dasar Tor, Privasi Online, Risiko &amp; Kesadaran Hukum</string>
+    <string name="app_darkweb_bullet3">Permainan Kuis, Pelajaran Interaktif &amp; Praktik Keamanan Terbaik</string>
+    <string name="app_darkweb_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">Penjelajahan Anonim</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Tutorial Wireshark</string>
+    <string name="app_wireshark_tagline">Analisis Lalu Lintas Jaringan Seperti Profesional</string>
+    <string name="app_wireshark_bullet1">150+ Topik Wireshark dari Pemula hingga Lanjutan</string>
+    <string name="app_wireshark_bullet2">Penangkapan Paket, Filter, Analisis Protokol &amp; Lab TCP/IP</string>
+    <string name="app_wireshark_bullet3">Permainan Kuis, Latihan Langsung &amp; Skenario Lalu Lintas Nyata</string>
+    <string name="app_wireshark_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_wireshark_tag1">Analisis Jaringan</string>
+    <string name="app_wireshark_tag2">Sniffing</string>
+    <string name="app_wireshark_tag3">Forensik</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Menguasai Metasploit</string>
+    <string name="app_metasploit_tagline">Eksploitasi. Uji. Amankan Sistem</string>
+    <string name="app_metasploit_bullet1">150+ Topik Metasploit dari Pemula hingga Lanjutan</string>
+    <string name="app_metasploit_bullet2">Payload, Eksploit, Pasca-Eksploitasi &amp; Otomatisasi</string>
+    <string name="app_metasploit_bullet3">Permainan Kuis, Lab Interaktif &amp; Skenario Serangan Nyata</string>
+    <string name="app_metasploit_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_metasploit_tag1">Pen Testing</string>
+    <string name="app_metasploit_tag2">Eksploit</string>
+    <string name="app_metasploit_tag3">Kerentanan</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Belajar Linux</string>
+    <string name="app_learnlinux_tagline">Kuasai Linux dari Dasar hingga Profesional</string>
+    <string name="app_learnlinux_bullet1">100+ Topik Linux dari Pemula hingga Lanjutan + 1000+ Perintah &amp; Tugas Latihan</string>
+    <string name="app_learnlinux_bullet2">Perintah Linux, Shell Scripting &amp; Administrasi Sistem</string>
+    <string name="app_learnlinux_bullet3">Proyek, Permainan Kuis, Lab Terminal &amp; Kasus Penggunaan Nyata</string>
+    <string name="app_learnlinux_bullet4">Dukungan Multibahasa, Akses Offline &amp; Fitur Premium</string>
+    <string name="app_learnlinux_tag1">Sistem Operasi Linux</string>
+    <string name="app_learnlinux_tag2">Shell Scripting</string>
+    <string name="app_learnlinux_tag3">Perintah</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Perintah Nmap</string>
+    <string name="app_nmap_tagline">Kuasai Pemindaian Jaringan dengan Nmap</string>
+    <string name="app_nmap_bullet1">100+ Perintah Nmap untuk Pemindaian Jaringan Dunia Nyata</string>
+    <string name="app_nmap_bullet2">100+ Topik Tercakup: Recon, Enumerasi &amp; Deteksi Kerentanan</string>
+    <string name="app_nmap_bullet3">Jenis Pemindaian, Skrip NSE, Deteksi OS &amp; Penghindaran Firewall</string>
+    <string name="app_nmap_bullet4">Dukungan Multibahasa, Permainan Kuis &amp; Fitur Pro Premium</string>
+    <string name="app_nmap_tag1">Peretasan</string>
+    <string name="app_nmap_tag2">Pemindaian Jaringan</string>
+    <string name="app_nmap_tag3">Alat</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">Panduan Alat Pengumpulan Informasi</string>
+    <string name="app_infogathering_tagline">Kuasai OSINT &amp; Recon Seperti Profesional</string>
+    <string name="app_infogathering_bullet1">Alat Recon &amp; OSINT Terpenting dengan Tutorial Rinci</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester &amp; Panduan Berbasis Perintah</string>
+    <string name="app_infogathering_bullet3">Cara Lain Mengumpulkan Info: OSINT, Footprinting &amp; Enumerasi</string>
+    <string name="app_infogathering_bullet4">Dukungan Multibahasa, Permainan Kuis &amp; Fitur Pro Premium</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">Alat Recon</string>
+    <string name="app_infogathering_tag3">Footprinting</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Panduan Burp Suite</string>
+    <string name="app_burpsuite_tagline">Kuasai Pengujian Keamanan Aplikasi Web</string>
+    <string name="app_burpsuite_bullet1">100+ Topik Burp Suite &amp; Lab Pengujian Keamanan Web</string>
+    <string name="app_burpsuite_bullet2">Panduan Proxy, Repeater, Intruder, Scanner &amp; Ekstensi</string>
+    <string name="app_burpsuite_bullet3">Panduan Serangan Langsung, Permainan Kuis &amp; Tugas Latihan</string>
+    <string name="app_burpsuite_bullet4">Dukungan Multibahasa, Akses Offline &amp; Fitur Pro Premium</string>
+    <string name="app_burpsuite_tag1">Keamanan Web</string>
+    <string name="app_burpsuite_tag2">Bug</string>
+    <string name="app_burpsuite_tag3">Riset Kerentanan</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Program Java untuk Latihan</string>
+    <string name="app_java_tagline">Belajar &amp; Kuasai Pemrograman Java</string>
+    <string name="app_java_bullet1">100+ Topik Java dengan 1000+ Program Latihan</string>
+    <string name="app_java_bullet2">Loop, Array, OOP, String, Koleksi &amp; Penanganan File</string>
+    <string name="app_java_bullet3">Permainan Kuis, Latihan Interaktif &amp; Tantangan Pemrograman</string>
+    <string name="app_java_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_java_tag1">Pemrograman Java</string>
+    <string name="app_java_tag2">Pembentukan Logika</string>
+    <string name="app_java_tag3">Belajar Java</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Program Python untuk Latihan</string>
+    <string name="app_python_tagline">Kuasai Python dengan Pemrograman Langsung</string>
+    <string name="app_python_bullet1">100+ Topik Python dengan 1000+ Program Latihan</string>
+    <string name="app_python_bullet2">Dasar-Dasar, Loop, Fungsi, OOP, Penanganan File &amp; Library</string>
+    <string name="app_python_bullet3">Permainan Kuis, Tantangan Pemrograman &amp; Latihan Pembentukan Logika</string>
+    <string name="app_python_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_python_tag1">Belajar Python</string>
+    <string name="app_python_tag2">Pemrograman</string>
+    <string name="app_python_tag3">Aplikasi Python</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">Belajar HTML, CSS, JS, PHP</string>
+    <string name="app_webdev_tagline">Bangun Situs Web. Kode Lebih Cepat</string>
+    <string name="app_webdev_bullet1">100+ Topik Pengembangan Web + 1000+ Program Latihan Pemrograman</string>
+    <string name="app_webdev_bullet2">Pelajari HTML, CSS, JavaScript &amp; PHP dengan Contoh Langsung</string>
+    <string name="app_webdev_bullet3">Proyek, Latihan Pemrograman, Permainan Kuis &amp; Tugas Latihan</string>
+    <string name="app_webdev_bullet4">Dukungan Multibahasa, Akses Offline &amp; Fitur Premium</string>
+    <string name="app_webdev_tag1">Pengembangan Web</string>
+    <string name="app_webdev_tag2">Bangun Situs Web</string>
+    <string name="app_webdev_tag3">Full Stack</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Pemrograman Swift</string>
+    <string name="app_swift_tagline">Bangun Aplikasi iOS dengan Swift</string>
+    <string name="app_swift_bullet1">100+ Topik Swift dari Pemula hingga Lanjutan + 1000+ Program Latihan</string>
+    <string name="app_swift_bullet2">Pelajari Swift, UIKit &amp; SwiftUI dengan Contoh Aplikasi iOS Nyata</string>
+    <string name="app_swift_bullet3">Proyek, Latihan Pemrograman, Permainan Kuis &amp; Persiapan Wawancara</string>
+    <string name="app_swift_bullet4">Dukungan Multibahasa, Akses Offline &amp; Fitur Premium</string>
+    <string name="app_swift_tag1">Belajar Swift</string>
+    <string name="app_swift_tag2">Aplikasi iOS</string>
+    <string name="app_swift_tag3">Program Swift</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Program Kotlin untuk Latihan</string>
+    <string name="app_kotlin_tagline">Kuasai Kotlin dengan Pemrograman Langsung</string>
+    <string name="app_kotlin_bullet1">100+ Topik Kotlin dengan 1000+ Program Latihan</string>
+    <string name="app_kotlin_bullet2">Dasar-Dasar, OOP, Coroutine, Koleksi &amp; Kode Siap Android</string>
+    <string name="app_kotlin_bullet3">Permainan Kuis, Tantangan Pemrograman &amp; Latihan Pembentukan Logika</string>
+    <string name="app_kotlin_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_kotlin_tag1">Pemrograman Kotlin</string>
+    <string name="app_kotlin_tag2">Kotlin Android</string>
+    <string name="app_kotlin_tag3">Belajar Kotlin</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Belajar Desain UI Aplikasi Android</string>
+    <string name="app_androidui_tagline">Rancang Antarmuka Android yang Indah</string>
+    <string name="app_androidui_bullet1">100+ Topik UI/UX Android + 1000+ Tugas Latihan Desain</string>
+    <string name="app_androidui_bullet2">Tata Letak XML, Material Design &amp; UI Jetpack Compose</string>
+    <string name="app_androidui_bullet3">Proyek UI Langsung, Permainan Kuis &amp; Latihan Praktik</string>
+    <string name="app_androidui_bullet4">Dukungan Multibahasa, Akses Offline &amp; Fitur Premium</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">Desain Aplikasi</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Belajar Pengembangan Aplikasi Android</string>
+    <string name="app_androiddev_tagline">Bangun Aplikasi Android Nyata Langkah demi Langkah</string>
+    <string name="app_androiddev_bullet1">150+ Topik Pengembangan Android dari Pemula hingga Lanjutan</string>
+    <string name="app_androiddev_bullet2">Panduan Java, Kotlin, XML, Jetpack &amp; Android Studio</string>
+    <string name="app_androiddev_bullet3">Proyek Aplikasi Nyata, Contoh Kode &amp; Praktik Terbaik</string>
+    <string name="app_androiddev_bullet4">Pembelajaran Offline dengan Antarmuka Bersih &amp; Sederhana</string>
+    <string name="app_androiddev_tag1">Belajar Android</string>
+    <string name="app_androiddev_tag2">Aplikasi Mobile</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Tutorial Arch Linux</string>
+    <string name="app_archlinux_tagline">Instal &amp; Kuasai Arch Linux Langkah demi Langkah</string>
+    <string name="app_archlinux_bullet1">150+ Topik Arch Linux dari Pemula hingga Lanjutan</string>
+    <string name="app_archlinux_bullet2">Instalasi, pacman, systemd, jaringan &amp; pengaturan desktop</string>
+    <string name="app_archlinux_bullet3">Lab Praktik, Latihan Perintah &amp; Kasus Penggunaan Nyata</string>
+    <string name="app_archlinux_bullet4">Dukungan Multibahasa, Permainan Kuis &amp; Fitur Pro Premium</string>
+    <string name="app_archlinux_tag1">Panduan Linux</string>
+    <string name="app_archlinux_tag2">Administrasi Sistem</string>
+    <string name="app_archlinux_tag3">Perintah</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - Dasar hingga Lanjutan</string>
+    <string name="app_bitcoin_tagline">Pelajari Kripto &amp; Blockchain dengan Cerdas</string>
+    <string name="app_bitcoin_bullet1">100+ Topik Bitcoin &amp; Blockchain dari Pemula hingga Lanjutan</string>
+    <string name="app_bitcoin_bullet2">Dasar-Dasar Kripto, Wallet, Mining, Trading &amp; Keamanan</string>
+    <string name="app_bitcoin_bullet3">Permainan Kuis, Pelajaran Interaktif &amp; Tantangan Latihan</string>
+    <string name="app_bitcoin_bullet4">Dukungan Multibahasa &amp; Fitur Pro Premium Tersedia</string>
+    <string name="app_bitcoin_tag1">Belajar Kripto</string>
+    <string name="app_bitcoin_tag2">Blockchain</string>
+    <string name="app_bitcoin_tag3">Mata Uang Digital</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">Tombol Pintasan Komputer</string>
+    <string name="app_shortcuts_tagline">Bekerja Lebih Cepat dengan Pintasan Keyboard</string>
+    <string name="app_shortcuts_bullet1">50+ Pintasan Aplikasi yang Paling Sering Digunakan untuk Kerja Cepat</string>
+    <string name="app_shortcuts_bullet2">Pintasan Windows, MS Word, Excel, Chrome &amp; Sistem</string>
+    <string name="app_shortcuts_bullet3">Pembelajaran Mudah, Mode Latihan &amp; Tips Peningkatan Memori</string>
+    <string name="app_shortcuts_bullet4">Akses Offline, Tanpa Iklan &amp; Antarmuka Bersih Sederhana</string>
+    <string name="app_shortcuts_tag1">Tombol Pintasan</string>
+    <string name="app_shortcuts_tag2">Kerja Cerdas</string>
+    <string name="app_shortcuts_tag3">Tips Keyboard</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">Pertanyaan Wawancara IT</string>
+    <string name="app_itinterview_tagline">Taklukkan Wawancara Pemrograman &amp; Teknologi</string>
+    <string name="app_itinterview_bullet1">100+ Topik Wawancara Bahasa Pemrograman &amp; Pertanyaan</string>
+    <string name="app_itinterview_bullet2">Panduan Wawancara Java, Python, C, C++, PHP, JS &amp; SQL</string>
+    <string name="app_itinterview_bullet3">Persiapan Wawancara HR, Teknis &amp; Pemrograman</string>
+    <string name="app_itinterview_bullet4">Akses Offline dengan Antarmuka Bersih &amp; Sederhana</string>
+    <string name="app_itinterview_tag1">Persiapan Wawancara T&amp;J</string>
+    <string name="app_itinterview_tag2">Persiapan Kerja</string>
+    <string name="app_itinterview_tag3">Pekerjaan Teknologi</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">Tutorial - Berbicara Bahasa Inggris Harian</string>
+    <string name="app_englishspeak_tagline">Bicara Bahasa Inggris dengan Percaya Diri Setiap Hari</string>
+    <string name="app_englishspeak_bullet1">100+ Topik Bahasa Inggris Lisan + 1000+ Kalimat Latihan Harian</string>
+    <string name="app_englishspeak_bullet2">Tata Bahasa, Kosakata, Pengucapan &amp; Keterampilan Percakapan</string>
+    <string name="app_englishspeak_bullet3">Latihan Berbicara, Permainan Kuis &amp; Dialog Kehidupan Nyata</string>
+    <string name="app_englishspeak_bullet4">Dukungan Multibahasa, Akses Offline &amp; Fitur Premium</string>
+    <string name="app_englishspeak_tag1">Bahasa Inggris Lisan</string>
+    <string name="app_englishspeak_tag2">Latihan Harian</string>
+    <string name="app_englishspeak_tag3">Kefasihan</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">Cerita Pendek Bahasa Inggris</string>
+    <string name="app_englishstory_tagline">Cerita Bahasa Inggris yang Menyenangkan untuk Anak-Anak</string>
+    <string name="app_englishstory_bullet1">500+ Cerita Pendek Bahasa Inggris untuk Anak dengan Pesan Moral</string>
+    <string name="app_englishstory_bullet2">Kata-Kata Mudah, Kalimat Sederhana &amp; Penceritaan yang Berwarna</string>
+    <string name="app_englishstory_bullet3">Latihan Membaca, Peningkatan Kosakata &amp; Pembelajaran Menyenangkan</string>
+    <string name="app_englishstory_bullet4">Aman untuk Anak: Tanpa Iklan, Tanpa Premium &amp; Membaca Offline</string>
+    <string name="app_englishstory_tag1">Cerita Anak</string>
+    <string name="app_englishstory_tag2">Belajar Bahasa Inggris</string>
+    <string name="app_englishstory_tag3">Buku Cerita</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">Unduhan</string>
+    <string name="label_rating">Rating</string>
+    <string name="label_size">Ukuran</string>
+    <string name="label_install">Instal</string>
+    <string name="label_free">Gratis</string>
 </resources>

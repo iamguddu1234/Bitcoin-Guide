@@ -76,7 +76,7 @@ public class PremiumDialogFragment extends DialogFragment {
 
             // White status bar background
             window.setStatusBarColor(
-                    ContextCompat.getColor(requireContext(), R.color.white)
+                    ContextCompat.getColor(requireContext(), R.color.background_color)
             );
 
             // Dark icons (WiFi, battery, time)

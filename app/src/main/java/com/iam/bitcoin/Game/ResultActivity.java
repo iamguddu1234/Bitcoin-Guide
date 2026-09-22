@@ -10,16 +10,12 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.drawable.ColorDrawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.BounceInterpolator;
 import android.view.animation.OvershootInterpolator;
 import android.widget.Button;
@@ -38,7 +34,6 @@ import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 import com.iam.bitcoin.Home;
 import com.iam.bitcoin.InAppPurchase.BillingManager;
 import com.iam.bitcoin.InAppPurchase.PremiumStatusListener;
-import com.iam.bitcoin.Multilanguage.LocaleHelper;
 import com.iam.bitcoin.R;
 
 import java.text.SimpleDateFormat;
@@ -74,41 +69,18 @@ public class ResultActivity extends AppCompatActivity implements PremiumStatusLi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_result);
-//
-//        if (getSupportActionBar() != null) {
-//            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//            getSupportActionBar().setElevation(0f);
-//        }
-//        setTitle("Result");
-
-
 
         setTitle("Result");
         setContentView(R.layout.activity_result);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().setElevation(0f);
         }
 
-
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources()
-                .getColor(R.color.white)));
-
-
-        if (Build.VERSION.SDK_INT >= 21) {
-            Window window = this.getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.setStatusBarColor(this.getResources().getColor(R.color.white));
-        }
-
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(ContextCompat.getColor(ResultActivity.this, R.color.white)); //setting bar color
-        }
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        // Was: hardcoded R.color.white for action bar / status bar / nav bar,
+        // which ignored dark mode entirely. ThemeBars picks the correct
+        // theme-adaptive color and sets the right status-bar icon contrast.
+        com.iam.bitcoin.Game.ThemeBars.apply(this);
 
         billingManager = new BillingManager(this, new BillingManager.BillingListener() {
             @Override
@@ -163,8 +135,6 @@ public class ResultActivity extends AppCompatActivity implements PremiumStatusLi
             animateButtonClick(btnHome);
             view.postDelayed(this::finish, 200);
         });
-
-
     }
 
     private void setupScoreTracking() {
@@ -263,9 +233,9 @@ public class ResultActivity extends AppCompatActivity implements PremiumStatusLi
         }
 
         if (gameAccessManager.canPlayGame()) {
-            startQuizGame();              // first play free, or ad already unlocked
+            startQuizGame();
         } else {
-            showWatchAdDialog();          // used free play, no ad yet -> offer ad
+            showWatchAdDialog();
         }
     }
 
@@ -317,8 +287,8 @@ public class ResultActivity extends AppCompatActivity implements PremiumStatusLi
 
         rewardedAd.show(this, new OnUserEarnedRewardListener() {
             @Override public void onUserEarnedReward(@NonNull RewardItem rewardItem) {
-                gameAccessManager.grantPlaysForAd();   // unlock plays 2..5 for this window
-                startQuizGame();                        // play the next one now
+                gameAccessManager.grantPlaysForAd();
+                startQuizGame();
             }
         });
     }
@@ -455,9 +425,6 @@ public class ResultActivity extends AppCompatActivity implements PremiumStatusLi
         clickAnimation.setDuration(150);
         clickAnimation.start();
     }
-
-
-
 
     @Override
     public boolean isPremium() {

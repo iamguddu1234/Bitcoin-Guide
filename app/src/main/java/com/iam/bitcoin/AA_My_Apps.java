@@ -47,23 +47,24 @@ public class AA_My_Apps extends Fragment {
 
         models1.add(new AppModel(
                 "https://play-lh.googleusercontent.com/X23bnr4M7EQEFN26u_IaqadPjGgVODiv18ZUPsww-UWjA_m7YkIyQvhwDS3RhfrDh0WU=w480-h960",
-                "Kali Linux Master",
-                "Learn. Hack. Defend",
-                "Downloads",
+                getString(R.string.app_kali_title),
+                getString(R.string.app_kali_tagline),
+                getString(R.string.label_downloads),
                 "980000 +",
-                "Rating",
+                getString(R.string.label_rating),
                 "4.5",
-                "Size",
+                getString(R.string.label_size),
                 "21MB",
-                "Install",
-                "• Cybersecurity Tools & Ethical Hacking Mastery",
-                "• Kali Linux & Pen Testing Skill Development",
-                "• Forensics, Malware Analysis & Quiz-Based Learning",
-                "• Premium, Fast, Ad-Free with Multilingual Support",
-                "Ethical Hacking",
-                "Pro Tools",
-                "Cybersecurity",
-                "Free"));
+                getString(R.string.label_install),
+                getString(R.string.app_kali_bullet1),
+                getString(R.string.app_kali_bullet2),
+                getString(R.string.app_kali_bullet3),
+                getString(R.string.app_kali_bullet4),
+                getString(R.string.app_kali_tag1),
+                getString(R.string.app_kali_tag2),
+                getString(R.string.app_kali_tag3),
+                getString(R.string.label_free)
+        ));
 
 
 

@@ -13,7 +13,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
+import android.content.res.Configuration;
 import android.graphics.Paint;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
@@ -30,7 +30,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -49,6 +48,10 @@ import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Home extends AppCompatActivity implements PremiumStatusListener {
+
+
+    private static boolean sPremiumDialogShownThisSession = false;
+
 
     private ConsentInformation consentInformation;
     private final AtomicBoolean isMobileAdsInitializeCalled = new AtomicBoolean(false);
@@ -166,12 +169,15 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
 
             private void setUnselected(TextView textView) {
                 textView.setBackgroundResource(R.drawable.unselected_tab_background);
-                textView.setTextColor(Color.BLACK);
+                // Was: Color.BLACK — invisible against a dark background in dark mode.
+                textView.setTextColor(ContextCompat.getColor(Home.this, R.color.text_primary));
             }
 
             private void setSelected(TextView textView) {
                 textView.setBackgroundResource(R.drawable.selected_tab);
-                textView.setTextColor(Color.WHITE);
+                // Selected tab sits on a colored/brand background in both themes,
+                // so pure white remains correct here.
+                textView.setTextColor(ContextCompat.getColor(Home.this, R.color.white));
             }
 
             @Override
@@ -233,6 +239,11 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
                         .putBoolean("dark_mode", isDarkModeOn).apply();
                 AppCompatDelegate.setDefaultNightMode(
                         isDarkModeOn ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
+
+                // setDefaultNightMode() alone does not reliably repaint the
+                // currently visible activity across all AppCompat/API versions.
+                // Force it explicitly so the toggle takes effect immediately.
+                recreate();
             });
         }
 
@@ -510,7 +521,8 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
     private void handleTextClick(TextView textView) {
         if (selectedTextView != null) {
             selectedTextView.setBackgroundResource(R.drawable.unselected_tab_background);
-            selectedTextView.setTextColor(Color.BLACK);
+            // Was: Color.BLACK — invisible against a dark background in dark mode.
+            selectedTextView.setTextColor(ContextCompat.getColor(this, R.color.text_primary));
         }
 
         textView.setBackgroundResource(R.drawable.selected_tab);
@@ -521,18 +533,29 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
             getSupportActionBar().setElevation(0f);
         }
         getSupportActionBar().setBackgroundDrawable(
-                new ColorDrawable(getResources().getColor(R.color.white)));
+                new ColorDrawable(getResources().getColor(R.color.background_color)));
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.setStatusBarColor(ContextCompat.getColor(this, R.color.white));
-            window.setNavigationBarColor(ContextCompat.getColor(this, R.color.white));
+            window.setStatusBarColor(ContextCompat.getColor(this, R.color.background_color));
+            window.setNavigationBarColor(ContextCompat.getColor(this, R.color.background_color));
         }
 
-        getWindow().getDecorView()
-                .setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        // Was: unconditionally forcing SYSTEM_UI_FLAG_LIGHT_STATUS_BAR, which
+        // makes status bar icons dark regardless of theme — invisible on a
+        // dark status bar once dark mode is active. Only set it in light mode.
+        View decorView = getWindow().getDecorView();
+        int uiFlags = decorView.getSystemUiVisibility();
+        boolean isNightMode = (getResources().getConfiguration().uiMode
+                & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+        if (isNightMode) {
+            uiFlags &= ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+        } else {
+            uiFlags |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+        }
+        decorView.setSystemUiVisibility(uiFlags);
     }
 
     private void updateAdVisibility() {
@@ -560,19 +583,7 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
         return billingManager != null && billingManager.isPremium();
     }
 
-//    private void scheduleDialogShow() {
-//        cancelPendingDialog();
-//        showDialogRunnable = new Runnable() {
-//            @Override
-//            public void run() {
-//                if (!billingManager.isPremium() && !isFinishing()) {
-//                    premiumDialog = new PremiumDialogFragment();
-//                    premiumDialog.show(getSupportFragmentManager(), "PremiumDialog");
-//                }
-//            }
-//        };
-//        handler.postDelayed(showDialogRunnable, 500);
-//    }
+
 
     private void cancelPendingDialog() {
         if (showDialogRunnable != null) {
@@ -581,12 +592,7 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
         }
     }
 
-//    private void dismissDialogIfShowing() {
-//        if (premiumDialog != null && premiumDialog.isVisible()) {
-//            premiumDialog.dismiss();
-//            premiumDialog = null;
-//        }
-//    }
+
 
 
 
@@ -596,18 +602,6 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
                 && !isDestroyed()
                 && !getSupportFragmentManager().isDestroyed()
                 && !getSupportFragmentManager().isStateSaved();
-    }
-
-    private void scheduleDialogShow() {
-        cancelPendingDialog();
-        showDialogRunnable = () -> {
-            // re-check at the moment the runnable actually fires
-            if (billingManager != null && !billingManager.isPremium() && canCommitFragments()) {
-                premiumDialog = new PremiumDialogFragment();
-                premiumDialog.show(getSupportFragmentManager(), "PremiumDialog");
-            }
-        };
-        handler.postDelayed(showDialogRunnable, 500);
     }
 
     private void dismissDialogIfShowing() {
@@ -674,5 +668,19 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
         if (viewPager != null) {
             viewPager.setCurrentItem(index, true); // true = smooth scroll
         }
+    }
+
+    private void scheduleDialogShow() {
+        if (sPremiumDialogShownThisSession) return;   // already shown once this session
+
+        cancelPendingDialog();
+        showDialogRunnable = () -> {
+            if (billingManager != null && !billingManager.isPremium() && canCommitFragments()) {
+                premiumDialog = new PremiumDialogFragment();
+                premiumDialog.show(getSupportFragmentManager(), "PremiumDialog");
+                sPremiumDialogShownThisSession = true;   // mark as shown
+            }
+        };
+        handler.postDelayed(showDialogRunnable, 500);
     }
 }

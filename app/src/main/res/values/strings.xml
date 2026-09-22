@@ -2561,4 +2561,358 @@
     </string-array>
 
 
+
+
+    <string name="about_app_name">Learn Swift Programming</string>
+    <string name="about_app_description">Learn Swift with clear examples and easy-to-understand code.\nA simple guide to mastering Swift programming.</string>
+
+    <string name="course_basic_title">Basic</string>
+    <string name="course_basic_tag">FOUNDATION</string>
+    <string name="course_basic_hours">4 Hours 35 Min</string>
+    <string name="course_intermediate_title">Intermediate</string>
+    <string name="course_intermediate_tag">CORE SKILLS</string>
+    <string name="course_intermediate_hours">3 Hours 00 Min</string>
+    <string name="course_advance_title">Advance</string>
+    <string name="course_advance_tag">MASTERY</string>
+    <string name="course_advance_hours">1 Hours 46 Min</string>
+    <string name="course_quiz_title">Quiz Game</string>
+    <string name="course_quiz_tag">CHALLENGE</string>
+    <string name="course_quiz_hours">30 Sec</string>
+
+    <string name="language">Swift</string>
+    <string name="learn_python_subtitle">Master Swift through structured lessons and coding exercises.</string>
+
+
+    <string name="basic_module_1_subtitle">Fundamentals</string>
+    <string name="basic_module_1_duration">54 min</string>
+    <string name="basic_module_2_subtitle">Operators</string>
+    <string name="basic_module_2_duration">43 min</string>
+
+
+    <string name="inter_module_1_subtitle">Advance Concepts</string>
+    <string name="inter_module_1_duration">52 min</string>
+    <string name="inter_module_2_subtitle">Access Control</string>
+    <string name="inter_module_2_duration">30 min</string>
+    <string name="inter_module_3_subtitle">Structures</string>
+    <string name="inter_module_3_duration">36 min</string>
+    <string name="inter_module_4_subtitle">Classes</string>
+    <string name="inter_module_4_duration">1 hours 2 min</string>
+    <string name="inter_module_5_subtitle">Classes</string>
+    <string name="inter_module_5_duration">1 hours 2 min</string>
+
+    <string name="adv_module_1_subtitle">Other Swift Concepts</string>
+    <string name="adv_module_1_duration">1 hours 1 min</string>
+    <string name="adv_module_2_subtitle">Working With Data</string>
+    <string name="adv_module_2_duration">45 min</string>
+    <string name="adv_module_3_subtitle">Working With Data</string>
+    <string name="adv_module_3_duration">45 min</string>
+    <string name="adv_module_4_subtitle">Working With Data</string>
+    <string name="adv_module_4_duration">45 min</string>
+    <string name="adv_module_5_subtitle">Working With Data</string>
+    <string name="adv_module_5_duration">45 min</string>
+    <string name="adv_module_6_subtitle">Working With Data</string>
+    <string name="adv_module_6_duration">45 min</string>
+
+
+
+    <string name="thank_you_note">Thank you for supporting and using our app! 💙</string>
+    <string name="no_language_found">No language found</string>
+    <string name="search_language">Search language</string>
+    <string name="choose_your_prefered_language">Choose your prefered Language</string>
+    <string name="select_language">Select language</string>
+    <string name="all_language">All Language</string>
+    <string name="result">Result</string>
+    <string name="correct">correct</string>
+    <string name="new_best">New Best!</string>
+    <string name="same_as_best">Same as your best</string>
+    <string name="below_best">Below your best</string>
+    <string name="performance_outstanding">Outstanding!</string>
+    <string name="performance_keep_practicing">Keep practicing!</string>
+    <string name="finish_quiz">Finish Quiz</string>
+
+    <string name="topics_label">TOPICS</string>
+    <string name="course_label">COURSES</string>
+    <string name="hours_label">HOURS</string>
+    <string name="modules_label">Modules</string>
+
+    <string name="my_apps_subtitle">Explore our other apps</string>
+    <string name="all">All</string>
+    <string name="learn_line">Learn</string>
+
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <string name="module_1_title">Module 1</string>
+    <string name="module_2_title">Module 2</string>
+    <string name="module_3_title">Module 3</string>
+    <string name="module_4_title">Module 4</string>
+    <string name="module_5_title">Module 5</string>
+    <string name="module_6_title">Module 6</string>
+    <string name="module_7_title">Module 7</string>
+    <string name="module_8_title">Module 8</string>
+    <string name="module_9_title">Module 9</string>
+    <string name="module_10_title">Module 10</string>
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux Master</string>
+    <string name="app_kali_tagline">Learn. Hack. Defend</string>
+    <string name="app_kali_bullet1">Cybersecurity Tools &amp; Ethical Hacking Mastery</string>
+    <string name="app_kali_bullet2">Kali Linux &amp; Pen Testing Skill Development</string>
+    <string name="app_kali_bullet3">Forensics, Malware Analysis &amp; Quiz-Based Learning</string>
+    <string name="app_kali_bullet4">Premium, Fast, Ad-Free with Multilingual Support</string>
+    <string name="app_kali_tag1">Ethical Hacking</string>
+    <string name="app_kali_tag2">Pro Tools</string>
+    <string name="app_kali_tag3">Cybersecurity</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">Bug Bounty Hunter</string>
+    <string name="app_bugbounty_tagline">Find Bugs. Earn Rewards</string>
+    <string name="app_bugbounty_bullet1">100+ Real-World Bug Bounty Topics &amp; Vulnerability Labs</string>
+    <string name="app_bugbounty_bullet2">Web, API, Mobile &amp; Cloud Security Testing Guides</string>
+    <string name="app_bugbounty_bullet3">Live Exploit Walkthroughs, Quiz Games &amp; Practice Challenges</string>
+    <string name="app_bugbounty_bullet4">Multilingual, Offline Access &amp; Premium Pro Features</string>
+    <string name="app_bugbounty_tag1">Bug Bounty</string>
+    <string name="app_bugbounty_tag2">Hacking</string>
+    <string name="app_bugbounty_tag3">Pentesting</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Master Google Dorks &amp; OSINT</string>
+    <string name="app_dorks_bullet1">1000+ Google Dorks for OSINT &amp; Ethical Security Research</string>
+    <string name="app_dorks_bullet2">Website, File, Login, Camera &amp; Data Exposure Queries</string>
+    <string name="app_dorks_bullet3">Quiz Games, Practice Tasks &amp; Real Search Scenarios</string>
+    <string name="app_dorks_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">Recon</string>
+    <string name="app_dorks_tag3">Cybersecurity</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">Dark Web Guide</string>
+    <string name="app_darkweb_tagline">Master Dark Web Knowledge</string>
+    <string name="app_darkweb_bullet1">100+ Dark Web &amp; Privacy Topics from Beginner to Advanced</string>
+    <string name="app_darkweb_bullet2">Tor Basics, Online Privacy, Risks &amp; Legal Awareness</string>
+    <string name="app_darkweb_bullet3">Quiz Games, Interactive Lessons &amp; Safety Best Practices</string>
+    <string name="app_darkweb_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">Anonymous Browsing</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Wireshark Tutorial</string>
+    <string name="app_wireshark_tagline">Analyze Network Traffic Like a Pro</string>
+    <string name="app_wireshark_bullet1">150+ Wireshark Topics from Beginner to Advanced</string>
+    <string name="app_wireshark_bullet2">Packet Capture, Filters, Protocol Analysis &amp; TCP/IP Labs</string>
+    <string name="app_wireshark_bullet3">Quiz Games, Hands-On Practice &amp; Real Traffic Scenarios</string>
+    <string name="app_wireshark_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_wireshark_tag1">Network Analysis</string>
+    <string name="app_wireshark_tag2">Sniffing</string>
+    <string name="app_wireshark_tag3">Forensics</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Master In Metasploit</string>
+    <string name="app_metasploit_tagline">Exploit. Test. Secure Systems</string>
+    <string name="app_metasploit_bullet1">150+ Metasploit Topics from Beginner to Advanced</string>
+    <string name="app_metasploit_bullet2">Payloads, Exploits, Post-Exploitation &amp; Automation</string>
+    <string name="app_metasploit_bullet3">Quiz Games, Interactive Labs &amp; Real Attack Scenarios</string>
+    <string name="app_metasploit_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_metasploit_tag1">Penetration Testing</string>
+    <string name="app_metasploit_tag2">Exploit</string>
+    <string name="app_metasploit_tag3">Vulnerability</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Learn Linux</string>
+    <string name="app_learnlinux_tagline">Master Linux from Basics to Pro</string>
+    <string name="app_learnlinux_bullet1">100+ Linux Topics from Beginner to Advanced + 1000+ Commands &amp; Practice Tasks</string>
+    <string name="app_learnlinux_bullet2">Linux Commands, Shell Scripting &amp; System Administration</string>
+    <string name="app_learnlinux_bullet3">Projects, Quiz Games, Terminal Labs &amp; Real Use-Cases</string>
+    <string name="app_learnlinux_bullet4">Multilingual Support, Offline Access &amp; Premium Features</string>
+    <string name="app_learnlinux_tag1">Linux OS</string>
+    <string name="app_learnlinux_tag2">Shell Scripting</string>
+    <string name="app_learnlinux_tag3">Commands</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Nmap Commands</string>
+    <string name="app_nmap_tagline">Master Network Scanning with Nmap</string>
+    <string name="app_nmap_bullet1">100+ Nmap Commands for Real-World Network Scanning</string>
+    <string name="app_nmap_bullet2">100+ Topics Covered: Recon, Enumeration &amp; Vulnerability Detection</string>
+    <string name="app_nmap_bullet3">Scan Types, NSE Scripts, OS Detection &amp; Firewall Evasion</string>
+    <string name="app_nmap_bullet4">Multilingual Support, Quiz Games &amp; Premium Pro Features</string>
+    <string name="app_nmap_tag1">Hacking</string>
+    <string name="app_nmap_tag2">Network Scanning</string>
+    <string name="app_nmap_tag3">Tools</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">Information Gathering Tools Guide</string>
+    <string name="app_infogathering_tagline">Master OSINT &amp; Recon Like a Pro</string>
+    <string name="app_infogathering_bullet1">Most Important Recon &amp; OSINT Tools with Detailed Tutorials</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester &amp; Command-Based Guides</string>
+    <string name="app_infogathering_bullet3">Other Ways to Gather Info: OSINT, Footprinting &amp; Enumeration</string>
+    <string name="app_infogathering_bullet4">Multilingual Support, Quiz Games &amp; Premium Pro Features</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">Recon Tools</string>
+    <string name="app_infogathering_tag3">Footprinting</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Burp Suite Guide</string>
+    <string name="app_burpsuite_tagline">Master Web App Security Testing</string>
+    <string name="app_burpsuite_bullet1">100+ Burp Suite Topics &amp; Web Security Testing Labs</string>
+    <string name="app_burpsuite_bullet2">Proxy, Repeater, Intruder, Scanner &amp; Extensions Guide</string>
+    <string name="app_burpsuite_bullet3">Live Attack Walkthroughs, Quiz Games &amp; Practice Tasks</string>
+    <string name="app_burpsuite_bullet4">Multilingual Support, Offline Access &amp; Premium Pro Features</string>
+    <string name="app_burpsuite_tag1">Web Security</string>
+    <string name="app_burpsuite_tag2">Bug</string>
+    <string name="app_burpsuite_tag3">Vulnerability Research</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Java Programs For Practice</string>
+    <string name="app_java_tagline">Learn &amp; Master Java Coding</string>
+    <string name="app_java_bullet1">100+ Java Topics with 1000+ Practice Programs</string>
+    <string name="app_java_bullet2">Loops, Arrays, OOP, Strings, Collections &amp; File Handling</string>
+    <string name="app_java_bullet3">Quiz Games, Interactive Exercises &amp; Coding Challenges</string>
+    <string name="app_java_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_java_tag1">Java Coding</string>
+    <string name="app_java_tag2">Logic Building</string>
+    <string name="app_java_tag3">Learn Java</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Python Programs For Practice</string>
+    <string name="app_python_tagline">Master Python with Hands-On Coding</string>
+    <string name="app_python_bullet1">100+ Python Topics with 1000+ Practice Programs</string>
+    <string name="app_python_bullet2">Basics, Loops, Functions, OOP, File Handling &amp; Libraries</string>
+    <string name="app_python_bullet3">Quiz Games, Coding Challenges &amp; Logic-Building Exercises</string>
+    <string name="app_python_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_python_tag1">Learn Python</string>
+    <string name="app_python_tag2">Programming</string>
+    <string name="app_python_tag3">Python Apps</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">Learn HTML, CSS, JS, PHP</string>
+    <string name="app_webdev_tagline">Build Websites. Code Faster</string>
+    <string name="app_webdev_bullet1">100+ Web Development Topics + 1000+ Coding Practice Programs</string>
+    <string name="app_webdev_bullet2">Learn HTML, CSS, JavaScript &amp; PHP with Live Examples</string>
+    <string name="app_webdev_bullet3">Projects, Coding Exercises, Quiz Games &amp; Practice Tasks</string>
+    <string name="app_webdev_bullet4">Multilingual Support, Offline Access &amp; Premium Features</string>
+    <string name="app_webdev_tag1">Web Dev</string>
+    <string name="app_webdev_tag2">Build Websites</string>
+    <string name="app_webdev_tag3">Full Stack</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Swift Programming</string>
+    <string name="app_swift_tagline">Build iOS Apps with Swift</string>
+    <string name="app_swift_bullet1">100+ Swift Topics from Beginner to Advanced + 1000+ Practice Programs</string>
+    <string name="app_swift_bullet2">Learn Swift, UIKit &amp; SwiftUI with Real iOS App Examples</string>
+    <string name="app_swift_bullet3">Projects, Coding Exercises, Quiz Games &amp; Interview Prep</string>
+    <string name="app_swift_bullet4">Multilingual Support, Offline Access &amp; Premium Features</string>
+    <string name="app_swift_tag1">Learn Swift</string>
+    <string name="app_swift_tag2">iOS Apps</string>
+    <string name="app_swift_tag3">Swift Programs</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Kotlin Programs for Practice</string>
+    <string name="app_kotlin_tagline">Master Kotlin with Hands‑On Coding</string>
+    <string name="app_kotlin_bullet1">100+ Kotlin Topics with 1000+ Practice Programs</string>
+    <string name="app_kotlin_bullet2">Basics, OOP, Coroutines, Collections &amp; Android‑Ready Code</string>
+    <string name="app_kotlin_bullet3">Quiz Games, Coding Challenges &amp; Logic‑Building Exercises</string>
+    <string name="app_kotlin_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_kotlin_tag1">Kotlin Coding</string>
+    <string name="app_kotlin_tag2">Android Kotlin</string>
+    <string name="app_kotlin_tag3">Learn Kotlin</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Learn Android App UI Design</string>
+    <string name="app_androidui_tagline">Design Beautiful Android Interfaces</string>
+    <string name="app_androidui_bullet1">100+ Android UI/UX Topics + 1000+ Design Practice Tasks</string>
+    <string name="app_androidui_bullet2">XML Layouts, Material Design &amp; Jetpack Compose UI</string>
+    <string name="app_androidui_bullet3">Live UI Projects, Quiz Games &amp; Hands-On Exercises</string>
+    <string name="app_androidui_bullet4">Multilingual Support, Offline Access &amp; Premium Features</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">App Design</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Learn Android App Development</string>
+    <string name="app_androiddev_tagline">Build Real Android Apps Step by Step</string>
+    <string name="app_androiddev_bullet1">150+ Android Development Topics from Beginner to Advanced</string>
+    <string name="app_androiddev_bullet2">Java, Kotlin, XML, Jetpack &amp; Android Studio Guides</string>
+    <string name="app_androiddev_bullet3">Real App Projects, Code Examples &amp; Best Practices</string>
+    <string name="app_androiddev_bullet4">Offline Learning with Clean &amp; Simple Interface</string>
+    <string name="app_androiddev_tag1">Learn Android</string>
+    <string name="app_androiddev_tag2">Mobile Apps</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Arch Linux Tutorial</string>
+    <string name="app_archlinux_tagline">Install &amp; Master Arch Linux Step by Step</string>
+    <string name="app_archlinux_bullet1">150+ Arch Linux Topics from Beginner to Advanced</string>
+    <string name="app_archlinux_bullet2">Installation, pacman, systemd, networking &amp; desktop setup</string>
+    <string name="app_archlinux_bullet3">Hands-On Labs, Command Practice &amp; Real Use-Cases</string>
+    <string name="app_archlinux_bullet4">Multilingual Support, Quiz Games &amp; Premium Pro Features</string>
+    <string name="app_archlinux_tag1">Linux Guide</string>
+    <string name="app_archlinux_tag2">System Admin</string>
+    <string name="app_archlinux_tag3">Commands</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - Basic To Advance</string>
+    <string name="app_bitcoin_tagline">Learn Crypto &amp; Blockchain Smartly</string>
+    <string name="app_bitcoin_bullet1">100+ Bitcoin &amp; Blockchain Topics from Beginner to Advanced</string>
+    <string name="app_bitcoin_bullet2">Crypto Basics, Wallets, Mining, Trading &amp; Security</string>
+    <string name="app_bitcoin_bullet3">Quiz Games, Interactive Lessons &amp; Practice Challenges</string>
+    <string name="app_bitcoin_bullet4">Multilingual Support &amp; Premium Pro Features Available</string>
+    <string name="app_bitcoin_tag1">Learn Crypto</string>
+    <string name="app_bitcoin_tag2">Blockchain</string>
+    <string name="app_bitcoin_tag3">Digital Currency</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">Computer Shortcut Keys</string>
+    <string name="app_shortcuts_tagline">Work Faster with Keyboard Shortcuts</string>
+    <string name="app_shortcuts_bullet1">50+ Most Daily Used App Shortcut Keys for Quick Work</string>
+    <string name="app_shortcuts_bullet2">Windows, MS Word, Excel, Chrome &amp; System Shortcuts</string>
+    <string name="app_shortcuts_bullet3">Easy Learning, Practice Mode &amp; Memory Boost Tips</string>
+    <string name="app_shortcuts_bullet4">Offline Access, No Ads &amp; Clean Simple Interface</string>
+    <string name="app_shortcuts_tag1">Shortcut Keys</string>
+    <string name="app_shortcuts_tag2">Smart Work</string>
+    <string name="app_shortcuts_tag3">Keyboard Tips</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">IT Interview Questions</string>
+    <string name="app_itinterview_tagline">Crack Programming &amp; Tech Interviews</string>
+    <string name="app_itinterview_bullet1">100+ Programming Language Interview Topics &amp; Questions</string>
+    <string name="app_itinterview_bullet2">Java, Python, C, C++, PHP, JS &amp; SQL Interview Guides</string>
+    <string name="app_itinterview_bullet3">HR, Technical &amp; Coding Interview Preparation</string>
+    <string name="app_itinterview_bullet4">Offline Access with Clean &amp; Simple Interface</string>
+    <string name="app_itinterview_tag1">Interview Prep Q&amp;A</string>
+    <string name="app_itinterview_tag2">Job Prep</string>
+    <string name="app_itinterview_tag3">Tech Jobs</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">Tutorial - Daily English Speak</string>
+    <string name="app_englishspeak_tagline">Speak English Confidently Every Day</string>
+    <string name="app_englishspeak_bullet1">100+ Spoken English Topics + 1000+ Daily Practice Sentences</string>
+    <string name="app_englishspeak_bullet2">Grammar, Vocabulary, Pronunciation &amp; Conversation Skills</string>
+    <string name="app_englishspeak_bullet3">Speaking Exercises, Quiz Games &amp; Real-Life Dialogues</string>
+    <string name="app_englishspeak_bullet4">Multilingual Support, Offline Access &amp; Premium Features</string>
+    <string name="app_englishspeak_tag1">Spoken English</string>
+    <string name="app_englishspeak_tag2">Daily Practice</string>
+    <string name="app_englishspeak_tag3">Fluency</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">Short English Story</string>
+    <string name="app_englishstory_tagline">Fun English Stories for Kids</string>
+    <string name="app_englishstory_bullet1">500+ Short English Stories for Kids with Moral Lessons</string>
+    <string name="app_englishstory_bullet2">Easy Words, Simple Sentences &amp; Colorful Storytelling</string>
+    <string name="app_englishstory_bullet3">Reading Practice, Vocabulary Boost &amp; Fun Learning</string>
+    <string name="app_englishstory_bullet4">Safe for Kids: No Ads, No Premium &amp; Offline Reading</string>
+    <string name="app_englishstory_tag1">Kids Stories</string>
+    <string name="app_englishstory_tag2">Learn English</string>
+    <string name="app_englishstory_tag3">Storybook</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">Downloads</string>
+    <string name="label_rating">Rating</string>
+    <string name="label_size">Size</string>
+    <string name="label_install">Install</string>
+    <string name="label_free">Free</string>
+
+
 </resources>

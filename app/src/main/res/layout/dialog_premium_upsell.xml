@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- res/layout/dialog_premium_upsell.xml -->
+<?xml version="1.0" encoding="utf-8"?><!-- res/layout/dialog_premium_upsell.xml -->
 <!-- Same compact bottom-sheet style as premium_bottom_sheet.xml, themed for Play Limit Reached -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="@dimen/_240sdp"
     android:layout_height="wrap_content"
@@ -27,7 +25,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
-                app:cardBackgroundColor="#FEE2E2"
+                app:cardBackgroundColor="@color/red_icon_bg_soft"
                 app:cardCornerRadius="@dimen/_12sdp"
                 app:cardElevation="0dp"
                 app:strokeWidth="0dp">
@@ -37,7 +35,7 @@
                     android:layout_height="@dimen/_18sdp"
                     android:layout_gravity="center"
                     android:src="@drawable/ic_lock"
-                    app:tint="#DC2626" />
+                    app:tint="@color/red_text_strong" />
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -58,7 +56,7 @@
                 android:includeFontPadding="false"
                 android:letterSpacing="-0.02"
                 android:text="Play Limit Reached"
-                android:textColor="#111111"
+                android:textColor="@color/text_primary"
                 android:textSize="@dimen/_12ssp" />
 
             <TextView
@@ -68,7 +66,7 @@
                 android:fontFamily="@font/roboto"
                 android:includeFontPadding="false"
                 android:text="Come back tomorrow"
-                android:textColor="#A3A39D"
+                android:textColor="@color/text_secondary"
                 android:textSize="@dimen/_9ssp" />
 
         </LinearLayout>
@@ -83,7 +81,7 @@
             android:paddingHorizontal="@dimen/_7sdp"
             android:paddingVertical="@dimen/_3sdp"
             android:text="5 / 5 USED"
-            android:textColor="#DC2626"
+            android:textColor="@color/red_text_strong"
             android:textSize="@dimen/_8ssp" />
 
     </LinearLayout>
@@ -100,11 +98,11 @@
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="#FFF5F5"
+            app:cardBackgroundColor="@color/red_bg"
             app:cardCornerRadius="@dimen/_10sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#FECACA"
-            app:strokeWidth="1dp">
+            app:strokeColor="@color/red_stroke"
+            app:strokeWidth="0.6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -119,7 +117,7 @@
                     android:layout_height="@dimen/_14sdp"
                     android:layout_marginEnd="@dimen/_7sdp"
                     android:src="@drawable/ic_info"
-                    app:tint="#DC2626" />
+                    app:tint="@color/red_text_strong" />
 
                 <TextView
                     android:id="@+id/dialogMessage"
@@ -128,7 +126,7 @@
                     android:fontFamily="@font/roboto_bold"
                     android:includeFontPadding="false"
                     android:text="You've played all 5 quizzes for today."
-                    android:textColor="#DC2626"
+                    android:textColor="@color/red_text_strong"
                     android:textSize="@dimen/_9ssp" />
 
             </LinearLayout>
@@ -140,11 +138,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_6sdp"
-            app:cardBackgroundColor="#EFF6FF"
+            app:cardBackgroundColor="@color/blue_bg"
             app:cardCornerRadius="@dimen/_10sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#BFDBFE"
-            app:strokeWidth="1dp">
+            app:strokeColor="@color/blue_stroke"
+            app:strokeWidth="0.6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -159,7 +157,7 @@
                     android:layout_height="@dimen/_14sdp"
                     android:layout_marginEnd="@dimen/_7sdp"
                     android:src="@drawable/ic_clock"
-                    app:tint="#3B82F6" />
+                    app:tint="@color/blue_text" />
 
                 <TextView
                     android:id="@+id/timerText"
@@ -168,7 +166,7 @@
                     android:fontFamily="@font/roboto_bold"
                     android:includeFontPadding="false"
                     android:text="Try again in 23h 59m"
-                    android:textColor="#3B82F6"
+                    android:textColor="@color/blue_text"
                     android:textSize="@dimen/_9ssp" />
 
             </LinearLayout>
@@ -178,24 +176,24 @@
     </LinearLayout>
 
     <TextView
-        android:layout_marginHorizontal="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_12sdp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_12sdp"
         android:fontFamily="@font/roboto_bold"
         android:includeFontPadding="false"
         android:letterSpacing="0.04"
         android:text="UNLOCK WITH PREMIUM"
-        android:textColor="#999999"
+        android:textColor="@color/text_muted"
         android:textSize="@dimen/_8ssp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingHorizontal="@dimen/_8sdp"
-        android:paddingVertical="@dimen/_8sdp"
-        android:gravity="center_vertical">
+        android:paddingVertical="@dimen/_8sdp">
 
         <!-- Multi-language card -->
         <com.google.android.material.card.MaterialCardView
@@ -203,11 +201,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_3sdp"
             android:layout_weight="1"
-            app:cardBackgroundColor="#FFF1E5"
+            app:cardBackgroundColor="@color/orange_bg"
             app:cardCornerRadius="@dimen/_12sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#FFD9A0"
-            app:strokeWidth="1dp">
+            app:strokeColor="@color/orange_stroke"
+            app:strokeWidth="0.6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -221,7 +219,7 @@
                     android:layout_width="@dimen/_17sdp"
                     android:layout_height="@dimen/_17sdp"
                     android:src="@drawable/global"
-                    app:tint="#F7931A" />
+                    app:tint="@color/brand_primary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -231,7 +229,7 @@
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="Multi-language"
-                    android:textColor="#333333"
+                    android:textColor="@color/text_perk_label"
                     android:textSize="@dimen/_8ssp" />
 
                 <TextView
@@ -242,7 +240,7 @@
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="Any language"
-                    android:textColor="#B0AFA9"
+                    android:textColor="@color/text_placeholder"
                     android:textSize="@dimen/_7ssp" />
 
             </LinearLayout>
@@ -255,11 +253,11 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/_3sdp"
             android:layout_weight="1"
-            app:cardBackgroundColor="#FFF1E5"
+            app:cardBackgroundColor="@color/orange_bg"
             app:cardCornerRadius="@dimen/_12sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#FFD9A0"
-            app:strokeWidth="1dp">
+            app:strokeColor="@color/orange_stroke"
+            app:strokeWidth="0.6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -273,7 +271,7 @@
                     android:layout_width="@dimen/_17sdp"
                     android:layout_height="@dimen/_17sdp"
                     android:src="@drawable/ic_infinity"
-                    app:tint="#F7931A" />
+                    app:tint="@color/brand_primary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -283,7 +281,7 @@
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="Unlimited quiz"
-                    android:textColor="#333333"
+                    android:textColor="@color/text_perk_label"
                     android:textSize="@dimen/_8ssp" />
 
                 <TextView
@@ -294,7 +292,7 @@
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="No daily cap"
-                    android:textColor="#B0AFA9"
+                    android:textColor="@color/text_placeholder"
                     android:textSize="@dimen/_7ssp" />
 
             </LinearLayout>
@@ -307,11 +305,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_3sdp"
             android:layout_weight="1"
-            app:cardBackgroundColor="#FFF1E5"
+            app:cardBackgroundColor="@color/orange_bg"
             app:cardCornerRadius="@dimen/_12sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#FFD9A0"
-            app:strokeWidth="1dp">
+            app:strokeColor="@color/orange_stroke"
+            app:strokeWidth="0.6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -325,7 +323,7 @@
                     android:layout_width="@dimen/_17sdp"
                     android:layout_height="@dimen/_17sdp"
                     android:src="@drawable/ic_ad_off"
-                    app:tint="#F7931A" />
+                    app:tint="@color/brand_primary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -335,7 +333,7 @@
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="Ad-free"
-                    android:textColor="#333333"
+                    android:textColor="@color/text_perk_label"
                     android:textSize="@dimen/_8ssp" />
 
                 <TextView
@@ -346,7 +344,7 @@
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="Zero distractions"
-                    android:textColor="#B0AFA9"
+                    android:textColor="@color/text_placeholder"
                     android:textSize="@dimen/_7ssp" />
 
             </LinearLayout>
@@ -377,7 +375,7 @@
                 android:fontFamily="@font/roboto"
                 android:includeFontPadding="false"
                 android:text="One-time payment"
-                android:textColor="#B45309"
+                android:textColor="@color/brand_muted_label"
                 android:textSize="@dimen/_8ssp" />
 
             <LinearLayout
@@ -391,7 +389,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$"
-                    android:textColor="#000"
+                    android:textColor="@color/text_primary"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -400,7 +398,7 @@
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
                     android:text="2"
-                    android:textColor="#000"
+                    android:textColor="@color/text_primary"
                     android:textSize="@dimen/_20ssp"
                     android:textStyle="bold" />
 
@@ -408,7 +406,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=".00"
-                    android:textColor="#000"
+                    android:textColor="@color/text_primary"
                     android:textSize="@dimen/_14ssp"
                     android:textStyle="bold" />
 
@@ -448,7 +446,6 @@
                 android:textSize="@dimen/_10ssp" />
 
             <TextView
-                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
@@ -456,8 +453,9 @@
                 android:gravity="center"
                 android:includeFontPadding="false"
                 android:text="You save $2.99"
-                android:textColor="#A3A39D"
-                android:textSize="@dimen/_8ssp" />
+                android:textColor="@color/text_secondary"
+                android:textSize="@dimen/_8ssp"
+                android:visibility="gone" />
 
         </LinearLayout>
 
@@ -467,7 +465,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@android:color/transparent"
         android:orientation="vertical"
         android:paddingHorizontal="@dimen/_10sdp"
         android:paddingTop="@dimen/_12sdp"
@@ -478,33 +476,33 @@
             android:id="@+id/goPremiumButton"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
-            app:cardBackgroundColor="#F7931A"
+            app:cardBackgroundColor="@color/brand_primary"
             app:cardCornerRadius="@dimen/_20sdp"
             app:cardElevation="0dp"
             app:strokeWidth="0dp">
 
             <LinearLayout
-                android:layout_gravity="center"
-                android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="@dimen/_20sdp"
                     android:layout_height="@dimen/_20sdp"
                     android:src="@drawable/crownicon"
-                    app:tint="#fff"/>
+                    app:tint="@color/white" />
 
                 <TextView
-                    android:layout_marginStart="@dimen/_8sdp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/_12ssp"
-                    android:textColor="#fff"
+                    android:layout_marginStart="@dimen/_8sdp"
                     android:fontFamily="@font/roboto_medium"
+                    android:includeFontPadding="false"
                     android:text="Get Lifetime Access"
-                    android:includeFontPadding="false"/>
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
 
@@ -516,27 +514,27 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
             android:layout_marginTop="@dimen/_10sdp"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="@dimen/_30sdp"
             app:cardElevation="0dp"
-            app:strokeWidth="1dp"
-            app:strokeColor="#C0BEB8">
+            app:strokeColor="@color/stroke_neutral"
+            app:strokeWidth="0.6dp">
 
             <LinearLayout
-                android:layout_gravity="center"
-                android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/_10ssp"
-                    android:textColor="#C0BEB8"
                     android:fontFamily="@font/roboto_medium"
+                    android:includeFontPadding="false"
                     android:text="Maybe Later"
-                    android:includeFontPadding="false"/>
+                    android:textColor="@color/text_disabled"
+                    android:textSize="@dimen/_10ssp" />
 
             </LinearLayout>
 
@@ -555,7 +553,7 @@
                 android:layout_height="@dimen/_9sdp"
                 android:layout_marginEnd="@dimen/_3sdp"
                 android:src="@drawable/ic_lock"
-                app:tint="#C8C6C0" />
+                app:tint="@color/text_trust" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -563,7 +561,7 @@
                 android:fontFamily="@font/roboto"
                 android:includeFontPadding="false"
                 android:text="Secure payment · No hidden fees"
-                android:textColor="#C8C6C0"
+                android:textColor="@color/text_trust"
                 android:textSize="@dimen/_8ssp" />
 
         </LinearLayout>

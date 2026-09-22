@@ -27,12 +27,11 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="@dimen/_50sdp"
                     android:layout_height="@dimen/_50sdp"
                     android:layout_gravity="center"
-                    app:cardBackgroundColor="#F7931A"
+                    app:cardBackgroundColor="@color/brand_primary"
                     app:cardCornerRadius="@dimen/_16sdp"
                     app:cardElevation="2dp"
                     app:strokeWidth="0dp">
@@ -43,12 +42,9 @@
                         android:layout_gravity="center"
                         android:contentDescription="Premium Crown"
                         android:src="@drawable/crownicon"
-                        app:tint="#FFF" />
+                        app:tint="@color/white" />
 
                 </com.google.android.material.card.MaterialCardView>
-
-                <!-- Premium Crown Icon -->
-
 
                 <!-- Title -->
                 <TextView
@@ -61,14 +57,14 @@
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="Lifetime Premium"
-                    android:textColor="#000"
+                    android:textColor="@color/text_primary"
                     android:textSize="@dimen/_18sdp" />
 
                 <!-- Subtitle -->
                 <TextView
-                    android:layout_marginBottom="@dimen/_6sdp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_6sdp"
                     android:fontFamily="@font/roboto_medium"
                     android:includeFontPadding="false"
                     android:lineSpacingExtra="4dp"
@@ -79,53 +75,57 @@
 
 
                 <com.google.android.material.card.MaterialCardView
-                    android:layout_marginTop="@dimen/_2sdp"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_20sdp"
-                    app:cardElevation="0dp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    app:cardBackgroundColor="@color/orange_bg"
                     app:cardCornerRadius="@dimen/_10sdp"
-                    app:cardBackgroundColor="#FFF1E5"
+                    app:cardElevation="0dp"
                     app:strokeWidth="0dp">
 
                     <LinearLayout
-                        android:paddingHorizontal="@dimen/_10sdp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
                         android:layout_gravity="center"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="@dimen/_10sdp">
 
                         <ImageView
                             android:layout_width="@dimen/_14sdp"
                             android:layout_height="@dimen/_14sdp"
                             android:src="@drawable/rate"
-                            app:tint="#F7931A"/>
+                            app:tint="@color/brand_primary" />
+
                         <ImageView
                             android:layout_width="@dimen/_14sdp"
                             android:layout_height="@dimen/_14sdp"
                             android:src="@drawable/rate"
-                            app:tint="#F7931A"/>
+                            app:tint="@color/brand_primary" />
+
                         <ImageView
                             android:layout_width="@dimen/_14sdp"
                             android:layout_height="@dimen/_14sdp"
                             android:src="@drawable/rate"
-                            app:tint="#F7931A"/>
+                            app:tint="@color/brand_primary" />
+
                         <ImageView
                             android:layout_width="@dimen/_14sdp"
                             android:layout_height="@dimen/_14sdp"
                             android:src="@drawable/rate"
-                            app:tint="#F7931A"/>
+                            app:tint="@color/brand_primary" />
+
                         <ImageView
                             android:layout_width="@dimen/_14sdp"
                             android:layout_height="@dimen/_14sdp"
                             android:src="@drawable/rate"
-                            app:tint="#F7931A"/>
+                            app:tint="@color/brand_primary" />
 
                         <TextView
-                            android:layout_marginStart="@dimen/_6sdp"
-                            android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_6sdp"
                             android:fontFamily="@font/roboto_bold"
                             android:includeFontPadding="false"
                             android:lineSpacingExtra="4dp"
@@ -136,12 +136,7 @@
 
                     </LinearLayout>
 
-
-
-
                 </com.google.android.material.card.MaterialCardView>
-
-
 
             </LinearLayout>
 
@@ -152,14 +147,12 @@
                 android:layout_marginTop="@dimen/_26sdp"
                 android:orientation="vertical">
 
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/_16sdp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:orientation="vertical">
-
 
                     <!-- Ad-Free Experience -->
                     <LinearLayout
@@ -169,24 +162,22 @@
                         android:orientation="horizontal"
                         android:padding="@dimen/_8sdp">
 
-
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_30sdp"
                             android:layout_height="@dimen/_30sdp"
                             android:layout_gravity="center"
-                            app:cardBackgroundColor="#FFF1E5"
+                            app:cardBackgroundColor="@color/orange_bg"
                             app:cardCornerRadius="@dimen/_6sdp"
                             app:cardElevation="0dp"
                             app:strokeWidth="0dp">
 
                             <ImageView
-
                                 android:layout_width="@dimen/_15sdp"
                                 android:layout_height="@dimen/_15sdp"
                                 android:layout_gravity="center"
                                 android:contentDescription="No Ads Icon"
                                 android:src="@drawable/remove_ads"
-                                app:tint="#F7931A" />
+                                app:tint="@color/brand_primary" />
 
                         </com.google.android.material.card.MaterialCardView>
 
@@ -205,7 +196,7 @@
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/roboto_bold"
                                 android:text="Ad-Free Experience"
-                                android:textColor="#000000"
+                                android:textColor="@color/text_primary"
                                 android:textSize="@dimen/_10ssp" />
 
                             <TextView
@@ -234,7 +225,7 @@
                             android:layout_width="@dimen/_30sdp"
                             android:layout_height="@dimen/_30sdp"
                             android:layout_gravity="center"
-                            app:cardBackgroundColor="#FFF1E5"
+                            app:cardBackgroundColor="@color/orange_bg"
                             app:cardCornerRadius="@dimen/_6sdp"
                             app:cardElevation="0dp"
                             app:strokeWidth="0dp">
@@ -245,7 +236,7 @@
                                 android:layout_gravity="center"
                                 android:contentDescription="Unlimited Quiz Icon"
                                 android:src="@drawable/quiz"
-                                app:tint="#F7931A" />
+                                app:tint="@color/brand_primary" />
 
                         </com.google.android.material.card.MaterialCardView>
 
@@ -263,7 +254,7 @@
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/roboto_bold"
                                 android:text="Unlimited Quiz Access"
-                                android:textColor="#000000"
+                                android:textColor="@color/text_primary"
                                 android:textSize="@dimen/_10ssp" />
 
                             <TextView
@@ -291,7 +282,7 @@
                             android:layout_width="@dimen/_30sdp"
                             android:layout_height="@dimen/_30sdp"
                             android:layout_gravity="center"
-                            app:cardBackgroundColor="#FFF1E5"
+                            app:cardBackgroundColor="@color/orange_bg"
                             app:cardCornerRadius="@dimen/_6sdp"
                             app:cardElevation="0dp"
                             app:strokeWidth="0dp">
@@ -302,7 +293,7 @@
                                 android:layout_gravity="center"
                                 android:contentDescription="Multi-Language Icon"
                                 android:src="@drawable/translate"
-                                app:tint="#F7931A" />
+                                app:tint="@color/brand_primary" />
 
                         </com.google.android.material.card.MaterialCardView>
 
@@ -320,7 +311,7 @@
                                 android:layout_marginBottom="2dp"
                                 android:fontFamily="@font/roboto_bold"
                                 android:text="Multi-Language Support"
-                                android:textColor="#000000"
+                                android:textColor="@color/text_primary"
                                 android:textSize="@dimen/_10ssp" />
 
                             <TextView
@@ -331,11 +322,9 @@
                                 android:textColor="@color/secondary_text"
                                 android:textSize="@dimen/_9ssp" />
 
-
                         </LinearLayout>
 
                     </LinearLayout>
-
 
                 </LinearLayout>
             </LinearLayout>
@@ -356,10 +345,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="@dimen/_16sdp"
                         android:layout_marginTop="@dimen/_20sdp"
-                        app:cardBackgroundColor="#fff"
+                        app:cardBackgroundColor="@android:color/transparent"
                         app:cardCornerRadius="@dimen/_10sdp"
                         app:cardElevation="0dp"
-                        app:strokeColor="#fce0c1"
+                        app:strokeColor="@color/orange_stroke"
                         app:strokeWidth="2dp">
 
                         <LinearLayout
@@ -403,7 +392,7 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text="$"
-                                            android:textColor="#e8710d"
+                                            android:textColor="@color/brand_price_accent"
                                             android:textSize="24sp"
                                             android:textStyle="bold" />
 
@@ -412,7 +401,7 @@
                                             android:layout_height="wrap_content"
                                             android:includeFontPadding="false"
                                             android:text="2"
-                                            android:textColor="#e8710d"
+                                            android:textColor="@color/brand_price_accent"
                                             android:textSize="@dimen/_20ssp"
                                             android:textStyle="bold" />
 
@@ -420,7 +409,7 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:text=".00"
-                                            android:textColor="#e8710d"
+                                            android:textColor="@color/brand_price_accent"
                                             android:textSize="@dimen/_14ssp"
                                             android:textStyle="bold" />
 
@@ -452,7 +441,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="@dimen/_8sdp"
-                                        app:cardBackgroundColor="#22C55E"
+                                        app:cardBackgroundColor="@color/green_accent"
                                         app:cardCornerRadius="@dimen/_6sdp"
                                         app:cardElevation="0dp"
                                         app:strokeWidth="0dp">
@@ -494,8 +483,7 @@
                                     <ImageView
                                         android:layout_width="@dimen/_10sdp"
                                         android:layout_height="@dimen/_10sdp"
-                                        android:src="@drawable/ic_check"
-                                        />
+                                        android:src="@drawable/ic_check" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -520,8 +508,7 @@
                                     <ImageView
                                         android:layout_width="@dimen/_10sdp"
                                         android:layout_height="@dimen/_10sdp"
-                                        android:src="@drawable/ic_check"
-                                        />
+                                        android:src="@drawable/ic_check" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -545,8 +532,7 @@
                                     <ImageView
                                         android:layout_width="@dimen/_10sdp"
                                         android:layout_height="@dimen/_10sdp"
-                                        android:src="@drawable/ic_check"
-                                        />
+                                        android:src="@drawable/ic_check" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -571,10 +557,10 @@
                         android:layout_height="@dimen/_20sdp"
                         android:layout_marginStart="@dimen/_30sdp"
                         android:layout_marginTop="@dimen/_10sdp"
-                        app:cardBackgroundColor="#f7931a"
+                        app:cardBackgroundColor="@color/brand_primary"
                         app:cardCornerRadius="@dimen/_20sdp"
                         app:cardElevation="0dp"
-                        app:strokeColor="#f7931a"
+                        app:strokeColor="@color/brand_primary"
                         app:strokeWidth="2dp">
 
                         <TextView
@@ -596,37 +582,35 @@
                     android:id="@+id/btn_upgrade_premium"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
-                    android:layout_marginTop="@dimen/_30sdp"
                     android:layout_marginHorizontal="@dimen/_20sdp"
-                    app:cardBackgroundColor="#F7931A"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    app:cardBackgroundColor="@color/brand_primary"
                     app:cardCornerRadius="@dimen/_20sdp"
                     app:cardElevation="0dp"
                     app:strokeWidth="0dp">
 
                     <LinearLayout
-                        android:layout_gravity="center"
-                        android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="horizontal">
 
                         <ImageView
                             android:layout_width="@dimen/_20sdp"
                             android:layout_height="@dimen/_20sdp"
                             android:src="@drawable/crownicon"
-                            app:tint="#fff"/>
+                            app:tint="@color/white" />
 
                         <TextView
-                            android:layout_marginStart="@dimen/_8sdp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textSize="@dimen/_14ssp"
-                            android:textColor="#fff"
+                            android:layout_marginStart="@dimen/_8sdp"
                             android:fontFamily="@font/roboto_medium"
+                            android:includeFontPadding="false"
                             android:text="Get Lifetime Access"
-                            android:includeFontPadding="false"/>
-
-
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14ssp" />
 
                     </LinearLayout>
 
@@ -637,40 +621,35 @@
                     android:id="@+id/btn_skip"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_35sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginHorizontal="@dimen/_20sdp"
-                    app:cardBackgroundColor="@color/white"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    app:cardBackgroundColor="@android:color/transparent"
                     app:cardCornerRadius="@dimen/_30sdp"
                     app:cardElevation="0dp"
-                    app:strokeColor="#C0BEB8"
-                    app:strokeWidth="1dp">
+                    app:strokeColor="@color/stroke_neutral"
+                    app:strokeWidth="0.6dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:orientation="horizontal"
-                       >
+                        android:orientation="horizontal">
 
                         <ImageView
-                            android:visibility="gone"
                             android:layout_width="@dimen/_20sdp"
                             android:layout_height="@dimen/_20sdp"
                             android:src="@drawable/ic_close_circle"
-                            app:tint="#C0BEB8" />
+                            android:visibility="gone"
+                            app:tint="@color/text_disabled" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto"
                             android:text="Skip"
-                            android:textColor="#C0BEB8"
+                            android:textColor="@color/text_disabled"
                             android:textSize="@dimen/_10ssp" />
-
-
-
-
 
                     </LinearLayout>
 
@@ -684,24 +663,4 @@
 
     </ScrollView>
 
-    <!-- Skip Button Positioned Top Right -->
-    <!--    <Button-->
-    <!--        android:visibility="gone"-->
-    <!--        android:id="@+id/btn_skip"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_gravity="top|end"-->
-    <!--        android:layout_margin="16dp"-->
-    <!--        android:background="@android:color/transparent"-->
-    <!--        android:backgroundTint="#F44336"-->
-    <!--        android:drawableRight="@drawable/ic_close"-->
-    <!--        android:padding="8dp"-->
-    <!--        android:text="Skip"-->
-    <!--        android:textColor="@color/primary_text"-->
-    <!--        android:textSize="14sp" />-->
-
-
-
 </FrameLayout>
-
-

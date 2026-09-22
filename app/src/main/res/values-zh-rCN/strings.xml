@@ -2379,4 +2379,305 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">十大比特币和加密货币投资网站</string>
     <string name="top_10_bitcoin_android_and_ios_application">十大比特币应用(Android和iOS)</string>
 
+
+    <string name="thank_you_note">感谢您支持并使用我们的应用！💙</string>
+    <string name="no_language_found">未找到语言</string>
+    <string name="search_language">搜索语言</string>
+    <string name="choose_your_prefered_language">选择您偏好的语言</string>
+    <string name="select_language">选择语言</string>
+    <string name="all_language">所有语言</string>
+    <string name="result">结果</string>
+    <string name="correct">正确</string>
+    <string name="new_best">新纪录！</string>
+    <string name="same_as_best">与最佳成绩相同</string>
+    <string name="below_best">低于最佳成绩</string>
+    <string name="performance_outstanding">表现出色！</string>
+    <string name="performance_keep_practicing">继续练习！</string>
+    <string name="finish_quiz">完成测验</string>
+
+    <string name="topics_label">主题</string>
+    <string name="course_label">课程</string>
+    <string name="hours_label">小时</string>
+    <string name="modules_label">模块</string>
+
+    <string name="my_apps_subtitle">探索我们的其他应用</string>
+    <string name="all">全部</string>
+    <string name="learn_line">学习</string>
+
+    <string name="rate">评分</string>
+    <string name="share">分享</string>
+    <string name="about">关于</string>
+    <string name="dark_mode">深色模式</string>
+
+    <string name="module_1_title">模块 1</string>
+    <string name="module_2_title">模块 2</string>
+    <string name="module_3_title">模块 3</string>
+    <string name="module_4_title">模块 4</string>
+    <string name="module_5_title">模块 5</string>
+    <string name="module_6_title">模块 6</string>
+    <string name="module_7_title">模块 7</string>
+    <string name="module_8_title">模块 8</string>
+    <string name="module_9_title">模块 9</string>
+    <string name="module_10_title">模块 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux 大师</string>
+    <string name="app_kali_tagline">学习。破解。防御</string>
+    <string name="app_kali_bullet1">网络安全工具与道德黑客技能精通</string>
+    <string name="app_kali_bullet2">Kali Linux 与渗透测试技能培养</string>
+    <string name="app_kali_bullet3">取证、恶意软件分析与测验式学习</string>
+    <string name="app_kali_bullet4">高级、快速、无广告，支持多语言</string>
+    <string name="app_kali_tag1">道德黑客</string>
+    <string name="app_kali_tag2">专业工具</string>
+    <string name="app_kali_tag3">网络安全</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">漏洞赏金猎人</string>
+    <string name="app_bugbounty_tagline">发现漏洞。赢取奖励</string>
+    <string name="app_bugbounty_bullet1">100多个真实漏洞赏金主题与漏洞实验室</string>
+    <string name="app_bugbounty_bullet2">Web、API、移动端与云安全测试指南</string>
+    <string name="app_bugbounty_bullet3">实时漏洞利用讲解、测验游戏与练习挑战</string>
+    <string name="app_bugbounty_bullet4">支持多语言、离线访问与高级专业功能</string>
+    <string name="app_bugbounty_tag1">漏洞赏金</string>
+    <string name="app_bugbounty_tag2">黑客技术</string>
+    <string name="app_bugbounty_tag3">渗透测试</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - 黑客搜索</string>
+    <string name="app_dorks_tagline">精通 Google Dorks 与 OSINT</string>
+    <string name="app_dorks_bullet1">1000多个用于 OSINT 与道德安全研究的 Google Dorks</string>
+    <string name="app_dorks_bullet2">网站、文件、登录、摄像头与数据泄露查询</string>
+    <string name="app_dorks_bullet3">测验游戏、练习任务与真实搜索场景</string>
+    <string name="app_dorks_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">侦察</string>
+    <string name="app_dorks_tag3">网络安全</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">暗网指南</string>
+    <string name="app_darkweb_tagline">精通暗网知识</string>
+    <string name="app_darkweb_bullet1">从入门到高级的100多个暗网与隐私主题</string>
+    <string name="app_darkweb_bullet2">Tor 基础、在线隐私、风险与法律意识</string>
+    <string name="app_darkweb_bullet3">测验游戏、互动课程与安全最佳实践</string>
+    <string name="app_darkweb_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">深网</string>
+    <string name="app_darkweb_tag3">匿名浏览</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Wireshark 教程</string>
+    <string name="app_wireshark_tagline">像专业人士一样分析网络流量</string>
+    <string name="app_wireshark_bullet1">从入门到高级的150多个 Wireshark 主题</string>
+    <string name="app_wireshark_bullet2">数据包捕获、过滤器、协议分析与 TCP/IP 实验室</string>
+    <string name="app_wireshark_bullet3">测验游戏、实操练习与真实流量场景</string>
+    <string name="app_wireshark_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_wireshark_tag1">网络分析</string>
+    <string name="app_wireshark_tag2">嗅探</string>
+    <string name="app_wireshark_tag3">取证</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">精通 Metasploit</string>
+    <string name="app_metasploit_tagline">利用漏洞。测试。保护系统</string>
+    <string name="app_metasploit_bullet1">从入门到高级的150多个 Metasploit 主题</string>
+    <string name="app_metasploit_bullet2">载荷、漏洞利用、后渗透与自动化</string>
+    <string name="app_metasploit_bullet3">测验游戏、互动实验室与真实攻击场景</string>
+    <string name="app_metasploit_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_metasploit_tag1">渗透测试</string>
+    <string name="app_metasploit_tag2">漏洞利用</string>
+    <string name="app_metasploit_tag3">漏洞</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">学习 Linux</string>
+    <string name="app_learnlinux_tagline">从基础到精通掌握 Linux</string>
+    <string name="app_learnlinux_bullet1">从入门到高级的100多个 Linux 主题 + 1000多个命令与练习任务</string>
+    <string name="app_learnlinux_bullet2">Linux 命令、Shell 脚本与系统管理</string>
+    <string name="app_learnlinux_bullet3">项目、测验游戏、终端实验室与真实用例</string>
+    <string name="app_learnlinux_bullet4">支持多语言、离线访问与高级功能</string>
+    <string name="app_learnlinux_tag1">Linux 操作系统</string>
+    <string name="app_learnlinux_tag2">Shell 脚本</string>
+    <string name="app_learnlinux_tag3">命令</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Nmap 命令</string>
+    <string name="app_nmap_tagline">精通使用 Nmap 进行网络扫描</string>
+    <string name="app_nmap_bullet1">用于真实网络扫描的100多个 Nmap 命令</string>
+    <string name="app_nmap_bullet2">涵盖100多个主题：侦察、枚举与漏洞检测</string>
+    <string name="app_nmap_bullet3">扫描类型、NSE 脚本、操作系统检测与防火墙规避</string>
+    <string name="app_nmap_bullet4">支持多语言、测验游戏与高级专业功能</string>
+    <string name="app_nmap_tag1">黑客技术</string>
+    <string name="app_nmap_tag2">网络扫描</string>
+    <string name="app_nmap_tag3">工具</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">信息收集工具指南</string>
+    <string name="app_infogathering_tagline">像专业人士一样精通 OSINT 与侦察</string>
+    <string name="app_infogathering_bullet1">带详细教程的最重要的侦察与 OSINT 工具</string>
+    <string name="app_infogathering_bullet2">Nmap、Whois、DNSenum、theHarvester 与基于命令的指南</string>
+    <string name="app_infogathering_bullet3">收集信息的其他方法：OSINT、足迹分析与枚举</string>
+    <string name="app_infogathering_bullet4">支持多语言、测验游戏与高级专业功能</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">侦察工具</string>
+    <string name="app_infogathering_tag3">足迹分析</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Burp Suite 指南</string>
+    <string name="app_burpsuite_tagline">精通 Web 应用安全测试</string>
+    <string name="app_burpsuite_bullet1">100多个 Burp Suite 主题与 Web 安全测试实验室</string>
+    <string name="app_burpsuite_bullet2">代理、Repeater、Intruder、扫描器与扩展指南</string>
+    <string name="app_burpsuite_bullet3">实时攻击讲解、测验游戏与练习任务</string>
+    <string name="app_burpsuite_bullet4">支持多语言、离线访问与高级专业功能</string>
+    <string name="app_burpsuite_tag1">Web 安全</string>
+    <string name="app_burpsuite_tag2">漏洞</string>
+    <string name="app_burpsuite_tag3">漏洞研究</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Java 练习程序</string>
+    <string name="app_java_tagline">学习并精通 Java 编程</string>
+    <string name="app_java_bullet1">100多个 Java 主题与1000多个练习程序</string>
+    <string name="app_java_bullet2">循环、数组、面向对象编程、字符串、集合与文件处理</string>
+    <string name="app_java_bullet3">测验游戏、互动练习与编程挑战</string>
+    <string name="app_java_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_java_tag1">Java 编程</string>
+    <string name="app_java_tag2">逻辑构建</string>
+    <string name="app_java_tag3">学习 Java</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Python 练习程序</string>
+    <string name="app_python_tagline">通过实操编程精通 Python</string>
+    <string name="app_python_bullet1">100多个 Python 主题与1000多个练习程序</string>
+    <string name="app_python_bullet2">基础、循环、函数、面向对象编程、文件处理与库</string>
+    <string name="app_python_bullet3">测验游戏、编程挑战与逻辑构建练习</string>
+    <string name="app_python_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_python_tag1">学习 Python</string>
+    <string name="app_python_tag2">编程</string>
+    <string name="app_python_tag3">Python 应用</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">学习 HTML、CSS、JS、PHP</string>
+    <string name="app_webdev_tagline">构建网站。更快编码</string>
+    <string name="app_webdev_bullet1">100多个 Web 开发主题 + 1000多个编程练习程序</string>
+    <string name="app_webdev_bullet2">通过实例学习 HTML、CSS、JavaScript 与 PHP</string>
+    <string name="app_webdev_bullet3">项目、编程练习、测验游戏与练习任务</string>
+    <string name="app_webdev_bullet4">支持多语言、离线访问与高级功能</string>
+    <string name="app_webdev_tag1">Web 开发</string>
+    <string name="app_webdev_tag2">构建网站</string>
+    <string name="app_webdev_tag3">全栈</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Swift 编程</string>
+    <string name="app_swift_tagline">使用 Swift 构建 iOS 应用</string>
+    <string name="app_swift_bullet1">从入门到高级的100多个 Swift 主题 + 1000多个练习程序</string>
+    <string name="app_swift_bullet2">通过真实 iOS 应用示例学习 Swift、UIKit 与 SwiftUI</string>
+    <string name="app_swift_bullet3">项目、编程练习、测验游戏与面试准备</string>
+    <string name="app_swift_bullet4">支持多语言、离线访问与高级功能</string>
+    <string name="app_swift_tag1">学习 Swift</string>
+    <string name="app_swift_tag2">iOS 应用</string>
+    <string name="app_swift_tag3">Swift 程序</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Kotlin 练习程序</string>
+    <string name="app_kotlin_tagline">通过实操编程精通 Kotlin</string>
+    <string name="app_kotlin_bullet1">100多个 Kotlin 主题与1000多个练习程序</string>
+    <string name="app_kotlin_bullet2">基础、面向对象编程、协程、集合与安卓就绪代码</string>
+    <string name="app_kotlin_bullet3">测验游戏、编程挑战与逻辑构建练习</string>
+    <string name="app_kotlin_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_kotlin_tag1">Kotlin 编程</string>
+    <string name="app_kotlin_tag2">安卓 Kotlin</string>
+    <string name="app_kotlin_tag3">学习 Kotlin</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">学习安卓应用 UI 设计</string>
+    <string name="app_androidui_tagline">设计精美的安卓界面</string>
+    <string name="app_androidui_bullet1">100多个安卓 UI/UX 主题 + 1000多个设计练习任务</string>
+    <string name="app_androidui_bullet2">XML 布局、Material Design 与 Jetpack Compose UI</string>
+    <string name="app_androidui_bullet3">实时 UI 项目、测验游戏与实操练习</string>
+    <string name="app_androidui_bullet4">支持多语言、离线访问与高级功能</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">应用设计</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">学习安卓应用开发</string>
+    <string name="app_androiddev_tagline">逐步构建真实的安卓应用</string>
+    <string name="app_androiddev_bullet1">从入门到高级的150多个安卓开发主题</string>
+    <string name="app_androiddev_bullet2">Java、Kotlin、XML、Jetpack 与 Android Studio 指南</string>
+    <string name="app_androiddev_bullet3">真实应用项目、代码示例与最佳实践</string>
+    <string name="app_androiddev_bullet4">界面简洁清晰的离线学习</string>
+    <string name="app_androiddev_tag1">学习安卓</string>
+    <string name="app_androiddev_tag2">移动应用</string>
+    <string name="app_androiddev_tag3">Java 安卓</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Arch Linux 教程</string>
+    <string name="app_archlinux_tagline">逐步安装并精通 Arch Linux</string>
+    <string name="app_archlinux_bullet1">从入门到高级的150多个 Arch Linux 主题</string>
+    <string name="app_archlinux_bullet2">安装、pacman、systemd、网络配置与桌面设置</string>
+    <string name="app_archlinux_bullet3">实操实验室、命令练习与真实用例</string>
+    <string name="app_archlinux_bullet4">支持多语言、测验游戏与高级专业功能</string>
+    <string name="app_archlinux_tag1">Linux 指南</string>
+    <string name="app_archlinux_tag2">系统管理</string>
+    <string name="app_archlinux_tag3">命令</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">比特币 - 从基础到高级</string>
+    <string name="app_bitcoin_tagline">明智地学习加密货币与区块链</string>
+    <string name="app_bitcoin_bullet1">从入门到高级的100多个比特币与区块链主题</string>
+    <string name="app_bitcoin_bullet2">加密货币基础、钱包、挖矿、交易与安全</string>
+    <string name="app_bitcoin_bullet3">测验游戏、互动课程与练习挑战</string>
+    <string name="app_bitcoin_bullet4">支持多语言与高级专业功能</string>
+    <string name="app_bitcoin_tag1">学习加密货币</string>
+    <string name="app_bitcoin_tag2">区块链</string>
+    <string name="app_bitcoin_tag3">数字货币</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">电脑快捷键</string>
+    <string name="app_shortcuts_tagline">使用键盘快捷键更高效地工作</string>
+    <string name="app_shortcuts_bullet1">50多个最常用的应用快捷键，快速完成工作</string>
+    <string name="app_shortcuts_bullet2">Windows、MS Word、Excel、Chrome 与系统快捷键</string>
+    <string name="app_shortcuts_bullet3">轻松学习、练习模式与记忆提升技巧</string>
+    <string name="app_shortcuts_bullet4">离线访问、无广告，界面简洁清晰</string>
+    <string name="app_shortcuts_tag1">快捷键</string>
+    <string name="app_shortcuts_tag2">智能工作</string>
+    <string name="app_shortcuts_tag3">键盘技巧</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">IT 面试问题</string>
+    <string name="app_itinterview_tagline">攻克编程与技术面试</string>
+    <string name="app_itinterview_bullet1">100多个编程语言面试主题与问题</string>
+    <string name="app_itinterview_bullet2">Java、Python、C、C++、PHP、JS 与 SQL 面试指南</string>
+    <string name="app_itinterview_bullet3">HR、技术与编程面试准备</string>
+    <string name="app_itinterview_bullet4">界面简洁清晰的离线访问</string>
+    <string name="app_itinterview_tag1">面试准备问答</string>
+    <string name="app_itinterview_tag2">求职准备</string>
+    <string name="app_itinterview_tag3">科技职位</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">教程 - 每日英语口语</string>
+    <string name="app_englishspeak_tagline">每天自信地说英语</string>
+    <string name="app_englishspeak_bullet1">100多个口语英语主题 + 1000多个每日练习句子</string>
+    <string name="app_englishspeak_bullet2">语法、词汇、发音与对话技巧</string>
+    <string name="app_englishspeak_bullet3">口语练习、测验游戏与真实生活对话</string>
+    <string name="app_englishspeak_bullet4">支持多语言、离线访问与高级功能</string>
+    <string name="app_englishspeak_tag1">口语英语</string>
+    <string name="app_englishspeak_tag2">每日练习</string>
+    <string name="app_englishspeak_tag3">流利度</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">英语短篇故事</string>
+    <string name="app_englishstory_tagline">为儿童打造的有趣英语故事</string>
+    <string name="app_englishstory_bullet1">500多个带有道德教育意义的儿童英语短篇故事</string>
+    <string name="app_englishstory_bullet2">简单词汇、简单句子与生动的故事讲述</string>
+    <string name="app_englishstory_bullet3">阅读练习、词汇提升与趣味学习</string>
+    <string name="app_englishstory_bullet4">儿童安全：无广告、无高级订阅，支持离线阅读</string>
+    <string name="app_englishstory_tag1">儿童故事</string>
+    <string name="app_englishstory_tag2">学习英语</string>
+    <string name="app_englishstory_tag3">故事书</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">下载量</string>
+    <string name="label_rating">评分</string>
+    <string name="label_size">大小</string>
+    <string name="label_install">安装</string>
+    <string name="label_free">免费</string>
+
 </resources>

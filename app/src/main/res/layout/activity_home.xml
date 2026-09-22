@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/background_color"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     tools:context=".Home">
@@ -13,8 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
-
 
         <LinearLayout
             android:layout_marginTop="@dimen/_10sdp"
@@ -39,14 +37,10 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
                     android:text="Learn"
-                    android:textColor="#0A0A0A"
+                    android:textColor="@color/text_heading"
                     android:textSize="@dimen/_20ssp" />
 
-
             </LinearLayout>
-
-
-
 
         </LinearLayout>
 
@@ -57,31 +51,14 @@
             android:orientation="vertical">
 
 
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <TextView
                     android:includeFontPadding="false"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
-                    android:text="Bit"
-                    android:textColor="#0A0A0A"
+                    android:text="Bitcoin"
+                    android:textColor="@color/brand_primary"
                     android:textSize="@dimen/_20ssp" />
-
-                <TextView
-                    android:includeFontPadding="false"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_1ssp"
-                    android:fontFamily="@font/roboto_bold"
-                    android:text="coin."
-                    android:textColor="#F7931A"
-                    android:textSize="@dimen/_20ssp" />
-            </LinearLayout>
 
 
             <TextView
@@ -89,9 +66,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:fontFamily="@font/roboto_medium"
-                android:lineHeight="@dimen/_14ssp"
+                android:lineHeight="@dimen/_12ssp"
                 android:text="Master the fundamentals through structured, practical lessons."
-                android:textColor="#888888"
+                android:textColor="@color/text_body_muted"
                 android:textSize="@dimen/_10ssp" />
 
         </LinearLayout>
@@ -103,7 +80,7 @@
             android:id="@+id/changeLang"
             android:layout_width="@dimen/_140sdp"
             android:layout_height="@dimen/_25sdp"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/surface_white"
             app:cardCornerRadius="@dimen/_20sdp"
             app:cardElevation="0dp"
             app:strokeColor="@color/secondary_text"
@@ -153,11 +130,6 @@
             android:orientation="vertical">
 
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="0.8dp"
-                android:background="#ECECEC" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -178,7 +150,7 @@
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
                         android:text="03"
-                        android:textColor="#0A0A0A"
+                        android:textColor="@color/text_heading"
                         android:textSize="@dimen/_15ssp" />
 
 
@@ -189,7 +161,7 @@
                         android:includeFontPadding="false"
                         android:text="Courses"
                         android:textAllCaps="true"
-                        android:textColor="#AAAAAA"
+                        android:textColor="@color/text_faint"
                         android:textSize="@dimen/_8ssp" />
 
 
@@ -199,7 +171,7 @@
                     android:layout_width="0.8dp"
                     android:layout_height="@dimen/_40sdp"
                     android:layout_marginHorizontal="@dimen/_20sdp"
-                    android:background="#ECECEC" />
+                    android:background="@color/divider_line" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -213,7 +185,7 @@
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
                         android:text="60"
-                        android:textColor="#0A0A0A"
+                        android:textColor="@color/text_heading"
                         android:textSize="@dimen/_15ssp" />
 
 
@@ -224,7 +196,7 @@
                         android:includeFontPadding="false"
                         android:text="Topics"
                         android:textAllCaps="true"
-                        android:textColor="#AAAAAA"
+                        android:textColor="@color/text_faint"
                         android:textSize="@dimen/_8ssp" />
 
 
@@ -234,7 +206,7 @@
                     android:layout_width="0.8dp"
                     android:layout_height="@dimen/_40sdp"
                     android:layout_marginHorizontal="@dimen/_20sdp"
-                    android:background="#ECECEC" />
+                    android:background="@color/divider_line" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -248,7 +220,7 @@
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
                         android:text="07"
-                        android:textColor="#0A0A0A"
+                        android:textColor="@color/text_heading"
                         android:textSize="@dimen/_15ssp" />
 
 
@@ -259,7 +231,7 @@
                         android:includeFontPadding="false"
                         android:text="Hours"
                         android:textAllCaps="true"
-                        android:textColor="#AAAAAA"
+                        android:textColor="@color/text_faint"
                         android:textSize="@dimen/_8ssp" />
 
 
@@ -268,11 +240,6 @@
 
             </LinearLayout>
 
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="0.8dp"
-                android:background="#ECECEC" />
 
         </LinearLayout>
 

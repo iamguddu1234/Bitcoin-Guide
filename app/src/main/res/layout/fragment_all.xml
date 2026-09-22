@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/background_color"
     tools:context=".AllFragment">
 
     <LinearLayout
@@ -19,11 +19,12 @@
             android:id="@+id/gotoBasic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="@dimen/_16sdp"
+            app:cardBackgroundColor="@color/background_color"
+            app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
-            app:strokeColor="#EAEAEA"
-            app:strokeWidth="0dp">
+            app:strokeColor="@color/row_stroke"
+            app:strokeWidth="0dp"
+            app:rippleColor="@color/brand_primary">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -40,7 +41,7 @@
                     android:includeFontPadding="false"
                     android:padding="@dimen/_4sdp"
                     android:text="01"
-                    android:textColor="#B0B0B0"
+                    android:textColor="@color/index_number"
                     android:textSize="@dimen/_12sdp" />
 
 
@@ -65,7 +66,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
                             android:text="Basic"
-                            android:textColor="#0A0A0A"
+                            android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
                         <TextView
@@ -79,7 +80,7 @@
                             android:includeFontPadding="true"
                             android:text="foundation"
                             android:textAllCaps="true"
-                            android:textColor="#B0B0B0"
+                            android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
 
                     </LinearLayout>
@@ -93,7 +94,7 @@
                         android:fontFamily="@font/roboto_medium"
                         android:maxLines="1"
                         android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="#777777"
+                        android:textColor="@color/text_meta"
                         android:textSize="@dimen/_10ssp" />
 
                 </LinearLayout>
@@ -110,7 +111,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:src="@drawable/right_up"
-                        app:tint="#CCCCCC" />
+                        app:tint="@color/icon_faint" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -120,17 +121,18 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="0.8dp"
-            android:background="#ECECEC" />
+            android:background="@color/divider_line" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/gotoIntermediate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="@dimen/_16sdp"
+            app:cardBackgroundColor="@color/background_color"
+            app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
-            app:strokeColor="#EAEAEA"
-            app:strokeWidth="0dp">
+            app:strokeColor="@color/row_stroke"
+            app:strokeWidth="0dp"
+            app:rippleColor="@color/brand_primary">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -147,7 +149,7 @@
                     android:includeFontPadding="false"
                     android:padding="@dimen/_4sdp"
                     android:text="02"
-                    android:textColor="#B0B0B0"
+                    android:textColor="@color/index_number"
                     android:textSize="@dimen/_12sdp" />
 
 
@@ -172,7 +174,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
                             android:text="Intermediate"
-                            android:textColor="#0A0A0A"
+                            android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
                         <TextView
@@ -186,7 +188,7 @@
                             android:includeFontPadding="true"
                             android:text="core skills"
                             android:textAllCaps="true"
-                            android:textColor="#B0B0B0"
+                            android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
 
                     </LinearLayout>
@@ -200,7 +202,7 @@
                         android:fontFamily="@font/roboto_medium"
                         android:maxLines="1"
                         android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="#777777"
+                        android:textColor="@color/text_meta"
                         android:textSize="@dimen/_10ssp" />
 
                 </LinearLayout>
@@ -217,7 +219,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:src="@drawable/right_up"
-                        app:tint="#CCCCCC" />
+                        app:tint="@color/icon_faint" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -227,17 +229,18 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="0.8dp"
-            android:background="#ECECEC" />
+            android:background="@color/divider_line" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/gotoAdvance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="@dimen/_16sdp"
+            app:cardBackgroundColor="@color/background_color"
+            app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
-            app:strokeColor="#EAEAEA"
-            app:strokeWidth="0dp">
+            app:strokeColor="@color/row_stroke"
+            app:strokeWidth="0dp"
+            app:rippleColor="@color/brand_primary">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -254,7 +257,7 @@
                     android:includeFontPadding="false"
                     android:padding="@dimen/_4sdp"
                     android:text="03"
-                    android:textColor="#B0B0B0"
+                    android:textColor="@color/index_number"
                     android:textSize="@dimen/_12sdp" />
 
 
@@ -279,7 +282,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
                             android:text="Advance"
-                            android:textColor="#0A0A0A"
+                            android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
                         <TextView
@@ -293,7 +296,7 @@
                             android:includeFontPadding="true"
                             android:text="Mastery"
                             android:textAllCaps="true"
-                            android:textColor="#B0B0B0"
+                            android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
 
                     </LinearLayout>
@@ -307,7 +310,7 @@
                         android:fontFamily="@font/roboto_medium"
                         android:maxLines="1"
                         android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="#777777"
+                        android:textColor="@color/text_meta"
                         android:textSize="@dimen/_10ssp" />
 
                 </LinearLayout>
@@ -324,7 +327,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:src="@drawable/right_up"
-                        app:tint="#CCCCCC" />
+                        app:tint="@color/icon_faint" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -334,17 +337,18 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="0.8dp"
-            android:background="#ECECEC" />
+            android:background="@color/divider_line" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/quizGame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="@dimen/_16sdp"
+            app:cardBackgroundColor="@color/background_color"
+            app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
-            app:strokeColor="#EAEAEA"
-            app:strokeWidth="0dp">
+            app:strokeColor="@color/row_stroke"
+            app:strokeWidth="0dp"
+            app:rippleColor="@color/brand_primary">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -361,7 +365,7 @@
                     android:includeFontPadding="false"
                     android:padding="@dimen/_4sdp"
                     android:text="04"
-                    android:textColor="#B0B0B0"
+                    android:textColor="@color/index_number"
                     android:textSize="@dimen/_12sdp" />
 
 
@@ -386,7 +390,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
                             android:text="Quiz Game"
-                            android:textColor="#0A0A0A"
+                            android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
                         <TextView
@@ -400,7 +404,7 @@
                             android:includeFontPadding="true"
                             android:text="challenge"
                             android:textAllCaps="true"
-                            android:textColor="#B0B0B0"
+                            android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
 
                     </LinearLayout>
@@ -414,7 +418,7 @@
                         android:fontFamily="@font/roboto_medium"
                         android:maxLines="1"
                         android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="#777777"
+                        android:textColor="@color/text_meta"
                         android:textSize="@dimen/_10ssp" />
 
                 </LinearLayout>
@@ -431,7 +435,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:src="@drawable/right_up"
-                        app:tint="#CCCCCC" />
+                        app:tint="@color/icon_faint" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -441,23 +445,22 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="0.8dp"
-            android:background="#ECECEC" />
-
+            android:background="@color/divider_line" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/remove_ads_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
-            android:layout_marginHorizontal="@dimen/_5sdp"
             android:layout_marginBottom="@dimen/_5sdp"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
             app:cardBackgroundColor="@android:color/transparent"
-            app:cardCornerRadius="22dp"
+            app:cardCornerRadius="@dimen/_16sdp"
             app:cardElevation="@dimen/_5sdp"
-            app:strokeWidth="0dp">
+            app:strokeWidth="0dp"
+            app:rippleColor="@color/brand_primary">
 
             <!-- Gradient background layer -->
             <View
@@ -478,10 +481,10 @@
                     android:background="@drawable/bg_lifetime_chip"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:paddingStart="9dp"
-                    android:paddingTop="4dp"
-                    android:paddingEnd="9dp"
-                    android:paddingBottom="4dp"
+                    android:paddingStart="@dimen/_9sdp"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingEnd="@dimen/_9sdp"
+                    android:paddingBottom="@dimen/_4sdp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
@@ -490,15 +493,15 @@
                         android:layout_height="10dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/ic_infinity"
-                        app:tint="#FFFFFFFF" />
+                        app:tint="@color/on_gradient_text" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:letterSpacing="0.12"
                         android:text="LIFETIME"
-                        android:textColor="#FFFFFFFF"
-                        android:textSize="8sp"
+                        android:textColor="@color/on_gradient_text"
+                        android:textSize="@dimen/_8ssp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -516,7 +519,7 @@
                         android:layout_height="21dp"
                         android:layout_gravity="center"
                         android:src="@drawable/crownicon"
-                        app:tint="#F7931A" />
+                        app:tint="@color/brand_primary" />
                 </FrameLayout>
 
                 <!-- Title -->
@@ -526,7 +529,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:text="Go Premium"
-                    android:textColor="#FFFFFFFF"
+                    android:textColor="@color/on_gradient_text"
                     android:textSize="21sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
@@ -539,7 +542,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:text="Unlock all courses · One-time payment · No subscription"
-                    android:textColor="#D9FFFFFF"
+                    android:textColor="@color/on_gradient_text_muted"
                     android:textSize="11sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -561,7 +564,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="$2"
-                        android:textColor="#FFFFFFFF"
+                        android:textColor="@color/on_gradient_text"
                         android:textSize="30sp"
                         android:textStyle="bold" />
 
@@ -571,7 +574,7 @@
                         android:layout_marginStart="5dp"
                         android:layout_marginBottom="4dp"
                         android:text="forever"
-                        android:textColor="#D9FFFFFF"
+                        android:textColor="@color/on_gradient_text_muted"
                         android:textSize="11sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -596,8 +599,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Unlock now"
-                        android:textColor="#E8590C"
+                        android:text="Unlock Now"
+                        android:textColor="@color/on_gradient_cta_text"
                         android:textSize="13sp"
                         android:textStyle="bold" />
 
@@ -606,7 +609,7 @@
                         android:layout_height="14dp"
                         android:layout_marginStart="6dp"
                         android:src="@drawable/ic_arrow_right"
-                        app:tint="#E8590C" />
+                        app:tint="@color/on_gradient_cta_text" />
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -620,12 +623,13 @@
             android:id="@+id/gotoMyApps"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_20sdp"
-            app:cardBackgroundColor="#ffffff"
-            app:cardCornerRadius="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:cardBackgroundColor="@color/surface_white"
+            app:cardCornerRadius="@dimen/_16sdp"
             app:cardElevation="0dp"
-            app:strokeColor="#ECECEC"
-            app:strokeWidth="1dp">
+            app:strokeColor="@color/divider_line"
+            app:strokeWidth="1dp"
+            app:rippleColor="@color/brand_primary">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -636,9 +640,9 @@
                 android:padding="@dimen/_10sdp">
 
                 <com.google.android.material.card.MaterialCardView
-                    android:layout_width="@dimen/_45sdp"
-                    android:layout_height="@dimen/_45sdp"
-                    app:cardBackgroundColor="#f5f5f5"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    app:cardBackgroundColor="@color/surface_subtle"
                     app:cardCornerRadius="@dimen/_8sdp"
                     app:cardElevation="0dp"
                     app:strokeWidth="0dp">
@@ -648,7 +652,7 @@
                         android:layout_height="@dimen/_20sdp"
                         android:layout_gravity="center"
                         android:src="@drawable/appsicon"
-                        app:tint="#999999" />
+                        app:tint="@color/text_muted" />
 
                 </com.google.android.material.card.MaterialCardView>
 
@@ -667,8 +671,8 @@
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
                         android:text="My Apps"
-                        android:textColor="#0A0A0A"
-                        android:textSize="@dimen/_14ssp" />
+                        android:textColor="@color/text_heading"
+                        android:textSize="@dimen/_12ssp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -676,7 +680,7 @@
                         android:layout_marginTop="@dimen/_4sdp"
                         android:fontFamily="@font/roboto_medium"
                         android:text="Explore our other free apps"
-                        android:textColor="#AAAAAA"
+                        android:textColor="@color/text_faint"
                         android:textSize="@dimen/_10ssp" />
 
 
@@ -689,11 +693,10 @@
 
 
         <LinearLayout
-
             android:id="@+id/actionBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:baselineAligned="false"
             android:orientation="horizontal">
 
@@ -716,15 +719,15 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_star"
-                    app:tint="#555555" />
+                    app:tint="@color/icon_secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:text="Rate"
-                    android:textColor="#888888"
-                    android:textSize="10sp"
+                    android:textColor="@color/text_body_muted"
+                    android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -748,21 +751,23 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_share"
-                    app:tint="#555555" />
+                    app:tint="@color/icon_secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:text="Share"
-                    android:textColor="#888888"
-                    android:textSize="10sp"
+                    android:textColor="@color/text_body_muted"
+                    android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <!-- Dark mode -->
+
+
+            <!-- About -->
             <LinearLayout
-                android:id="@+id/darkmode"
+                android:id="@+id/aboutbtn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
@@ -779,22 +784,22 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ic_dark_mode"
-                    app:tint="#555555" />
+                    android:src="@drawable/ic_about"
+                    app:tint="@color/icon_secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="Dark mode"
-                    android:textColor="#888888"
-                    android:textSize="10sp"
+                    android:text="About"
+                    android:textColor="@color/text_body_muted"
+                    android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <!-- About -->
+            <!-- Dark mode -->
             <LinearLayout
-                android:id="@+id/aboutbtn"
+                android:id="@+id/darkmode"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
@@ -810,16 +815,16 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ic_about"
-                    app:tint="#555555" />
+                    android:src="@drawable/ic_dark_mode"
+                    app:tint="@color/icon_secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="About"
-                    android:textColor="#888888"
-                    android:textSize="10sp"
+                    android:text="Dark mode"
+                    android:textColor="@color/text_body_muted"
+                    android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />
             </LinearLayout>
 

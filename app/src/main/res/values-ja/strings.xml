@@ -2459,4 +2459,304 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">ビットコイン・仮想通貨投資サイトTOP10</string>
     <string name="top_10_bitcoin_android_and_ios_application">ビットコインアプリ（Android/iOS）TOP10</string>
 
-    </resources>
+    <string name="thank_you_note">アプリをご利用・ご支援いただきありがとうございます！💙</string>
+    <string name="no_language_found">言語が見つかりません</string>
+    <string name="search_language">言語を検索</string>
+    <string name="choose_your_prefered_language">お好みの言語を選択してください</string>
+    <string name="select_language">言語を選択</string>
+    <string name="all_language">すべての言語</string>
+    <string name="result">結果</string>
+    <string name="correct">正解</string>
+    <string name="new_best">新記録！</string>
+    <string name="same_as_best">自己ベストと同じ</string>
+    <string name="below_best">自己ベストを下回っています</string>
+    <string name="performance_outstanding">素晴らしい！</string>
+    <string name="performance_keep_practicing">練習を続けましょう！</string>
+    <string name="finish_quiz">クイズを終了</string>
+
+    <string name="topics_label">トピック</string>
+    <string name="course_label">コース</string>
+    <string name="hours_label">時間</string>
+    <string name="modules_label">モジュール</string>
+
+    <string name="my_apps_subtitle">他のアプリを見る</string>
+    <string name="all">すべて</string>
+    <string name="learn_line">学ぶ</string>
+
+    <string name="rate">評価する</string>
+    <string name="share">共有</string>
+    <string name="about">アプリについて</string>
+    <string name="dark_mode">ダークモード</string>
+
+    <string name="module_1_title">モジュール1</string>
+    <string name="module_2_title">モジュール2</string>
+    <string name="module_3_title">モジュール3</string>
+    <string name="module_4_title">モジュール4</string>
+    <string name="module_5_title">モジュール5</string>
+    <string name="module_6_title">モジュール6</string>
+    <string name="module_7_title">モジュール7</string>
+    <string name="module_8_title">モジュール8</string>
+    <string name="module_9_title">モジュール9</string>
+    <string name="module_10_title">モジュール10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux マスター</string>
+    <string name="app_kali_tagline">学ぶ。ハックする。守る</string>
+    <string name="app_kali_bullet1">サイバーセキュリティツールと倫理的ハッキングの習得</string>
+    <string name="app_kali_bullet2">Kali Linuxとペネトレーションテストスキルの開発</string>
+    <string name="app_kali_bullet3">フォレンジック、マルウェア分析、クイズ形式の学習</string>
+    <string name="app_kali_bullet4">プレミアム、高速、広告なしで多言語対応</string>
+    <string name="app_kali_tag1">倫理的ハッキング</string>
+    <string name="app_kali_tag2">プロツール</string>
+    <string name="app_kali_tag3">サイバーセキュリティ</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">バグバウンティハンター</string>
+    <string name="app_bugbounty_tagline">バグを見つけて報酬を得よう</string>
+    <string name="app_bugbounty_bullet1">100以上の実践的なバグバウンティトピックと脆弱性ラボ</string>
+    <string name="app_bugbounty_bullet2">Web、API、モバイル、クラウドのセキュリティテストガイド</string>
+    <string name="app_bugbounty_bullet3">ライブエクスプロイト解説、クイズゲーム、練習チャレンジ</string>
+    <string name="app_bugbounty_bullet4">多言語対応、オフラインアクセス、プレミアム機能</string>
+    <string name="app_bugbounty_tag1">バグバウンティ</string>
+    <string name="app_bugbounty_tag2">ハッキング</string>
+    <string name="app_bugbounty_tag3">ペンテスト</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - ハック</string>
+    <string name="app_dorks_tagline">Google Dorks と OSINT を習得</string>
+    <string name="app_dorks_bullet1">OSINTと倫理的セキュリティ調査のための1000以上のGoogle Dorks</string>
+    <string name="app_dorks_bullet2">ウェブサイト、ファイル、ログイン、カメラ、データ漏えいのクエリ</string>
+    <string name="app_dorks_bullet3">クイズゲーム、練習課題、実践的な検索シナリオ</string>
+    <string name="app_dorks_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">偵察</string>
+    <string name="app_dorks_tag3">サイバーセキュリティ</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">ダークウェブガイド</string>
+    <string name="app_darkweb_tagline">ダークウェブの知識を習得</string>
+    <string name="app_darkweb_bullet1">初級から上級まで100以上のダークウェブとプライバシーのトピック</string>
+    <string name="app_darkweb_bullet2">Torの基礎、オンラインプライバシー、リスク、法的意識</string>
+    <string name="app_darkweb_bullet3">クイズゲーム、インタラクティブなレッスン、安全のベストプラクティス</string>
+    <string name="app_darkweb_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">ディープウェブ</string>
+    <string name="app_darkweb_tag3">匿名ブラウジング</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Wireshark チュートリアル</string>
+    <string name="app_wireshark_tagline">プロのようにネットワークトラフィックを分析</string>
+    <string name="app_wireshark_bullet1">初級から上級まで150以上のWiresharkトピック</string>
+    <string name="app_wireshark_bullet2">パケットキャプチャ、フィルター、プロトコル分析、TCP/IPラボ</string>
+    <string name="app_wireshark_bullet3">クイズゲーム、実践練習、リアルなトラフィックシナリオ</string>
+    <string name="app_wireshark_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_wireshark_tag1">ネットワーク分析</string>
+    <string name="app_wireshark_tag2">スニッフィング</string>
+    <string name="app_wireshark_tag3">フォレンジック</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Metasploit を習得</string>
+    <string name="app_metasploit_tagline">攻撃する。テストする。システムを守る</string>
+    <string name="app_metasploit_bullet1">初級から上級まで150以上のMetasploitトピック</string>
+    <string name="app_metasploit_bullet2">ペイロード、エクスプロイト、ポストエクスプロイテーション、自動化</string>
+    <string name="app_metasploit_bullet3">クイズゲーム、インタラクティブラボ、リアルな攻撃シナリオ</string>
+    <string name="app_metasploit_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_metasploit_tag1">ペネトレーションテスト</string>
+    <string name="app_metasploit_tag2">エクスプロイト</string>
+    <string name="app_metasploit_tag3">脆弱性</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Linux を学ぶ</string>
+    <string name="app_learnlinux_tagline">基礎からプロレベルまでLinuxを習得</string>
+    <string name="app_learnlinux_bullet1">初級から上級まで100以上のLinuxトピック＋1000以上のコマンドと練習課題</string>
+    <string name="app_learnlinux_bullet2">Linuxコマンド、シェルスクリプティング、システム管理</string>
+    <string name="app_learnlinux_bullet3">プロジェクト、クイズゲーム、ターミナルラボ、実践的なユースケース</string>
+    <string name="app_learnlinux_bullet4">多言語対応、オフラインアクセス、プレミアム機能</string>
+    <string name="app_learnlinux_tag1">Linux OS</string>
+    <string name="app_learnlinux_tag2">シェルスクリプティング</string>
+    <string name="app_learnlinux_tag3">コマンド</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Nmap コマンド</string>
+    <string name="app_nmap_tagline">Nmapでネットワークスキャンを習得</string>
+    <string name="app_nmap_bullet1">実践的なネットワークスキャンのための100以上のNmapコマンド</string>
+    <string name="app_nmap_bullet2">100以上のトピックをカバー：偵察、列挙、脆弱性検出</string>
+    <string name="app_nmap_bullet3">スキャンタイプ、NSEスクリプト、OS検出、ファイアウォール回避</string>
+    <string name="app_nmap_bullet4">多言語対応、クイズゲーム、プレミアム機能</string>
+    <string name="app_nmap_tag1">ハッキング</string>
+    <string name="app_nmap_tag2">ネットワークスキャン</string>
+    <string name="app_nmap_tag3">ツール</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">情報収集ツールガイド</string>
+    <string name="app_infogathering_tagline">プロのようにOSINTと偵察を習得</string>
+    <string name="app_infogathering_bullet1">詳細なチュートリアル付きの最も重要な偵察・OSINTツール</string>
+    <string name="app_infogathering_bullet2">Nmap、Whois、DNSenum、theHarvester、コマンドベースのガイド</string>
+    <string name="app_infogathering_bullet3">情報収集の他の方法：OSINT、フットプリンティング、列挙</string>
+    <string name="app_infogathering_bullet4">多言語対応、クイズゲーム、プレミアム機能</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">偵察ツール</string>
+    <string name="app_infogathering_tag3">フットプリンティング</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Burp Suite ガイド</string>
+    <string name="app_burpsuite_tagline">Webアプリセキュリティテストを習得</string>
+    <string name="app_burpsuite_bullet1">100以上のBurp Suiteトピックとウェブセキュリティテストラボ</string>
+    <string name="app_burpsuite_bullet2">Proxy、Repeater、Intruder、Scanner、拡張機能のガイド</string>
+    <string name="app_burpsuite_bullet3">ライブ攻撃解説、クイズゲーム、練習課題</string>
+    <string name="app_burpsuite_bullet4">多言語対応、オフラインアクセス、プレミアム機能</string>
+    <string name="app_burpsuite_tag1">Webセキュリティ</string>
+    <string name="app_burpsuite_tag2">バグ</string>
+    <string name="app_burpsuite_tag3">脆弱性リサーチ</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">練習用Javaプログラム</string>
+    <string name="app_java_tagline">Javaプログラミングを学び、習得する</string>
+    <string name="app_java_bullet1">100以上のJavaトピックと1000以上の練習プログラム</string>
+    <string name="app_java_bullet2">ループ、配列、OOP、文字列、コレクション、ファイル処理</string>
+    <string name="app_java_bullet3">クイズゲーム、インタラクティブな演習、コーディングチャレンジ</string>
+    <string name="app_java_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_java_tag1">Javaプログラミング</string>
+    <string name="app_java_tag2">ロジック構築</string>
+    <string name="app_java_tag3">Javaを学ぶ</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">練習用Pythonプログラム</string>
+    <string name="app_python_tagline">実践的なコーディングでPythonを習得</string>
+    <string name="app_python_bullet1">100以上のPythonトピックと1000以上の練習プログラム</string>
+    <string name="app_python_bullet2">基礎、ループ、関数、OOP、ファイル処理、ライブラリ</string>
+    <string name="app_python_bullet3">クイズゲーム、コーディングチャレンジ、ロジック構築の演習</string>
+    <string name="app_python_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_python_tag1">Pythonを学ぶ</string>
+    <string name="app_python_tag2">プログラミング</string>
+    <string name="app_python_tag3">Pythonアプリ</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">HTML、CSS、JS、PHPを学ぶ</string>
+    <string name="app_webdev_tagline">ウェブサイトを構築。より速くコーディング</string>
+    <string name="app_webdev_bullet1">100以上のウェブ開発トピック＋1000以上のコーディング練習プログラム</string>
+    <string name="app_webdev_bullet2">ライブ例でHTML、CSS、JavaScript、PHPを学ぶ</string>
+    <string name="app_webdev_bullet3">プロジェクト、コーディング演習、クイズゲーム、練習課題</string>
+    <string name="app_webdev_bullet4">多言語対応、オフラインアクセス、プレミアム機能</string>
+    <string name="app_webdev_tag1">ウェブ開発</string>
+    <string name="app_webdev_tag2">ウェブサイト構築</string>
+    <string name="app_webdev_tag3">フルスタック</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Swift プログラミング</string>
+    <string name="app_swift_tagline">SwiftでiOSアプリを構築</string>
+    <string name="app_swift_bullet1">初級から上級まで100以上のSwiftトピック＋1000以上の練習プログラム</string>
+    <string name="app_swift_bullet2">実際のiOSアプリ例でSwift、UIKit、SwiftUIを学ぶ</string>
+    <string name="app_swift_bullet3">プロジェクト、コーディング演習、クイズゲーム、面接対策</string>
+    <string name="app_swift_bullet4">多言語対応、オフラインアクセス、プレミアム機能</string>
+    <string name="app_swift_tag1">Swiftを学ぶ</string>
+    <string name="app_swift_tag2">iOSアプリ</string>
+    <string name="app_swift_tag3">Swiftプログラム</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">練習用Kotlinプログラム</string>
+    <string name="app_kotlin_tagline">実践的なコーディングでKotlinを習得</string>
+    <string name="app_kotlin_bullet1">100以上のKotlinトピックと1000以上の練習プログラム</string>
+    <string name="app_kotlin_bullet2">基礎、OOP、コルーチン、コレクション、Android対応コード</string>
+    <string name="app_kotlin_bullet3">クイズゲーム、コーディングチャレンジ、ロジック構築の演習</string>
+    <string name="app_kotlin_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_kotlin_tag1">Kotlinプログラミング</string>
+    <string name="app_kotlin_tag2">Android Kotlin</string>
+    <string name="app_kotlin_tag3">Kotlinを学ぶ</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Android アプリUIデザインを学ぶ</string>
+    <string name="app_androidui_tagline">美しいAndroidインターフェースをデザイン</string>
+    <string name="app_androidui_bullet1">100以上のAndroid UI/UXトピック＋1000以上のデザイン練習課題</string>
+    <string name="app_androidui_bullet2">XMLレイアウト、マテリアルデザイン、Jetpack Compose UI</string>
+    <string name="app_androidui_bullet3">ライブUIプロジェクト、クイズゲーム、実践的な演習</string>
+    <string name="app_androidui_bullet4">多言語対応、オフラインアクセス、プレミアム機能</string>
+    <string name="app_androidui_tag1">マテリアルデザイン</string>
+    <string name="app_androidui_tag2">アプリデザイン</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Android アプリ開発を学ぶ</string>
+    <string name="app_androiddev_tagline">段階的に本物のAndroidアプリを構築</string>
+    <string name="app_androiddev_bullet1">初級から上級まで150以上のAndroid開発トピック</string>
+    <string name="app_androiddev_bullet2">Java、Kotlin、XML、Jetpack、Android Studioガイド</string>
+    <string name="app_androiddev_bullet3">実際のアプリプロジェクト、コード例、ベストプラクティス</string>
+    <string name="app_androiddev_bullet4">シンプルで分かりやすいインターフェースでのオフライン学習</string>
+    <string name="app_androiddev_tag1">Androidを学ぶ</string>
+    <string name="app_androiddev_tag2">モバイルアプリ</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Arch Linux チュートリアル</string>
+    <string name="app_archlinux_tagline">段階的にArch Linuxをインストール・習得</string>
+    <string name="app_archlinux_bullet1">初級から上級まで150以上のArch Linuxトピック</string>
+    <string name="app_archlinux_bullet2">インストール、pacman、systemd、ネットワーク、デスクトップ設定</string>
+    <string name="app_archlinux_bullet3">実践ラボ、コマンド練習、実践的なユースケース</string>
+    <string name="app_archlinux_bullet4">多言語対応、クイズゲーム、プレミアム機能</string>
+    <string name="app_archlinux_tag1">Linuxガイド</string>
+    <string name="app_archlinux_tag2">システム管理</string>
+    <string name="app_archlinux_tag3">コマンド</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">ビットコイン - 基礎から上級まで</string>
+    <string name="app_bitcoin_tagline">暗号資産とブロックチェーンを賢く学ぶ</string>
+    <string name="app_bitcoin_bullet1">初級から上級まで100以上のビットコイン・ブロックチェーントピック</string>
+    <string name="app_bitcoin_bullet2">暗号資産の基礎、ウォレット、マイニング、取引、セキュリティ</string>
+    <string name="app_bitcoin_bullet3">クイズゲーム、インタラクティブなレッスン、練習チャレンジ</string>
+    <string name="app_bitcoin_bullet4">多言語対応とプレミアム機能が利用可能</string>
+    <string name="app_bitcoin_tag1">暗号資産を学ぶ</string>
+    <string name="app_bitcoin_tag2">ブロックチェーン</string>
+    <string name="app_bitcoin_tag3">デジタル通貨</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">パソコンのショートカットキー</string>
+    <string name="app_shortcuts_tagline">キーボードショートカットで作業を効率化</string>
+    <string name="app_shortcuts_bullet1">日常でよく使われる50以上のアプリショートカットキー</string>
+    <string name="app_shortcuts_bullet2">Windows、MS Word、Excel、Chrome、システムのショートカット</string>
+    <string name="app_shortcuts_bullet3">簡単な学習、練習モード、記憶力アップのコツ</string>
+    <string name="app_shortcuts_bullet4">オフラインアクセス、広告なし、シンプルで分かりやすいインターフェース</string>
+    <string name="app_shortcuts_tag1">ショートカットキー</string>
+    <string name="app_shortcuts_tag2">スマートワーク</string>
+    <string name="app_shortcuts_tag3">キーボードのコツ</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">IT面接の質問</string>
+    <string name="app_itinterview_tagline">プログラミング・技術面接を突破</string>
+    <string name="app_itinterview_bullet1">100以上のプログラミング言語の面接トピックと質問</string>
+    <string name="app_itinterview_bullet2">Java、Python、C、C++、PHP、JS、SQLの面接ガイド</string>
+    <string name="app_itinterview_bullet3">人事、技術、コーディング面接の準備</string>
+    <string name="app_itinterview_bullet4">シンプルで分かりやすいインターフェースでのオフラインアクセス</string>
+    <string name="app_itinterview_tag1">面接対策Q&amp;A</string>
+    <string name="app_itinterview_tag2">就職準備</string>
+    <string name="app_itinterview_tag3">テック職</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">チュートリアル - 毎日の英会話</string>
+    <string name="app_englishspeak_tagline">毎日自信を持って英語を話そう</string>
+    <string name="app_englishspeak_bullet1">100以上の英会話トピック＋1000以上の毎日の練習文</string>
+    <string name="app_englishspeak_bullet2">文法、語彙、発音、会話スキル</string>
+    <string name="app_englishspeak_bullet3">スピーキング演習、クイズゲーム、実生活での会話</string>
+    <string name="app_englishspeak_bullet4">多言語対応、オフラインアクセス、プレミアム機能</string>
+    <string name="app_englishspeak_tag1">英会話</string>
+    <string name="app_englishspeak_tag2">毎日の練習</string>
+    <string name="app_englishspeak_tag3">流暢さ</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">短い英語のお話</string>
+    <string name="app_englishstory_tagline">子供向けの楽しい英語のお話</string>
+    <string name="app_englishstory_bullet1">道徳的な教訓のある子供向けの500以上の短い英語のお話</string>
+    <string name="app_englishstory_bullet2">簡単な単語、シンプルな文章、カラフルなストーリーテリング</string>
+    <string name="app_englishstory_bullet3">読解練習、語彙力アップ、楽しい学習</string>
+    <string name="app_englishstory_bullet4">子供に安全：広告なし、プレミアムなし、オフライン読書</string>
+    <string name="app_englishstory_tag1">子供のお話</string>
+    <string name="app_englishstory_tag2">英語を学ぶ</string>
+    <string name="app_englishstory_tag3">絵本</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">ダウンロード</string>
+    <string name="label_rating">評価</string>
+    <string name="label_size">サイズ</string>
+    <string name="label_install">インストール</string>
+    <string name="label_free">無料</string>
+
+</resources>

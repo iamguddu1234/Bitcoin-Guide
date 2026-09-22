@@ -9,10 +9,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#343131</color>
-    <color name="white">#FFFFFFFF</color>
 
-
-    <color name="titletextColor">#FFFFFF</color>
     <color name="subtextColor">#FFFFFF</color>
 
     <color name="borderColor">#D3D3D3</color>
@@ -27,7 +24,31 @@
     <color name="background">#343131</color>
     <color name="card">#4D4B4B</color>
 
+    <!-- ═══════════════ Added: legacy tokens still referenced by layouts ═══════════════ -->
+    <color name="primary_text">#F5F5F5</color>
+    <color name="accent_color">#60A5FA</color>
+    <color name="button_pressed">#3B82F6</color>
+    <color name="card_background">#242424</color>
+    <color name="card_border">#333331</color>
+    <color name="link_color">#60A5FA</color>
+    <color name="perfect_gold">#FFD700</color>
+    <color name="medal_gold">#FFD700</color>
+    <color name="medal_silver">#C0C0C0</color>
+    <color name="medal_bronze">#CD7F32</color>
+    <color name="medal_participation">#A0A0A0</color>
+    <color name="medal_try_again">#808080</color>
+    <color name="gold_light">#3A3520</color>
+    <color name="silver_light">#2E2E2E</color>
+    <color name="bronze_light">#3A2E1A</color>
+    <color name="medal_default">#1E2A38</color>
+    <color name="correct_green">#4ADE80</color>
+    <color name="incorrect_red">#F87171</color>
 
+    <!-- Premium Dialog Colors -->
+    <color name="premium_header_bg">#1E1E1E</color>
+    <color name="premium_accent">#6366F1</color>
+    <color name="divider_color">#2E2E2E</color>
+    <color name="dialog_background">#1E1E1E</color>
 
     <!-- Go Premium card palette -->
     <color name="premium_grad_start">#FF8A00</color>
@@ -40,4 +61,129 @@
     <color name="white_frost_22">#38FFFFFF</color>
     <color name="white_frost_30">#4DFFFFFF</color>
     <color name="white_frost_40">#66FFFFFF</color>
+
+    <!-- new color -->
+    <color name="new_border">#333331</color>
+
+    <!-- Brand -->
+    <color name="brand_orange">#FFA733</color>
+    <color name="brand_orange_dark">#D87C0C</color>
+    <color name="brand_orange_light">#2E2417</color>
+    <color name="badge_orange_bg">#4A3417</color>
+
+    <!-- Surfaces -->
+    <color name="bg_page">#343131</color>
+    <color name="surface">#4D4B4B</color>
+    <color name="border_color">#333331</color>
+    <color name="track_grey">#3A3A3A</color>
+
+    <!-- Text -->
+    <color name="text_tertiary">#5A5A5A</color>
+
+    <color name="correct_green_bg">#16241B</color>
+    <color name="wrong_red">#F87171</color>
+    <color name="time_amber">#FFB74D</color>
+
+    <color name="stroke">#333331</color>
+
+
+    <!-- ═══════════════ BRAND / ORANGE (Primary theme) ═══════════════ -->
+    <color name="brand_primary">#FFA733</color>           <!-- brightened for contrast -->
+    <color name="brand_price_accent">#FF9635</color>
+    <color name="brand_text_strong">#FFB454</color>
+    <color name="brand_muted_label">#E5A65E</color>
+    <color name="brand_amber_icon">#F5A742</color>
+
+    <color name="orange_bg">#2E2417</color>
+    <color name="orange_bg_soft">#33280F</color>
+    <color name="orange_stroke">#4D3A1F</color>
+    <color name="orange_badge_bg">#4A3417</color>
+
+    <!-- ═══════════════ GREEN (Free / duration / savings) ═══════════════ -->
+    <color name="green_bg">#16241B</color>
+    <color name="green_stroke">#2A4A34</color>
+    <color name="green_text">#4ADE80</color>
+    <color name="green_accent">#34D368</color>
+
+    <!-- ═══════════════ RED (Limit reached / errors) ═══════════════ -->
+    <color name="red_bg">#2A1616</color>
+    <color name="red_stroke">#4D2626</color>
+    <color name="red_text">#F87171</color>
+    <color name="red_text_strong">#EF4444</color>
+    <color name="red_icon_bg_soft">#3A1A1A</color>
+    <color name="red_translucent_bg">#33EF4444</color>
+    <color name="red_alert_text">#FF6B6B</color>
+
+    <!-- ═══════════════ BLUE (Info / timer) ═══════════════ -->
+    <color name="blue_bg">#16202E</color>
+    <color name="blue_stroke">#25415E</color>
+    <color name="blue_text">#60A5FA</color>
+
+    <!-- ═══════════════ AMBER (Premium nudge card) ═══════════════ -->
+    <color name="amber_bg">#2E2611</color>
+    <color name="amber_stroke">#5C4A1A</color>
+
+    <!-- ═══════════════ NEUTRAL TEXT ═══════════════ -->
+    <color name="text_primary">#F5F5F5</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_muted">#888888</color>
+    <color name="text_faint">#777777</color>
+    <color name="text_disabled">#7A7A78</color>
+    <color name="text_hint">#9A9A94</color>
+    <color name="text_placeholder">#8E8D87</color>
+    <color name="text_perk_label">#E5E5E5</color>
+    <color name="text_trust">#8A8886</color>
+
+    <!-- ═══════════════ NEUTRAL SURFACES / UI ═══════════════ -->
+    <color name="surface_white">#1E1E1E</color>            <!-- "white" surfaces invert to dark card -->
+    <color name="surface_neutral">#242424</color>
+    <color name="stroke_neutral">#333331</color>
+    <color name="icon_muted">#666666</color>
+    <color name="ring_stroke_translucent">#26FFFFFF</color>
+    <color name="ring_stroke_soft">#20FFFFFF</color>
+
+    <!-- Existing app colors (unchanged, referenced already) -->
+    <color name="white">#FFFFFF</color>   <!-- stays pure white: text/icons on colored buttons -->
+    <color name="new_title">#F5F5F5</color>
+    <color name="titletextColor">#B0B0B0</color>
+    <color name="secondary_text">#B0B0B0</color>
+    <color name="background_color">#121212</color>
+
+
+    <!-- ═══════════════ HOME / LEARN SCREEN ═══════════════ -->
+    <color name="text_heading">#F5F5F5</color>
+    <color name="text_body_muted">#A0A0A0</color>
+    <color name="divider_line">#2E2E2E</color>
+
+    <color name="row_stroke">#3A3A3A</color>               <!-- card outline (darkened from light's #EAEAEA) -->
+    <color name="index_number">#B0B0B0</color>              <!-- "01" + eyebrow labels -->
+    <color name="text_meta">#9A9A9A</color>                 <!-- "20 Topics . 2 Hours..." (lightened for dark bg) -->
+    <color name="icon_faint">#666666</color>                <!-- chevron arrow (darkened from light's #CCCCCC) -->
+    <color name="surface_subtle">#242424</color>            <!-- icon tile bg (My Apps) (darkened from #F5F5F5) -->
+    <color name="icon_secondary">#B0B0B0</color>            <!-- action bar icons (lightened from #555555) -->
+
+    <!-- ═══════════════ PROMO GRADIENT CARD (fixed — intentionally same in both themes) ═══════════════ -->
+    <color name="on_gradient_text">#FFFFFFFF</color>
+    <color name="on_gradient_text_muted">#D9FFFFFF</color>
+    <color name="on_gradient_cta_text">#E8590C</color>
+
+
+
+
+    <!--    ===============================================================================================-->
+
+    <!--    Language Dialouge-->
+    <color name="dia_bg">#121212</color>
+    <color name="dia_search_bg">#1C1C1E</color>
+    <color name="dia_card">#1C1C1E</color>
+    <color name="dia_border">#3A3A3A</color>
+    <color name="dia_default">#30478DF6</color>
+    <color name="dia_default_text">#E0E7FE</color>
+    <color name="dia_my_app_bg">#603A3A3A</color>
+    <color name="dia_frag_bg">#121212</color>
+    <color name="dia_orange_bg">#101983F5</color>
+    <color name="dia_menu_text">#F2F2F3</color>
+    <color name="dia_menu_nu_bg">#603A3A3A</color>
+    <color name="dia_menu_nu">#7C828D</color>
+
 </resources>

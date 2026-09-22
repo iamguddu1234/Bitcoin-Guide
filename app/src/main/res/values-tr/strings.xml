@@ -2522,4 +2522,304 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">En İyi 10 Bitcoin ve Kripto Para Yatırım Sitesi</string>
     <string name="top_10_bitcoin_android_and_ios_application">En İyi 10 Bitcoin Android ve iOS Uygulaması</string>
 
+
+    <string name="thank_you_note">Uygulamamızı desteklediğiniz ve kullandığınız için teşekkürler! 💙</string>
+    <string name="no_language_found">Dil bulunamadı</string>
+    <string name="search_language">Dil ara</string>
+    <string name="choose_your_prefered_language">Tercih ettiğiniz dili seçin</string>
+    <string name="select_language">Dil seç</string>
+    <string name="all_language">Tüm Diller</string>
+    <string name="result">Sonuç</string>
+    <string name="correct">doğru</string>
+    <string name="new_best">Yeni Rekor!</string>
+    <string name="same_as_best">En iyi sonucunuzla aynı</string>
+    <string name="below_best">En iyi sonucunuzun altında</string>
+    <string name="performance_outstanding">Mükemmel!</string>
+    <string name="performance_keep_practicing">Pratik yapmaya devam edin!</string>
+    <string name="finish_quiz">Testi Bitir</string>
+
+    <string name="topics_label">KONULAR</string>
+    <string name="course_label">KURSLAR</string>
+    <string name="hours_label">SAAT</string>
+    <string name="modules_label">Modüller</string>
+
+    <string name="my_apps_subtitle">Diğer uygulamalarımızı keşfedin</string>
+    <string name="all">Tümü</string>
+    <string name="learn_line">Öğren</string>
+
+    <string name="rate">Puanla</string>
+    <string name="share">Paylaş</string>
+    <string name="about">Hakkında</string>
+    <string name="dark_mode">Karanlık Mod</string>
+
+    <string name="module_1_title">Modül 1</string>
+    <string name="module_2_title">Modül 2</string>
+    <string name="module_3_title">Modül 3</string>
+    <string name="module_4_title">Modül 4</string>
+    <string name="module_5_title">Modül 5</string>
+    <string name="module_6_title">Modül 6</string>
+    <string name="module_7_title">Modül 7</string>
+    <string name="module_8_title">Modül 8</string>
+    <string name="module_9_title">Modül 9</string>
+    <string name="module_10_title">Modül 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux Master</string>
+    <string name="app_kali_tagline">Öğren. Hackle. Savun</string>
+    <string name="app_kali_bullet1">Siber Güvenlik Araçları ve Etik Hacking Ustalığı</string>
+    <string name="app_kali_bullet2">Kali Linux ve Sızma Testi Beceri Geliştirme</string>
+    <string name="app_kali_bullet3">Adli Bilişim, Zararlı Yazılım Analizi ve Quiz Tabanlı Öğrenme</string>
+    <string name="app_kali_bullet4">Premium, Hızlı, Reklamsız, Çok Dilli Destekli</string>
+    <string name="app_kali_tag1">Etik Hacking</string>
+    <string name="app_kali_tag2">Profesyonel Araçlar</string>
+    <string name="app_kali_tag3">Siber Güvenlik</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">Bug Bounty Hunter</string>
+    <string name="app_bugbounty_tagline">Hataları Bul. Ödül Kazan</string>
+    <string name="app_bugbounty_bullet1">100\'den Fazla Gerçek Bug Bounty Konusu ve Zafiyet Laboratuvarı</string>
+    <string name="app_bugbounty_bullet2">Web, API, Mobil ve Bulut Güvenlik Test Rehberleri</string>
+    <string name="app_bugbounty_bullet3">Canlı İstismar Anlatımları, Quiz Oyunları ve Pratik Meydan Okumalar</string>
+    <string name="app_bugbounty_bullet4">Çok Dilli, Çevrimdışı Erişim ve Premium Özellikler</string>
+    <string name="app_bugbounty_tag1">Bug Bounty</string>
+    <string name="app_bugbounty_tag2">Hacking</string>
+    <string name="app_bugbounty_tag3">Sızma Testi</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Google Dorks ve OSINT\'te Ustalaş</string>
+    <string name="app_dorks_bullet1">OSINT ve Etik Güvenlik Araştırması için 1000\'den Fazla Google Dorks</string>
+    <string name="app_dorks_bullet2">Web Sitesi, Dosya, Giriş, Kamera ve Veri Sızıntısı Sorguları</string>
+    <string name="app_dorks_bullet3">Quiz Oyunları, Pratik Görevler ve Gerçek Arama Senaryoları</string>
+    <string name="app_dorks_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">Keşif</string>
+    <string name="app_dorks_tag3">Siber Güvenlik</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">Dark Web Rehberi</string>
+    <string name="app_darkweb_tagline">Dark Web Bilgisinde Ustalaş</string>
+    <string name="app_darkweb_bullet1">Başlangıçtan İleri Seviyeye 100\'den Fazla Dark Web ve Gizlilik Konusu</string>
+    <string name="app_darkweb_bullet2">Tor Temelleri, Çevrimiçi Gizlilik, Riskler ve Yasal Farkındalık</string>
+    <string name="app_darkweb_bullet3">Quiz Oyunları, İnteraktif Dersler ve En İyi Güvenlik Uygulamaları</string>
+    <string name="app_darkweb_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">Anonim Tarama</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Wireshark Eğitimi</string>
+    <string name="app_wireshark_tagline">Ağ Trafiğini Bir Profesyonel Gibi Analiz Edin</string>
+    <string name="app_wireshark_bullet1">Başlangıçtan İleri Seviyeye 150\'den Fazla Wireshark Konusu</string>
+    <string name="app_wireshark_bullet2">Paket Yakalama, Filtreler, Protokol Analizi ve TCP/IP Laboratuvarları</string>
+    <string name="app_wireshark_bullet3">Quiz Oyunları, Uygulamalı Pratik ve Gerçek Trafik Senaryoları</string>
+    <string name="app_wireshark_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_wireshark_tag1">Ağ Analizi</string>
+    <string name="app_wireshark_tag2">Dinleme</string>
+    <string name="app_wireshark_tag3">Adli Bilişim</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Metasploit\'te Ustalaş</string>
+    <string name="app_metasploit_tagline">İstismar Et. Test Et. Sistemleri Güvenli Kıl</string>
+    <string name="app_metasploit_bullet1">Başlangıçtan İleri Seviyeye 150\'den Fazla Metasploit Konusu</string>
+    <string name="app_metasploit_bullet2">Yükler, İstismarlar, İstismar Sonrası ve Otomasyon</string>
+    <string name="app_metasploit_bullet3">Quiz Oyunları, İnteraktif Laboratuvarlar ve Gerçek Saldırı Senaryoları</string>
+    <string name="app_metasploit_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_metasploit_tag1">Sızma Testi</string>
+    <string name="app_metasploit_tag2">İstismar</string>
+    <string name="app_metasploit_tag3">Zafiyet</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Linux Öğren</string>
+    <string name="app_learnlinux_tagline">Temelden Profesyonel Seviyeye Linux\'ta Ustalaş</string>
+    <string name="app_learnlinux_bullet1">Başlangıçtan İleri Seviyeye 100\'den Fazla Linux Konusu + 1000\'den Fazla Komut ve Pratik Görev</string>
+    <string name="app_learnlinux_bullet2">Linux Komutları, Kabuk Betikleme ve Sistem Yönetimi</string>
+    <string name="app_learnlinux_bullet3">Projeler, Quiz Oyunları, Terminal Laboratuvarları ve Gerçek Kullanım Senaryoları</string>
+    <string name="app_learnlinux_bullet4">Çok Dilli Destek, Çevrimdışı Erişim ve Premium Özellikler</string>
+    <string name="app_learnlinux_tag1">Linux İşletim Sistemi</string>
+    <string name="app_learnlinux_tag2">Kabuk Betikleme</string>
+    <string name="app_learnlinux_tag3">Komutlar</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Nmap Komutları</string>
+    <string name="app_nmap_tagline">Nmap ile Ağ Taramasında Ustalaş</string>
+    <string name="app_nmap_bullet1">Gerçek Ağ Taraması için 100\'den Fazla Nmap Komutu</string>
+    <string name="app_nmap_bullet2">100\'den Fazla Konu Kapsanıyor: Keşif, Numaralandırma ve Zafiyet Tespiti</string>
+    <string name="app_nmap_bullet3">Tarama Türleri, NSE Betikleri, İşletim Sistemi Tespiti ve Güvenlik Duvarı Atlatma</string>
+    <string name="app_nmap_bullet4">Çok Dilli Destek, Quiz Oyunları ve Premium Özellikler</string>
+    <string name="app_nmap_tag1">Hacking</string>
+    <string name="app_nmap_tag2">Ağ Taraması</string>
+    <string name="app_nmap_tag3">Araçlar</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">Bilgi Toplama Araçları Rehberi</string>
+    <string name="app_infogathering_tagline">Profesyonel Gibi OSINT ve Keşifte Ustalaş</string>
+    <string name="app_infogathering_bullet1">Detaylı Eğitimlerle En Önemli Keşif ve OSINT Araçları</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester ve Komut Tabanlı Rehberler</string>
+    <string name="app_infogathering_bullet3">Bilgi Toplamanın Diğer Yolları: OSINT, Footprinting ve Numaralandırma</string>
+    <string name="app_infogathering_bullet4">Çok Dilli Destek, Quiz Oyunları ve Premium Özellikler</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">Keşif Araçları</string>
+    <string name="app_infogathering_tag3">Footprinting</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Burp Suite Rehberi</string>
+    <string name="app_burpsuite_tagline">Web Uygulama Güvenlik Testinde Ustalaş</string>
+    <string name="app_burpsuite_bullet1">100\'den Fazla Burp Suite Konusu ve Web Güvenlik Test Laboratuvarları</string>
+    <string name="app_burpsuite_bullet2">Proxy, Repeater, Intruder, Scanner ve Eklentiler Rehberi</string>
+    <string name="app_burpsuite_bullet3">Canlı Saldırı Anlatımları, Quiz Oyunları ve Pratik Görevler</string>
+    <string name="app_burpsuite_bullet4">Çok Dilli Destek, Çevrimdışı Erişim ve Premium Özellikler</string>
+    <string name="app_burpsuite_tag1">Web Güvenliği</string>
+    <string name="app_burpsuite_tag2">Hata</string>
+    <string name="app_burpsuite_tag3">Zafiyet Araştırması</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Pratik için Java Programları</string>
+    <string name="app_java_tagline">Java Programlamayı Öğren ve Ustalaş</string>
+    <string name="app_java_bullet1">1000\'den Fazla Pratik Programla 100\'den Fazla Java Konusu</string>
+    <string name="app_java_bullet2">Döngüler, Diziler, OOP, Stringler, Koleksiyonlar ve Dosya İşleme</string>
+    <string name="app_java_bullet3">Quiz Oyunları, İnteraktif Alıştırmalar ve Kodlama Meydan Okumaları</string>
+    <string name="app_java_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_java_tag1">Java Programlama</string>
+    <string name="app_java_tag2">Mantık Kurma</string>
+    <string name="app_java_tag3">Java Öğren</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Pratik için Python Programları</string>
+    <string name="app_python_tagline">Uygulamalı Kodlamayla Python\'da Ustalaş</string>
+    <string name="app_python_bullet1">1000\'den Fazla Pratik Programla 100\'den Fazla Python Konusu</string>
+    <string name="app_python_bullet2">Temeller, Döngüler, Fonksiyonlar, OOP, Dosya İşleme ve Kütüphaneler</string>
+    <string name="app_python_bullet3">Quiz Oyunları, Kodlama Meydan Okumaları ve Mantık Kurma Alıştırmaları</string>
+    <string name="app_python_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_python_tag1">Python Öğren</string>
+    <string name="app_python_tag2">Programlama</string>
+    <string name="app_python_tag3">Python Uygulamaları</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">HTML, CSS, JS, PHP Öğren</string>
+    <string name="app_webdev_tagline">Web Siteleri Oluştur. Daha Hızlı Kod Yaz</string>
+    <string name="app_webdev_bullet1">100\'den Fazla Web Geliştirme Konusu + 1000\'den Fazla Kodlama Pratik Programı</string>
+    <string name="app_webdev_bullet2">Canlı Örneklerle HTML, CSS, JavaScript ve PHP Öğren</string>
+    <string name="app_webdev_bullet3">Projeler, Kodlama Alıştırmaları, Quiz Oyunları ve Pratik Görevler</string>
+    <string name="app_webdev_bullet4">Çok Dilli Destek, Çevrimdışı Erişim ve Premium Özellikler</string>
+    <string name="app_webdev_tag1">Web Geliştirme</string>
+    <string name="app_webdev_tag2">Web Sitesi Oluştur</string>
+    <string name="app_webdev_tag3">Full Stack</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Swift Programlama</string>
+    <string name="app_swift_tagline">Swift ile iOS Uygulamaları Oluştur</string>
+    <string name="app_swift_bullet1">Başlangıçtan İleri Seviyeye 100\'den Fazla Swift Konusu + 1000\'den Fazla Pratik Program</string>
+    <string name="app_swift_bullet2">Gerçek iOS Uygulama Örnekleriyle Swift, UIKit ve SwiftUI Öğren</string>
+    <string name="app_swift_bullet3">Projeler, Kodlama Alıştırmaları, Quiz Oyunları ve Mülakat Hazırlığı</string>
+    <string name="app_swift_bullet4">Çok Dilli Destek, Çevrimdışı Erişim ve Premium Özellikler</string>
+    <string name="app_swift_tag1">Swift Öğren</string>
+    <string name="app_swift_tag2">iOS Uygulamaları</string>
+    <string name="app_swift_tag3">Swift Programları</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Pratik için Kotlin Programları</string>
+    <string name="app_kotlin_tagline">Uygulamalı Kodlamayla Kotlin\'de Ustalaş</string>
+    <string name="app_kotlin_bullet1">1000\'den Fazla Pratik Programla 100\'den Fazla Kotlin Konusu</string>
+    <string name="app_kotlin_bullet2">Temeller, OOP, Coroutine\'ler, Koleksiyonlar ve Android\'e Hazır Kod</string>
+    <string name="app_kotlin_bullet3">Quiz Oyunları, Kodlama Meydan Okumaları ve Mantık Kurma Alıştırmaları</string>
+    <string name="app_kotlin_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_kotlin_tag1">Kotlin Programlama</string>
+    <string name="app_kotlin_tag2">Android Kotlin</string>
+    <string name="app_kotlin_tag3">Kotlin Öğren</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Android Uygulama UI Tasarımı Öğren</string>
+    <string name="app_androidui_tagline">Güzel Android Arayüzleri Tasarla</string>
+    <string name="app_androidui_bullet1">100\'den Fazla Android UI/UX Konusu + 1000\'den Fazla Tasarım Pratik Görevi</string>
+    <string name="app_androidui_bullet2">XML Düzenleri, Material Design ve Jetpack Compose UI</string>
+    <string name="app_androidui_bullet3">Canlı UI Projeleri, Quiz Oyunları ve Uygulamalı Alıştırmalar</string>
+    <string name="app_androidui_bullet4">Çok Dilli Destek, Çevrimdışı Erişim ve Premium Özellikler</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">Uygulama Tasarımı</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Android Uygulama Geliştirme Öğren</string>
+    <string name="app_androiddev_tagline">Adım Adım Gerçek Android Uygulamaları Oluştur</string>
+    <string name="app_androiddev_bullet1">Başlangıçtan İleri Seviyeye 150\'den Fazla Android Geliştirme Konusu</string>
+    <string name="app_androiddev_bullet2">Java, Kotlin, XML, Jetpack ve Android Studio Rehberleri</string>
+    <string name="app_androiddev_bullet3">Gerçek Uygulama Projeleri, Kod Örnekleri ve En İyi Uygulamalar</string>
+    <string name="app_androiddev_bullet4">Temiz ve Basit Arayüzle Çevrimdışı Öğrenme</string>
+    <string name="app_androiddev_tag1">Android Öğren</string>
+    <string name="app_androiddev_tag2">Mobil Uygulamalar</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Arch Linux Eğitimi</string>
+    <string name="app_archlinux_tagline">Adım Adım Arch Linux Kur ve Ustalaş</string>
+    <string name="app_archlinux_bullet1">Başlangıçtan İleri Seviyeye 150\'den Fazla Arch Linux Konusu</string>
+    <string name="app_archlinux_bullet2">Kurulum, pacman, systemd, Ağ Yapılandırması ve Masaüstü Kurulumu</string>
+    <string name="app_archlinux_bullet3">Uygulamalı Laboratuvarlar, Komut Pratiği ve Gerçek Kullanım Senaryoları</string>
+    <string name="app_archlinux_bullet4">Çok Dilli Destek, Quiz Oyunları ve Premium Özellikler</string>
+    <string name="app_archlinux_tag1">Linux Rehberi</string>
+    <string name="app_archlinux_tag2">Sistem Yönetimi</string>
+    <string name="app_archlinux_tag3">Komutlar</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - Temelden İleri Seviyeye</string>
+    <string name="app_bitcoin_tagline">Kripto ve Blockchain\'i Akıllıca Öğren</string>
+    <string name="app_bitcoin_bullet1">Başlangıçtan İleri Seviyeye 100\'den Fazla Bitcoin ve Blockchain Konusu</string>
+    <string name="app_bitcoin_bullet2">Kripto Temelleri, Cüzdanlar, Madencilik, Ticaret ve Güvenlik</string>
+    <string name="app_bitcoin_bullet3">Quiz Oyunları, İnteraktif Dersler ve Pratik Meydan Okumalar</string>
+    <string name="app_bitcoin_bullet4">Çok Dilli Destek ve Premium Özellikler Mevcut</string>
+    <string name="app_bitcoin_tag1">Kripto Öğren</string>
+    <string name="app_bitcoin_tag2">Blockchain</string>
+    <string name="app_bitcoin_tag3">Dijital Para Birimi</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">Bilgisayar Kısayol Tuşları</string>
+    <string name="app_shortcuts_tagline">Klavye Kısayollarıyla Daha Hızlı Çalış</string>
+    <string name="app_shortcuts_bullet1">Hızlı Çalışma için Günlük Olarak En Çok Kullanılan 50\'den Fazla Uygulama Kısayol Tuşu</string>
+    <string name="app_shortcuts_bullet2">Windows, MS Word, Excel, Chrome ve Sistem Kısayolları</string>
+    <string name="app_shortcuts_bullet3">Kolay Öğrenme, Pratik Modu ve Hafıza Güçlendirme İpuçları</string>
+    <string name="app_shortcuts_bullet4">Çevrimdışı Erişim, Reklamsız ve Temiz Basit Arayüz</string>
+    <string name="app_shortcuts_tag1">Kısayol Tuşları</string>
+    <string name="app_shortcuts_tag2">Akıllı Çalışma</string>
+    <string name="app_shortcuts_tag3">Klavye İpuçları</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">BT Mülakat Soruları</string>
+    <string name="app_itinterview_tagline">Programlama ve Teknoloji Mülakatlarını Geç</string>
+    <string name="app_itinterview_bullet1">100\'den Fazla Programlama Dili Mülakat Konusu ve Sorusu</string>
+    <string name="app_itinterview_bullet2">Java, Python, C, C++, PHP, JS ve SQL Mülakat Rehberleri</string>
+    <string name="app_itinterview_bullet3">İK, Teknik ve Kodlama Mülakat Hazırlığı</string>
+    <string name="app_itinterview_bullet4">Temiz Basit Arayüzle Çevrimdışı Erişim</string>
+    <string name="app_itinterview_tag1">Mülakat Hazırlığı S&amp;C</string>
+    <string name="app_itinterview_tag2">İş Hazırlığı</string>
+    <string name="app_itinterview_tag3">Teknoloji İşleri</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">Eğitim - Günlük İngilizce Konuşma</string>
+    <string name="app_englishspeak_tagline">Her Gün Özgüvenle İngilizce Konuş</string>
+    <string name="app_englishspeak_bullet1">100\'den Fazla Konuşma İngilizcesi Konusu + 1000\'den Fazla Günlük Pratik Cümle</string>
+    <string name="app_englishspeak_bullet2">Dilbilgisi, Kelime Bilgisi, Telaffuz ve Sohbet Becerileri</string>
+    <string name="app_englishspeak_bullet3">Konuşma Alıştırmaları, Quiz Oyunları ve Gerçek Hayat Diyalogları</string>
+    <string name="app_englishspeak_bullet4">Çok Dilli Destek, Çevrimdışı Erişim ve Premium Özellikler</string>
+    <string name="app_englishspeak_tag1">Konuşma İngilizcesi</string>
+    <string name="app_englishspeak_tag2">Günlük Pratik</string>
+    <string name="app_englishspeak_tag3">Akıcılık</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">Kısa İngilizce Hikaye</string>
+    <string name="app_englishstory_tagline">Çocuklar için Eğlenceli İngilizce Hikayeler</string>
+    <string name="app_englishstory_bullet1">Ahlaki Derslerle Çocuklar için 500\'den Fazla Kısa İngilizce Hikaye</string>
+    <string name="app_englishstory_bullet2">Kolay Kelimeler, Basit Cümleler ve Renkli Hikaye Anlatımı</string>
+    <string name="app_englishstory_bullet3">Okuma Pratiği, Kelime Bilgisi Geliştirme ve Eğlenceli Öğrenme</string>
+    <string name="app_englishstory_bullet4">Çocuklar için Güvenli: Reklamsız, Premiumsuz ve Çevrimdışı Okuma</string>
+    <string name="app_englishstory_tag1">Çocuk Hikayeleri</string>
+    <string name="app_englishstory_tag2">İngilizce Öğren</string>
+    <string name="app_englishstory_tag3">Hikaye Kitabı</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">İndirmeler</string>
+    <string name="label_rating">Puan</string>
+    <string name="label_size">Boyut</string>
+    <string name="label_install">Yükle</string>
+    <string name="label_free">Ücretsiz</string>
 </resources>

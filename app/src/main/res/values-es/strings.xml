@@ -2532,5 +2532,305 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Top 10 sitios para invertir en Bitcoin y criptomonedas</string>
     <string name="top_10_bitcoin_android_and_ios_application">Top 10 aplicaciones de Bitcoin para Android y iOS</string>
 
+    <string name="thank_you_note">¡Gracias por apoyar y usar nuestra aplicación! 💙</string>
+    <string name="no_language_found">No se encontró ningún idioma</string>
+    <string name="search_language">Buscar idioma</string>
+    <string name="choose_your_prefered_language">Elige tu idioma preferido</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="all_language">Todos los idiomas</string>
+    <string name="result">Resultado</string>
+    <string name="correct">correcto</string>
+    <string name="new_best">¡Nuevo récord!</string>
+    <string name="same_as_best">Igual que tu mejor resultado</string>
+    <string name="below_best">Por debajo de tu mejor resultado</string>
+    <string name="performance_outstanding">¡Excelente!</string>
+    <string name="performance_keep_practicing">¡Sigue practicando!</string>
+    <string name="finish_quiz">Finalizar cuestionario</string>
+
+    <string name="topics_label">TEMAS</string>
+    <string name="course_label">CURSOS</string>
+    <string name="hours_label">HORAS</string>
+    <string name="modules_label">Módulos</string>
+
+    <string name="my_apps_subtitle">Explora nuestras otras aplicaciones</string>
+    <string name="all">Todo</string>
+    <string name="learn_line">Aprender</string>
+
+    <string name="rate">Calificar</string>
+    <string name="share">Compartir</string>
+    <string name="about">Acerca de</string>
+    <string name="dark_mode">Modo oscuro</string>
+
+    <string name="module_1_title">Módulo 1</string>
+    <string name="module_2_title">Módulo 2</string>
+    <string name="module_3_title">Módulo 3</string>
+    <string name="module_4_title">Módulo 4</string>
+    <string name="module_5_title">Módulo 5</string>
+    <string name="module_6_title">Módulo 6</string>
+    <string name="module_7_title">Módulo 7</string>
+    <string name="module_8_title">Módulo 8</string>
+    <string name="module_9_title">Módulo 9</string>
+    <string name="module_10_title">Módulo 10</string>
+
+    <!-- Kali Linux Master -->
+    <string name="app_kali_title">Kali Linux Master</string>
+    <string name="app_kali_tagline">Aprende. Hackea. Defiende</string>
+    <string name="app_kali_bullet1">Herramientas de ciberseguridad y dominio del hacking ético</string>
+    <string name="app_kali_bullet2">Kali Linux y desarrollo de habilidades de pruebas de penetración</string>
+    <string name="app_kali_bullet3">Análisis forense, análisis de malware y aprendizaje basado en cuestionarios</string>
+    <string name="app_kali_bullet4">Premium, rápido, sin anuncios y con soporte multilingüe</string>
+    <string name="app_kali_tag1">Hacking ético</string>
+    <string name="app_kali_tag2">Herramientas Pro</string>
+    <string name="app_kali_tag3">Ciberseguridad</string>
+
+    <!-- Bug Bounty Hunter -->
+    <string name="app_bugbounty_title">Bug Bounty Hunter</string>
+    <string name="app_bugbounty_tagline">Encuentra fallos. Gana recompensas</string>
+    <string name="app_bugbounty_bullet1">Más de 100 temas reales de bug bounty y laboratorios de vulnerabilidades</string>
+    <string name="app_bugbounty_bullet2">Guías de pruebas de seguridad web, API, móvil y en la nube</string>
+    <string name="app_bugbounty_bullet3">Explicaciones de exploits en vivo, juegos de preguntas y retos prácticos</string>
+    <string name="app_bugbounty_bullet4">Multilingüe, acceso sin conexión y funciones premium</string>
+    <string name="app_bugbounty_tag1">Bug Bounty</string>
+    <string name="app_bugbounty_tag2">Hacking</string>
+    <string name="app_bugbounty_tag3">Pentesting</string>
+
+    <!-- Dorks - Hack -->
+    <string name="app_dorks_title">Dorks - Hack</string>
+    <string name="app_dorks_tagline">Domina Google Dorks y OSINT</string>
+    <string name="app_dorks_bullet1">Más de 1000 Google Dorks para OSINT e investigación de seguridad ética</string>
+    <string name="app_dorks_bullet2">Consultas de sitios web, archivos, inicios de sesión, cámaras y exposición de datos</string>
+    <string name="app_dorks_bullet3">Juegos de preguntas, tareas prácticas y escenarios de búsqueda reales</string>
+    <string name="app_dorks_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_dorks_tag1">Google Dorks</string>
+    <string name="app_dorks_tag2">Reconocimiento</string>
+    <string name="app_dorks_tag3">Ciberseguridad</string>
+
+    <!-- Dark Web Guide -->
+    <string name="app_darkweb_title">Guía de la Dark Web</string>
+    <string name="app_darkweb_tagline">Domina el conocimiento de la Dark Web</string>
+    <string name="app_darkweb_bullet1">Más de 100 temas sobre la Dark Web y privacidad, de principiante a avanzado</string>
+    <string name="app_darkweb_bullet2">Fundamentos de Tor, privacidad en línea, riesgos y conciencia legal</string>
+    <string name="app_darkweb_bullet3">Juegos de preguntas, lecciones interactivas y mejores prácticas de seguridad</string>
+    <string name="app_darkweb_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_darkweb_tag1">Tor</string>
+    <string name="app_darkweb_tag2">Deep Web</string>
+    <string name="app_darkweb_tag3">Navegación anónima</string>
+
+    <!-- Wireshark Tutorial -->
+    <string name="app_wireshark_title">Tutorial de Wireshark</string>
+    <string name="app_wireshark_tagline">Analiza el tráfico de red como un profesional</string>
+    <string name="app_wireshark_bullet1">Más de 150 temas de Wireshark de principiante a avanzado</string>
+    <string name="app_wireshark_bullet2">Captura de paquetes, filtros, análisis de protocolos y laboratorios TCP/IP</string>
+    <string name="app_wireshark_bullet3">Juegos de preguntas, práctica directa y escenarios de tráfico reales</string>
+    <string name="app_wireshark_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_wireshark_tag1">Análisis de red</string>
+    <string name="app_wireshark_tag2">Sniffing</string>
+    <string name="app_wireshark_tag3">Forense</string>
+
+    <!-- Master In Metasploit -->
+    <string name="app_metasploit_title">Dominar Metasploit</string>
+    <string name="app_metasploit_tagline">Explota. Prueba. Protege sistemas</string>
+    <string name="app_metasploit_bullet1">Más de 150 temas de Metasploit de principiante a avanzado</string>
+    <string name="app_metasploit_bullet2">Payloads, exploits, post-explotación y automatización</string>
+    <string name="app_metasploit_bullet3">Juegos de preguntas, laboratorios interactivos y escenarios de ataque reales</string>
+    <string name="app_metasploit_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_metasploit_tag1">Pruebas de penetración</string>
+    <string name="app_metasploit_tag2">Exploit</string>
+    <string name="app_metasploit_tag3">Vulnerabilidad</string>
+
+    <!-- Learn Linux -->
+    <string name="app_learnlinux_title">Aprende Linux</string>
+    <string name="app_learnlinux_tagline">Domina Linux desde lo básico hasta el nivel profesional</string>
+    <string name="app_learnlinux_bullet1">Más de 100 temas de Linux de principiante a avanzado + más de 1000 comandos y tareas prácticas</string>
+    <string name="app_learnlinux_bullet2">Comandos de Linux, scripts de shell y administración de sistemas</string>
+    <string name="app_learnlinux_bullet3">Proyectos, juegos de preguntas, laboratorios de terminal y casos de uso reales</string>
+    <string name="app_learnlinux_bullet4">Soporte multilingüe, acceso sin conexión y funciones premium</string>
+    <string name="app_learnlinux_tag1">Sistema Linux</string>
+    <string name="app_learnlinux_tag2">Scripts de shell</string>
+    <string name="app_learnlinux_tag3">Comandos</string>
+
+    <!-- Nmap Commands -->
+    <string name="app_nmap_title">Comandos Nmap</string>
+    <string name="app_nmap_tagline">Domina el escaneo de redes con Nmap</string>
+    <string name="app_nmap_bullet1">Más de 100 comandos Nmap para escaneo de redes en el mundo real</string>
+    <string name="app_nmap_bullet2">Más de 100 temas cubiertos: reconocimiento, enumeración y detección de vulnerabilidades</string>
+    <string name="app_nmap_bullet3">Tipos de escaneo, scripts NSE, detección de sistema operativo y evasión de firewall</string>
+    <string name="app_nmap_bullet4">Soporte multilingüe, juegos de preguntas y funciones premium</string>
+    <string name="app_nmap_tag1">Hacking</string>
+    <string name="app_nmap_tag2">Escaneo de red</string>
+    <string name="app_nmap_tag3">Herramientas</string>
+
+    <!-- Information Gathering Tools Guide -->
+    <string name="app_infogathering_title">Guía de herramientas de recopilación de información</string>
+    <string name="app_infogathering_tagline">Domina OSINT y reconocimiento como un profesional</string>
+    <string name="app_infogathering_bullet1">Las herramientas de reconocimiento y OSINT más importantes con tutoriales detallados</string>
+    <string name="app_infogathering_bullet2">Nmap, Whois, DNSenum, theHarvester y guías basadas en comandos</string>
+    <string name="app_infogathering_bullet3">Otras formas de recopilar información: OSINT, footprinting y enumeración</string>
+    <string name="app_infogathering_bullet4">Soporte multilingüe, juegos de preguntas y funciones premium</string>
+    <string name="app_infogathering_tag1">OSINT</string>
+    <string name="app_infogathering_tag2">Herramientas de reconocimiento</string>
+    <string name="app_infogathering_tag3">Footprinting</string>
+
+    <!-- Burp Suite Guide -->
+    <string name="app_burpsuite_title">Guía de Burp Suite</string>
+    <string name="app_burpsuite_tagline">Domina las pruebas de seguridad de aplicaciones web</string>
+    <string name="app_burpsuite_bullet1">Más de 100 temas de Burp Suite y laboratorios de pruebas de seguridad web</string>
+    <string name="app_burpsuite_bullet2">Guía de Proxy, Repeater, Intruder, Scanner y extensiones</string>
+    <string name="app_burpsuite_bullet3">Explicaciones de ataques en vivo, juegos de preguntas y tareas prácticas</string>
+    <string name="app_burpsuite_bullet4">Soporte multilingüe, acceso sin conexión y funciones premium</string>
+    <string name="app_burpsuite_tag1">Seguridad web</string>
+    <string name="app_burpsuite_tag2">Bug</string>
+    <string name="app_burpsuite_tag3">Investigación de vulnerabilidades</string>
+
+    <!-- Java Programs For Practice -->
+    <string name="app_java_title">Programas Java para practicar</string>
+    <string name="app_java_tagline">Aprende y domina la programación en Java</string>
+    <string name="app_java_bullet1">Más de 100 temas de Java con más de 1000 programas de práctica</string>
+    <string name="app_java_bullet2">Bucles, arreglos, POO, cadenas, colecciones y manejo de archivos</string>
+    <string name="app_java_bullet3">Juegos de preguntas, ejercicios interactivos y retos de programación</string>
+    <string name="app_java_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_java_tag1">Programación Java</string>
+    <string name="app_java_tag2">Construcción de lógica</string>
+    <string name="app_java_tag3">Aprende Java</string>
+
+    <!-- Python Programs For Practice -->
+    <string name="app_python_title">Programas Python para practicar</string>
+    <string name="app_python_tagline">Domina Python con programación práctica</string>
+    <string name="app_python_bullet1">Más de 100 temas de Python con más de 1000 programas de práctica</string>
+    <string name="app_python_bullet2">Fundamentos, bucles, funciones, POO, manejo de archivos y bibliotecas</string>
+    <string name="app_python_bullet3">Juegos de preguntas, retos de programación y ejercicios de lógica</string>
+    <string name="app_python_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_python_tag1">Aprende Python</string>
+    <string name="app_python_tag2">Programación</string>
+    <string name="app_python_tag3">Aplicaciones Python</string>
+
+    <!-- Learn HTML, CSS, JS, PHP -->
+    <string name="app_webdev_title">Aprende HTML, CSS, JS, PHP</string>
+    <string name="app_webdev_tagline">Crea sitios web. Programa más rápido</string>
+    <string name="app_webdev_bullet1">Más de 100 temas de desarrollo web + más de 1000 programas de práctica</string>
+    <string name="app_webdev_bullet2">Aprende HTML, CSS, JavaScript y PHP con ejemplos en vivo</string>
+    <string name="app_webdev_bullet3">Proyectos, ejercicios de programación, juegos de preguntas y tareas prácticas</string>
+    <string name="app_webdev_bullet4">Soporte multilingüe, acceso sin conexión y funciones premium</string>
+    <string name="app_webdev_tag1">Desarrollo web</string>
+    <string name="app_webdev_tag2">Crear sitios web</string>
+    <string name="app_webdev_tag3">Full Stack</string>
+
+    <!-- Swift Programming -->
+    <string name="app_swift_title">Programación Swift</string>
+    <string name="app_swift_tagline">Crea aplicaciones iOS con Swift</string>
+    <string name="app_swift_bullet1">Más de 100 temas de Swift de principiante a avanzado + más de 1000 programas de práctica</string>
+    <string name="app_swift_bullet2">Aprende Swift, UIKit y SwiftUI con ejemplos reales de apps de iOS</string>
+    <string name="app_swift_bullet3">Proyectos, ejercicios de programación, juegos de preguntas y preparación para entrevistas</string>
+    <string name="app_swift_bullet4">Soporte multilingüe, acceso sin conexión y funciones premium</string>
+    <string name="app_swift_tag1">Aprende Swift</string>
+    <string name="app_swift_tag2">Apps iOS</string>
+    <string name="app_swift_tag3">Programas Swift</string>
+
+    <!-- Kotlin Programs for Practice -->
+    <string name="app_kotlin_title">Programas Kotlin para practicar</string>
+    <string name="app_kotlin_tagline">Domina Kotlin con programación práctica</string>
+    <string name="app_kotlin_bullet1">Más de 100 temas de Kotlin con más de 1000 programas de práctica</string>
+    <string name="app_kotlin_bullet2">Fundamentos, POO, corrutinas, colecciones y código listo para Android</string>
+    <string name="app_kotlin_bullet3">Juegos de preguntas, retos de programación y ejercicios de lógica</string>
+    <string name="app_kotlin_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_kotlin_tag1">Programación Kotlin</string>
+    <string name="app_kotlin_tag2">Kotlin para Android</string>
+    <string name="app_kotlin_tag3">Aprende Kotlin</string>
+
+    <!-- Learn Android App UI Design -->
+    <string name="app_androidui_title">Aprende diseño de interfaces de apps Android</string>
+    <string name="app_androidui_tagline">Diseña interfaces de Android hermosas</string>
+    <string name="app_androidui_bullet1">Más de 100 temas de UI/UX de Android + más de 1000 tareas prácticas de diseño</string>
+    <string name="app_androidui_bullet2">Diseños XML, Material Design y UI de Jetpack Compose</string>
+    <string name="app_androidui_bullet3">Proyectos de interfaz en vivo, juegos de preguntas y ejercicios prácticos</string>
+    <string name="app_androidui_bullet4">Soporte multilingüe, acceso sin conexión y funciones premium</string>
+    <string name="app_androidui_tag1">Material Design</string>
+    <string name="app_androidui_tag2">Diseño de apps</string>
+    <string name="app_androidui_tag3">UI/UX</string>
+
+    <!-- Learn Android App Development -->
+    <string name="app_androiddev_title">Aprende desarrollo de apps Android</string>
+    <string name="app_androiddev_tagline">Crea aplicaciones Android reales paso a paso</string>
+    <string name="app_androiddev_bullet1">Más de 150 temas de desarrollo Android de principiante a avanzado</string>
+    <string name="app_androiddev_bullet2">Guías de Java, Kotlin, XML, Jetpack y Android Studio</string>
+    <string name="app_androiddev_bullet3">Proyectos reales de apps, ejemplos de código y mejores prácticas</string>
+    <string name="app_androiddev_bullet4">Aprendizaje sin conexión con una interfaz limpia y sencilla</string>
+    <string name="app_androiddev_tag1">Aprende Android</string>
+    <string name="app_androiddev_tag2">Apps móviles</string>
+    <string name="app_androiddev_tag3">Java Android</string>
+
+    <!-- Arch Linux Tutorial -->
+    <string name="app_archlinux_title">Tutorial de Arch Linux</string>
+    <string name="app_archlinux_tagline">Instala y domina Arch Linux paso a paso</string>
+    <string name="app_archlinux_bullet1">Más de 150 temas de Arch Linux de principiante a avanzado</string>
+    <string name="app_archlinux_bullet2">Instalación, pacman, systemd, redes y configuración de escritorio</string>
+    <string name="app_archlinux_bullet3">Laboratorios prácticos, ejercicios de comandos y casos de uso reales</string>
+    <string name="app_archlinux_bullet4">Soporte multilingüe, juegos de preguntas y funciones premium</string>
+    <string name="app_archlinux_tag1">Guía de Linux</string>
+    <string name="app_archlinux_tag2">Administración de sistemas</string>
+    <string name="app_archlinux_tag3">Comandos</string>
+
+    <!-- Bitcoin - Basic To Advance -->
+    <string name="app_bitcoin_title">Bitcoin - De básico a avanzado</string>
+    <string name="app_bitcoin_tagline">Aprende cripto y blockchain de forma inteligente</string>
+    <string name="app_bitcoin_bullet1">Más de 100 temas de Bitcoin y blockchain de principiante a avanzado</string>
+    <string name="app_bitcoin_bullet2">Fundamentos de cripto, billeteras, minería, comercio y seguridad</string>
+    <string name="app_bitcoin_bullet3">Juegos de preguntas, lecciones interactivas y retos prácticos</string>
+    <string name="app_bitcoin_bullet4">Soporte multilingüe y funciones premium disponibles</string>
+    <string name="app_bitcoin_tag1">Aprende cripto</string>
+    <string name="app_bitcoin_tag2">Blockchain</string>
+    <string name="app_bitcoin_tag3">Moneda digital</string>
+
+    <!-- Computer Shortcut Keys -->
+    <string name="app_shortcuts_title">Teclas de acceso rápido</string>
+    <string name="app_shortcuts_tagline">Trabaja más rápido con atajos de teclado</string>
+    <string name="app_shortcuts_bullet1">Más de 50 atajos de aplicaciones más usados diariamente para un trabajo rápido</string>
+    <string name="app_shortcuts_bullet2">Atajos de Windows, MS Word, Excel, Chrome y del sistema</string>
+    <string name="app_shortcuts_bullet3">Aprendizaje fácil, modo de práctica y consejos para mejorar la memoria</string>
+    <string name="app_shortcuts_bullet4">Acceso sin conexión, sin anuncios e interfaz limpia y sencilla</string>
+    <string name="app_shortcuts_tag1">Teclas de acceso rápido</string>
+    <string name="app_shortcuts_tag2">Trabajo inteligente</string>
+    <string name="app_shortcuts_tag3">Consejos de teclado</string>
+
+    <!-- IT Interview Questions -->
+    <string name="app_itinterview_title">Preguntas de entrevistas de TI</string>
+    <string name="app_itinterview_tagline">Supera entrevistas de programación y tecnología</string>
+    <string name="app_itinterview_bullet1">Más de 100 temas y preguntas de entrevista sobre lenguajes de programación</string>
+    <string name="app_itinterview_bullet2">Guías de entrevistas de Java, Python, C, C++, PHP, JS y SQL</string>
+    <string name="app_itinterview_bullet3">Preparación para entrevistas de RRHH, técnicas y de programación</string>
+    <string name="app_itinterview_bullet4">Acceso sin conexión con interfaz limpia y sencilla</string>
+    <string name="app_itinterview_tag1">Preparación de entrevistas Q&amp;A</string>
+    <string name="app_itinterview_tag2">Preparación laboral</string>
+    <string name="app_itinterview_tag3">Empleos tecnológicos</string>
+
+    <!-- Tutorial - Daily English Speak -->
+    <string name="app_englishspeak_title">Tutorial - Hablar inglés a diario</string>
+    <string name="app_englishspeak_tagline">Habla inglés con confianza todos los días</string>
+    <string name="app_englishspeak_bullet1">Más de 100 temas de inglés hablado + más de 1000 frases de práctica diaria</string>
+    <string name="app_englishspeak_bullet2">Gramática, vocabulario, pronunciación y habilidades de conversación</string>
+    <string name="app_englishspeak_bullet3">Ejercicios orales, juegos de preguntas y diálogos de la vida real</string>
+    <string name="app_englishspeak_bullet4">Soporte multilingüe, acceso sin conexión y funciones premium</string>
+    <string name="app_englishspeak_tag1">Inglés hablado</string>
+    <string name="app_englishspeak_tag2">Práctica diaria</string>
+    <string name="app_englishspeak_tag3">Fluidez</string>
+
+    <!-- Short English Story -->
+    <string name="app_englishstory_title">Cuento corto en inglés</string>
+    <string name="app_englishstory_tagline">Cuentos divertidos en inglés para niños</string>
+    <string name="app_englishstory_bullet1">Más de 500 cuentos cortos en inglés para niños con lecciones morales</string>
+    <string name="app_englishstory_bullet2">Palabras fáciles, oraciones simples y narración colorida</string>
+    <string name="app_englishstory_bullet3">Práctica de lectura, ampliación de vocabulario y aprendizaje divertido</string>
+    <string name="app_englishstory_bullet4">Seguro para niños: sin anuncios, sin suscripción premium y lectura sin conexión</string>
+    <string name="app_englishstory_tag1">Cuentos infantiles</string>
+    <string name="app_englishstory_tag2">Aprende inglés</string>
+    <string name="app_englishstory_tag3">Libro de cuentos</string>
+
+    <!-- Shared / common labels -->
+    <string name="label_downloads">Descargas</string>
+    <string name="label_rating">Calificación</string>
+    <string name="label_size">Tamaño</string>
+    <string name="label_install">Instalar</string>
+    <string name="label_free">Gratis</string>
+
 
 </resources>
