@@ -155,9 +155,9 @@
         <color name="ring_stroke_soft">#40FFFFFF</color>        <!-- outer ring, limit dialog -->
 
         <!-- Existing app colors (unchanged, referenced already) -->
-        <color name="white">#FFFFFF</color>
+        <color name="white">#F5F5F5</color>
         <color name="new_title">#111111</color>
-        <color name="titletextColor">#A3A39D</color>
+        <color name="titletextColor">#E6000000</color>
         <color name="secondary_text">#A3A39D</color>
         <color name="background_color">#F5F5F5</color>
 

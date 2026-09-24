@@ -2417,6 +2417,54 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">பிட்காயின் மற்றும் கிரிப்டோ முதலீட்டு தளங்கள் முதல் 10</string>
     <string name="top_10_bitcoin_android_and_ios_application">பிட்காயின் ஆண்ட்ராய்டு மற்றும் iOS பயன்பாடுகள் முதல் 10</string>
 
+    <string name="about_app_name">பிட்காயினைக் கற்றுக்கொள்ளுங்கள்</string>
+    <string name="about_app_description">தெளிவான விளக்கங்கள் மற்றும் எளிதில் புரிந்துகொள்ளக்கூடிய கருத்துகளுடன் பிட்காயினைக் கற்றுக்கொள்ளுங்கள்.\nபிட்காயினைப் புரிந்துகொண்டு அதில் தேர்ச்சி பெறுவதற்கான எளிய வழிகாட்டி.</string>
+
+    <string name="course_basic_title">அடிப்படை</string>
+    <string name="course_basic_tag">அடித்தளம்</string>
+    <string name="course_basic_hours">1 மணி 7 நிமிடம்</string>
+    <string name="course_intermediate_title">இடைநிலை</string>
+    <string name="course_intermediate_tag">முக்கிய திறன்கள்</string>
+    <string name="course_intermediate_hours">1 மணி 49 நிமிடம்</string>
+    <string name="course_advance_title">மேம்பட்ட</string>
+    <string name="course_advance_tag">தேர்ச்சி</string>
+    <string name="course_advance_hours">2 மணி 18 நிமிடம்</string>
+    <string name="course_quiz_title">வினாடி வினா விளையாட்டு</string>
+    <string name="course_quiz_tag">சவால்</string>
+    <string name="course_quiz_hours">30 வினாடி</string>
+
+    <string name="language">பிட்காயின்</string>
+    <string name="learn_python_subtitle">கட்டமைக்கப்பட்ட பாடங்கள் மற்றும் நிஜ உலக எடுத்துக்காட்டுகள் மூலம் பிட்காயினில் தேர்ச்சி பெறுங்கள்.</string>
+
+    <string name="basic_module_1_subtitle">அடிப்படைகள்</string>
+    <string name="basic_module_1_duration">34 நிமிடம்</string>
+    <string name="basic_module_2_subtitle">பிட்காயினைப் பயன்படுத்துதல் மற்றும் புரிந்துகொள்ளுதல்</string>
+    <string name="basic_module_2_duration">33 நிமிடம்</string>
+
+    <string name="inter_module_1_subtitle">புதுமை</string>
+    <string name="inter_module_1_duration">21 நிமிடம்</string>
+    <string name="inter_module_2_subtitle">முக்கிய கருத்துகள்</string>
+    <string name="inter_module_2_duration">20 நிமிடம்</string>
+    <string name="inter_module_3_subtitle">வாலெட்டுகள் மற்றும் பொருளாதாரம்</string>
+    <string name="inter_module_3_duration">20 நிமிடம்</string>
+    <string name="inter_module_4_subtitle">தொழில்நுட்ப அடித்தளங்கள்</string>
+    <string name="inter_module_4_duration">19 நிமிடம்</string>
+    <string name="inter_module_5_subtitle">நெட்வொர்க் மற்றும் ஒழுங்குமுறை</string>
+    <string name="inter_module_5_duration">29 நிமிடம்</string>
+
+    <string name="adv_module_1_subtitle">அடித்தளங்கள் மற்றும் கலாச்சாரம்</string>
+    <string name="adv_module_1_duration">30 நிமிடம்</string>
+    <string name="adv_module_2_subtitle">பொருளாதாரம்</string>
+    <string name="adv_module_2_duration">21 நிமிடம்</string>
+    <string name="adv_module_3_subtitle">சந்தைகள் மற்றும் நிதி</string>
+    <string name="adv_module_3_duration">21 நிமிடம்</string>
+    <string name="adv_module_4_subtitle">பாதுகாப்பு மற்றும் மைனிங்</string>
+    <string name="adv_module_4_duration">22 நிமிடம்</string>
+    <string name="adv_module_5_subtitle">வளர்ந்து வரும் தொழில்நுட்பங்கள்</string>
+    <string name="adv_module_5_duration">20 நிமிடம்</string>
+    <string name="adv_module_6_subtitle">சமூகம் மற்றும் ஒழுங்குமுறை</string>
+    <string name="adv_module_6_duration">24 நிமிடம்</string>
+
     <string name="thank_you_note">எங்கள் ஆப்பை ஆதரித்து பயன்படுத்தியதற்கு நன்றி! 💙</string>
     <string name="no_language_found">மொழி எதுவும் கிடைக்கவில்லை</string>
     <string name="search_language">மொழியைத் தேடு</string>

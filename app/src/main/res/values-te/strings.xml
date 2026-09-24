@@ -2459,6 +2459,55 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">బిట్‌కాయిన్ మరియు క్రిప్టో పెట్టుబడి సైట్లు టాప్ 10</string>
     <string name="top_10_bitcoin_android_and_ios_application">బిట్‌కాయిన్ యాండ్రాయిడ్ మరియు iOS అనువర్తనాలు టాప్ 10</string>
 
+
+    <string name="about_app_name">బిట్‌కాయిన్ నేర్చుకోండి</string>
+    <string name="about_app_description">స్పష్టమైన వివరణలు మరియు సులభంగా అర్థం చేసుకోగల భావనలతో బిట్‌కాయిన్‌ను నేర్చుకోండి.\nబిట్‌కాయిన్‌ను అర్థం చేసుకుని నైపుణ్యం సాధించడానికి సరళమైన గైడ్.</string>
+
+    <string name="course_basic_title">ప్రాథమిక</string>
+    <string name="course_basic_tag">పునాది</string>
+    <string name="course_basic_hours">1 గంట 7 నిమిషాలు</string>
+    <string name="course_intermediate_title">ఇంటర్మీడియట్</string>
+    <string name="course_intermediate_tag">ప్రధాన నైపుణ్యాలు</string>
+    <string name="course_intermediate_hours">1 గంట 49 నిమిషాలు</string>
+    <string name="course_advance_title">అడ్వాన్స్‌డ్</string>
+    <string name="course_advance_tag">నైపుణ్యం</string>
+    <string name="course_advance_hours">2 గంటలు 18 నిమిషాలు</string>
+    <string name="course_quiz_title">క్విజ్ గేమ్</string>
+    <string name="course_quiz_tag">సవాలు</string>
+    <string name="course_quiz_hours">30 సెకన్లు</string>
+
+    <string name="language">బిట్‌కాయిన్</string>
+    <string name="learn_python_subtitle">క్రమబద్ధమైన పాఠాలు మరియు వాస్తవ ప్రపంచ ఉదాహరణల ద్వారా బిట్‌కాయిన్‌లో నైపుణ్యం సాధించండి.</string>
+
+    <string name="basic_module_1_subtitle">పునాదులు</string>
+    <string name="basic_module_1_duration">34 నిమి</string>
+    <string name="basic_module_2_subtitle">బిట్‌కాయిన్ ఉపయోగించడం మరియు అర్థం చేసుకోవడం</string>
+    <string name="basic_module_2_duration">33 నిమి</string>
+
+    <string name="inter_module_1_subtitle">ఆవిష్కరణ</string>
+    <string name="inter_module_1_duration">21 నిమి</string>
+    <string name="inter_module_2_subtitle">ప్రధాన భావనలు</string>
+    <string name="inter_module_2_duration">20 నిమి</string>
+    <string name="inter_module_3_subtitle">వాలెట్లు మరియు ఆర్థిక వ్యవస్థ</string>
+    <string name="inter_module_3_duration">20 నిమి</string>
+    <string name="inter_module_4_subtitle">సాంకేతిక పునాదులు</string>
+    <string name="inter_module_4_duration">19 నిమి</string>
+    <string name="inter_module_5_subtitle">నెట్‌వర్క్ మరియు నియంత్రణ</string>
+    <string name="inter_module_5_duration">29 నిమి</string>
+
+    <string name="adv_module_1_subtitle">పునాదులు మరియు సంస్కృతి</string>
+    <string name="adv_module_1_duration">30 నిమి</string>
+    <string name="adv_module_2_subtitle">ఆర్థిక వ్యవస్థ</string>
+    <string name="adv_module_2_duration">21 నిమి</string>
+    <string name="adv_module_3_subtitle">మార్కెట్లు మరియు ఆర్థిక వ్యవహారాలు</string>
+    <string name="adv_module_3_duration">21 నిమి</string>
+    <string name="adv_module_4_subtitle">భద్రత మరియు మైనింగ్</string>
+    <string name="adv_module_4_duration">22 నిమి</string>
+    <string name="adv_module_5_subtitle">అభివృద్ధి చెందుతున్న సాంకేతికతలు</string>
+    <string name="adv_module_5_duration">20 నిమి</string>
+    <string name="adv_module_6_subtitle">సమాజం మరియు నియంత్రణ</string>
+    <string name="adv_module_6_duration">24 నిమి</string>
+
     <string name="thank_you_note">మా యాప్‌ను మద్దతు ఇచ్చి ఉపయోగించినందుకు ధన్యవాదాలు! 💙</string>
     <string name="no_language_found">భాష కనుగొనబడలేదు</string>
     <string name="search_language">భాషను శోధించండి</string>

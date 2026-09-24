@@ -9,10 +9,11 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
-    app:cardBackgroundColor="#FFFFFF"
+    app:cardBackgroundColor="@color/dia_card"
     app:cardCornerRadius="@dimen/_10sdp"
     app:cardElevation="@dimen/_4sdp"
-    app:strokeWidth="0dp">
+    app:strokeWidth="0dp"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,7 +53,7 @@
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
                         android:background="#F0FDF4"
-                        android:src="@drawable/iconm"
+                        android:src="@drawable/main"
                         />
 
                 </com.google.android.material.card.MaterialCardView>
@@ -71,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:maxLines="1"
-                        android:textColor="#000000"
+                        android:textColor="@color/titletextColor"
                         android:textSize="@dimen/_14sdp"
                         android:textStyle="bold"
                         android:text="Kali Linux Master"
@@ -88,7 +89,6 @@
 
                 </LinearLayout>
 
-                <!-- Install Button (Small) -->
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_22sdp"
@@ -112,6 +112,7 @@
                         />
 
                 </com.google.android.material.card.MaterialCardView>
+                <!-- Install Button (Small) -->
 
 
 
@@ -143,7 +144,7 @@
                         android:id="@+id/tvDownloads"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000"
+                        android:textColor="@color/titletextColor"
                         android:textSize="@dimen/_10ssp"
                         android:textStyle="bold"
                         android:text="500M+" />
@@ -161,7 +162,7 @@
 
                 <!-- Divider -->
                 <View
-                    android:layout_width="@dimen/_1sdp"
+                    android:layout_width="0.6dp"
                     android:layout_height="@dimen/_25sdp"
                     android:background="#E5E7EB" />
 
@@ -182,7 +183,7 @@
                             android:id="@+id/tvRating"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="@color/titletextColor"
                             android:textSize="@dimen/_10ssp"
                             android:textStyle="bold"
                             android:text="4.8" />
@@ -210,7 +211,7 @@
 
                 <!-- Divider -->
                 <View
-                    android:layout_width="1dp"
+                    android:layout_width="0.6dp"
                     android:layout_height="30dp"
                     android:background="#E5E7EB" />
 
@@ -226,7 +227,7 @@
                         android:id="@+id/tvSize"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000"
+                        android:textColor="@color/titletextColor"
                         android:textSize="@dimen/_10ssp"
                         android:textStyle="bold"
                         android:text="45 MB" />
@@ -257,7 +258,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="• Cybersecurity Tools &amp; Ethical Hacking Mastery"
-                    android:textColor="#4B5563"
+                    android:textColor="@color/text_meta"
                     android:textSize="@dimen/_9ssp" />
 
                 <TextView
@@ -266,7 +267,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:text="• Kali Linux &amp; Pen Testing Skill Development"
-                    android:textColor="#4B5563"
+                    android:textColor="@color/text_meta"
                     android:textSize="@dimen/_9ssp" />
 
                 <TextView
@@ -275,7 +276,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:text="• Forensics, Malware Analysis &amp; Quiz-Based Learning"
-                    android:textColor="#4B5563"
+                    android:textColor="@color/text_meta"
                     android:textSize="@dimen/_9ssp" />
 
                 <TextView
@@ -284,7 +285,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:text="• Premium, Fast, Ad-Free with Multilingual Support"
-                    android:textColor="#4B5563"
+                    android:textColor="@color/text_meta"
                     android:textSize="@dimen/_9ssp" />
 
             </LinearLayout>
@@ -302,7 +303,7 @@
                     android:id="@+id/tvTag1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_tag"
+                    android:background="@drawable/bg_stats_container"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_4sdp"
                     android:text="Ethical Hacking"
@@ -314,7 +315,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
-                    android:background="@drawable/bg_tag"
+                    android:background="@drawable/bg_stats_container"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_4sdp"
                     android:text="Pro Tools"
@@ -326,7 +327,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
-                    android:background="@drawable/bg_tag"
+                    android:background="@drawable/bg_stats_container"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_4sdp"
                     android:text="Cybersecurity"

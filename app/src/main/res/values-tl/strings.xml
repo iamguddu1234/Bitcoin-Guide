@@ -2533,6 +2533,54 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Top 10 Bitcoin at Crypto Investing Sites</string>
     <string name="top_10_bitcoin_android_and_ios_application">Top 10 Bitcoin Android at iOS Application</string>
 
+    <string name="about_app_name">Matuto ng Bitcoin</string>
+    <string name="about_app_description">Matuto ng Bitcoin gamit ang malinaw na mga paliwanag at madaling maunawaang konsepto.\nIsang simpleng gabay para maunawaan at maging bihasa sa Bitcoin.</string>
+
+    <string name="course_basic_title">Pangunahin</string>
+    <string name="course_basic_tag">PUNDASYON</string>
+    <string name="course_basic_hours">1 Oras 7 Min</string>
+    <string name="course_intermediate_title">Intermediate</string>
+    <string name="course_intermediate_tag">PANGUNAHING KASANAYAN</string>
+    <string name="course_intermediate_hours">1 Oras 49 Min</string>
+    <string name="course_advance_title">Advanced</string>
+    <string name="course_advance_tag">KAHUSAYAN</string>
+    <string name="course_advance_hours">2 Oras 18 Min</string>
+    <string name="course_quiz_title">Quiz Game</string>
+    <string name="course_quiz_tag">HAMON</string>
+    <string name="course_quiz_hours">30 Seg</string>
+
+    <string name="language">Bitcoin</string>
+    <string name="learn_python_subtitle">Maging bihasa sa Bitcoin sa pamamagitan ng organisadong mga aralin at mga halimbawa mula sa totoong mundo.</string>
+
+    <string name="basic_module_1_subtitle">Mga Pangunahing Kaalaman</string>
+    <string name="basic_module_1_duration">34 min</string>
+    <string name="basic_module_2_subtitle">Paggamit at Pag-unawa sa Bitcoin</string>
+    <string name="basic_module_2_duration">33 min</string>
+
+    <string name="inter_module_1_subtitle">Inobasyon</string>
+    <string name="inter_module_1_duration">21 min</string>
+    <string name="inter_module_2_subtitle">Mga Pangunahing Konsepto</string>
+    <string name="inter_module_2_duration">20 min</string>
+    <string name="inter_module_3_subtitle">Mga Wallet at Ekonomiya</string>
+    <string name="inter_module_3_duration">20 min</string>
+    <string name="inter_module_4_subtitle">Mga Teknikal na Pundasyon</string>
+    <string name="inter_module_4_duration">19 min</string>
+    <string name="inter_module_5_subtitle">Network at Regulasyon</string>
+    <string name="inter_module_5_duration">29 min</string>
+
+    <string name="adv_module_1_subtitle">Mga Pundasyon at Kultura</string>
+    <string name="adv_module_1_duration">30 min</string>
+    <string name="adv_module_2_subtitle">Ekonomiya</string>
+    <string name="adv_module_2_duration">21 min</string>
+    <string name="adv_module_3_subtitle">Mga Merkado at Pananalapi</string>
+    <string name="adv_module_3_duration">21 min</string>
+    <string name="adv_module_4_subtitle">Seguridad at Mining</string>
+    <string name="adv_module_4_duration">22 min</string>
+    <string name="adv_module_5_subtitle">Mga Umuusbong na Teknolohiya</string>
+    <string name="adv_module_5_duration">20 min</string>
+    <string name="adv_module_6_subtitle">Lipunan at Regulasyon</string>
+    <string name="adv_module_6_duration">24 min</string>
+
     <string name="thank_you_note">Salamat sa pagsuporta at paggamit ng aming app! 💙</string>
     <string name="no_language_found">Walang nahanap na wika</string>
     <string name="search_language">Maghanap ng wika</string>

@@ -168,11 +168,8 @@ public class AllFragment extends Fragment implements PremiumStatusListener {
         });
 
         binding.gotoMyApps.setOnClickListener(v -> {
-            requireActivity().getSupportFragmentManager()
-                    .beginTransaction()
-                    .add(android.R.id.content, new AA_My_Apps())
-                    .addToBackStack("myapps")
-                    .commit();
+            Intent intent = new Intent(getActivity(), AA_My_Apps.class);
+            startActivity(intent);
         });
 
 

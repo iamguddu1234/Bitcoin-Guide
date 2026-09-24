@@ -2523,6 +2523,54 @@
     <string name="top_10_bitcoin_android_and_ios_application">En İyi 10 Bitcoin Android ve iOS Uygulaması</string>
 
 
+    <string name="about_app_name">Bitcoin Öğren</string>
+    <string name="about_app_description">Açık anlatımlar ve kolay anlaşılır kavramlarla Bitcoin öğrenin.\nBitcoin\'i anlamak ve uzmanlaşmak için basit bir rehber.</string>
+
+    <string name="course_basic_title">Başlangıç</string>
+    <string name="course_basic_tag">TEMELLER</string>
+    <string name="course_basic_hours">1 Saat 7 Dk</string>
+    <string name="course_intermediate_title">Orta Seviye</string>
+    <string name="course_intermediate_tag">TEMEL BECERİLER</string>
+    <string name="course_intermediate_hours">1 Saat 49 Dk</string>
+    <string name="course_advance_title">İleri</string>
+    <string name="course_advance_tag">UZMANLIK</string>
+    <string name="course_advance_hours">2 Saat 18 Dk</string>
+    <string name="course_quiz_title">Quiz Oyunu</string>
+    <string name="course_quiz_tag">MEYDAN OKUMA</string>
+    <string name="course_quiz_hours">30 Sn</string>
+
+    <string name="language">Bitcoin</string>
+    <string name="learn_python_subtitle">Yapılandırılmış dersler ve gerçek dünya örnekleriyle Bitcoin\'de uzmanlaşın.</string>
+
+    <string name="basic_module_1_subtitle">Temel Bilgiler</string>
+    <string name="basic_module_1_duration">34 dk</string>
+    <string name="basic_module_2_subtitle">Bitcoin Kullanımı ve Anlama</string>
+    <string name="basic_module_2_duration">33 dk</string>
+
+    <string name="inter_module_1_subtitle">İnovasyon</string>
+    <string name="inter_module_1_duration">21 dk</string>
+    <string name="inter_module_2_subtitle">Temel Kavramlar</string>
+    <string name="inter_module_2_duration">20 dk</string>
+    <string name="inter_module_3_subtitle">Cüzdanlar ve Ekonomi</string>
+    <string name="inter_module_3_duration">20 dk</string>
+    <string name="inter_module_4_subtitle">Teknik Temeller</string>
+    <string name="inter_module_4_duration">19 dk</string>
+    <string name="inter_module_5_subtitle">Ağ ve Düzenlemeler</string>
+    <string name="inter_module_5_duration">29 dk</string>
+
+    <string name="adv_module_1_subtitle">Temeller ve Kültür</string>
+    <string name="adv_module_1_duration">30 dk</string>
+    <string name="adv_module_2_subtitle">Ekonomi</string>
+    <string name="adv_module_2_duration">21 dk</string>
+    <string name="adv_module_3_subtitle">Piyasalar ve Finans</string>
+    <string name="adv_module_3_duration">21 dk</string>
+    <string name="adv_module_4_subtitle">Güvenlik ve Madencilik</string>
+    <string name="adv_module_4_duration">22 dk</string>
+    <string name="adv_module_5_subtitle">Gelişen Teknolojiler</string>
+    <string name="adv_module_5_duration">20 dk</string>
+    <string name="adv_module_6_subtitle">Toplum ve Düzenlemeler</string>
+    <string name="adv_module_6_duration">24 dk</string>
+
     <string name="thank_you_note">Uygulamamızı desteklediğiniz ve kullandığınız için teşekkürler! 💙</string>
     <string name="no_language_found">Dil bulunamadı</string>
     <string name="search_language">Dil ara</string>

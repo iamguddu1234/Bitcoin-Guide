@@ -24,7 +24,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_margin="@dimen/_10sdp"
                 app:cardBackgroundColor="#000"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
@@ -55,7 +55,6 @@
                 android:background="@drawable/backnew"
                 android:fontFamily="@font/roboto"
                 android:lineHeight="@dimen/_20sdp"
-
                 android:text="@string/pa2"
                 android:textAllCaps="false"
                 android:textColor="@color/titletextColor"

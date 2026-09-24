@@ -8,6 +8,7 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
+        android:enableOnBackInvokedCallback="true"
         android:name=".BaseActivity.MyApplication"
         android:allowBackup="true"
         android:configChanges="locale|layoutDirection"
@@ -17,6 +18,11 @@
         android:roundIcon="@drawable/bitcoin"
         android:supportsRtl="true"
         android:theme="@style/Theme.Material3.DayNight">
+
+        <activity
+            android:name=".AA_My_Apps"
+            android:exported="false" />
+
         <activity
             android:name=".Game.ResultActivity"
             android:exported="false" />

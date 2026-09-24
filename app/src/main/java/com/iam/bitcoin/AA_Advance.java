@@ -64,7 +64,7 @@ public class AA_Advance extends Fragment implements PremiumStatusListener {
     BillingManager billingManager;
     private PremiumStatusListener premiumStatusListener;
     // Add these variables for time tracking
-    private static final long AD_COOLDOWN_MS = 30000; // 30 seconds
+    private static final long AD_COOLDOWN_MS = 60000; // 30 seconds
     private long lastAdShownTime = 0;
 
 

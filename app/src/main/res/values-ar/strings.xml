@@ -2561,6 +2561,56 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">أفضل 10 مواقع للاستثمار في البيتكوين والعملات المشفرة</string>
     <string name="top_10_bitcoin_android_and_ios_application">أفضل 10 تطبيقات بيتكوين للأندرويد والآيفون</string>
 
+
+
+    <string name="about_app_name">تعلم البيتكوين</string>
+    <string name="about_app_description">تعلم البيتكوين من خلال شروحات واضحة ومفاهيم سهلة الفهم.\nدليل بسيط لفهم البيتكوين وإتقانه.</string>
+
+    <string name="course_basic_title">أساسي</string>
+    <string name="course_basic_tag">الأساسيات</string>
+    <string name="course_basic_hours">ساعة و7 دقائق</string>
+    <string name="course_intermediate_title">متوسط</string>
+    <string name="course_intermediate_tag">المهارات الأساسية</string>
+    <string name="course_intermediate_hours">ساعة و49 دقيقة</string>
+    <string name="course_advance_title">متقدم</string>
+    <string name="course_advance_tag">الإتقان</string>
+    <string name="course_advance_hours">ساعتان و18 دقيقة</string>
+    <string name="course_quiz_title">لعبة الاختبار</string>
+    <string name="course_quiz_tag">التحدي</string>
+    <string name="course_quiz_hours">30 ثانية</string>
+
+    <string name="language">البيتكوين</string>
+    <string name="learn_python_subtitle">أتقن البيتكوين من خلال دروس منظمة وأمثلة من العالم الحقيقي.</string>
+
+    <string name="basic_module_1_subtitle">الأساسيات</string>
+    <string name="basic_module_1_duration">34 دقيقة</string>
+    <string name="basic_module_2_subtitle">استخدام وفهم البيتكوين</string>
+    <string name="basic_module_2_duration">33 دقيقة</string>
+
+    <string name="inter_module_1_subtitle">الابتكار</string>
+    <string name="inter_module_1_duration">21 دقيقة</string>
+    <string name="inter_module_2_subtitle">المفاهيم الأساسية</string>
+    <string name="inter_module_2_duration">20 دقيقة</string>
+    <string name="inter_module_3_subtitle">المحافظ والاقتصاد</string>
+    <string name="inter_module_3_duration">20 دقيقة</string>
+    <string name="inter_module_4_subtitle">الأسس التقنية</string>
+    <string name="inter_module_4_duration">19 دقيقة</string>
+    <string name="inter_module_5_subtitle">الشبكة والتنظيم</string>
+    <string name="inter_module_5_duration">29 دقيقة</string>
+
+    <string name="adv_module_1_subtitle">الأسس والثقافة</string>
+    <string name="adv_module_1_duration">30 دقيقة</string>
+    <string name="adv_module_2_subtitle">الاقتصاد</string>
+    <string name="adv_module_2_duration">21 دقيقة</string>
+    <string name="adv_module_3_subtitle">الأسواق والتمويل</string>
+    <string name="adv_module_3_duration">21 دقيقة</string>
+    <string name="adv_module_4_subtitle">الأمان والتعدين</string>
+    <string name="adv_module_4_duration">22 دقيقة</string>
+    <string name="adv_module_5_subtitle">التقنيات الناشئة</string>
+    <string name="adv_module_5_duration">20 دقيقة</string>
+    <string name="adv_module_6_subtitle">المجتمع والتنظيم</string>
+    <string name="adv_module_6_duration">24 دقيقة</string>
+
     <string name="thank_you_note">شكرًا لدعمك واستخدامك تطبيقنا! 💙</string>
     <string name="no_language_found">لم يتم العثور على لغة</string>
     <string name="search_language">البحث عن لغة</string>

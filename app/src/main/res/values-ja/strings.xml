@@ -2459,6 +2459,55 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">ビットコイン・仮想通貨投資サイトTOP10</string>
     <string name="top_10_bitcoin_android_and_ios_application">ビットコインアプリ（Android/iOS）TOP10</string>
 
+
+    <string name="about_app_name">ビットコインを学ぶ</string>
+    <string name="about_app_description">わかりやすい解説と理解しやすい概念でビットコインを学びましょう。\nビットコインを理解し、習得するためのシンプルなガイドです。</string>
+
+    <string name="course_basic_title">初級</string>
+    <string name="course_basic_tag">基礎</string>
+    <string name="course_basic_hours">1時間7分</string>
+    <string name="course_intermediate_title">中級</string>
+    <string name="course_intermediate_tag">コアスキル</string>
+    <string name="course_intermediate_hours">1時間49分</string>
+    <string name="course_advance_title">上級</string>
+    <string name="course_advance_tag">マスター</string>
+    <string name="course_advance_hours">2時間18分</string>
+    <string name="course_quiz_title">クイズゲーム</string>
+    <string name="course_quiz_tag">チャレンジ</string>
+    <string name="course_quiz_hours">30秒</string>
+
+    <string name="language">ビットコイン</string>
+    <string name="learn_python_subtitle">体系的なレッスンと実例を通してビットコインを習得しましょう。</string>
+
+    <string name="basic_module_1_subtitle">基礎</string>
+    <string name="basic_module_1_duration">34分</string>
+    <string name="basic_module_2_subtitle">ビットコインの利用と理解</string>
+    <string name="basic_module_2_duration">33分</string>
+
+    <string name="inter_module_1_subtitle">イノベーション</string>
+    <string name="inter_module_1_duration">21分</string>
+    <string name="inter_module_2_subtitle">基本概念</string>
+    <string name="inter_module_2_duration">20分</string>
+    <string name="inter_module_3_subtitle">ウォレットと経済</string>
+    <string name="inter_module_3_duration">20分</string>
+    <string name="inter_module_4_subtitle">技術基礎</string>
+    <string name="inter_module_4_duration">19分</string>
+    <string name="inter_module_5_subtitle">ネットワークと規制</string>
+    <string name="inter_module_5_duration">29分</string>
+
+    <string name="adv_module_1_subtitle">基礎と文化</string>
+    <string name="adv_module_1_duration">30分</string>
+    <string name="adv_module_2_subtitle">経済</string>
+    <string name="adv_module_2_duration">21分</string>
+    <string name="adv_module_3_subtitle">市場と金融</string>
+    <string name="adv_module_3_duration">21分</string>
+    <string name="adv_module_4_subtitle">セキュリティとマイニング</string>
+    <string name="adv_module_4_duration">22分</string>
+    <string name="adv_module_5_subtitle">新興技術</string>
+    <string name="adv_module_5_duration">20分</string>
+    <string name="adv_module_6_subtitle">社会と規制</string>
+    <string name="adv_module_6_duration">24分</string>
+
     <string name="thank_you_note">アプリをご利用・ご支援いただきありがとうございます！💙</string>
     <string name="no_language_found">言語が見つかりません</string>
     <string name="search_language">言語を検索</string>

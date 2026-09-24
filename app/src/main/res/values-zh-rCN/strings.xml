@@ -2380,6 +2380,54 @@
     <string name="top_10_bitcoin_android_and_ios_application">十大比特币应用(Android和iOS)</string>
 
 
+    <string name="about_app_name">学习比特币</string>
+    <string name="about_app_description">通过清晰的讲解和易于理解的概念学习比特币。\n一本帮助你理解并掌握比特币的简单指南。</string>
+
+    <string name="course_basic_title">基础</string>
+    <string name="course_basic_tag">基础知识</string>
+    <string name="course_basic_hours">1小时7分钟</string>
+    <string name="course_intermediate_title">中级</string>
+    <string name="course_intermediate_tag">核心技能</string>
+    <string name="course_intermediate_hours">1小时49分钟</string>
+    <string name="course_advance_title">高级</string>
+    <string name="course_advance_tag">精通</string>
+    <string name="course_advance_hours">2小时18分钟</string>
+    <string name="course_quiz_title">答题游戏</string>
+    <string name="course_quiz_tag">挑战</string>
+    <string name="course_quiz_hours">30秒</string>
+
+    <string name="language">比特币</string>
+    <string name="learn_python_subtitle">通过结构化课程和真实案例掌握比特币。</string>
+
+    <string name="basic_module_1_subtitle">基础</string>
+    <string name="basic_module_1_duration">34分钟</string>
+    <string name="basic_module_2_subtitle">使用与理解比特币</string>
+    <string name="basic_module_2_duration">33分钟</string>
+
+    <string name="inter_module_1_subtitle">创新</string>
+    <string name="inter_module_1_duration">21分钟</string>
+    <string name="inter_module_2_subtitle">核心概念</string>
+    <string name="inter_module_2_duration">20分钟</string>
+    <string name="inter_module_3_subtitle">钱包与经济</string>
+    <string name="inter_module_3_duration">20分钟</string>
+    <string name="inter_module_4_subtitle">技术基础</string>
+    <string name="inter_module_4_duration">19分钟</string>
+    <string name="inter_module_5_subtitle">网络与监管</string>
+    <string name="inter_module_5_duration">29分钟</string>
+
+    <string name="adv_module_1_subtitle">基础与文化</string>
+    <string name="adv_module_1_duration">30分钟</string>
+    <string name="adv_module_2_subtitle">经济</string>
+    <string name="adv_module_2_duration">21分钟</string>
+    <string name="adv_module_3_subtitle">市场与金融</string>
+    <string name="adv_module_3_duration">21分钟</string>
+    <string name="adv_module_4_subtitle">安全与挖矿</string>
+    <string name="adv_module_4_duration">22分钟</string>
+    <string name="adv_module_5_subtitle">新兴技术</string>
+    <string name="adv_module_5_duration">20分钟</string>
+    <string name="adv_module_6_subtitle">社会与监管</string>
+    <string name="adv_module_6_duration">24分钟</string>
+
     <string name="thank_you_note">感谢您支持并使用我们的应用！💙</string>
     <string name="no_language_found">未找到语言</string>
     <string name="search_language">搜索语言</string>

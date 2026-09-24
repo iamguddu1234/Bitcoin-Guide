@@ -19,7 +19,7 @@
             android:id="@+id/gotoBasic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/background_color"
+            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
             app:strokeColor="@color/row_stroke"
@@ -65,7 +65,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
-                            android:text="Basic"
+                            android:text="@string/course_basic_title"
                             android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
@@ -78,7 +78,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:gravity="center|bottom"
                             android:includeFontPadding="true"
-                            android:text="foundation"
+                            android:text="@string/course_basic_tag"
                             android:textAllCaps="true"
                             android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
@@ -86,16 +86,88 @@
                     </LinearLayout>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                    <LinearLayout
                         android:layout_marginTop="@dimen/_4sdp"
-                        android:ellipsize="end"
-                        android:fontFamily="@font/roboto_medium"
-                        android:maxLines="1"
-                        android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="@color/text_meta"
-                        android:textSize="@dimen/_10ssp" />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_medium"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:text="11"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/topics_label"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/course_basic_hours"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/modules_label"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -127,7 +199,7 @@
             android:id="@+id/gotoIntermediate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/background_color"
+            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
             app:strokeColor="@color/row_stroke"
@@ -173,7 +245,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
-                            android:text="Intermediate"
+                            android:text="@string/intermediate"
                             android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
@@ -186,7 +258,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:gravity="center|bottom"
                             android:includeFontPadding="true"
-                            android:text="core skills"
+                            android:text="@string/course_intermediate_tag"
                             android:textAllCaps="true"
                             android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
@@ -194,16 +266,88 @@
                     </LinearLayout>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                    <LinearLayout
                         android:layout_marginTop="@dimen/_4sdp"
-                        android:ellipsize="end"
-                        android:fontFamily="@font/roboto_medium"
-                        android:maxLines="1"
-                        android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="@color/text_meta"
-                        android:textSize="@dimen/_10ssp" />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_medium"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:text="25"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/topics_label"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/course_intermediate_hours"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/modules_label"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -235,7 +379,7 @@
             android:id="@+id/gotoAdvance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/background_color"
+            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
             app:strokeColor="@color/row_stroke"
@@ -281,7 +425,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
-                            android:text="Advance"
+                            android:text="@string/advance"
                             android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
@@ -294,7 +438,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:gravity="center|bottom"
                             android:includeFontPadding="true"
-                            android:text="Mastery"
+                            android:text="@string/course_advance_tag"
                             android:textAllCaps="true"
                             android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
@@ -302,16 +446,88 @@
                     </LinearLayout>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                    <LinearLayout
                         android:layout_marginTop="@dimen/_4sdp"
-                        android:ellipsize="end"
-                        android:fontFamily="@font/roboto_medium"
-                        android:maxLines="1"
-                        android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="@color/text_meta"
-                        android:textSize="@dimen/_10ssp" />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_medium"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:text="30"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/topics_label"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/course_advance_hours"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/modules_label"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -343,7 +559,7 @@
             android:id="@+id/quizGame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardBackgroundColor="@color/background_color"
+            app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
             app:strokeColor="@color/row_stroke"
@@ -389,7 +605,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="true"
-                            android:text="Quiz Game"
+                            android:text="@string/quiz_game"
                             android:textColor="@color/text_heading"
                             android:textSize="@dimen/_14ssp" />
 
@@ -402,7 +618,7 @@
                             android:fontFamily="@font/roboto_medium"
                             android:gravity="center|bottom"
                             android:includeFontPadding="true"
-                            android:text="challenge"
+                            android:text="@string/course_quiz_tag"
                             android:textAllCaps="true"
                             android:textColor="@color/index_number"
                             android:textSize="@dimen/_8ssp" />
@@ -410,16 +626,88 @@
                     </LinearLayout>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                    <LinearLayout
                         android:layout_marginTop="@dimen/_4sdp"
-                        android:ellipsize="end"
-                        android:fontFamily="@font/roboto_medium"
-                        android:maxLines="1"
-                        android:text="20 Topics . 2 Hours . 2 Components"
-                        android:textColor="@color/text_meta"
-                        android:textSize="@dimen/_10ssp" />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_medium"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:text="66"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/topics_label"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/course_quiz_hours"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_4sdp"
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="@dimen/_2sdp"
+                            app:cardBackgroundColor="@color/text_meta"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="0dp"/>
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="13"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:fontFamily="@font/roboto_medium"
+                            android:layout_marginStart="@dimen/_4sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/modules_label"
+                            android:textColor="@color/text_meta"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -459,8 +747,7 @@
             app:cardBackgroundColor="@android:color/transparent"
             app:cardCornerRadius="@dimen/_16sdp"
             app:cardElevation="@dimen/_5sdp"
-            app:strokeWidth="0dp"
-            app:rippleColor="@color/brand_primary">
+            app:strokeWidth="0dp">
 
             <!-- Gradient background layer -->
             <View
@@ -600,7 +887,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Unlock Now"
-                        android:textColor="@color/on_gradient_cta_text"
+                        android:textColor="@color/brand_primary"
                         android:textSize="13sp"
                         android:textStyle="bold" />
 
@@ -609,7 +896,7 @@
                         android:layout_height="14dp"
                         android:layout_marginStart="6dp"
                         android:src="@drawable/ic_arrow_right"
-                        app:tint="@color/on_gradient_cta_text" />
+                        app:tint="@color/brand_primary" />
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -628,8 +915,7 @@
             app:cardCornerRadius="@dimen/_16sdp"
             app:cardElevation="0dp"
             app:strokeColor="@color/divider_line"
-            app:strokeWidth="1dp"
-            app:rippleColor="@color/brand_primary">
+            app:strokeWidth="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -670,7 +956,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
-                        android:text="My Apps"
+                        android:text="@string/my_apps"
                         android:textColor="@color/text_heading"
                         android:textSize="@dimen/_12ssp" />
 
@@ -679,7 +965,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_4sdp"
                         android:fontFamily="@font/roboto_medium"
-                        android:text="Explore our other free apps"
+                        android:text="@string/my_apps_subtitle"
                         android:textColor="@color/text_faint"
                         android:textSize="@dimen/_10ssp" />
 
@@ -725,7 +1011,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="Rate"
+                    android:text="@string/rate"
                     android:textColor="@color/text_body_muted"
                     android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />
@@ -757,7 +1043,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="Share"
+                    android:text="@string/share"
                     android:textColor="@color/text_body_muted"
                     android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />
@@ -791,7 +1077,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="About"
+                    android:text="@string/about"
                     android:textColor="@color/text_body_muted"
                     android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />
@@ -799,6 +1085,7 @@
 
             <!-- Dark mode -->
             <LinearLayout
+                android:visibility="visible"
                 android:id="@+id/darkmode"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -822,7 +1109,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="Dark mode"
+                    android:text="@string/dark_mode"
                     android:textColor="@color/text_body_muted"
                     android:textSize="@dimen/_9ssp"
                     android:textStyle="bold" />

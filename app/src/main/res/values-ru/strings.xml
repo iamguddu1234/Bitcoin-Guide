@@ -2452,6 +2452,55 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Топ-10 Сайтов для Инвестиций в Биткоин и Криптовалюты</string>
     <string name="top_10_bitcoin_android_and_ios_application">Топ-10 Приложений Биткоин для Android и iOS</string>
 
+
+    <string name="about_app_name">Изучайте Bitcoin</string>
+    <string name="about_app_description">Изучайте Bitcoin с помощью понятных объяснений и простых для понимания концепций.\nПростое руководство по пониманию и освоению Bitcoin.</string>
+
+    <string name="course_basic_title">Базовый</string>
+    <string name="course_basic_tag">ОСНОВЫ</string>
+    <string name="course_basic_hours">1 час 7 мин</string>
+    <string name="course_intermediate_title">Средний</string>
+    <string name="course_intermediate_tag">КЛЮЧЕВЫЕ НАВЫКИ</string>
+    <string name="course_intermediate_hours">1 час 49 мин</string>
+    <string name="course_advance_title">Продвинутый</string>
+    <string name="course_advance_tag">МАСТЕРСТВО</string>
+    <string name="course_advance_hours">2 часа 18 мин</string>
+    <string name="course_quiz_title">Игра-викторина</string>
+    <string name="course_quiz_tag">ВЫЗОВ</string>
+    <string name="course_quiz_hours">30 сек.</string>
+
+    <string name="language">Bitcoin</string>
+    <string name="learn_python_subtitle">Освойте Bitcoin с помощью структурированных уроков и примеров из реального мира.</string>
+
+    <string name="basic_module_1_subtitle">Основы</string>
+    <string name="basic_module_1_duration">34 мин.</string>
+    <string name="basic_module_2_subtitle">Использование и понимание Bitcoin</string>
+    <string name="basic_module_2_duration">33 мин.</string>
+
+    <string name="inter_module_1_subtitle">Инновации</string>
+    <string name="inter_module_1_duration">21 мин.</string>
+    <string name="inter_module_2_subtitle">Основные концепции</string>
+    <string name="inter_module_2_duration">20 мин.</string>
+    <string name="inter_module_3_subtitle">Кошельки и экономика</string>
+    <string name="inter_module_3_duration">20 мин.</string>
+    <string name="inter_module_4_subtitle">Технические основы</string>
+    <string name="inter_module_4_duration">19 мин.</string>
+    <string name="inter_module_5_subtitle">Сеть и регулирование</string>
+    <string name="inter_module_5_duration">29 мин.</string>
+
+    <string name="adv_module_1_subtitle">Основы и культура</string>
+    <string name="adv_module_1_duration">30 мин.</string>
+    <string name="adv_module_2_subtitle">Экономика</string>
+    <string name="adv_module_2_duration">21 мин.</string>
+    <string name="adv_module_3_subtitle">Рынки и финансы</string>
+    <string name="adv_module_3_duration">21 мин.</string>
+    <string name="adv_module_4_subtitle">Безопасность и майнинг</string>
+    <string name="adv_module_4_duration">22 мин.</string>
+    <string name="adv_module_5_subtitle">Новые технологии</string>
+    <string name="adv_module_5_duration">20 мин.</string>
+    <string name="adv_module_6_subtitle">Общество и регулирование</string>
+    <string name="adv_module_6_duration">24 мин.</string>
+
     <string name="thank_you_note">Спасибо, что поддерживаете и используете наше приложение! 💙</string>
     <string name="no_language_found">Язык не найден</string>
     <string name="search_language">Поиск языка</string>

@@ -15,8 +15,10 @@ import com.android.billingclient.api.BillingFlowParams;
 import com.android.billingclient.api.BillingResult;
 import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.PurchasesUpdatedListener;
-import com.android.billingclient.api.SkuDetails;
-import com.android.billingclient.api.SkuDetailsParams;
+import com.android.billingclient.api.PendingPurchasesParams;
+import com.android.billingclient.api.ProductDetails;
+import com.android.billingclient.api.QueryProductDetailsParams;
+import com.android.billingclient.api.QueryPurchasesParams;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +32,11 @@ public class BillingManager implements PurchasesUpdatedListener {
     private final Activity activity;
     private BillingClient billingClient;
     private boolean isPremium = false;
-    private BillingListener listener;
+    private final BillingListener listener;
+
+    // Cache the ProductDetails we fetch, so launchPurchaseFlow() doesn't
+    // need to re-query every time.
+    private ProductDetails cachedProductDetails;
 
     public interface BillingListener {
         void onPremiumStatusChanged(boolean isPremium);
@@ -46,7 +52,11 @@ public class BillingManager implements PurchasesUpdatedListener {
 
     private void setupBillingClient() {
         billingClient = BillingClient.newBuilder(activity)
-                .enablePendingPurchases()
+                .enablePendingPurchases(
+                        PendingPurchasesParams.newBuilder()
+                                .enableOneTimeProducts()
+                                .build()
+                )
                 .setListener(this)
                 .build();
 
@@ -58,6 +68,7 @@ public class BillingManager implements PurchasesUpdatedListener {
             @Override
             public void onBillingSetupFinished(@NonNull BillingResult billingResult) {
                 if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                    queryProductDetails();
                     queryPurchases();
                     listener.onBillingSetupFinished();
                 }
@@ -71,15 +82,45 @@ public class BillingManager implements PurchasesUpdatedListener {
         });
     }
 
+    /** Pre-fetch ProductDetails so launchPurchaseFlow() can fire immediately. */
+    private void queryProductDetails() {
+        List<QueryProductDetailsParams.Product> productList = new ArrayList<>();
+        productList.add(
+                QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId(SKU_REMOVE_ADS)
+                        .setProductType(BillingClient.ProductType.INAPP)
+                        .build()
+        );
+
+        QueryProductDetailsParams params = QueryProductDetailsParams.newBuilder()
+                .setProductList(productList)
+                .build();
+
+        billingClient.queryProductDetailsAsync(params, (billingResult, productDetailsResult) -> {
+            if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                List<ProductDetails> productDetailsList = productDetailsResult.getProductDetailsList();
+                if (productDetailsList != null && !productDetailsList.isEmpty()) {
+                    cachedProductDetails = productDetailsList.get(0);
+                } else {
+                    Log.w(TAG, "No ProductDetails returned for " + SKU_REMOVE_ADS);
+                }
+            } else {
+                Log.w(TAG, "queryProductDetailsAsync failed: " + billingResult.getDebugMessage());
+            }
+        });
+    }
+
     public void queryPurchases() {
         if (billingClient.isReady()) {
-            billingClient.queryPurchasesAsync(
-                    BillingClient.SkuType.INAPP,
-                    (billingResult, purchases) -> {
-                        if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
-                            handlePurchases(purchases);
-                        }
-                    });
+            QueryPurchasesParams params = QueryPurchasesParams.newBuilder()
+                    .setProductType(BillingClient.ProductType.INAPP)
+                    .build();
+
+            billingClient.queryPurchasesAsync(params, (billingResult, purchases) -> {
+                if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                    handlePurchases(purchases);
+                }
+            });
         }
     }
 
@@ -94,7 +135,7 @@ public class BillingManager implements PurchasesUpdatedListener {
         boolean wasPremium = isPremium;
 
         for (Purchase purchase : purchases) {
-            if (purchase.getSkus().contains(SKU_REMOVE_ADS)) {
+            if (purchase.getProducts().contains(SKU_REMOVE_ADS)) {
                 if (purchase.getPurchaseState() == Purchase.PurchaseState.PURCHASED) {
                     if (!purchase.isAcknowledged()) {
                         acknowledgePurchase(purchase);
@@ -123,29 +164,59 @@ public class BillingManager implements PurchasesUpdatedListener {
     }
 
     public void launchPurchaseFlow() {
-        if (billingClient.isReady()) {
-            List<String> skuList = new ArrayList<>();
-            skuList.add(SKU_REMOVE_ADS);
-
-            SkuDetailsParams params = SkuDetailsParams.newBuilder()
-                    .setSkusList(skuList)
-                    .setType(BillingClient.SkuType.INAPP)
-                    .build();
-
-            billingClient.querySkuDetailsAsync(params, (billingResult, skuDetailsList) -> {
-                if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK && skuDetailsList != null) {
-                    for (SkuDetails skuDetails : skuDetailsList) {
-                        if (skuDetails.getSku().equals(SKU_REMOVE_ADS)) {
-                            BillingFlowParams flowParams = BillingFlowParams.newBuilder()
-                                    .setSkuDetails(skuDetails)
-                                    .build();
-                            billingClient.launchBillingFlow(activity, flowParams);
-                            break;
-                        }
-                    }
-                }
-            });
+        if (!billingClient.isReady()) {
+            Log.w(TAG, "launchPurchaseFlow: billing client not ready");
+            return;
         }
+
+        if (cachedProductDetails != null) {
+            launchFlowWithDetails(cachedProductDetails);
+            return;
+        }
+
+        // Not cached yet (e.g. called too soon after setup) — query then launch.
+        List<QueryProductDetailsParams.Product> productList = new ArrayList<>();
+        productList.add(
+                QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId(SKU_REMOVE_ADS)
+                        .setProductType(BillingClient.ProductType.INAPP)
+                        .build()
+        );
+
+        QueryProductDetailsParams params = QueryProductDetailsParams.newBuilder()
+                .setProductList(productList)
+                .build();
+
+        billingClient.queryProductDetailsAsync(params, (billingResult, productDetailsResult) -> {
+            if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
+                List<ProductDetails> productDetailsList = productDetailsResult.getProductDetailsList();
+                if (productDetailsList != null && !productDetailsList.isEmpty()) {
+                    cachedProductDetails = productDetailsList.get(0);
+                    launchFlowWithDetails(cachedProductDetails);
+                } else {
+                    Log.w(TAG, "launchPurchaseFlow: no ProductDetails for " + SKU_REMOVE_ADS);
+                }
+            } else {
+                Log.w(TAG, "launchPurchaseFlow: queryProductDetailsAsync failed: " + billingResult.getDebugMessage());
+            }
+        });
+    }
+
+    private void launchFlowWithDetails(ProductDetails productDetails) {
+        List<BillingFlowParams.ProductDetailsParams> productDetailsParamsList = new ArrayList<>();
+        productDetailsParamsList.add(
+                BillingFlowParams.ProductDetailsParams.newBuilder()
+                        .setProductDetails(productDetails)
+                        // For INAPP one-time products you do NOT call setOfferToken().
+                        // Only subscriptions need an offer token from productDetails.getSubscriptionOfferDetails().
+                        .build()
+        );
+
+        BillingFlowParams flowParams = BillingFlowParams.newBuilder()
+                .setProductDetailsParamsList(productDetailsParamsList)
+                .build();
+
+        billingClient.launchBillingFlow(activity, flowParams);
     }
 
     public boolean isPremium() {
@@ -168,3 +239,4 @@ public class BillingManager implements PurchasesUpdatedListener {
         }
     }
 }
+

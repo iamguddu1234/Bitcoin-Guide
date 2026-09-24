@@ -2523,6 +2523,54 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">बिटकॉइन और क्रिप्टो निवेश के शीर्ष 10 साइट्स</string>
     <string name="top_10_bitcoin_android_and_ios_application">बिटकॉइन के शीर्ष 10 एंड्रॉइड और iOS ऐप्लिकेशन</string>
 
+    <string name="about_app_name">बिटकॉइन सीखें</string>
+    <string name="about_app_description">स्पष्ट व्याख्याओं और आसानी से समझ आने वाली अवधारणाओं के साथ बिटकॉइन सीखें।\nबिटकॉइन को समझने और उसमें महारत हासिल करने के लिए एक सरल गाइड।</string>
+
+    <string name="course_basic_title">बेसिक</string>
+    <string name="course_basic_tag">बुनियादी</string>
+    <string name="course_basic_hours">1 घंटा 7 मिनट</string>
+    <string name="course_intermediate_title">इंटरमीडिएट</string>
+    <string name="course_intermediate_tag">मुख्य कौशल</string>
+    <string name="course_intermediate_hours">1 घंटा 49 मिनट</string>
+    <string name="course_advance_title">एडवांस</string>
+    <string name="course_advance_tag">विशेषज्ञता</string>
+    <string name="course_advance_hours">2 घंटे 18 मिनट</string>
+    <string name="course_quiz_title">क्विज़ गेम</string>
+    <string name="course_quiz_tag">चुनौती</string>
+    <string name="course_quiz_hours">30 सेकंड</string>
+
+    <string name="language">बिटकॉइन</string>
+    <string name="learn_python_subtitle">संरचित पाठों और वास्तविक दुनिया के उदाहरणों के माध्यम से बिटकॉइन में महारत हासिल करें।</string>
+
+    <string name="basic_module_1_subtitle">बुनियादी जानकारी</string>
+    <string name="basic_module_1_duration">34 मिनट</string>
+    <string name="basic_module_2_subtitle">बिटकॉइन का उपयोग और समझ</string>
+    <string name="basic_module_2_duration">33 मिनट</string>
+
+    <string name="inter_module_1_subtitle">नवाचार</string>
+    <string name="inter_module_1_duration">21 मिनट</string>
+    <string name="inter_module_2_subtitle">मुख्य अवधारणाएँ</string>
+    <string name="inter_module_2_duration">20 मिनट</string>
+    <string name="inter_module_3_subtitle">वॉलेट और अर्थव्यवस्था</string>
+    <string name="inter_module_3_duration">20 मिनट</string>
+    <string name="inter_module_4_subtitle">तकनीकी आधार</string>
+    <string name="inter_module_4_duration">19 मिनट</string>
+    <string name="inter_module_5_subtitle">नेटवर्क और विनियमन</string>
+    <string name="inter_module_5_duration">29 मिनट</string>
+
+    <string name="adv_module_1_subtitle">आधार और संस्कृति</string>
+    <string name="adv_module_1_duration">30 मिनट</string>
+    <string name="adv_module_2_subtitle">अर्थव्यवस्था</string>
+    <string name="adv_module_2_duration">21 मिनट</string>
+    <string name="adv_module_3_subtitle">बाज़ार और वित्त</string>
+    <string name="adv_module_3_duration">21 मिनट</string>
+    <string name="adv_module_4_subtitle">सुरक्षा और माइनिंग</string>
+    <string name="adv_module_4_duration">22 मिनट</string>
+    <string name="adv_module_5_subtitle">उभरती तकनीकें</string>
+    <string name="adv_module_5_duration">20 मिनट</string>
+    <string name="adv_module_6_subtitle">समाज और विनियमन</string>
+    <string name="adv_module_6_duration">24 मिनट</string>
+
     <string name="thank_you_note">हमारे ऐप का समर्थन करने और उपयोग करने के लिए धन्यवाद! 💙</string>
     <string name="no_language_found">कोई भाषा नहीं मिली</string>
     <string name="search_language">भाषा खोजें</string>

@@ -2505,6 +2505,54 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Top 10 trang đầu tư Bitcoin và tiền điện tử</string>
     <string name="top_10_bitcoin_android_and_ios_application">Top 10 ứng dụng Bitcoin cho Android và iOS</string>
 
+    <string name="about_app_name">Học Bitcoin</string>
+    <string name="about_app_description">Học Bitcoin với những giải thích rõ ràng và các khái niệm dễ hiểu.\nHướng dẫn đơn giản để hiểu và làm chủ Bitcoin.</string>
+
+    <string name="course_basic_title">Cơ bản</string>
+    <string name="course_basic_tag">NỀN TẢNG</string>
+    <string name="course_basic_hours">1 giờ 7 phút</string>
+    <string name="course_intermediate_title">Trung cấp</string>
+    <string name="course_intermediate_tag">KỸ NĂNG CỐT LÕI</string>
+    <string name="course_intermediate_hours">1 giờ 49 phút</string>
+    <string name="course_advance_title">Nâng cao</string>
+    <string name="course_advance_tag">THÀNH THẠO</string>
+    <string name="course_advance_hours">2 giờ 18 phút</string>
+    <string name="course_quiz_title">Trò chơi Quiz</string>
+    <string name="course_quiz_tag">THỬ THÁCH</string>
+    <string name="course_quiz_hours">30 Giây</string>
+
+    <string name="language">Bitcoin</string>
+    <string name="learn_python_subtitle">Làm chủ Bitcoin thông qua các bài học có cấu trúc và ví dụ thực tế.</string>
+
+    <string name="basic_module_1_subtitle">Nền tảng</string>
+    <string name="basic_module_1_duration">34 phút</string>
+    <string name="basic_module_2_subtitle">Sử dụng và hiểu Bitcoin</string>
+    <string name="basic_module_2_duration">33 phút</string>
+
+    <string name="inter_module_1_subtitle">Đổi mới</string>
+    <string name="inter_module_1_duration">21 phút</string>
+    <string name="inter_module_2_subtitle">Các khái niệm cốt lõi</string>
+    <string name="inter_module_2_duration">20 phút</string>
+    <string name="inter_module_3_subtitle">Ví và kinh tế</string>
+    <string name="inter_module_3_duration">20 phút</string>
+    <string name="inter_module_4_subtitle">Nền tảng kỹ thuật</string>
+    <string name="inter_module_4_duration">19 phút</string>
+    <string name="inter_module_5_subtitle">Mạng lưới và quy định</string>
+    <string name="inter_module_5_duration">29 phút</string>
+
+    <string name="adv_module_1_subtitle">Nền tảng và văn hóa</string>
+    <string name="adv_module_1_duration">30 phút</string>
+    <string name="adv_module_2_subtitle">Kinh tế</string>
+    <string name="adv_module_2_duration">21 phút</string>
+    <string name="adv_module_3_subtitle">Thị trường và tài chính</string>
+    <string name="adv_module_3_duration">21 phút</string>
+    <string name="adv_module_4_subtitle">Bảo mật và khai thác</string>
+    <string name="adv_module_4_duration">22 phút</string>
+    <string name="adv_module_5_subtitle">Công nghệ mới nổi</string>
+    <string name="adv_module_5_duration">20 phút</string>
+    <string name="adv_module_6_subtitle">Xã hội và quy định</string>
+    <string name="adv_module_6_duration">24 phút</string>
+
     <string name="thank_you_note">Cảm ơn bạn đã ủng hộ và sử dụng ứng dụng của chúng tôi! 💙</string>
     <string name="no_language_found">Không tìm thấy ngôn ngữ nào</string>
     <string name="search_language">Tìm kiếm ngôn ngữ</string>

@@ -2409,6 +2409,53 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">Top 10 siti per investire in Bitcoin e criptovalute</string>
     <string name="top_10_bitcoin_android_and_ios_application">Top 10 applicazioni Bitcoin per Android e iOS</string>
 
+    <string name="about_app_name">Impara Bitcoin</string>
+    <string name="about_app_description">Impara Bitcoin con spiegazioni chiare e concetti facili da comprendere.\nUna guida semplice per comprendere e padroneggiare Bitcoin.</string>
+
+    <string name="course_basic_title">Base</string>
+    <string name="course_basic_tag">FONDAMENTA</string>
+    <string name="course_basic_hours">1 ora 7 min</string>
+    <string name="course_intermediate_title">Intermedio</string>
+    <string name="course_intermediate_tag">COMPETENZE CHIAVE</string>
+    <string name="course_intermediate_hours">1 ora 49 min</string>
+    <string name="course_advance_title">Avanzato</string>
+    <string name="course_advance_tag">PADRONANZA</string>
+    <string name="course_advance_hours">2 ore 18 min</string>
+    <string name="course_quiz_title">Gioco a Quiz</string>
+    <string name="course_quiz_tag">SFIDA</string>
+    <string name="course_quiz_hours">30 Sec</string>
+
+    <string name="language">Bitcoin</string>
+    <string name="learn_python_subtitle">Padroneggia Bitcoin attraverso lezioni strutturate ed esempi del mondo reale.</string>
+
+    <string name="basic_module_1_subtitle">Fondamenta</string>
+    <string name="basic_module_1_duration">34 min</string>
+    <string name="basic_module_2_subtitle">Utilizzare e comprendere Bitcoin</string>
+    <string name="basic_module_2_duration">33 min</string>
+
+    <string name="inter_module_1_subtitle">Innovazione</string>
+    <string name="inter_module_1_duration">21 min</string>
+    <string name="inter_module_2_subtitle">Concetti fondamentali</string>
+    <string name="inter_module_2_duration">20 min</string>
+    <string name="inter_module_3_subtitle">Wallet ed economia</string>
+    <string name="inter_module_3_duration">20 min</string>
+    <string name="inter_module_4_subtitle">Fondamenti tecnici</string>
+    <string name="inter_module_4_duration">19 min</string>
+    <string name="inter_module_5_subtitle">Rete e regolamentazione</string>
+    <string name="inter_module_5_duration">29 min</string>
+
+    <string name="adv_module_1_subtitle">Fondamenta e cultura</string>
+    <string name="adv_module_1_duration">30 min</string>
+    <string name="adv_module_2_subtitle">Economia</string>
+    <string name="adv_module_2_duration">21 min</string>
+    <string name="adv_module_3_subtitle">Mercati e finanza</string>
+    <string name="adv_module_3_duration">21 min</string>
+    <string name="adv_module_4_subtitle">Sicurezza e mining</string>
+    <string name="adv_module_4_duration">22 min</string>
+    <string name="adv_module_5_subtitle">Tecnologie emergenti</string>
+    <string name="adv_module_5_duration">20 min</string>
+    <string name="adv_module_6_subtitle">Società e regolamentazione</string>
+    <string name="adv_module_6_duration">24 min</string>
 
     <string name="thank_you_note">Grazie per aver supportato e utilizzato la nostra app! 💙</string>
     <string name="no_language_found">Nessuna lingua trovata</string>

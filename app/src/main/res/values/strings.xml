@@ -2329,6 +2329,7 @@
     <string name="bsc4">What is Cryptocurrency?</string>
     <string name="bsc5">What is BlockChain?</string>
     <string name="bsc6">Bitcoin Mining</string>
+
     <string name="bsc7">Bitcoin-BUY,SELL,SEND,RECEIVE</string>
     <string name="bsc8">Advantages And Disadvantages</string>
     <string name="bsc9">Bitcoin Application</string>
@@ -2340,52 +2341,61 @@
     <string name="interm3">Bitcoin and Developing Countries</string>
     <string name="interm4">Layer 2 Solutions</string>
     <string name="interm5">Bitcoin and Artificial Intelligence</string>
+
     <string name="interm6">What is Bitcoin?</string>
     <string name="interm7">The Problem Bitcoin Solves</string>
     <string name="interm8">Decentralization Explained</string>
     <string name="interm9">Blockchain Technology</string>
     <string name="interm10">Proof of Work</string>
+
     <string name="interm11">Wallets and Private Keys</string>
     <string name="interm12">Transactions and Fees</string>
     <string name="interm13">Supply and Demand</string>
     <string name="interm14">Security and Risks</string>
     <string name="interm15">Bitcoin vs. Altcoins</string>
+
     <string name="interm16">Bitcoin Architecture</string>
     <string name="interm17">Cryptography</string>
-
     <string name="interm18">Hashing Functions</string>
     <string name="interm19">Merkle Trees</string>
     <string name="interm20">Difficulty Adjustment</string>
+
     <string name="interm21">Scalability Challenges and Solutions</string>
     <string name="interm22">Smart Contracts</string>
     <string name="interm23">Forks and Soft Forks</string>
     <string name="interm24">Full Nodes vs. Lightweight Nodes</string>
     <string name="interm25">Regulation and Compliance</string>
+
     <string name="adve1">Bitcoin Whitepaper</string>
     <string name="adve2">Bitcoin Wallet Comparison</string>
     <string name="adve3">Bitcoin and the Dark Web</string>
     <string name="adve4">Psychology of Bitcoin Investing</string>
     <string name="adve5">Bitcoin in Pop Culture</string>
+
     <string name="adve6">Monetary Policy</string>
     <string name="adve7">Store of Value</string>
     <string name="adve8">Medium of Exchange</string>
     <string name="adve9">Network Effects</string>
     <string name="adve10">The Austrian School of Economics</string>
+
     <string name="adve11">Deflationary vs. Inflationary Currencies</string>
     <string name="adve12">Bubbles and Crashes</string>
     <string name="adve13">Mining Economics</string>
     <string name="adve14">Financial Inclusion</string>
     <string name="adve15">The Future of Money</string>
+
     <string name="adve16">Privacy and Anonymity</string>
     <string name="adve17">Quantum Computing Threats</string>
     <string name="adve18">Security Best Practices</string>
     <string name="adve19">Tax Implications of Bitcoin</string>
     <string name="adve20">Mining Pools</string>
+
     <string name="adve21">Cloud Mining</string>
     <string name="adve22">Derivatives and Futures Markets</string>
     <string name="adve23">Non-Fungible Tokens and Bitcoin</string>
     <string name="adve24">Decentralized Financeand Bitcoin</string>
     <string name="adve25">The Philosophy of Bitcoin</string>
+
     <string name="adve26">Famous People in Bitcoin</string>
     <string name="adve27">Real-World Use Cases for Bitcoin</string>
     <string name="adve28">Environmental Impact of Bitcoin Mining</string>
@@ -2563,55 +2573,55 @@
 
 
 
-    <string name="about_app_name">Learn Swift Programming</string>
-    <string name="about_app_description">Learn Swift with clear examples and easy-to-understand code.\nA simple guide to mastering Swift programming.</string>
+    <string name="about_app_name">Learn Bitcoin</string>
+    <string name="about_app_description">Learn Bitcoin with clear explanations and easy-to-understand concepts.\nA simple guide to understanding and mastering Bitcoin.</string>
 
     <string name="course_basic_title">Basic</string>
     <string name="course_basic_tag">FOUNDATION</string>
-    <string name="course_basic_hours">4 Hours 35 Min</string>
+    <string name="course_basic_hours">1 Hours 7 Min</string>
     <string name="course_intermediate_title">Intermediate</string>
     <string name="course_intermediate_tag">CORE SKILLS</string>
-    <string name="course_intermediate_hours">3 Hours 00 Min</string>
+    <string name="course_intermediate_hours">1 Hours 49 Min</string>
     <string name="course_advance_title">Advance</string>
     <string name="course_advance_tag">MASTERY</string>
-    <string name="course_advance_hours">1 Hours 46 Min</string>
+    <string name="course_advance_hours">2 Hours 18 Min</string>
     <string name="course_quiz_title">Quiz Game</string>
     <string name="course_quiz_tag">CHALLENGE</string>
     <string name="course_quiz_hours">30 Sec</string>
 
-    <string name="language">Swift</string>
-    <string name="learn_python_subtitle">Master Swift through structured lessons and coding exercises.</string>
+    <string name="language">Bitcoin</string>
+    <string name="learn_python_subtitle">Master Bitcoin through structured lessons and real-world examples.</string>
 
 
     <string name="basic_module_1_subtitle">Fundamentals</string>
-    <string name="basic_module_1_duration">54 min</string>
-    <string name="basic_module_2_subtitle">Operators</string>
-    <string name="basic_module_2_duration">43 min</string>
+    <string name="basic_module_1_duration">34 min</string>
+    <string name="basic_module_2_subtitle">Using &amp; Understanding Bitcoin</string>
+    <string name="basic_module_2_duration">33 min</string>
 
 
-    <string name="inter_module_1_subtitle">Advance Concepts</string>
-    <string name="inter_module_1_duration">52 min</string>
-    <string name="inter_module_2_subtitle">Access Control</string>
-    <string name="inter_module_2_duration">30 min</string>
-    <string name="inter_module_3_subtitle">Structures</string>
-    <string name="inter_module_3_duration">36 min</string>
-    <string name="inter_module_4_subtitle">Classes</string>
-    <string name="inter_module_4_duration">1 hours 2 min</string>
-    <string name="inter_module_5_subtitle">Classes</string>
-    <string name="inter_module_5_duration">1 hours 2 min</string>
+    <string name="inter_module_1_subtitle">Innovation</string>
+    <string name="inter_module_1_duration">21 min</string>
+    <string name="inter_module_2_subtitle">Core Concepts</string>
+    <string name="inter_module_2_duration">20 min</string>
+    <string name="inter_module_3_subtitle">Wallets &amp; Economics</string>
+    <string name="inter_module_3_duration">20 min</string>
+    <string name="inter_module_4_subtitle">Technical Foundations</string>
+    <string name="inter_module_4_duration">19 min</string>
+    <string name="inter_module_5_subtitle">Network &amp; Regulation</string>
+    <string name="inter_module_5_duration">29 min</string>
 
-    <string name="adv_module_1_subtitle">Other Swift Concepts</string>
-    <string name="adv_module_1_duration">1 hours 1 min</string>
-    <string name="adv_module_2_subtitle">Working With Data</string>
-    <string name="adv_module_2_duration">45 min</string>
-    <string name="adv_module_3_subtitle">Working With Data</string>
-    <string name="adv_module_3_duration">45 min</string>
-    <string name="adv_module_4_subtitle">Working With Data</string>
-    <string name="adv_module_4_duration">45 min</string>
-    <string name="adv_module_5_subtitle">Working With Data</string>
-    <string name="adv_module_5_duration">45 min</string>
-    <string name="adv_module_6_subtitle">Working With Data</string>
-    <string name="adv_module_6_duration">45 min</string>
+    <string name="adv_module_1_subtitle">Foundations &amp; Culture</string>
+    <string name="adv_module_1_duration">30 min</string>
+    <string name="adv_module_2_subtitle">Economics</string>
+    <string name="adv_module_2_duration">21 min</string>
+    <string name="adv_module_3_subtitle">Markets &amp; Finance</string>
+    <string name="adv_module_3_duration">21 min</string>
+    <string name="adv_module_4_subtitle">Security &amp; Mining</string>
+    <string name="adv_module_4_duration">22 min</string>
+    <string name="adv_module_5_subtitle">Emerging Technologies</string>
+    <string name="adv_module_5_duration">20 min</string>
+    <string name="adv_module_6_subtitle">Society &amp; Regulation</string>
+    <string name="adv_module_6_duration">24 min</string>
 
 
 

@@ -2600,6 +2600,55 @@
         <string name="top_10_bitcoin_and_crypto_investing_sites">শীর্ষ 10 বিটকয়েন এবং ক্রিপ্টো বিনিয়োগ সাইট</string>
         <string name="top_10_bitcoin_android_and_ios_application">শীর্ষ 10 বিটকয়েন অ্যান্ড্রয়েড এবং আইওএস অ্যাপ্লিকেশন</string>
 
+
+        <string name="about_app_name">বিটকয়েন শিখুন</string>
+        <string name="about_app_description">সহজবোধ্য ধারণা ও স্পষ্ট ব্যাখ্যার মাধ্যমে বিটকয়েন শিখুন।\nবিটকয়েন বোঝা ও আয়ত্ত করার একটি সহজ গাইড।</string>
+
+        <string name="course_basic_title">বেসিক</string>
+        <string name="course_basic_tag">ভিত্তি</string>
+        <string name="course_basic_hours">১ ঘণ্টা ৭ মিনিট</string>
+        <string name="course_intermediate_title">ইন্টারমিডিয়েট</string>
+        <string name="course_intermediate_tag">মূল দক্ষতা</string>
+        <string name="course_intermediate_hours">১ ঘণ্টা ৪৯ মিনিট</string>
+        <string name="course_advance_title">অ্যাডভান্স</string>
+        <string name="course_advance_tag">দক্ষতা অর্জন</string>
+        <string name="course_advance_hours">২ ঘণ্টা ১৮ মিনিট</string>
+        <string name="course_quiz_title">কুইজ গেম</string>
+        <string name="course_quiz_tag">চ্যালেঞ্জ</string>
+        <string name="course_quiz_hours">৩০ সেকেন্ড</string>
+
+        <string name="language">বিটকয়েন</string>
+        <string name="learn_python_subtitle">সুশৃঙ্খল পাঠ এবং বাস্তব জীবনের উদাহরণের মাধ্যমে বিটকয়েন আয়ত্ত করুন।</string>
+
+        <string name="basic_module_1_subtitle">ভিত্তি</string>
+        <string name="basic_module_1_duration">৩৪ মিনিট</string>
+        <string name="basic_module_2_subtitle">বিটকয়েন ব্যবহার ও বোঝা</string>
+        <string name="basic_module_2_duration">৩৩ মিনিট</string>
+
+        <string name="inter_module_1_subtitle">উদ্ভাবন</string>
+        <string name="inter_module_1_duration">২১ মিনিট</string>
+        <string name="inter_module_2_subtitle">মূল ধারণা</string>
+        <string name="inter_module_2_duration">২০ মিনিট</string>
+        <string name="inter_module_3_subtitle">ওয়ালেট ও অর্থনীতি</string>
+        <string name="inter_module_3_duration">২০ মিনিট</string>
+        <string name="inter_module_4_subtitle">প্রযুক্তিগত ভিত্তি</string>
+        <string name="inter_module_4_duration">১৯ মিনিট</string>
+        <string name="inter_module_5_subtitle">নেটওয়ার্ক ও নিয়ন্ত্রণ</string>
+        <string name="inter_module_5_duration">২৯ মিনিট</string>
+
+        <string name="adv_module_1_subtitle">ভিত্তি ও সংস্কৃতি</string>
+        <string name="adv_module_1_duration">৩০ মিনিট</string>
+        <string name="adv_module_2_subtitle">অর্থনীতি</string>
+        <string name="adv_module_2_duration">২১ মিনিট</string>
+        <string name="adv_module_3_subtitle">বাজার ও অর্থব্যবস্থা</string>
+        <string name="adv_module_3_duration">২১ মিনিট</string>
+        <string name="adv_module_4_subtitle">নিরাপত্তা ও মাইনিং</string>
+        <string name="adv_module_4_duration">২২ মিনিট</string>
+        <string name="adv_module_5_subtitle">উদীয়মান প্রযুক্তি</string>
+        <string name="adv_module_5_duration">২০ মিনিট</string>
+        <string name="adv_module_6_subtitle">সমাজ ও নিয়ন্ত্রণ</string>
+        <string name="adv_module_6_duration">২৪ মিনিট</string>
+
         <string name="thank_you_note">আমাদের অ্যাপ সমর্থন এবং ব্যবহার করার জন্য ধন্যবাদ! 💙</string>
         <string name="no_language_found">কোনো ভাষা পাওয়া যায়নি</string>
         <string name="search_language">ভাষা খুঁজুন</string>

@@ -71,7 +71,7 @@ public class AA_Basic extends Fragment implements PremiumStatusListener {
 
     Button removeAds;
 
-    private static final long AD_COOLDOWN_MS = 30000; // 30 seconds
+    private static final long AD_COOLDOWN_MS = 60000; // 30 seconds
     private long lastAdShownTime = 0;
 
     // Add this new field to track pending language changes

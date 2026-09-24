@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@color/background_color"
     android:fitsSystemWindows="true"
     tools:context=".Advance.A12">
 
@@ -20,6 +20,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.card.MaterialCardView
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
@@ -114,7 +115,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_margin="@dimen/_10sdp"
                 app:cardBackgroundColor="#000"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
@@ -152,18 +153,18 @@
                 android:textSize="@dimen/_12ssp" />
 
             <com.google.android.material.card.MaterialCardView
+                android:layout_marginHorizontal="@dimen/_8sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
                 app:cardBackgroundColor="@color/card"
-                app:cardCornerRadius="@dimen/_4sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                ads:contentPadding="@dimen/_16sdp"
                 app:cardElevation="@dimen/_2sdp"
                 app:strokeWidth="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_8sdp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -255,9 +256,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/card"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/ac8"
                 android:textAllCaps="false"
@@ -275,9 +275,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/card"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/ac15"
                 android:textAllCaps="false"

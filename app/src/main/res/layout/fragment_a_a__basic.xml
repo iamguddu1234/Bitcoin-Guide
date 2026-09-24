@@ -126,10 +126,11 @@
                         android:layout_marginHorizontal="@dimen/_2sdp"
                         android:visibility="gone"
                         app:cardBackgroundColor="@color/surface_white"
-                        app:cardCornerRadius="@dimen/_6sdp"
+                        app:cardCornerRadius="0dp"
                         app:cardElevation="0dp"
                         app:strokeColor="@color/stroke_neutral"
-                        app:strokeWidth="0dp">
+                        app:strokeWidth="0dp"
+                        app:rippleColor="@color/brand_primary">
 
                         <LinearLayout
 
@@ -147,7 +148,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -198,7 +199,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="7 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -222,7 +223,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -273,7 +274,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="4 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -298,7 +299,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -349,7 +350,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="3 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -374,7 +375,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -425,7 +426,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="6 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -449,7 +450,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -500,7 +501,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="8 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -524,7 +525,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -575,7 +576,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="6 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -705,9 +706,10 @@
                         android:layout_marginBottom="@dimen/_10sdp"
                         android:visibility="gone"
                         app:cardBackgroundColor="@android:color/transparent"
-                        app:cardCornerRadius="@dimen/_14sdp"
+                        app:cardCornerRadius="0dp"
                         app:cardElevation="0dp"
-                        app:strokeWidth="0dp">
+                        app:strokeWidth="0dp"
+                        app:rippleColor="@color/brand_primary">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -723,7 +725,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -774,7 +776,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="6 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -798,7 +800,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -849,7 +851,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="9 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -873,7 +875,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -924,7 +926,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="4 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -948,7 +950,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -999,7 +1001,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="4 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -1023,7 +1025,7 @@
                                 app:cardElevation="0dp"
                                 app:contentPaddingLeft="@dimen/_10sdp"
                                 app:contentPaddingRight="@dimen/_10sdp"
-                                app:rippleColor="@color/colorPrimary"
+                                app:rippleColor="@color/brand_primary"
                                 app:strokeColor="@color/dark_text"
                                 app:strokeWidth="0dp">
 
@@ -1074,7 +1076,7 @@
                                         android:includeFontPadding="false"
                                         android:paddingStart="@dimen/_10sdp"
                                         android:paddingEnd="@dimen/_10sdp"
-                                        android:text="2 min"
+                                        android:text="10 min"
                                         android:textColor="#9CA1AC"
                                         android:textSize="@dimen/_10ssp" />
 
@@ -1100,128 +1102,6 @@
 
 
 
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_20sdp"
-            android:layout_marginBottom="@dimen/_10sdp"
-            android:visibility="gone"
-            app:cardBackgroundColor="@android:color/transparent"
-            app:cardCornerRadius="@dimen/_6sdp"
-            app:cardElevation="@dimen/_1sdp"
-            app:contentPadding="@dimen/_10sdp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/ewap_cliq"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_30sdp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardCornerRadius="@dimen/_4sdp"
-                    app:cardElevation="0dp"
-                    app:rippleColor="@color/colorPrimary"
-                    app:strokeColor="@color/dark_text"
-                    app:strokeWidth="0.3dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:fontFamily="@font/roboto_medium"
-                        android:includeFontPadding="false"
-                        android:paddingStart="@dimen/_10sdp"
-                        android:paddingEnd="@dimen/_10sdp"
-                        android:text="Exploiting Web Application Testing"
-                        android:textColor="@color/dark_text"
-                        android:textSize="@dimen/_12ssp" />
-                </com.google.android.material.card.MaterialCardView>
-
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/fair_cliq"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_30sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardCornerRadius="@dimen/_4sdp"
-                    app:cardElevation="0dp"
-                    app:rippleColor="@color/colorPrimary"
-                    app:strokeColor="@color/dark_text"
-                    app:strokeWidth="0.3dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:fontFamily="@font/roboto_medium"
-                        android:includeFontPadding="false"
-                        android:paddingStart="@dimen/_10sdp"
-                        android:paddingEnd="@dimen/_10sdp"
-                        android:text="Forensics And Incident Response"
-                        android:textColor="@color/dark_text"
-                        android:textSize="@dimen/_12ssp" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/klht_cliq"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_30sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardCornerRadius="@dimen/_4sdp"
-                    app:cardElevation="0dp"
-                    app:rippleColor="@color/colorPrimary"
-                    app:strokeColor="@color/dark_text"
-                    app:strokeWidth="0.3dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:fontFamily="@font/roboto_medium"
-                        android:includeFontPadding="false"
-                        android:paddingStart="@dimen/_10sdp"
-                        android:paddingEnd="@dimen/_10sdp"
-                        android:text="Kali Linux Hardening Techniques"
-                        android:textColor="@color/dark_text"
-                        android:textSize="@dimen/_12ssp" />
-                </com.google.android.material.card.MaterialCardView>
-
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/klra_cliq"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_30sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    app:cardBackgroundColor="@android:color/transparent"
-                    app:cardCornerRadius="@dimen/_4sdp"
-                    app:cardElevation="0dp"
-                    app:rippleColor="@color/colorPrimary"
-                    app:strokeColor="@color/dark_text"
-                    app:strokeWidth="0.3dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:fontFamily="@font/roboto_medium"
-                        android:includeFontPadding="false"
-                        android:paddingStart="@dimen/_10sdp"
-                        android:paddingEnd="@dimen/_10sdp"
-                        android:text="Kali Linux Reporting Automation"
-                        android:textColor="@color/dark_text"
-                        android:textSize="@dimen/_12ssp" />
-                </com.google.android.material.card.MaterialCardView>
-
-
-            </LinearLayout>
-
-
-        </com.google.android.material.card.MaterialCardView>
 
 
     </LinearLayout>

@@ -2584,6 +2584,54 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">بٹ کوائن اور کرپٹو کی ٹاپ 10 انویسٹمنٹ سائٹس</string>
     <string name="top_10_bitcoin_android_and_ios_application">بٹ کوائن کے ٹاپ 10 اینڈرائیڈ اور iOS ایپلیکیشنز</string>
 
+    <string name="about_app_name">بٹ کوائن سیکھیں</string>
+    <string name="about_app_description">واضح وضاحتوں اور آسانی سے سمجھ آنے والے تصورات کے ساتھ بٹ کوائن سیکھیں۔\nبٹ کوائن کو سمجھنے اور اس میں مہارت حاصل کرنے کے لیے ایک آسان رہنما۔</string>
+
+    <string name="course_basic_title">بنیادی</string>
+    <string name="course_basic_tag">بنیاد</string>
+    <string name="course_basic_hours">1 گھنٹہ 7 منٹ</string>
+    <string name="course_intermediate_title">درمیانی</string>
+    <string name="course_intermediate_tag">اہم مہارتیں</string>
+    <string name="course_intermediate_hours">1 گھنٹہ 49 منٹ</string>
+    <string name="course_advance_title">اعلیٰ</string>
+    <string name="course_advance_tag">مہارت</string>
+    <string name="course_advance_hours">2 گھنٹے 18 منٹ</string>
+    <string name="course_quiz_title">کوئز گیم</string>
+    <string name="course_quiz_tag">چیلنج</string>
+    <string name="course_quiz_hours">30 سیکنڈ</string>
+
+    <string name="language">بٹ کوائن</string>
+    <string name="learn_python_subtitle">منظم اسباق اور حقیقی دنیا کی مثالوں کے ذریعے بٹ کوائن میں مہارت حاصل کریں۔</string>
+
+    <string name="basic_module_1_subtitle">بنیادی معلومات</string>
+    <string name="basic_module_1_duration">34 منٹ</string>
+    <string name="basic_module_2_subtitle">بٹ کوائن کا استعمال اور سمجھ</string>
+    <string name="basic_module_2_duration">33 منٹ</string>
+
+    <string name="inter_module_1_subtitle">جدت</string>
+    <string name="inter_module_1_duration">21 منٹ</string>
+    <string name="inter_module_2_subtitle">بنیادی تصورات</string>
+    <string name="inter_module_2_duration">20 منٹ</string>
+    <string name="inter_module_3_subtitle">والیٹس اور معیشت</string>
+    <string name="inter_module_3_duration">20 منٹ</string>
+    <string name="inter_module_4_subtitle">تکنیکی بنیادیں</string>
+    <string name="inter_module_4_duration">19 منٹ</string>
+    <string name="inter_module_5_subtitle">نیٹ ورک اور ضوابط</string>
+    <string name="inter_module_5_duration">29 منٹ</string>
+
+    <string name="adv_module_1_subtitle">بنیادیں اور ثقافت</string>
+    <string name="adv_module_1_duration">30 منٹ</string>
+    <string name="adv_module_2_subtitle">معیشت</string>
+    <string name="adv_module_2_duration">21 منٹ</string>
+    <string name="adv_module_3_subtitle">مارکیٹس اور مالیات</string>
+    <string name="adv_module_3_duration">21 منٹ</string>
+    <string name="adv_module_4_subtitle">سیکیورٹی اور مائننگ</string>
+    <string name="adv_module_4_duration">22 منٹ</string>
+    <string name="adv_module_5_subtitle">ابھرتی ہوئی ٹیکنالوجیز</string>
+    <string name="adv_module_5_duration">20 منٹ</string>
+    <string name="adv_module_6_subtitle">معاشرہ اور ضوابط</string>
+    <string name="adv_module_6_duration">24 منٹ</string>
+
     <string name="thank_you_note">ہماری ایپ کو سپورٹ کرنے اور استعمال کرنے کا شکریہ! 💙</string>
     <string name="no_language_found">کوئی زبان نہیں ملی</string>
     <string name="search_language">زبان تلاش کریں</string>

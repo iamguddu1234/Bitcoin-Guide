@@ -184,7 +184,7 @@
                         android:layout_gravity="center"
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
-                        android:text="60"
+                        android:text="66"
                         android:textColor="@color/text_heading"
                         android:textSize="@dimen/_15ssp" />
 
@@ -219,7 +219,7 @@
                         android:layout_gravity="center"
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
-                        android:text="07"
+                        android:text="06"
                         android:textColor="@color/text_heading"
                         android:textSize="@dimen/_15ssp" />
 

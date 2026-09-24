@@ -2474,6 +2474,54 @@
     <string name="top_10_bitcoin_and_crypto_investing_sites">10 Situs Investasi Bitcoin dan Crypto Terbaik</string>
     <string name="top_10_bitcoin_android_and_ios_application">10 Aplikasi Bitcoin Terbaik untuk Android dan iOS</string>
 
+    <string name="about_app_name">Belajar Bitcoin</string>
+    <string name="about_app_description">Pelajari Bitcoin dengan penjelasan yang jelas dan konsep yang mudah dipahami.\nPanduan sederhana untuk memahami dan menguasai Bitcoin.</string>
+
+    <string name="course_basic_title">Dasar</string>
+    <string name="course_basic_tag">FONDASI</string>
+    <string name="course_basic_hours">1 Jam 7 Menit</string>
+    <string name="course_intermediate_title">Menengah</string>
+    <string name="course_intermediate_tag">KETERAMPILAN INTI</string>
+    <string name="course_intermediate_hours">1 Jam 49 Menit</string>
+    <string name="course_advance_title">Lanjutan</string>
+    <string name="course_advance_tag">PENGUASAAN</string>
+    <string name="course_advance_hours">2 Jam 18 Menit</string>
+    <string name="course_quiz_title">Game Kuis</string>
+    <string name="course_quiz_tag">TANTANGAN</string>
+    <string name="course_quiz_hours">30 Detik</string>
+
+    <string name="language">Bitcoin</string>
+    <string name="learn_python_subtitle">Kuasai Bitcoin melalui pelajaran terstruktur dan contoh dari dunia nyata.</string>
+
+    <string name="basic_module_1_subtitle">Fondasi</string>
+    <string name="basic_module_1_duration">34 menit</string>
+    <string name="basic_module_2_subtitle">Menggunakan &amp; Memahami Bitcoin</string>
+    <string name="basic_module_2_duration">33 menit</string>
+
+    <string name="inter_module_1_subtitle">Inovasi</string>
+    <string name="inter_module_1_duration">21 menit</string>
+    <string name="inter_module_2_subtitle">Konsep Inti</string>
+    <string name="inter_module_2_duration">20 menit</string>
+    <string name="inter_module_3_subtitle">Dompet &amp; Ekonomi</string>
+    <string name="inter_module_3_duration">20 menit</string>
+    <string name="inter_module_4_subtitle">Dasar-Dasar Teknis</string>
+    <string name="inter_module_4_duration">19 menit</string>
+    <string name="inter_module_5_subtitle">Jaringan &amp; Regulasi</string>
+    <string name="inter_module_5_duration">29 menit</string>
+
+    <string name="adv_module_1_subtitle">Fondasi &amp; Budaya</string>
+    <string name="adv_module_1_duration">30 menit</string>
+    <string name="adv_module_2_subtitle">Ekonomi</string>
+    <string name="adv_module_2_duration">21 menit</string>
+    <string name="adv_module_3_subtitle">Pasar &amp; Keuangan</string>
+    <string name="adv_module_3_duration">21 menit</string>
+    <string name="adv_module_4_subtitle">Keamanan &amp; Mining</string>
+    <string name="adv_module_4_duration">22 menit</string>
+    <string name="adv_module_5_subtitle">Teknologi yang Sedang Berkembang</string>
+    <string name="adv_module_5_duration">20 menit</string>
+    <string name="adv_module_6_subtitle">Masyarakat &amp; Regulasi</string>
+    <string name="adv_module_6_duration">24 menit</string>
+
     <string name="thank_you_note">Terima kasih telah mendukung dan menggunakan aplikasi kami! 💙</string>
     <string name="no_language_found">Tidak ada bahasa ditemukan</string>
     <string name="search_language">Cari bahasa</string>
