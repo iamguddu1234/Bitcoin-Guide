@@ -154,7 +154,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/w3"
@@ -174,7 +174,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/w12"
@@ -194,7 +194,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/w19"
@@ -211,13 +211,12 @@
                 tools:listitem="@layout/two_text" />
 
             <TextView
-                android:padding="@dimen/_10sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/_8sdp"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:layout_marginBottom="@dimen/_60sdp"
-                android:background="@color/card"
+                android:background="@drawable/backnew"
                 android:fontFamily="@font/roboto"
                 android:lineHeight="@dimen/_22sdp"
                 android:text="@string/w24"

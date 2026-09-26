@@ -145,7 +145,6 @@
                 android:background="@drawable/backnew"
                 android:fontFamily="@font/roboto"
                 android:lineHeight="@dimen/_20sdp"
-
                 android:text="@string/c2"
                 android:textAllCaps="false"
                 android:textColor="@color/titletextColor"

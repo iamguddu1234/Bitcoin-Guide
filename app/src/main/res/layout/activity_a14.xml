@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,10 +21,10 @@
             android:orientation="vertical">
 
             <com.google.android.material.card.MaterialCardView
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
+                android:visibility="gone"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="@dimen/_8sdp"
                 app:cardElevation="0dp"
@@ -133,7 +133,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/nfts"/>
+                        android:src="@drawable/nfts" />
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -154,11 +154,13 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                app:cardBackgroundColor="@color/card"
-                app:cardCornerRadius="@dimen/_4sdp"
-                app:cardElevation="@dimen/_2sdp"
-                app:strokeWidth="0dp">
+                android:layout_margin="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/dia_frag_bg"
+                ads:strokeColor="@color/new_border"
+                app:cardCornerRadius="@dimen/_16sdp"
+                app:cardElevation="0dp"
+                app:strokeWidth="1dp"
+                ads:contentPadding="@dimen/_8sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -177,15 +179,15 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_10sdp"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="false"
                             android:lineHeight="@dimen/_20sdp"
@@ -221,7 +223,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/ae5"
@@ -240,7 +242,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/roboto_medium"
                 android:text="@string/ae12"
@@ -260,16 +262,17 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                app:cardBackgroundColor="@color/card"
-                app:cardCornerRadius="@dimen/_4sdp"
-                app:cardElevation="@dimen/_2sdp"
-                app:strokeWidth="0dp">
+                android:layout_margin="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/dia_frag_bg"
+                ads:strokeColor="@color/new_border"
+                app:cardCornerRadius="@dimen/_16sdp"
+                app:cardElevation="0dp"
+                app:strokeWidth="1dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_margin="@dimen/_16sdp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -280,18 +283,10 @@
                         android:orientation="horizontal">
 
 
-                        <com.google.android.material.card.MaterialCardView
-                            android:layout_width="@dimen/_6sdp"
-                            android:layout_height="@dimen/_6sdp"
-                            app:cardBackgroundColor="@color/black"
-                            app:cardCornerRadius="@dimen/_1sdp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_10sdp"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="false"
                             android:lineHeight="@dimen/_20sdp"
@@ -348,16 +343,17 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                app:cardBackgroundColor="@color/card"
-                app:cardCornerRadius="@dimen/_4sdp"
-                app:cardElevation="@dimen/_2sdp"
-                app:strokeWidth="0dp">
+                android:layout_margin="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/dia_frag_bg"
+                ads:strokeColor="@color/new_border"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:strokeWidth="1dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_margin="@dimen/_16sdp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -371,10 +367,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -440,11 +437,10 @@
                 android:layout_marginHorizontal="@dimen/_8sdp"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:layout_marginBottom="@dimen/_60sdp"
-                android:background="@color/card"
+                android:background="@drawable/backnew"
                 android:fontFamily="@font/roboto"
                 android:includeFontPadding="false"
                 android:lineHeight="@dimen/_22sdp"
-                android:padding="@dimen/_10sdp"
                 android:text="@string/ae27"
                 android:textColor="@color/titletextColor"
                 android:textSize="@dimen/_12ssp" />
@@ -452,7 +448,6 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
-
 
 
     <FrameLayout
@@ -465,19 +460,19 @@
             android:id="@+id/adViewa14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            ads:adUnitId="@string/banner_id_admob"/>
+            ads:adUnitId="@string/banner_id_admob" />
 
     </FrameLayout>
 
-<!--    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"-->
-<!--        android:id="@+id/adViewa14"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        ads:adSize="BANNER"-->
-<!--        ads:adUnitId="@string/banner_id_admob" />-->
+    <!--    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:id="@+id/adViewa14"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        ads:adSize="BANNER"-->
+    <!--        ads:adUnitId="@string/banner_id_admob" />-->
 
 
 </RelativeLayout>

@@ -82,7 +82,7 @@ public class AllFragment extends Fragment implements PremiumStatusListener {
 
     private RewardedAd rewardedAd;
     // TODO: replace with your real rewarded ad unit id (this is Google's TEST id)
-    private static final String REWARDED_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
+    private static final String REWARDED_AD_UNIT_ID = "ca-app-pub-5541243853026577/3260783734";
 
     private BillingManager.BillingListener billingListener = new BillingManager.BillingListener() {
         @Override

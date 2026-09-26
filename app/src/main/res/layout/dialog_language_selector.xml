@@ -23,7 +23,7 @@
             android:layout_height="@dimen/_20sdp"
             android:layout_gravity="center"
             android:src="@drawable/global"
-            app:tint="@color/white" />
+            app:tint="@color/on_gradient_text" />
 
     </com.google.android.material.card.MaterialCardView>
 

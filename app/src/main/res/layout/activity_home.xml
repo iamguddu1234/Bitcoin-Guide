@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
-                    android:text="Learn"
+                    android:text="@string/learn_line"
                     android:textColor="@color/text_heading"
                     android:textSize="@dimen/_20ssp" />
 
@@ -56,18 +56,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_bold"
-                    android:text="Bitcoin"
+                    android:text="@string/app_name"
                     android:textColor="@color/brand_primary"
                     android:textSize="@dimen/_20ssp" />
 
 
             <TextView
-                android:layout_width="@dimen/_160sdp"
+                android:layout_width="@dimen/_200sdp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:fontFamily="@font/roboto_medium"
                 android:lineHeight="@dimen/_12ssp"
-                android:text="Master the fundamentals through structured, practical lessons."
+                android:text="@string/learn_python_subtitle"
                 android:textColor="@color/text_body_muted"
                 android:textSize="@dimen/_10ssp" />
 
@@ -83,7 +83,7 @@
             app:cardBackgroundColor="@color/surface_white"
             app:cardCornerRadius="@dimen/_20sdp"
             app:cardElevation="0dp"
-            app:strokeColor="@color/secondary_text"
+            app:strokeColor="@color/new_border"
             app:strokeWidth="0.8dp">
 
 
@@ -159,7 +159,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
-                        android:text="Courses"
+                        android:text="@string/course_label"
                         android:textAllCaps="true"
                         android:textColor="@color/text_faint"
                         android:textSize="@dimen/_8ssp" />
@@ -194,7 +194,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
-                        android:text="Topics"
+                        android:text="@string/topics_label"
                         android:textAllCaps="true"
                         android:textColor="@color/text_faint"
                         android:textSize="@dimen/_8ssp" />
@@ -229,7 +229,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_medium"
                         android:includeFontPadding="false"
-                        android:text="Hours"
+                        android:text="@string/hours_label"
                         android:textAllCaps="true"
                         android:textColor="@color/text_faint"
                         android:textSize="@dimen/_8ssp" />

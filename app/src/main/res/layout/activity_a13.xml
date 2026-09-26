@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,10 +20,10 @@
             android:orientation="vertical">
 
             <com.google.android.material.card.MaterialCardView
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
+                android:visibility="gone"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="@dimen/_8sdp"
                 app:cardElevation="0dp"
@@ -131,7 +132,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/derivatives"/>
+                        android:src="@drawable/derivatives" />
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -154,16 +155,17 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                app:cardBackgroundColor="@color/card"
-                app:cardCornerRadius="@dimen/_4sdp"
-                app:cardElevation="@dimen/_2sdp"
-                app:strokeWidth="0dp">
+                android:layout_margin="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/dia_frag_bg"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/new_border"
+                app:strokeWidth="1dp"
+                ads:contentPadding="@dimen/_16sdp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_8sdp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -177,10 +179,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -197,10 +200,10 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_height="0.5dp"
+                        android:layout_height="1dp"
                         android:layout_marginHorizontal="@dimen/_2sdp"
                         android:layout_marginVertical="@dimen/_8sdp"
-                        android:background="@color/lightText" />
+                        android:background="@color/new_border" />
 
                     <TextView
                         android:id="@+id/subtitle1"
@@ -236,7 +239,6 @@
                 android:background="@drawable/backnew"
                 android:fontFamily="@font/roboto"
                 android:lineHeight="@dimen/_20sdp"
-
                 android:text="@string/ad23"
                 android:textAllCaps="false"
                 android:textColor="@color/titletextColor"
@@ -252,11 +254,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewa13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        ads:adUnitId="@string/banner_id_admob" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewa13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="@string/banner_id_admob" />
 
     </FrameLayout>
 

@@ -146,7 +146,6 @@
                 android:background="@drawable/backnew"
                 android:fontFamily="@font/roboto"
                 android:lineHeight="@dimen/_20sdp"
-
                 android:text="@string/ac2"
                 android:textAllCaps="false"
                 android:textColor="@color/titletextColor"
@@ -156,11 +155,12 @@
                 android:layout_marginHorizontal="@dimen/_8sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 ads:contentPadding="@dimen/_16sdp"
                 app:cardElevation="@dimen/_2sdp"
-                app:strokeWidth="0dp">
+                app:strokeWidth="1dp"
+                ads:strokeColor="@color/new_border">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -198,10 +198,10 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_height="0.5dp"
+                        android:layout_height="1dp"
                         android:layout_marginHorizontal="@dimen/_2sdp"
                         android:layout_marginVertical="@dimen/_8sdp"
-                        android:background="@color/lightText" />
+                        android:background="@color/new_border" />
 
                     <TextView
                         android:id="@+id/subtitle1"

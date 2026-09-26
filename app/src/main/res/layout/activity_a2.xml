@@ -167,16 +167,17 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                app:cardBackgroundColor="@color/card"
-                app:cardCornerRadius="@dimen/_4sdp"
-                app:cardElevation="@dimen/_2sdp"
-                app:strokeWidth="0dp">
+                android:layout_margin="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/dia_frag_bg"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/new_border"
+                app:strokeWidth="1dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_margin="@dimen/_18sdp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -187,19 +188,11 @@
                         android:orientation="horizontal">
 
 
-                        <com.google.android.material.card.MaterialCardView
-                            android:layout_width="@dimen/_6sdp"
-                            android:layout_height="@dimen/_6sdp"
-                            android:visibility="gone"
-                            app:cardBackgroundColor="@color/black"
-                            app:cardCornerRadius="@dimen/_1sdp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp" />
+
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_10sdp"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="false"
                             android:lineHeight="@dimen/_20sdp"
@@ -211,10 +204,10 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_height="0.5dp"
+                        android:layout_height="1dp"
                         android:layout_marginHorizontal="@dimen/_2sdp"
                         android:layout_marginVertical="@dimen/_8sdp"
-                        android:background="@color/lightText" />
+                        android:background="@color/new_border" />
 
                     <TextView
                         android:id="@+id/subtitle1"
@@ -236,7 +229,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_8sdp"
                 android:fontFamily="@font/roboto_medium"
@@ -256,7 +249,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_8sdp"
                 android:fontFamily="@font/roboto_medium"
@@ -269,16 +262,17 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                app:cardBackgroundColor="@color/card"
-                app:cardCornerRadius="@dimen/_4sdp"
-                app:cardElevation="@dimen/_2sdp"
-                app:strokeWidth="0dp">
+                android:layout_margin="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/dia_frag_bg"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/new_border"
+                app:strokeWidth="1dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_margin="@dimen/_16sdp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -289,19 +283,10 @@
                         android:orientation="horizontal">
 
 
-                        <com.google.android.material.card.MaterialCardView
-                            android:layout_width="@dimen/_6sdp"
-                            android:layout_height="@dimen/_6sdp"
-                            android:visibility="gone"
-                            app:cardBackgroundColor="@color/black"
-                            app:cardCornerRadius="@dimen/_1sdp"
-                            app:cardElevation="0dp"
-                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_10sdp"
                             android:fontFamily="@font/roboto_medium"
                             android:includeFontPadding="false"
                             android:lineHeight="@dimen/_20sdp"
@@ -337,7 +322,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_8sdp"
                 android:fontFamily="@font/roboto_medium"

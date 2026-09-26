@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,10 +20,10 @@
             android:orientation="vertical">
 
             <com.google.android.material.card.MaterialCardView
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
+                android:visibility="gone"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="@dimen/_8sdp"
                 app:cardElevation="0dp"
@@ -131,7 +132,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/historyofbitcoin"/>
+                        android:src="@drawable/historyofbitcoin" />
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -143,11 +144,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
 
@@ -169,11 +170,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
 
@@ -195,11 +196,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
 
@@ -221,11 +222,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
 
@@ -247,11 +248,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <TextView
@@ -272,11 +273,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
 
@@ -298,11 +299,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
 
@@ -324,11 +325,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <TextView
@@ -349,11 +350,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <TextView
@@ -375,11 +376,11 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_60sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <TextView
@@ -404,11 +405,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        ads:adUnitId="@string/banner_id_admob" />
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="@string/banner_id_admob" />
 
     </FrameLayout>
 

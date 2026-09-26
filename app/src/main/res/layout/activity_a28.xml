@@ -21,10 +21,10 @@
             android:orientation="vertical">
 
             <com.google.android.material.card.MaterialCardView
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
+                android:visibility="gone"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="@dimen/_8sdp"
                 app:cardElevation="0dp"
@@ -144,11 +144,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -211,11 +211,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -322,11 +322,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -400,11 +400,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -489,11 +489,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -567,11 +567,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -667,11 +667,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -745,11 +745,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -823,11 +823,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -901,11 +901,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -990,11 +990,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1068,11 +1068,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1157,11 +1157,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1235,11 +1235,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1335,11 +1335,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -1426,11 +1426,11 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_60sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout

@@ -332,6 +332,7 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
             else if (v.getId() == R.id.lang_chinese) langCode = "zh";
             else if (v.getId() == R.id.lang_filipino) langCode = "tl";
             else if (v.getId() == R.id.lang_italian) langCode = "it";
+            else if (v.getId() == R.id.lang_urdu) langCode = "ur";
 
             if (!langCode.isEmpty()) {
                 handleLanguageSelection(langCode, languageDialog);
@@ -343,7 +344,7 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
                 R.id.lang_spanish, R.id.lang_french, R.id.lang_hindi, R.id.lang_indonesian,
                 R.id.lang_japanese, R.id.lang_korean, R.id.lang_portuguese_br, R.id.lang_russian,
                 R.id.lang_tamil, R.id.lang_telugu, R.id.lang_turkish, R.id.lang_vietnamese,
-                R.id.lang_chinese, R.id.lang_filipino, R.id.lang_italian
+                R.id.lang_chinese, R.id.lang_filipino, R.id.lang_italian,R.id.lang_urdu
         };
         for (int id : ids) {
             View row = view.findViewById(id);
@@ -447,7 +448,8 @@ public class Home extends AppCompatActivity implements PremiumStatusListener {
                 R.id.lang_vietnamese,
                 R.id.lang_chinese,
                 R.id.lang_filipino,
-                R.id.lang_italian
+                R.id.lang_italian,
+                R.id.lang_urdu,
         };
 
         TextView tvNoResults = rootView.findViewById(R.id.tvNoResults);

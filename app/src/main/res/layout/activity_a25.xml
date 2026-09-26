@@ -21,10 +21,10 @@
 
 
             <com.google.android.material.card.MaterialCardView
-                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
+                android:visibility="gone"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="@dimen/_8sdp"
                 app:cardElevation="0dp"
@@ -145,11 +145,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -168,10 +168,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -211,11 +212,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -234,10 +235,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -277,11 +279,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -300,10 +302,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -355,11 +358,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -378,10 +381,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -454,11 +458,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -477,10 +481,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -553,11 +558,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -576,10 +581,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -642,11 +648,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -665,10 +671,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -731,11 +738,11 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -754,10 +761,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -842,11 +850,11 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_60sdp"
-                app:cardBackgroundColor="@color/card"
+                app:cardBackgroundColor="@color/dia_frag_bg"
                 app:cardCornerRadius="@dimen/_20sdp"
                 app:cardElevation="0dp"
                 app:contentPadding="@dimen/_16sdp"
-                app:strokeColor="@color/stroke"
+                app:strokeColor="@color/new_border"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -865,10 +873,11 @@
                         <com.google.android.material.card.MaterialCardView
                             android:layout_width="@dimen/_6sdp"
                             android:layout_height="@dimen/_6sdp"
+                            android:visibility="gone"
                             app:cardBackgroundColor="@color/black"
                             app:cardCornerRadius="@dimen/_1sdp"
                             app:cardElevation="0dp"
-                            app:strokeWidth="0dp" android:visibility="gone" />
+                            app:strokeWidth="0dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -911,11 +920,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewZ4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        ads:adUnitId="@string/banner_id_admob" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewZ4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adUnitId="@string/banner_id_admob" />
 
     </FrameLayout>
 

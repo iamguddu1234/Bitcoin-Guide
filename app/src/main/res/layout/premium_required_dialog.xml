@@ -394,14 +394,14 @@
                     android:layout_width="@dimen/_20sdp"
                     android:layout_height="@dimen/_20sdp"
                     android:src="@drawable/crownicon"
-                    app:tint="@color/white"/>
+                    app:tint="@color/on_gradient_text"/>
 
                 <TextView
                     android:layout_marginStart="@dimen/_8sdp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/_12ssp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/on_gradient_text"
                     android:fontFamily="@font/roboto_medium"
                     android:text="Get Lifetime Access"
                     android:includeFontPadding="false"/>

@@ -145,7 +145,7 @@
     <!-- Existing app colors (unchanged, referenced already) -->
     <color name="white">#121212</color>   <!-- stays pure white: text/icons on colored buttons -->
     <color name="new_title">#F5F5F5</color>
-    <color name="titletextColor">#B0B0B0</color>
+    <color name="titletextColor">#FFFFFF</color>
     <color name="secondary_text">#B0B0B0</color>
     <color name="background_color">#121212</color>
 
